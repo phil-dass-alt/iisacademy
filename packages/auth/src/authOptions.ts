@@ -3,6 +3,8 @@ import GoogleProvider from 'next-auth/providers/google';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import { getSupabaseAdminClient } from './supabase';
 
+const SESSION_MAX_AGE_SECONDS = 30 * 24 * 60 * 60; // 30 days
+
 export const authOptions: NextAuthOptions = {
   providers: [
     GoogleProvider({
@@ -34,7 +36,7 @@ export const authOptions: NextAuthOptions = {
   ],
   session: {
     strategy: 'jwt',
-    maxAge: 30 * 24 * 60 * 60, // 30 days
+    maxAge: SESSION_MAX_AGE_SECONDS,
   },
   callbacks: {
     async jwt({ token, user }) {

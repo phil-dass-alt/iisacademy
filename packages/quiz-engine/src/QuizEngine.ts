@@ -2,7 +2,7 @@ import type { Question, QuizAttempt, QuizResult, AdaptiveState, DifficultyLevel 
 import { initAdaptiveState, updateAdaptiveState } from './adaptive';
 import { calculateMasteryLevel } from './feedback';
 
-export class QuizEngine {
+const POINTS_PER_CORRECT_ANSWER = 10;
   private questions: Question[];
   private attempts: QuizAttempt[] = [];
   private adaptiveState: AdaptiveState;
@@ -32,7 +32,7 @@ export class QuizEngine {
     const totalQuestions = this.questions.length;
     const correct = this.attempts.filter((a) => a.correct).length;
     const incorrect = this.attempts.filter((a) => !a.correct).length;
-    const score = correct * 10;
+    const score = correct * POINTS_PER_CORRECT_ANSWER;
     const percentage = Math.round((correct / totalQuestions) * 100);
     return {
       quizId: `quiz-${Date.now()}`,

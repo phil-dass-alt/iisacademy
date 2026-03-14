@@ -1,5 +1,7 @@
 import type { NudgeConfig, NudgeMessage } from './types';
 
+const DEFAULT_NUDGE_THRESHOLD_MS = 5 * 60 * 1000; // 5 minutes
+
 const ENCOURAGEMENT_MESSAGES: NudgeMessage[] = [
   { type: 'encouragement', message: "You're doing great! Keep going!", emoji: '🌟' },
   { type: 'encouragement', message: "Every question you answer makes you smarter!", emoji: '🧠' },
@@ -24,7 +26,7 @@ export class NudgeAgent {
     this.config = {
       sessionStartTime: Date.now(),
       lastActivityTime: Date.now(),
-      nudgeThresholdMs: 5 * 60 * 1000, // 5 minutes
+      nudgeThresholdMs: DEFAULT_NUDGE_THRESHOLD_MS,
       maxNudgesPerSession: 3,
       ...config,
     };
