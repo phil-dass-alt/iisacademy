@@ -1,0 +1,112 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "cbse-10-math-01",
+      "number": 1,
+      "name": "Real Numbers",
+      "topics": ["Euclid's Division Lemma", "Fundamental Theorem of Arithmetic", "Irrational Numbers", "Decimal Expansions"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-02",
+      "number": 2,
+      "name": "Polynomials",
+      "topics": ["Zeros of a Polynomial", "Relationship between Zeros and Coefficients", "Division Algorithm"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-03",
+      "number": 3,
+      "name": "Pair of Linear Equations in Two Variables",
+      "topics": ["Graphical Method", "Substitution Method", "Elimination Method", "Cross-Multiplication"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-04",
+      "number": 4,
+      "name": "Quadratic Equations",
+      "topics": ["Standard Form", "Factorization", "Completing the Square", "Quadratic Formula", "Nature of Roots"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-05",
+      "number": 5,
+      "name": "Arithmetic Progressions",
+      "topics": ["General Term", "Sum of n Terms", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-06",
+      "number": 6,
+      "name": "Triangles",
+      "topics": ["Similar Triangles", "Basic Proportionality Theorem", "Pythagoras Theorem"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-07",
+      "number": 7,
+      "name": "Coordinate Geometry",
+      "topics": ["Distance Formula", "Section Formula", "Area of Triangle"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-08",
+      "number": 8,
+      "name": "Introduction to Trigonometry",
+      "topics": ["Trigonometric Ratios", "Trigonometric Identities", "Values of Trig Ratios"],
+      "enhancement": "AI Circuits"
+    },
+    {
+      "id": "cbse-10-math-09",
+      "number": 9,
+      "name": "Some Applications of Trigonometry",
+      "topics": ["Heights and Distances"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-10",
+      "number": 10,
+      "name": "Circles",
+      "topics": ["Tangent to a Circle", "Number of Tangents"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-11",
+      "number": 11,
+      "name": "Areas Related to Circles",
+      "topics": ["Area of Sector", "Area of Segment", "Combination of Figures"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-12",
+      "number": 12,
+      "name": "Surface Areas and Volumes",
+      "topics": ["Combinations of Solids", "Conversion of Solids", "Frustum of Cone"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-10-math-13",
+      "number": 13,
+      "name": "Statistics",
+      "topics": ["Mean", "Median", "Mode", "Ogive"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-14",
+      "number": 14,
+      "name": "Probability",
+      "topics": ["Classical Probability", "Theoretical Probability"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-10-math-15",
+      "number": 15,
+      "name": "Simple Interest and Compound Interest",
+      "topics": ["Simple Interest", "Compound Interest", "Time Value of Money"],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "student-dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --port 3001",
+    "lint": "next lint",
+    "start": "next start",
+    "clean": "rm -rf .next dist"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ui": "workspace:*",
+    "auth": "workspace:*",
+    "quiz-engine": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "analytics-scripts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "skill-report": "ts-node src/skillReport.ts",
+    "module-unlock-report": "ts-node src/moduleUnlockReport.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}
