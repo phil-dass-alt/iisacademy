@@ -26,13 +26,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         user: {
           id: "mock-user-id",
           email,
+          name: email,
           role: "student",
           board: "cbse",
           wing: "junior",
           membershipStatus: "free",
         },
-        token: "mock-token",
-        expiresAt: Date.now() + 86400000,
+        accessToken: "mock-token",
       };
       setSession(mockSession);
     } finally {

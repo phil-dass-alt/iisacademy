@@ -1,5 +1,5 @@
 
-import type { AuthUser, AccessControlResult, MembershipPlan } from "./types";
+import type { AuthUser, AccessControlResult, MembershipPlan, MembershipAccess, MembershipTier, BoardCode } from "./types";
 
 /**
  * The High-5 Membership: Rs 499 + 18% GST for 5 full years of access.
@@ -65,8 +65,7 @@ export function checkContentAccess(
   }
 
   return { allowed: true, reason: "paid_member" };
-
-import type { AuthUser, MembershipAccess, MembershipTier, BoardCode } from "./types";
+}
 
 /**
  * Membership tier definitions for IIS Academy.
@@ -176,5 +175,4 @@ export function getRequiredTierForFeature(
     default:
       return "free";
   }
-
 }

@@ -1,0 +1,379 @@
+"use client";
+
+import { useState, useEffect, FormEvent } from "react";
+import { getSupabaseClient } from "@iisacademy/auth";
+
+// ---------------------------------------------------------------------------
+// Static data – subjects available per stream for Classes 11 & 12.
+// The selection is identical for both standards so Class 12 mirrors Class 11.
+// ---------------------------------------------------------------------------
+
+const STREAM_SUBJECTS: Record<string, string[]> = {
+  science: [
+    "Physics",
+    "Chemistry",
+    "Mathematics",
+    "Biology",
+    "Computer Science",
+    "Physical Education",
+  ],
+  commerce: [
+    "Accountancy",
+    "Business Studies",
+    "Economics",
+    "Mathematics",
+    "English",
+    "Physical Education",
+  ],
+  arts: [
+    "History",
+    "Geography",
+    "Political Science",
+    "Economics",
+    "Sociology",
+    "Psychology",
+    "English",
+    "Physical Education",
+  ],
+};
+
+const STREAMS = [
+  { value: "science", label: "Science" },
+  { value: "commerce", label: "Commerce" },
+  { value: "arts", label: "Arts / Humanities" },
+];
+
+const CLASSES = [8, 9, 10, 11, 12] as const;
+type ClassNum = (typeof CLASSES)[number];
+
+// ---------------------------------------------------------------------------
+// Payment plan URLs – aienter.in gateways
+// ---------------------------------------------------------------------------
+const PAYMENT_URL_999 = "https://aienter.in/payments/iisacademy";
+const PAYMENT_URL_2999 = "https://aienter.in/payments/iisacademy2";
+
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
+
+export default function EnrollPage() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [userId, setUserId] = useState<string | null>(null);
+  const [selectedClass, setSelectedClass] = useState<ClassNum | "">("");
+  const [selectedStream, setSelectedStream] = useState("");
+  const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  // Try to autofill details from Supabase session.
+  useEffect(() => {
+    async function fetchProfile() {
+      try {
+        const supabase = getSupabaseClient();
+        const {
+          data: { session },
+        } = await supabase.auth.getSession();
+        if (session?.user) {
+          setUserId(session.user.id);
+          setEmail(session.user.email ?? "");
+          setName(
+            session.user.user_metadata?.full_name ??
+              session.user.user_metadata?.name ??
+              ""
+          );
+        }
+      } catch {
+        // Supabase env vars not set in this environment – silently skip autofill.
+      } finally {
+        setLoading(false);
+      }
+    }
+    void fetchProfile();
+  }, []);
+
+  // Reset stream & subjects when class changes.
+  useEffect(() => {
+    if (selectedClass !== 11 && selectedClass !== 12) {
+      setSelectedStream("");
+      setSelectedSubjects([]);
+    }
+  }, [selectedClass]);
+
+  // Reset subjects when stream changes.
+  useEffect(() => {
+    setSelectedSubjects([]);
+  }, [selectedStream]);
+
+  const isSenior = selectedClass === 11 || selectedClass === 12;
+  const availableSubjects = isSenior && selectedStream
+    ? STREAM_SUBJECTS[selectedStream] ?? []
+    : [];
+
+  function toggleSubject(subject: string) {
+    setSelectedSubjects((prev) =>
+      prev.includes(subject)
+        ? prev.filter((s) => s !== subject)
+        : [...prev, subject]
+    );
+  }
+
+  function buildRedirectUrl(baseUrl: string): string {
+    const params = new URLSearchParams();
+    if (userId) params.set("userId", userId);
+    if (name) params.set("name", encodeURIComponent(name));
+    if (email) params.set("email", encodeURIComponent(email));
+    if (selectedClass) params.set("class", String(selectedClass));
+    if (isSenior && selectedStream) params.set("stream", selectedStream);
+    if (isSenior && selectedSubjects.length) {
+      params.set("subjects", selectedSubjects.join(","));
+    }
+    return `${baseUrl}?${params.toString()}`;
+  }
+
+  function handleSubmit(e: FormEvent, planUrl: string) {
+    e.preventDefault();
+
+    if (!name.trim()) { alert("Please enter your name."); return; }
+    if (!email.trim()) { alert("Please enter your email."); return; }
+    if (!selectedClass) { alert("Please select a class."); return; }
+    if (isSenior && !selectedStream) {
+      alert("Please select a stream for Class 11 / 12."); return;
+    }
+    if (isSenior && selectedSubjects.length === 0) {
+      alert("Please select at least one subject."); return;
+    }
+
+    window.location.href = buildRedirectUrl(planUrl);
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <p className="text-gray-500 text-sm">Loading…</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50 py-12 px-4">
+      {/* Header */}
+      <div className="max-w-2xl mx-auto mb-8 text-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/IISA_logo.png"
+          alt="IIS Academy"
+          className="h-10 w-auto mx-auto mb-4"
+        />
+        <h1 className="text-3xl font-bold text-gray-900">
+          Enrol in IIS Academy
+        </h1>
+        <p className="mt-2 text-gray-500 text-sm">
+          Fill in your details below, choose your plan, and start your learning
+          journey.
+        </p>
+      </div>
+
+      {/* Form card */}
+      <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
+        <form noValidate>
+          {/* Personal Details */}
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-gray-800 mb-4">
+              Personal Details
+            </h2>
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Full Name <span className="text-red-500">*</span>
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Your full name"
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@example.com"
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* Class Selection */}
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-gray-800 mb-4">
+              Class &amp; Stream
+            </h2>
+            <div>
+              <label
+                htmlFor="class"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Class <span className="text-red-500">*</span>
+              </label>
+              <select
+                id="class"
+                required
+                value={selectedClass}
+                onChange={(e) =>
+                  setSelectedClass(
+                    e.target.value === "" ? "" : (Number(e.target.value) as ClassNum)
+                  )
+                }
+                className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+              >
+                <option value="">Select your class</option>
+                {CLASSES.map((cls) => (
+                  <option key={cls} value={cls}>
+                    Class {cls}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Stream – only for Classes 11 & 12 */}
+            {isSenior && (
+              <div className="mt-5">
+                <label
+                  htmlFor="stream"
+                  className="block text-sm font-medium text-gray-700 mb-1"
+                >
+                  Stream <span className="text-red-500">*</span>
+                </label>
+                <select
+                  id="stream"
+                  required
+                  value={selectedStream}
+                  onChange={(e) => setSelectedStream(e.target.value)}
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                >
+                  <option value="">Select a stream</option>
+                  {STREAMS.map((s) => (
+                    <option key={s.value} value={s.value}>
+                      {s.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+          </section>
+
+          {/* Subject Selection – only for Classes 11 & 12 with stream chosen */}
+          {isSenior && selectedStream && (
+            <section className="mb-8">
+              <h2 className="text-lg font-semibold text-gray-800 mb-1">
+                Subjects
+              </h2>
+              <p className="text-xs text-gray-500 mb-3">
+                Select the subjects you will study in Class&nbsp;
+                {selectedClass}. The same subjects apply in both Class&nbsp;11
+                and Class&nbsp;12.
+              </p>
+              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {availableSubjects.map((subject) => {
+                  const checked = selectedSubjects.includes(subject);
+                  return (
+                    <button
+                      key={subject}
+                      type="button"
+                      onClick={() => toggleSubject(subject)}
+                      className={`text-sm px-3 py-2 rounded-lg border text-left transition-colors ${
+                        checked
+                          ? "bg-indigo-50 border-indigo-400 text-indigo-700 font-medium"
+                          : "bg-white border-gray-300 text-gray-700 hover:border-indigo-300"
+                      }`}
+                    >
+                      {checked ? "✓ " : ""}
+                      {subject}
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
+          {/* Pricing & CTA */}
+          <section>
+            <h2 className="text-lg font-semibold text-gray-800 mb-4">
+              Choose Your Plan
+            </h2>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {/* Rs 999 plan */}
+              <div className="border border-gray-200 rounded-xl p-5">
+                <p className="text-sm text-gray-500 mb-1">Class-specific access</p>
+                <p className="text-2xl font-bold text-gray-900">
+                  ₹999{" "}
+                  <span className="text-sm font-normal text-gray-500">
+                    + 18% GST
+                  </span>
+                </p>
+                <p className="text-xs text-gray-400 mt-1 mb-4">
+                  Full access to the enrolled class &amp; stream
+                </p>
+                <button
+                  type="submit"
+                  onClick={(e) => handleSubmit(e, PAYMENT_URL_999)}
+                  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold py-2.5 px-4 rounded-lg transition-colors"
+                >
+                  Pay ₹999 + 18% GST
+                </button>
+              </div>
+
+              {/* Rs 2999 plan */}
+              <div className="border-2 border-indigo-500 rounded-xl p-5 relative">
+                <span className="absolute -top-3 left-4 bg-indigo-500 text-white text-xs font-semibold px-3 py-0.5 rounded-full">
+                  Best Value
+                </span>
+                <p className="text-sm text-gray-500 mb-1">All-classes access</p>
+                <p className="text-2xl font-bold text-gray-900">
+                  ₹2999{" "}
+                  <span className="text-sm font-normal text-gray-500">
+                    + 18% GST
+                  </span>
+                </p>
+                <p className="text-xs text-gray-400 mt-1 mb-4">
+                  Access to all classes, streams &amp; competitive plugins
+                </p>
+                <button
+                  type="submit"
+                  onClick={(e) => handleSubmit(e, PAYMENT_URL_2999)}
+                  className="w-full bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-semibold py-2.5 px-4 rounded-lg transition-colors"
+                >
+                  Pay ₹2999 + 18% GST
+                </button>
+              </div>
+            </div>
+
+            <p className="mt-4 text-center text-xs text-gray-400">
+              Why wait?{" "}
+              <strong className="text-gray-600">
+                Prepare yourself in advance.
+              </strong>{" "}
+              Payments are secured by Razorpay via aienter.in.
+            </p>
+          </section>
+        </form>
+      </div>
+    </div>
+  );
+}

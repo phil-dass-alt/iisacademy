@@ -1,4 +1,5 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
+import type { EnrolledBadge } from './types';
 
 let supabaseInstance: SupabaseClient | null = null;
 
@@ -55,4 +56,51 @@ export async function checkActiveSubscription(userId: string): Promise<boolean> 
   const now = new Date();
   const endDate = new Date(subscription.end_date);
   return endDate > now;
+}
+
+/**
+ * Fetch the user's profile row from Supabase (uses admin client to bypass RLS).
+ */
+export async function getUserProfile(userId: string) {
+  const supabase = getSupabaseAdminClient();
+  const { data, error } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', userId)
+    .single();
+  if (error) return null;
+  return data;
+}
+
+/**
+ * Append an EnrolledBadge to the user's `enrolled_badges` JSONB array
+ * in the `profiles` table.  Uses the admin client so it bypasses RLS.
+ */
+export async function assignEnrolledBadge(
+  userId: string,
+  badge: EnrolledBadge
+): Promise<{ success: boolean; error?: string }> {
+  const supabase = getSupabaseAdminClient();
+
+  // Fetch existing badges first so we can append rather than overwrite.
+  const profile = await getUserProfile(userId);
+  if (!profile) {
+    return { success: false, error: 'User profile not found' };
+  }
+
+  const existingBadges: EnrolledBadge[] = Array.isArray(profile.enrolled_badges)
+    ? (profile.enrolled_badges as EnrolledBadge[])
+    : [];
+
+  const updatedBadges = [...existingBadges, badge];
+
+  const { error } = await supabase
+    .from('profiles')
+    .update({ enrolled_badges: updatedBadges })
+    .eq('id', userId);
+
+  if (error) {
+    return { success: false, error: error.message };
+  }
+  return { success: true };
 }
