@@ -1,0 +1,62 @@
+# Patterns to ignore when building Docker images
+# Keeps the build context lean
+
+# Version control
+.git
+.gitignore
+
+# Dependencies (re-installed in Docker)
+node_modules
+**/node_modules
+
+# Build outputs (rebuilt in Docker)
+.next
+**/.next
+dist
+**/dist
+out
+**/out
+
+# Test/coverage
+coverage
+**/coverage
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Dev tooling
+.turbo
+**/.turbo
+.eslintrc*
+*.tsbuildinfo
+
+# Env files (never bake secrets into images – mount or inject at runtime)
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# IDE / OS
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Documentation (not needed in image)
+docs/
+README.md
+
+# Deployment scripts (not needed in image)
+deploy/
+nginx/
+ecosystem.config.js
+docker-compose*.yml
+Dockerfile
