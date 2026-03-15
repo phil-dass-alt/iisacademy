@@ -1,0 +1,129 @@
+{
+  "board": "kseab",
+  "class": 10,
+  "subject": "Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": ["Chemical Equations", "Types of Chemical Reactions", "Oxidation and Reduction", "Corrosion", "Rancidity"],
+      "enhancement": "AI-Driven Chemical Synthesis",
+      "enhancementFile": "chemical-reactions.json"
+    },
+    {
+      "id": "kseab-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Understanding Acids, Bases and Salts", "Chemical Properties", "Importance of pH", "Salts and their Uses"],
+      "enhancement": "pH Sensing AI & Smart Chemistry",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-Metals",
+      "topics": ["Physical Properties", "Chemical Properties of Metals", "Reactivity Series", "Ionic Compounds", "Corrosion Prevention"],
+      "enhancement": "Smart Alloys & Corrosion-Resistant Nanomaterials",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-04",
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "topics": ["Covalent Bonds in Carbon", "Versatile Nature of Carbon", "Homologous Series", "Nomenclature of Carbon Compounds", "Chemical Properties", "Important Carbon Compounds"],
+      "enhancement": "Carbon Nanotubes & Graphene Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-05",
+      "number": 5,
+      "name": "Periodic Classification of Elements",
+      "topics": ["Early Attempts at Classification", "Mendeleev's Periodic Table", "Modern Periodic Table", "Trends in the Modern Periodic Table"],
+      "enhancement": "AI-Predicted Materials & Computational Chemistry",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-06",
+      "number": 6,
+      "name": "Life Processes",
+      "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"],
+      "enhancement": "BioSensors & Health Monitoring AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-07",
+      "number": 7,
+      "name": "Control and Coordination",
+      "topics": ["Animals: Nervous System", "Coordination in Plants", "Hormones in Animals"],
+      "enhancement": "Neural Interfaces & Brain-Computer Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-08",
+      "number": 8,
+      "name": "How do Organisms Reproduce?",
+      "topics": ["Asexual Reproduction", "Sexual Reproduction in Plants", "Sexual Reproduction in Animals"],
+      "enhancement": "Genetic Engineering & CRISPR AI Design",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-09",
+      "number": 9,
+      "name": "Heredity and Evolution",
+      "topics": ["Accumulation of Variation During Reproduction", "Heredity", "Evolution", "Speciation", "Evolution and Classification"],
+      "enhancement": "Genomic AI & Evolutionary Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-10",
+      "number": 10,
+      "name": "Light — Reflection and Refraction",
+      "topics": ["Reflection of Light", "Spherical Mirrors", "Refraction of Light", "Lenses", "Power of a Lens"],
+      "enhancement": "LiDAR, AR/VR Optics & AI Vision Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-11",
+      "number": 11,
+      "name": "Human Eye and the Colourful World",
+      "topics": ["Human Eye", "Defects of Vision", "Refraction Through a Prism", "Dispersion of White Light", "Atmospheric Refraction"],
+      "enhancement": "Ophthalmology AI & Smart Glasses",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-12",
+      "number": 12,
+      "name": "Electricity",
+      "topics": ["Electric Current and Circuit", "Electric Potential and Potential Difference", "Ohm's Law", "Resistance of Conductors", "Heating Effect of Electric Current", "Electric Power"],
+      "enhancement": "Smart Grids & AI Energy Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-13",
+      "number": 13,
+      "name": "Magnetic Effects of Electric Current",
+      "topics": ["Magnetic Field", "Magnetic Field due to Current", "Force on Current-Carrying Conductor", "Electric Motor", "Electromagnetic Induction", "Electric Generator"],
+      "enhancement": "EV Motors & Wireless Power Transfer AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-14",
+      "number": 14,
+      "name": "Our Environment",
+      "topics": ["Ecosystem", "Food Chains and Webs", "Ozone Layer Depletion", "Management of Garbage"],
+      "enhancement": "Environmental AI & Circular Economy Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sci-15",
+      "number": 15,
+      "name": "Management of Natural Resources",
+      "topics": ["Why Do We Need to Manage Our Resources", "Forests and Wildlife", "Water for All", "Coal and Petroleum", "An Overview of Natural Resource Management"],
+      "enhancement": "Sustainability AI & Smart Resource Planning",
+      "enhancementFile": null
+    }
+  ]
+}

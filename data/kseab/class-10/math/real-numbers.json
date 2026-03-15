@@ -1,0 +1,151 @@
+{
+  "id": "kseab-10-math-real-numbers",
+  "title": "Real Numbers",
+  "subject": "Math",
+  "chapter": "Real Numbers",
+  "chapterNumber": 1,
+  "board": "kseab",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Euclidean Algorithms in Computer Science",
+    "tagline": "A 2,300-year-old algorithm powering your Internet security today"
+  },
+  "lesson": {
+    "officialFocus": "Euclid's Division Lemma, Euclid's Division Algorithm for HCF, Fundamental Theorem of Arithmetic (unique prime factorisation), proofs that √2 and √3 are irrational, and decimal expansion of rational numbers (terminating vs. non-terminating recurring).",
+    "introduction": "Euclid wrote his algorithm around 300 BCE in Alexandria. Over 2,300 years later, every HTTPS website you visit—your school portal, YouTube, Instagram—uses a security system whose core is built on Euclid's algorithm and the Fundamental Theorem of Arithmetic. The prime factorisation you learn in this chapter is the mathematical lock that secures the entire internet. Welcome to the oldest algorithm in active use.",
+    "sections": [
+      {
+        "title": "Euclid's Division Algorithm → GCD in Software and Cryptography",
+        "officialConcept": "Euclid's Division Lemma: For integers a and b (b > 0), there exist unique integers q and r such that a = bq + r, 0 ≤ r < b. The algorithm finds HCF by repeatedly applying this lemma until the remainder is 0.",
+        "aiEnhancement": "Euclid's algorithm for GCD (Greatest Common Divisor = HCF) is implemented in virtually every programming language as a standard library function. In Python: math.gcd(a,b). In C++: __gcd(a,b). But its most critical application is in RSA cryptography—the security behind every HTTPS website. RSA key generation requires computing GCDs of enormous numbers (1024-bit or 2048-bit primes). The Extended Euclidean Algorithm (an extension of what you learn) computes modular inverses, which are the 'private keys' that decrypt your secure messages. Infosys and Wipro—both headquartered in Bengaluru—deploy these algorithms at scale in their banking and healthcare security platforms.",
+        "keyInsight": "The step-by-step HCF calculation you practice with two-digit numbers is structurally identical to the algorithm that protects your bank account online—just applied to numbers with hundreds of digits."
+      },
+      {
+        "title": "Fundamental Theorem of Arithmetic → Public Key Cryptography (RSA)",
+        "officialConcept": "Every composite number can be expressed as a product of primes in a unique way (unique prime factorisation). This theorem is used to prove LCM × HCF = Product of two numbers, and to prove irrationality of numbers like √2.",
+        "aiEnhancement": "The RSA cryptosystem (used by every secure website) is directly built on the Fundamental Theorem of Arithmetic. Here's why: Multiplying two large prime numbers p and q is easy (a fraction of a second for a computer). But given their product n = p × q, finding p and q—i.e., prime factorisation of n—is computationally infeasible for large n (hundreds of digits). This asymmetry between easy multiplication and hard factorisation is called a 'trapdoor function' and is the mathematical basis of RSA. When you see the padlock icon in your browser, you're trusting that nobody can factorise a 2048-bit number. The uniqueness guaranteed by the Fundamental Theorem of Arithmetic is what makes this scheme work.",
+        "keyInsight": "The 'unique prime factorisation' proved in your chapter is the mathematical guarantee that makes internet security possible—breaking RSA encryption would require disproving or circumventing the Fundamental Theorem of Arithmetic."
+      },
+      {
+        "title": "Irrational Numbers → Floating-Point Representation in Computers",
+        "officialConcept": "Numbers like √2, √3, π are irrational—their decimal expansions are non-terminating and non-recurring. Rational numbers with denominators having only factors of 2 and 5 give terminating decimals; others give non-terminating recurring decimals.",
+        "aiEnhancement": "Computers store numbers in binary (base-2) floating-point format (IEEE 754 standard). Just like 1/3 = 0.333... is non-terminating in decimal, 1/10 = 0.1 is non-terminating in binary! This causes the famous 'floating-point error': in Python, 0.1 + 0.2 = 0.30000000000000004. This matters enormously in AI and machine learning—when training a neural network with millions of floating-point operations, these small errors accumulate and can make a model behave incorrectly. This is why AI researchers use techniques like 'mixed precision training' and carefully track numerical precision. Your understanding of terminating vs. non-terminating decimals in different bases is fundamental to understanding computer arithmetic.",
+        "keyInsight": "The rule that 'denominators with only factors of 2 and 5 give terminating decimals' directly explains which numbers a binary computer can represent exactly—and why AI systems must carefully manage floating-point arithmetic errors."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Implement Euclid's Algorithm in Python",
+      "difficulty": "beginner",
+      "materials": ["Computer or smartphone with Python (free at python.org or use replit.com)", "Pen and paper to trace the algorithm steps"],
+      "steps": [
+        "Open Python (IDLE, VS Code, or replit.com) and type the recursive function: def gcd(a, b): return a if b == 0 else gcd(b, a % b)",
+        "Test it: print(gcd(56, 98)) — should give 14. Verify by hand using Euclid's Division Algorithm: 98 = 56×1 + 42; 56 = 42×1 + 14; 42 = 14×3 + 0. HCF = 14.",
+        "Try with larger numbers: print(gcd(123456789, 987654321)). Note how fast Python gives the answer even for 9-digit numbers.",
+        "Extension: write a function that also returns LCM using the formula lcm(a,b) = (a*b)//gcd(a,b) and verify LCM × HCF = a × b.",
+        "Challenge: Time it with very large numbers (10^50 range) using the 'time' module. Notice the algorithm is still fast — this is O(log n) efficiency, the same reason it's used in cryptography."
+      ],
+      "learningOutcome": "You will have implemented a 2,300-year-old algorithm in a modern programming language, verified its correctness, and experienced its computational efficiency—connecting ancient mathematics to modern computer science."
+    },
+    "furtherExploration": [
+      "Khan Academy – Modular Arithmetic and RSA Cryptography (free): khanacademy.org",
+      "Python math.gcd documentation: docs.python.org/3/library/math.html",
+      "TED-Ed: 'The mathematics of secrets' – How RSA works"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-10-math-real-numbers-quiz",
+    "title": "Real Numbers & Euclidean Algorithms Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Using Euclid's Division Algorithm, find the HCF of 96 and 36.",
+        "options": [
+          {"id": "a", "text": "6"},
+          {"id": "b", "text": "12"},
+          {"id": "c", "text": "24"},
+          {"id": "d", "text": "18"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "96 = 36×2 + 24; 36 = 24×1 + 12; 24 = 12×2 + 0. HCF = 12. Applying Euclid's lemma step by step until remainder is 0.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "kseab",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q2",
+        "text": "The Fundamental Theorem of Arithmetic states that every composite number has a unique prime factorisation. Which of the following correctly factorises 360?",
+        "options": [
+          {"id": "a", "text": "2³ × 3² × 5"},
+          {"id": "b", "text": "2² × 3³ × 5"},
+          {"id": "c", "text": "2³ × 3 × 5²"},
+          {"id": "d", "text": "2² × 3 × 5 × 6"}
+        ],
+        "correctOptionId": "a",
+        "explanation": "360 = 8 × 45 = 8 × 9 × 5 = 2³ × 3² × 5. The factorisation is unique (6 is not prime, so option d is invalid). This uniqueness is what makes RSA cryptography work.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "kseab",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q3",
+        "text": "RSA internet security relies on the difficulty of prime factorisation of large numbers. If n = p × q where p and q are large primes, why can't a normal computer easily find p and q given only n?",
+        "options": [
+          {"id": "a", "text": "Because computers cannot multiply large numbers"},
+          {"id": "b", "text": "Because the Fundamental Theorem of Arithmetic says there may be multiple factorisations"},
+          {"id": "c", "text": "Because no efficient algorithm is known for prime factorisation of very large numbers—it requires checking an astronomically large number of possibilities"},
+          {"id": "d", "text": "Because prime numbers are always odd, making them easy to avoid"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "Multiplication is fast (microseconds). But finding factors requires checking candidate primes up to √n—for a 2048-bit n (about 617 decimal digits), this is computationally infeasible even for supercomputers. This asymmetry is the RSA trapdoor.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "kseab",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q4",
+        "text": "In Python, 0.1 + 0.2 gives 0.30000000000000004 instead of 0.3. This is because 0.1 is non-terminating in binary (base-2). Using the rule from your chapter, which fraction would be terminating in base-2?",
+        "options": [
+          {"id": "a", "text": "1/3 (denominator = 3)"},
+          {"id": "b", "text": "1/6 (denominator = 2 × 3)"},
+          {"id": "c", "text": "1/8 (denominator = 2³)"},
+          {"id": "d", "text": "1/10 (denominator = 2 × 5)"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "In base-2, a fraction terminates only if the denominator's prime factors are exclusively 2. 1/8 = 1/2³ → 0.001 in binary (terminating). 1/10 has factor 5, so it's non-terminating in binary—causing the famous floating-point error in Python!",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "kseab",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q5",
+        "text": "An AI system trains on sensor data sampled every 1/10 second. After 10 million steps of calculation, the accumulated floating-point error causes the time counter to show 999999.97 seconds instead of 1000000. A software engineer proposes using integer arithmetic (counting in units of milliseconds) instead of floating-point decimals to fix this. Using your knowledge of terminating decimals, explain why this approach works.",
+        "options": [
+          {"id": "a", "text": "Integers are faster to compute than fractions"},
+          {"id": "b", "text": "1 millisecond = 1/1000 second. Since 1000 = 2³ × 5³, this fraction is terminating in decimal. When stored as integer counts, there are no rounding errors—every millisecond step is exact"},
+          {"id": "c", "text": "Integers are always prime numbers so they avoid factorisation problems"},
+          {"id": "d", "text": "The AI uses fewer parameters when counting in milliseconds"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "1/1000 has denominator 2³ × 5³—terminating in decimal. But 1/10 in binary is non-terminating, causing drift. By counting discrete integers (whole milliseconds), the AI avoids floating-point representation entirely. This is why real-time AI systems (robotics, autonomous vehicles) use integer timers internally.",
+        "difficulty": "hard",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "kseab",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      }
+    ]
+  }
+}

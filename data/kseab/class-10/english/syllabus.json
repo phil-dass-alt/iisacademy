@@ -1,0 +1,129 @@
+{
+  "board": "kseab",
+  "class": 10,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-10-eng-01",
+      "number": 1,
+      "name": "The Midnight Visitor",
+      "topics": ["Reading Comprehension", "Spy and Thriller Genre", "Character Analysis: Ausable and Fowler", "Dramatic Irony", "Dialogue Writing", "Vocabulary: atmosphere, suspense, foil"],
+      "enhancement": "Natural Language Processing & Sentiment Analysis",
+      "enhancementFile": "the-midnight-visitor.json"
+    },
+    {
+      "id": "kseab-10-eng-02",
+      "number": 2,
+      "name": "A Question of Trust",
+      "topics": ["Reading Comprehension", "Moral Ambiguity in Characters", "Irony in Fiction", "Written Description of Character"],
+      "enhancement": "AI Ethics & Trust in Autonomous Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-03",
+      "number": 3,
+      "name": "The Hack Driver",
+      "topics": ["Setting and Atmosphere", "Humour and Irony", "Character Deception", "Narrative Voice"],
+      "enhancement": "Recommendation AI & Identity Verification Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-04",
+      "number": 4,
+      "name": "Bholi",
+      "topics": ["Social Issues: Gender and Education", "Character Transformation", "Role of Education in Empowerment", "Dialogue and Emotion"],
+      "enhancement": "EdTech AI & Personalised Learning for All",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-05",
+      "number": 5,
+      "name": "The Book That Saved the Earth",
+      "topics": ["Science Fiction Genre", "Satire and Humour", "Misinterpretation of Language", "Drama Structure"],
+      "enhancement": "AI Language Understanding & Semantic Ambiguity",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-06",
+      "number": 6,
+      "name": "A Letter to God",
+      "topics": ["Reading Comprehension", "Theme: Faith and Irony", "Descriptive Writing", "Character's Belief Systems"],
+      "enhancement": "Natural Language Processing & Emotion Detection AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-07",
+      "number": 7,
+      "name": "Nelson Mandela: Long Walk to Freedom",
+      "topics": ["Biography and Autobiography", "Themes of Freedom and Oppression", "Historical Context", "Formal and Informal Language"],
+      "enhancement": "AI Text Summarisation & Biography Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-08",
+      "number": 8,
+      "name": "Two Stories about Flying",
+      "topics": ["Narrative Structure", "Theme of Fear and Courage", "First-Person Narration", "Descriptive Language"],
+      "enhancement": "Autonomous Flight AI & Drone Navigation",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-09",
+      "number": 9,
+      "name": "From the Diary of Anne Frank",
+      "topics": ["Diary as a Genre", "Historical Context: World War II", "Emotional Intelligence in Writing", "Themes of Identity and Isolation"],
+      "enhancement": "AI Sentiment Analysis & Trauma-Informed Language Processing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-10",
+      "number": 10,
+      "name": "The Hundred Dresses — Part I & II",
+      "topics": ["Bullying and Social Exclusion", "Moral Lessons", "Descriptive Language", "Point of View"],
+      "enhancement": "AI Anti-Bullying Detection & Online Safety Tools",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-11",
+      "number": 11,
+      "name": "Dust of Snow",
+      "topics": ["Poetry: Imagery and Symbolism", "Theme of Mood Change", "Nature Poetry", "Meter and Rhyme Scheme"],
+      "enhancement": "AI Mood Detection & Mental Health Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-12",
+      "number": 12,
+      "name": "Fire and Ice",
+      "topics": ["Poetry: Metaphor and Symbolism", "Theme of Destruction", "Tone and Mood", "Frost's Style"],
+      "enhancement": "Climate AI & Existential Risk Modelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-13",
+      "number": 13,
+      "name": "A Tiger in the Zoo",
+      "topics": ["Poetry: Contrast and Imagery", "Theme of Freedom vs. Captivity", "Descriptive Language in Poetry", "Tone"],
+      "enhancement": "Wildlife AI Monitoring & Conservation Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-14",
+      "number": 14,
+      "name": "How to Tell Wild Animals",
+      "topics": ["Humorous Poetry", "Irony and Wordplay", "Description through Contrast", "Poetic Devices"],
+      "enhancement": "AI Species Identification & Biodiversity Apps",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-eng-15",
+      "number": 15,
+      "name": "The Ball Poem",
+      "topics": ["Poetry: Loss and Maturity", "Symbolism of the Ball", "Theme of Responsibility", "Free Verse"],
+      "enhancement": "AI Emotional Intelligence & Mental Health Support",
+      "enhancementFile": null
+    }
+  ]
+}
