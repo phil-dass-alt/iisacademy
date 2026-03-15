@@ -1,3 +1,4 @@
+
 export type Board =
   | "cbse"
   | "icse"
@@ -9,36 +10,48 @@ export type Wing = "junior" | "senior" | "university";
 /** Junior Wing covers Classes 8–10 */
 export const JUNIOR_WING_CLASSES = [8, 9, 10] as const;
 
-export interface Chapter {
-  id: string;
-  name: string;
-  subject: string;
-  class: number;
-  board: Board;
-  topics: string[];
+export type BoardName = 'CBSE' | 'ICSE' | 'Karnataka' | 'Tamil Nadu' | 'Kerala' | 'Andhra Pradesh';
+export type ClassNumber = 8 | 9 | 10 | 11 | 12;
+export type SubjectName = 'Science' | 'Mathematics' | 'Social Science' | 'English' | 'History' | 'Geography' | 'Physics' | 'Chemistry' | 'Biology';
+
+
+export interface AIEnhancementLesson {
+  title: string;
+  content: string;
+  practicalAddOn: string;
 }
 
-export interface EnhancementLayer {
-  id: string;
-  name: string;
-  description: string;
-  subjectMapping: Record<string, string>;
-  tags: string[];
-}
-
-export interface EnhancedChapter extends Chapter {
-  enhancement?: {
-    layerId: string;
-    layerName: string;
-    bridgeTopics: string[];
-    addonTitle: string;
-    addonDescription: string;
+export interface QuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+  answer: string;
+  feedback: {
+    correct: string;
+    incorrect: string;
+    intelligenceAgeHint: string;
   };
 }
 
-export interface BoardMapping {
-  board: Board;
-  class: number;
-  subject: string;
+export interface Chapter {
+  id: number;
+  title: string;
+  summary: string;
+  aiEnhancementLesson: AIEnhancementLesson;
+  quiz: QuizQuestion[];
+}
+
+export interface SubjectSyllabus {
+  board: BoardName;
+  class: ClassNumber;
+  subject: SubjectName;
   chapters: Chapter[];
+}
+
+export interface EnhancedContent {
+  originalTitle: string;
+  enhancedTitle: string;
+  aiInsights: string[];
+  realWorldApplications: string[];
+  careerConnections: string[];
 }
