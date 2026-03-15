@@ -37,6 +37,141 @@ export default function StudentDashboardPage() {
           </a>
         ))}
       </div>
+
+      <section style={{ marginTop: "2.5rem" }}>
+        <h2 style={{ color: "#1a237e", fontSize: "1.4rem", fontWeight: 700, marginBottom: "0.5rem" }}>
+          🏫 Junior Wing — Classes 8–10
+        </h2>
+        <p style={{ color: "#546e7a", marginBottom: "1.2rem", fontSize: "0.95rem" }}>
+          Pilot content live for Class 8 Science. Select your board to explore Intelligence Age
+          enhanced chapters and adaptive quizzes.
+        </p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1rem" }}>
+          {[
+            {
+              icon: "🇮🇳",
+              board: "CBSE",
+              badge: "Pilot Live",
+              desc: "Class 8 Science — Crop Production (AI Farming) & Microorganisms (Synthetic Biology)",
+              href: "/junior/cbse/class-8/science",
+              color: "#e8f5e9",
+              badgeColor: "#2e7d32",
+            },
+            {
+              icon: "🌺",
+              board: "Karnataka (KSEAB)",
+              badge: "Pilot Live",
+              desc: "Class 8 Science — World of Sounds (Voice AI) & Microorganisms (Synthetic Biology)",
+              href: "/junior/kseab/class-8/science",
+              color: "#fff3e0",
+              badgeColor: "#e65100",
+            },
+            {
+              icon: "📖",
+              board: "ICSE",
+              badge: "Coming Soon",
+              desc: "High-vocabulary and detailed theory add-ons. Launching next batch.",
+              href: "#",
+              color: "#f3f4f6",
+              badgeColor: "#78909c",
+            },
+            {
+              icon: "🌴",
+              board: "Tamil Nadu (TNSCERT)",
+              badge: "Coming Soon",
+              desc: "Strong Information Age foundation from TNSCERT syllabus.",
+              href: "#",
+              color: "#f3f4f6",
+              badgeColor: "#78909c",
+            },
+            {
+              icon: "🌿",
+              board: "Kerala (SCERT)",
+              badge: "Coming Soon",
+              desc: "Eco-friendly and Sustainable AI applications.",
+              href: "#",
+              color: "#f3f4f6",
+              badgeColor: "#78909c",
+            },
+          ].map((item) => (
+            <a
+              key={item.board}
+              href={item.href}
+              style={{
+                background: item.color,
+                borderRadius: 8,
+                padding: "1.2rem",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                display: "flex",
+                flexDirection: "column",
+                gap: "0.4rem",
+                textDecoration: "none",
+                color: "inherit",
+                opacity: item.href === "#" ? 0.7 : 1,
+                cursor: item.href === "#" ? "default" : "pointer",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+                <span style={{ fontSize: "1.5rem" }}>{item.icon}</span>
+                <strong style={{ color: "#1a237e", fontSize: "0.95rem" }}>{item.board}</strong>
+                <span
+                  style={{
+                    marginLeft: "auto",
+                    fontSize: "0.7rem",
+                    fontWeight: 700,
+                    color: item.badgeColor,
+                    background: "#fff",
+                    borderRadius: 4,
+                    padding: "2px 7px",
+                    border: `1px solid ${item.badgeColor}`,
+                  }}
+                >
+                  {item.badge}
+                </span>
+              </div>
+              <span style={{ fontSize: "0.82rem", color: "#546e7a" }}>{item.desc}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section
+        style={{
+          marginTop: "2.5rem",
+          background: "#e8eaf6",
+          borderRadius: 8,
+          padding: "1.2rem 1.5rem",
+          display: "flex",
+          alignItems: "center",
+          gap: "1.2rem",
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ flex: 1, minWidth: 200 }}>
+          <strong style={{ color: "#1a237e", display: "block", marginBottom: "0.3rem" }}>
+            🔒 Unlock Full Access
+          </strong>
+          <span style={{ color: "#546e7a", fontSize: "0.88rem" }}>
+            The High-5 Membership — ₹499 + GST / 5 years. Full access to all boards, classes,
+            subjects, Voice-AI Tutor, and Monthly Future-Skill Masterclasses.
+          </span>
+        </div>
+        <a
+          href="https://aienter.in/payments/iisacademy"
+          style={{
+            background: "#1a237e",
+            color: "#fff",
+            borderRadius: 6,
+            padding: "0.65rem 1.4rem",
+            textDecoration: "none",
+            fontWeight: 700,
+            fontSize: "0.9rem",
+            whiteSpace: "nowrap",
+          }}
+        >
+          Join the Intelligence Age →
+        </a>
+      </section>
     </main>
   );
 }
