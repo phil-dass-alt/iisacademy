@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "cbse-12-phy-current-electricity-ai-circuits",
   "title": "Current Electricity → AI Circuits & Electronics",
   "subject": "Physics",
@@ -40,10 +41,22 @@
         "id": "q1",
         "text": "An Arduino GPIO pin outputs 5V through a 220Ω resistor to an LED. What current flows through the LED? (Use Ohm's Law)",
         "options": [
-          { "id": "a", "text": "22.7 mA" },
-          { "id": "b", "text": "110 mA" },
-          { "id": "c", "text": "2.27 A" },
-          { "id": "d", "text": "44 mA" }
+          {
+            "id": "a",
+            "text": "22.7 mA"
+          },
+          {
+            "id": "b",
+            "text": "110 mA"
+          },
+          {
+            "id": "c",
+            "text": "2.27 A"
+          },
+          {
+            "id": "d",
+            "text": "44 mA"
+          }
         ],
         "correctOptionId": "a",
         "explanation": "I = V/R = 5/220 ≈ 0.0227 A = 22.7 mA. Standard safe current for LEDs. This is exactly how you protect LEDs in any circuit!",
@@ -53,10 +66,22 @@
         "id": "q2",
         "text": "In DRAM memory, a bit '1' is stored as a charged capacitor. If 4 pF capacitor stores charge at 3.3V, what is the stored charge?",
         "options": [
-          { "id": "a", "text": "13.2 pC" },
-          { "id": "b", "text": "4 pC" },
-          { "id": "c", "text": "3.3 pC" },
-          { "id": "d", "text": "0.8 pC" }
+          {
+            "id": "a",
+            "text": "13.2 pC"
+          },
+          {
+            "id": "b",
+            "text": "4 pC"
+          },
+          {
+            "id": "c",
+            "text": "3.3 pC"
+          },
+          {
+            "id": "d",
+            "text": "0.8 pC"
+          }
         ],
         "correctOptionId": "a",
         "explanation": "Q = CV = 4 × 10⁻¹² × 3.3 = 13.2 × 10⁻¹² C = 13.2 pC. This tiny charge stores the '1' bit in your computer memory!",

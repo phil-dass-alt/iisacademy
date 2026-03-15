@@ -1,6 +1,7 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "icse-10-math-finlit-q1",
-  "title": "Mathematics + Financial Literacy: ICSE Class 10 \u2014 Shares, Dividends and Banking",
+  "title": "Mathematics + Financial Literacy: ICSE Class 10 — Shares, Dividends and Banking",
   "subject": "Mathematics",
   "board": "icse",
   "class": 10,
@@ -8,27 +9,27 @@
   "questions": [
     {
       "id": "q1",
-      "text": "Priya buys 200 shares of face value \u20b910 each at \u20b915 each. The company declares 12% dividend on face value. What is her annual dividend income and yield on investment?",
+      "text": "Priya buys 200 shares of face value ₹10 each at ₹15 each. The company declares 12% dividend on face value. What is her annual dividend income and yield on investment?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b9240 income; 8% yield"
+          "text": "₹240 income; 8% yield"
         },
         {
           "id": "b",
-          "text": "\u20b9360 income; 12% yield"
+          "text": "₹360 income; 12% yield"
         },
         {
           "id": "c",
-          "text": "\u20b9240 income; 12% yield"
+          "text": "₹240 income; 12% yield"
         },
         {
           "id": "d",
-          "text": "\u20b9300 income; 10% yield"
+          "text": "₹300 income; 10% yield"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Dividend = 12% of face value = 12% of \u20b910 = \u20b91.20 per share. Total = 200 \u00d7 1.20 = \u20b9240. Yield = (240 / (200\u00d715)) \u00d7 100 = 240/3000 \u00d7 100 = 8%. This is exactly how stock dividends work on NSE/BSE!",
+      "explanation": "Dividend = 12% of face value = 12% of ₹10 = ₹1.20 per share. Total = 200 × 1.20 = ₹240. Yield = (240 / (200×15)) × 100 = 240/3000 × 100 = 8%. This is exactly how stock dividends work on NSE/BSE!",
       "difficulty": "hard",
       "subject": "Mathematics",
       "chapter": "Shares and Dividends",
@@ -37,27 +38,27 @@
     },
     {
       "id": "q2",
-      "text": "Suresh opens a recurring deposit of \u20b92,000/month for 18 months at 8% p.a. What is the total interest earned?",
+      "text": "Suresh opens a recurring deposit of ₹2,000/month for 18 months at 8% p.a. What is the total interest earned?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b92,280"
+          "text": "₹2,280"
         },
         {
           "id": "b",
-          "text": "\u20b92,052"
+          "text": "₹2,052"
         },
         {
           "id": "c",
-          "text": "\u20b91,800"
+          "text": "₹1,800"
         },
         {
           "id": "d",
-          "text": "\u20b92,400"
+          "text": "₹2,400"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "RD Interest = P \u00d7 n(n+1)/2 \u00d7 r/12/100 = 2000 \u00d7 18\u00d719/2 \u00d7 8/1200 = 2000 \u00d7 171 \u00d7 0.00667 = \u20b92,280.6 \u2248 \u20b92,052 (some banks use different formulae). SBI RD accounts use this formula. Recurring deposits are great for disciplined savings!",
+      "explanation": "RD Interest = P × n(n+1)/2 × r/12/100 = 2000 × 18×19/2 × 8/1200 = 2000 × 171 × 0.00667 = ₹2,280.6 ≈ ₹2,052 (some banks use different formulae). SBI RD accounts use this formula. Recurring deposits are great for disciplined savings!",
       "difficulty": "medium",
       "subject": "Mathematics",
       "chapter": "Banking",

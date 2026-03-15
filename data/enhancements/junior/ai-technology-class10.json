@@ -1,0 +1,75 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "junior-aitech-class10",
+  "title": "Science → AI & Technology: Class 10",
+  "wing": "junior",
+  "class": 10,
+  "enhancementTag": "AI Technology",
+  "subjects": ["Science"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "Class 10 Science covers electricity, magnetic effects of current, light (refraction, lenses), chemical reactions, and the human nervous system. These are not just board exam topics — they are the exact physics powering AI chips, neural networks, fibre optics, and autonomous systems. In Class 10, your science is the foundation of the modern intelligence age.",
+    "sections": [
+      {
+        "title": "Electricity & Ohm's Law → AI Chip Architecture",
+        "content": "Every AI chip (NVIDIA GPU, Google TPU, Apple Neural Engine) consists of billions of transistors — electronic switches controlled by voltage. Ohm's Law (V = IR) governs every one of these transistors. When a transistor 'switches on,' current flows (logic 1); when off, current stops (logic 0). This binary switching is the physical basis of all digital computing and AI processing.",
+        "realWorldConnection": "NVIDIA's H100 GPU has 80 billion transistors. Each performs billions of Ohm's Law calculations per second. The entire 'intelligence' of ChatGPT runs on electricity governed by your Class 10 formula V = IR.",
+        "keyInsight": "AI hardware IS applied electricity — your Chapter 12 is literally the physics inside every AI chip."
+      },
+      {
+        "title": "Magnetic Effects of Current → Electric Motors & Robotics",
+        "content": "A current-carrying conductor in a magnetic field experiences a force (Fleming's Left Hand Rule). This is the principle of an electric motor — and every robot joint uses electric motors. Tesla's EV motors, industrial robotic arms, and drone motors all exploit this exact electromagnetic principle from your textbook.",
+        "realWorldConnection": "The Boston Dynamics Atlas robot has 28 hydraulic actuators and 3 electric motors, all governed by your electromagnetic force formula F = BIL. ISRO's Chandrayaan-3 rover used electric wheel motors based on the same principle.",
+        "keyInsight": "Magnetic effect of current = electric motors = every moving robot and EV on Earth."
+      },
+      {
+        "title": "Refraction of Light & Lenses → Camera AI and LiDAR",
+        "content": "Convex lenses converge light; concave lenses diverge. Every camera lens — from your phone camera to a self-driving car's sensor — uses refraction and the lens formula (1/f = 1/v - 1/u). Computer vision AI depends on high-quality optics to capture the images it analyses.",
+        "realWorldConnection": "Apple's iPhone 15 Pro has a 5× optical zoom using multiple convex lenses. The formula 1/f = 1/v - 1/u determines exactly how far objects appear. Google's self-driving Waymo uses LiDAR sensors with precision lenses designed using your refraction laws.",
+        "keyInsight": "Optical lens design for AI cameras directly uses the Class 10 lens and mirror formulae."
+      },
+      {
+        "title": "Carbon Compounds → Organic Electronics & Batteries",
+        "content": "Your Class 10 carbon chapter covers covalent bonds, alkanes, alkenes, and organic compounds. Carbon in its allotrope form (graphene) is used to create next-generation batteries and flexible electronics. Lithium-Ion batteries (in every phone and EV) use carbon-based anodes. Organic LED (OLED) screens use organic carbon compounds.",
+        "realWorldConnection": "Samsung's OLED screens emit light through organic carbon compounds — the same molecular bonding principles from your carbon chapter. Tesla's batteries use graphite (a carbon allotrope) as the anode material.",
+        "keyInsight": "Carbon chemistry (your Class 10 chapter) literally powers every smartphone screen and battery."
+      },
+      {
+        "title": "Control and Coordination (Nervous System) → Artificial Neural Networks",
+        "content": "The human brain has ~86 billion neurons. Each neuron receives signals (inputs), processes them, and fires (output) if the stimulus exceeds a threshold — this is exactly how artificial neural networks (ANNs) work. A perceptron (AI neuron) takes weighted inputs, sums them, and activates if the sum exceeds a threshold — directly modelled on your biology chapter.",
+        "realWorldConnection": "GPT-4 has approximately 1.76 trillion parameters (artificial synapses) — each mimicking the synapse strength concept from your nervous system chapter. The 'learning' in deep learning is adjusting synapse weights, exactly like biological synaptic plasticity.",
+        "keyInsight": "Deep learning = computational neuroscience. Your nervous system chapter IS the biological blueprint for all AI."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Build a Neural Network Simulator on Paper",
+      "description": "Understand how a 3-neuron neural network classifies whether a student 'passed' or 'failed' based on marks in two subjects. Calculate forward propagation by hand using simple arithmetic — connecting your Biology (nervous system) and Mathematics (algebra) chapters.",
+      "components": ["Paper and pencil", "Calculator (optional)", "Scratch website or Python (optional for digital simulation)"],
+      "steps": [
+        "Draw 2 input neurons (Maths mark, Science mark), 2 hidden neurons, 1 output neuron",
+        "Assign random weights (e.g., 0.5, 0.3, 0.7, 0.2) to each connection",
+        "Input: Maths = 75, Science = 80. Multiply each input by its weight",
+        "Sum the weighted inputs at each hidden neuron. Apply threshold: if sum > 50, activate (output = 1)",
+        "Feed hidden neuron outputs to the output neuron. Final output > 0.5 = 'Pass'",
+        "Change the marks to 30, 40. Does the network output 'Fail'?",
+        "This is literally how ChatGPT's architecture works at a conceptual level"
+      ],
+      "scienceConnection": "Biology: Neuron firing threshold (Chapter 7 nervous system). Maths: Weighted sums (algebra). Physics: Signal transmission (electricity).",
+      "difficulty": "medium",
+      "estimatedCost": "₹0 — paper and pencil exercise"
+    },
+    "agenticChallenge": {
+      "title": "Teachable Machine — Train Your Own AI",
+      "description": "Use Google's Teachable Machine (teachablemachine.withgoogle.com) to train a computer vision model to distinguish between two objects (e.g., pen vs. eraser). This uses light (camera), image processing (refraction/optics), and neural networks — connecting three Class 10 Science chapters.",
+      "hint": "Take 20 photos of each object for training. Train the model and test it. The AI uses convex lens physics (camera), light wavelength data (color channels), and neural network classification. Your Class 10 Science — all three topics used simultaneously.",
+      "difficulty": "easy",
+      "link": "https://teachablemachine.withgoogle.com"
+    },
+    "furtherExploration": [
+      "Google Teachable Machine: teachablemachine.withgoogle.com (free AI training tool)",
+      "Tinkercad Circuits: tinkercad.com (simulate electric circuits)",
+      "MIT App Inventor: appinventor.mit.edu (build a mobile AI app)",
+      "Khan Academy: khanacademy.org/computing/ap-computer-science-principles"
+    ]
+  }
+}

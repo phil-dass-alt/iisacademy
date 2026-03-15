@@ -1,0 +1,62 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "kseab-9-sci-motion-ai",
+  "title": "Motion & Force — AI and Robotics",
+  "subject": "Science",
+  "chapter": "Motion",
+  "chapterNumber": 7,
+  "board": "kseab",
+  "class": 9,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "AI & Robotics — Motion Planning",
+    "tagline": "How ISRO rockets and Bengaluru robots use your Class 9 equations of motion"
+  },
+  "lesson": {
+    "officialFocus": "Uniform and non-uniform motion, velocity, acceleration, equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as), distance-time and velocity-time graphs.",
+    "introduction": "Every equation of motion from your Class 9 textbook is running right now — in ISRO rocket launch computers in Sriharikota, in Bengaluru self-driving car test vehicles, and in robot arms at Infosys and Wipro campuses. Motion is not just physics theory; it is the language of all autonomous machines.",
+    "sections": [
+      {
+        "title": "Equations of Motion in ISRO Rocket Launches",
+        "officialConcept": "The three equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as) describe the motion of a body under constant acceleration.",
+        "aiEnhancement": "During a PSLV rocket launch from Sriharikota, the onboard flight computer calculates the rocket's velocity and position 500 times per second using these exact equations. At T+60 seconds (1 minute after launch), if initial velocity u = 0, acceleration a ≈ 18 m/s² (variable), the flight computer integrates acceleration data to compute s (altitude) and v (velocity) in real-time. Any deviation triggers automatic thrust vector correction.",
+        "keyInsight": "ISRO's Mission Control screens showing altitude and velocity are displaying real-time solutions of v = u + at and s = ut + ½at²."
+      },
+      {
+        "title": "Velocity-Time Graphs → Self-Driving Car Acceleration Profiles",
+        "officialConcept": "The area under a velocity-time graph equals displacement. The slope of a velocity-time graph equals acceleration.",
+        "aiEnhancement": "Tesla Autopilot and Waymo generate velocity-time profiles — graphical 'motion plans' — for every journey. A smooth velocity-time graph (gradual slope = gentle acceleration) translates to comfortable passenger experience and energy efficiency. Sharp slopes (high acceleration) waste battery. The AI uses your graphical motion concepts to plan optimal journeys that minimise energy use while respecting traffic laws.",
+        "keyInsight": "Self-driving car ride comfort is literally a velocity-time graph shape problem from your chapter."
+      },
+      {
+        "title": "Newton's Third Law → Drone Hovering and Spacecraft Manoeuvring",
+        "officialConcept": "Newton's Third Law: Every action has an equal and opposite reaction. In rocket propulsion, exhaust gases pushed backward result in the rocket being pushed forward.",
+        "aiEnhancement": "DJI drones hover by continuously adjusting motor speeds. Each propeller pushes air downward (action); the air pushes the drone upward (reaction). An AI flight controller processes gyroscope and accelerometer data 1,000 times per second to balance all four propellers. If the drone tilts, the AI increases speed on one side and decreases on the other — all governed by Newton's Third Law from your textbook.",
+        "keyInsight": "Drone stability algorithms are Newton's Third Law applied 1,000 times per second."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Motion Data Logger with a Smartphone",
+      "description": "Use the free app 'Physics Toolbox Suite' (iOS/Android) to record your own motion data. Walk, run, and stop — the accelerometer plots your velocity-time graph in real-time. Compare your graph to ISRO launch profiles.",
+      "components": ["Smartphone with Physics Toolbox Suite app (free)", "A 50-metre open space"],
+      "steps": [
+        "Install Physics Toolbox Suite (free on Play Store/App Store)",
+        "Select 'Accelerometer' mode",
+        "Hold phone steady and walk at constant speed for 10 seconds",
+        "Accelerate to a run for 5 seconds, then stop suddenly",
+        "Export the graph and identify: uniform motion, acceleration, deceleration sections",
+        "Calculate average acceleration during the run phase using a = Δv/Δt"
+      ],
+      "scienceConnection": "Your velocity-time graph will show exactly the sections from textbook examples: uniform motion (flat horizontal line), acceleration (rising slope), deceleration (falling slope to zero).",
+      "difficulty": "easy",
+      "estimatedCost": "₹0 — smartphone app"
+    },
+    "agenticChallenge": {
+      "title": "Programme a Scratch Robot to Follow Equations of Motion",
+      "description": "On MIT Scratch (scratch.mit.edu), program a sprite to move using the equations of motion. Input initial velocity u and acceleration a, and have the sprite's position update using s = ut + ½at² every 0.1 seconds. This is literally how robot motion planning software works.",
+      "hint": "Use Scratch's 'change x by' block. At each step: Δs = u×Δt + ½×a×Δt². Update position continuously. This is numerical integration — the same method used in ISRO's flight computers.",
+      "difficulty": "medium"
+    }
+  }
+}

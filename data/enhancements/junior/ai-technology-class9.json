@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-aitech-class9",
   "title": "Science → AI & Technology: Class 9",
   "wing": "junior",
   "class": 9,
   "enhancementTag": "AI Technology",
-  "subjects": ["Science"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Science"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "Class 9 Science brings Motion, Force, Gravitation, and Sound — the fundamental physics of how AI robots move, satellites orbit, and smart devices communicate. Your chapters are literally the engineering foundation of the modern tech industry.",
     "sections": [
@@ -43,7 +53,10 @@
     "practicalAddOn": {
       "title": "Code a Motion Simulator",
       "description": "Use Python (or MIT Scratch) to simulate projectile motion using your Class 9 equations of motion. Input: initial velocity (u) and angle (θ). Output: trajectory path, maximum height, and range.",
-      "components": ["Computer with Python or Scratch", "Physics equations: v = u + at, s = ut + ½at²"],
+      "components": [
+        "Computer with Python or Scratch",
+        "Physics equations: v = u + at, s = ut + ½at²"
+      ],
       "steps": [
         "In Python: import matplotlib. Write a loop from t=0 to t=flight_time",
         "Calculate x = u×cos(θ)×t and y = u×sin(θ)×t - 0.5×g×t² at each step",

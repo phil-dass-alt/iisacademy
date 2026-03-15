@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "karnataka",
   "class": 9,
   "subject": "Mathematics",
@@ -7,84 +8,129 @@
       "id": "ka-9-math-01",
       "number": 1,
       "name": "Number Systems",
-      "topics": ["Natural, Whole, Integer Numbers", "Rational and Irrational Numbers", "Real Numbers", "Representation on Number Line"],
+      "topics": [
+        "Natural, Whole, Integer Numbers",
+        "Rational and Irrational Numbers",
+        "Real Numbers",
+        "Representation on Number Line"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-9-math-02",
       "number": 2,
       "name": "Introduction to Euclid's Geometry",
-      "topics": ["Definitions, Axioms and Postulates", "Euclid's Elements"],
+      "topics": [
+        "Definitions, Axioms and Postulates",
+        "Euclid's Elements"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-03",
       "number": 3,
       "name": "Lines and Angles",
-      "topics": ["Basic Angle Properties", "Parallel Lines", "Transversals"],
+      "topics": [
+        "Basic Angle Properties",
+        "Parallel Lines",
+        "Transversals"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-04",
       "number": 4,
       "name": "Polynomials",
-      "topics": ["Types", "Zeroes", "Remainder Theorem", "Factor Theorem"],
+      "topics": [
+        "Types",
+        "Zeroes",
+        "Remainder Theorem",
+        "Factor Theorem"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-05",
       "number": 5,
       "name": "Linear Equations in Two Variables",
-      "topics": ["Solution", "Graph", "Equations of Axes"],
+      "topics": [
+        "Solution",
+        "Graph",
+        "Equations of Axes"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-9-math-06",
       "number": 6,
       "name": "Triangles",
-      "topics": ["Congruence Criteria", "Properties", "Inequalities"],
+      "topics": [
+        "Congruence Criteria",
+        "Properties",
+        "Inequalities"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-07",
       "number": 7,
       "name": "Quadrilaterals",
-      "topics": ["Properties of Parallelogram", "Conditions for Parallelogram", "Mid-Point Theorem"],
+      "topics": [
+        "Properties of Parallelogram",
+        "Conditions for Parallelogram",
+        "Mid-Point Theorem"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-08",
       "number": 8,
       "name": "Circles",
-      "topics": ["Chord Properties", "Arcs and Angles", "Cyclic Quadrilaterals"],
+      "topics": [
+        "Chord Properties",
+        "Arcs and Angles",
+        "Cyclic Quadrilaterals"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-09",
       "number": 9,
       "name": "Areas of Parallelograms and Triangles",
-      "topics": ["Area Theorems", "Triangles on Same Base"],
+      "topics": [
+        "Area Theorems",
+        "Triangles on Same Base"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-10",
       "number": 10,
       "name": "Surface Areas and Volumes",
-      "topics": ["Cuboid, Cube, Cylinder, Cone, Sphere"],
+      "topics": [
+        "Cuboid, Cube, Cylinder, Cone, Sphere"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-9-math-11",
       "number": 11,
       "name": "Statistics",
-      "topics": ["Mean, Median, Mode", "Histograms", "Frequency Polygons"],
+      "topics": [
+        "Mean, Median, Mode",
+        "Histograms",
+        "Frequency Polygons"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-9-math-12",
       "number": 12,
       "name": "Coordinate Geometry",
-      "topics": ["Coordinate Plane", "Plotting Points"],
+      "topics": [
+        "Coordinate Plane",
+        "Plotting Points"
+      ],
       "enhancement": "AI Technology"
     }
   ]

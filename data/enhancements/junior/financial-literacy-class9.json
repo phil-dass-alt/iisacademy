@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-finlit-class9",
   "title": "Mathematics → Financial Literacy: Class 9",
   "wing": "junior",
   "class": 9,
   "enhancementTag": "Financial Literacy",
-  "subjects": ["Mathematics"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Mathematics"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "Class 9 mathematics introduces you to probability, statistics, and linear equations — powerful tools that professional analysts, insurers, and economists use daily. Let's see how your classroom math connects to real financial decision-making.",
     "sections": [
@@ -44,7 +54,11 @@
         "Calculate what % each category is of total income",
         "Identify top 3 categories — could any be reduced?"
       ],
-      "mathFormulas": ["Mean = (x₁+x₂+...+xₙ)/n", "Probability P(A) = favourable outcomes / total outcomes", "Break-even: Fixed Cost = (Revenue per unit) × x"],
+      "mathFormulas": [
+        "Mean = (x₁+x₂+...+xₙ)/n",
+        "Probability P(A) = favourable outcomes / total outcomes",
+        "Break-even: Fixed Cost = (Revenue per unit) × x"
+      ],
       "realWorldSkill": "Financial Planning",
       "difficulty": "medium"
     },

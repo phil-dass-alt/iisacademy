@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "ka-9-sci-aitech-q1",
+  "title": "Science + AI Technology: Class 9 — Karnataka State Board",
+  "subject": "Science",
+  "board": "karnataka",
+  "class": 9,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "ISRO's Mangalyaan Mars Orbiter was launched from Sriharikota, Karnataka's space gateway. If the rocket had a mass of 1,350 kg and needed to reach escape velocity of 11.2 km/s from Earth's surface (g = 9.8 m/s²), what concept from your motion chapter helps calculate the rocket's acceleration during launch?",
+      "options": [
+        { "id": "a", "text": "Newton's Second Law: F = ma — thrust force divided by mass gives acceleration" },
+        { "id": "b", "text": "Speed formula: s = d/t — measuring distance covered" },
+        { "id": "c", "text": "Archimedes' Principle — buoyancy in air" },
+        { "id": "d", "text": "Ohm's Law — electrical thrust calculation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Rocket acceleration a = F_net/m = (Thrust - Weight)/Mass. For PSLV-C25 (Mangalyaan rocket), the first-stage thrust was 4,800 kN. Net upward force = 4,800,000 - (1,350 × 9.8) = 4,786,770 N. a = 4,786,770/1,350 ≈ 3,546 m/s². Your Newton's Second Law (Chapter on Force and Motion) is literally what ISRO engineers calculate at every millisecond of launch.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Force and Motion",
+      "board": "karnataka",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q2",
+      "text": "Infosys and Wipro, both headquartered in Bengaluru, use AI to process millions of data points. AI models fundamentally process information as atoms and molecules process matter — through defined rules. Which property of matter studied in Class 9 directly parallels how AI 'atoms' (transistors) behave?",
+      "options": [
+        { "id": "a", "text": "Physical property: state of matter — transistors switch between solid and liquid states" },
+        { "id": "b", "text": "Chemical property: reactivity — transistors react with electricity" },
+        { "id": "c", "text": "Physical property: conductivity — transistors switch between conducting and non-conducting states (on/off = 1/0 in binary)" },
+        { "id": "d", "text": "Mixture separation — AI separates data like filtration separates mixtures" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A transistor is a semiconductor switch. It conducts electricity (like a metal) when voltage is applied, and stops conducting (like an insulator) when voltage is removed. This binary on/off corresponds to 1/0 in digital computing. Your Matter chapter (Is Matter Around Us Pure?) covers conductors, insulators, and solutions — the same materials science that underlies every chip made at TSMC for Infosys's AI servers.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Is Matter Around Us Pure?",
+      "board": "karnataka",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q3",
+      "text": "A Bengaluru tech company's AI camera uses sound sensors (ultrasonic) to measure distance — similar to bats (echolocation). A sound pulse is emitted and returns in 0.04 seconds. Speed of sound = 340 m/s. What is the distance to the object?",
+      "options": [
+        { "id": "a", "text": "6.8 m — (340 × 0.04) / 2 = distance to object" },
+        { "id": "b", "text": "13.6 m — total path length, not accounting for return trip" },
+        { "id": "c", "text": "3.4 m — using half speed of sound" },
+        { "id": "d", "text": "17 m — (340 × 0.1) / 2 with incorrect time" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Distance = Speed × Time / 2 = 340 × 0.04 / 2 = 6.8 m. Division by 2 because sound travels to the object AND back. This is exactly how ultrasonic parking sensors in cars work (the beeping sound that increases as you approach a wall). Robotics companies in Bengaluru's Electronic City use ultrasonic sensors based on your Sound chapter — echolocation is industrial sensing!",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Sound",
+      "board": "karnataka",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q4",
+      "text": "Nanotechnology, developed by scientists like those at IISc Bengaluru, works at the atomic scale (1-100 nanometers). If a carbon nanotube has a diameter of 1 nm and a water molecule has a diameter of 0.3 nm, how many water molecules can fit across the nanotube diameter, and why does the Atomic Theory (Class 9) make nanotech possible?",
+      "options": [
+        { "id": "a", "text": "~3 molecules; Dalton's Atomic Theory established that matter is made of discrete atoms, making atomic-scale engineering possible" },
+        { "id": "b", "text": "10 molecules; atoms are much smaller than 0.1 nm" },
+        { "id": "c", "text": "1 molecule; water molecules are larger than nanotubes" },
+        { "id": "d", "text": "100 molecules; nanometers are larger than molecules" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 nm / 0.3 nm ≈ 3.3 ≈ 3 molecules. Dalton's Atomic Theory (your Chapter 3: Atoms and Molecules) established that matter consists of indivisible atoms with definite masses — making it possible to engineer at the atomic scale. IISc Bengaluru's Centre for Nano Science and Engineering works on carbon nanotube transistors for next-gen AI chips. Your Atomic Theory is the conceptual foundation of nanotech.",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Atoms and Molecules",
+      "board": "karnataka",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q5",
+      "text": "An AI health-monitoring wristband developed by a Bengaluru startup monitors heart rate using a photo-sensor (photoplethysmography — PPG). It detects light absorption changes caused by blood flow. This technology connects which two Class 9 science topics?",
+      "options": [
+        { "id": "a", "text": "Gravitation and Sound — heart beats create sound and gravity affects blood flow" },
+        { "id": "b", "text": "Light (absorption/reflection) and Biology (circulatory system/tissues) — PPG uses light to detect blood volume changes in living tissue" },
+        { "id": "c", "text": "Chemical reactions and electricity — blood conducts electricity to the sensor" },
+        { "id": "d", "text": "Motion and Matter — blood particles are in motion through matter" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "PPG sensors shine green LED light into the skin. Blood absorbs more green light when pulse increases blood volume. The sensor detects this absorption change. This uses: (1) Physics — light absorption by matter (your Chapter on Light), (2) Biology — circulatory system, heart rate, blood (your Chapter on Tissues/Life Processes). Bengaluru startup Niramai uses similar multi-spectral light analysis for early breast cancer detection — merging your Class 9 physics and biology!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Light and Tissues",
+      "board": "karnataka",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "ka-8-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: Class 8 — Karnataka State Board",
+  "subject": "Mathematics",
+  "board": "karnataka",
+  "class": 8,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A Bengaluru street vendor buys mangoes at ₹60 per dozen and sells them at ₹7 per mango. What is his profit percentage per dozen?",
+      "options": [
+        { "id": "a", "text": "40% — using (SP-CP)/CP × 100" },
+        { "id": "b", "text": "16.67% — profit divided by SP" },
+        { "id": "c", "text": "7% — profit in rupees" },
+        { "id": "d", "text": "25% — rounded estimate" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SP per dozen = 7 × 12 = ₹84. CP = ₹60. Profit = ₹24. Profit% = (24/60) × 100 = 40%. Every small business in Karnataka — from Mysuru flower vendors to Mangaluru fish sellers — uses this exact profit margin calculation. Your Chapter on Profit and Loss (Commercial Arithmetic) IS business accounting.",
+      "difficulty": "easy",
+      "subject": "Mathematics",
+      "chapter": "Commercial Arithmetic",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "Karnataka's KSRTC bus fare from Bengaluru to Mysuru increased by 12% after a fuel hike, and then again by 8% due to infrastructure levy. If the original fare was ₹250, what is the final fare?",
+      "options": [
+        { "id": "a", "text": "₹302.40 — successive percentage increases compounded" },
+        { "id": "b", "text": "₹300 — simple addition of 12 + 8 = 20%" },
+        { "id": "c", "text": "₹295 — only the larger increase applied" },
+        { "id": "d", "text": "₹310 — rounding up both increases" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "After 12% increase: ₹250 × 1.12 = ₹280. After 8% increase on ₹280: ₹280 × 1.08 = ₹302.40. Successive percentage changes require compound calculation — not simple addition. This is why petrol price hikes and tax-on-tax (like GST on already-taxed goods) use this compounding principle from your Percentage chapter.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Percentage",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q3",
+      "text": "A Dharwad farmer deposits ₹25,000 in a Grameen Bank account at 5% simple interest per annum. After how many years will his amount become ₹31,250?",
+      "options": [
+        { "id": "a", "text": "5 years — using SI formula T = (SI × 100) / (P × R)" },
+        { "id": "b", "text": "3 years — dividing interest by rate only" },
+        { "id": "c", "text": "6.25 years — incorrect formula application" },
+        { "id": "d", "text": "4 years — rough estimate" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SI = Amount - Principal = ₹31,250 - ₹25,000 = ₹6,250. T = (SI × 100) / (P × R) = (6250 × 100) / (25000 × 5) = 625000/125000 = 5 years. Grameen banks and Self Help Groups (SHGs) in Karnataka's rural areas — especially Bellary, Bidar, Kalaburagi districts — use simple interest for micro-loans. Your SI formula directly helps rural families evaluate loan terms.",
+      "difficulty": "easy",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q4",
+      "text": "A textile mill in Hubballi gives workers a dearness allowance (DA) that is 35% of their basic salary. If a worker's basic salary is ₹12,000/month, and they pay 10% as PF (Provident Fund) on the total salary (basic + DA), what is their monthly PF contribution?",
+      "options": [
+        { "id": "a", "text": "₹1,620 — 10% of (₹12,000 + ₹4,200)" },
+        { "id": "b", "text": "₹1,200 — 10% of basic salary only" },
+        { "id": "c", "text": "₹420 — 10% of DA only" },
+        { "id": "d", "text": "₹2,000 — estimated monthly saving" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "DA = 35% of ₹12,000 = ₹4,200. Total salary = ₹12,000 + ₹4,200 = ₹16,200. PF = 10% of ₹16,200 = ₹1,620/month. PF is a retirement savings scheme — your employer also contributes 12%. Over 30 years of work, with compound interest at ~8.1% p.a. (EPFO rate 2024), your ₹1,620/month becomes approximately ₹27 lakh! Understanding your salary slip requires your Percentage chapter.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Percentage",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q5",
+      "text": "Karnataka's crop insurance scheme (PM-FASAL BIMA) charges a premium of 2% of the sum insured. A Vijayapura farmer insures his groundnut crop for ₹80,000. If his actual loss is ₹65,000, what is his net recovery after paying the premium?",
+      "options": [
+        { "id": "a", "text": "₹63,400 — loss minus premium (₹65,000 - ₹1,600)" },
+        { "id": "b", "text": "₹65,000 — full loss recovered" },
+        { "id": "c", "text": "₹78,400 — sum insured minus premium" },
+        { "id": "d", "text": "₹60,000 — approximate recovery" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Premium = 2% of ₹80,000 = ₹1,600. Claim = ₹65,000 (actual loss, within sum insured). Net recovery = ₹65,000 - ₹1,600 = ₹63,400. Crop insurance is critical for Karnataka farmers (especially in drought-prone Kalaburagi, Raichur, Vijayapura districts). Your Percentage and Profit-Loss chapters help farmers evaluate whether insurance is worth buying — a life-changing financial decision!",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Commercial Arithmetic",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

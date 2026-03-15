@@ -1,6 +1,7 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "kl-9-sci-aitech-q1",
-  "title": "Science + AI Technology: Kerala Class 9 \u2014 Gravitation and Motion",
+  "title": "Science + AI Technology: Kerala Class 9 — Gravitation and Motion",
   "subject": "Science",
   "board": "kerala",
   "class": 9,
@@ -8,7 +9,7 @@
   "questions": [
     {
       "id": "q1",
-      "text": "ISRO's Chandrayaan-3 orbited the Moon at altitude 100 km. Moon's surface gravity = 1.62 m/s\u00b2. Approximately what orbital speed was needed? (Hint: use orbital mechanics concept that centripetal acceleration = gravity)",
+      "text": "ISRO's Chandrayaan-3 orbited the Moon at altitude 100 km. Moon's surface gravity = 1.62 m/s². Approximately what orbital speed was needed? (Hint: use orbital mechanics concept that centripetal acceleration = gravity)",
       "options": [
         {
           "id": "a",
@@ -28,7 +29,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "At orbit altitude h, centripetal acceleration = g_surface \u00d7 (R/(R+h))\u00b2. Moon R=1737 km. At 100km: g_orbit \u2248 1.62 \u00d7 (1737/1837)\u00b2 \u2248 1.45 m/s\u00b2. v = \u221a(g_orbit \u00d7 (R+h)) = \u221a(1.45 \u00d7 1837000) \u2248 1633 m/s. Your gravitation chapter guided Chandrayaan-3 to the Moon's south pole \u2014 a world first!",
+      "explanation": "At orbit altitude h, centripetal acceleration = g_surface × (R/(R+h))². Moon R=1737 km. At 100km: g_orbit ≈ 1.62 × (1737/1837)² ≈ 1.45 m/s². v = √(g_orbit × (R+h)) = √(1.45 × 1837000) ≈ 1633 m/s. Your gravitation chapter guided Chandrayaan-3 to the Moon's south pole — a world first!",
       "difficulty": "hard",
       "subject": "Science",
       "chapter": "Gravitation",

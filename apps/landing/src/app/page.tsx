@@ -12,10 +12,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">IIS</span>
-              </div>
-              <span className="font-bold text-gray-900">IIS Academy</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/IISA_logo.png" alt="IIS Academy" className="h-9 w-auto" />
             </div>
             <div className="hidden md:flex items-center gap-6">
               <a href="#features" className="text-sm text-gray-600 hover:text-gray-900">Features</a>
@@ -56,10 +54,8 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">IIS</span>
-                </div>
-                <span className="font-bold text-white">IIS Academy</span>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/IISA_logo.png" alt="IIS Academy" className="h-8 w-auto" />
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Intelligence Age Enhancement Layer for Indian students. AI-powered learning for Classes 8–12.
@@ -88,10 +84,10 @@ export default function LandingPage() {
             <div>
               <h3 className="font-semibold text-white mb-4">Legal</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white">Refund Policy</a></li>
-                <li><a href="#" className="hover:text-white">Contact Us</a></li>
+                <li><a href="/legal/terms" className="hover:text-white">Privacy Policy</a></li>
+                <li><a href="/legal/terms" className="hover:text-white">Terms of Service</a></li>
+                <li><a href="/legal/terms" className="hover:text-white">Refund Policy</a></li>
+                <li><a href="mailto:support@iisacademy.com" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
           </div>

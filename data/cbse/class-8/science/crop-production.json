@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "cbse-8-sci-crop-production",
   "title": "Crop Production and Management",
   "subject": "Science",
@@ -38,7 +39,13 @@
     "practicalAddon": {
       "title": "Build a Soil Moisture Sensor Circuit",
       "difficulty": "beginner",
-      "materials": ["Arduino Uno or NodeMCU board", "Capacitive soil moisture sensor module", "Jumper wires", "USB cable", "A small pot with soil"],
+      "materials": [
+        "Arduino Uno or NodeMCU board",
+        "Capacitive soil moisture sensor module",
+        "Jumper wires",
+        "USB cable",
+        "A small pot with soil"
+      ],
       "steps": [
         "Connect the sensor's VCC to the 3.3V pin on your NodeMCU and GND to GND.",
         "Connect the sensor's AOUT (analog out) to pin A0 on NodeMCU.",
@@ -64,10 +71,22 @@
         "id": "q1",
         "text": "Which traditional method of irrigation involves a chain pump?",
         "options": [
-          { "id": "a", "text": "Drip System" },
-          { "id": "b", "text": "Rahat" },
-          { "id": "c", "text": "Moat (Pulley system)" },
-          { "id": "d", "text": "Sprinkler System" }
+          {
+            "id": "a",
+            "text": "Drip System"
+          },
+          {
+            "id": "b",
+            "text": "Rahat"
+          },
+          {
+            "id": "c",
+            "text": "Moat (Pulley system)"
+          },
+          {
+            "id": "d",
+            "text": "Sprinkler System"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "The 'Rahat' (also called 'Persian Wheel') uses a chain of pots attached to a wheel driven by animals or motorized power to lift water from wells.",
@@ -81,10 +100,22 @@
         "id": "q2",
         "text": "In modern 'Smart Farming,' what does an IoT sensor primarily measure in the soil to control irrigation?",
         "options": [
-          { "id": "a", "text": "Color of the soil" },
-          { "id": "b", "text": "Nitrogen and Moisture levels" },
-          { "id": "c", "text": "The height of the plant" },
-          { "id": "d", "text": "The weight of the earth" }
+          {
+            "id": "a",
+            "text": "Color of the soil"
+          },
+          {
+            "id": "b",
+            "text": "Nitrogen and Moisture levels"
+          },
+          {
+            "id": "c",
+            "text": "The height of the plant"
+          },
+          {
+            "id": "d",
+            "text": "The weight of the earth"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "IoT soil sensors measure moisture levels (and sometimes NPK – Nitrogen, Phosphorus, Potassium) to help AI agents decide exactly when and how much to irrigate, replacing manual guesswork.",
@@ -98,10 +129,22 @@
         "id": "q3",
         "text": "A GPS-guided seed drill stores the GPS coordinates of every seed planted. What can an AI agent do with this data later in the season?",
         "options": [
-          { "id": "a", "text": "Delete the coordinates to save storage" },
-          { "id": "b", "text": "Correlate germination rate at each coordinate with soil data to identify problem zones" },
-          { "id": "c", "text": "Use the coordinates to set the tractor speed only" },
-          { "id": "d", "text": "Print a map for decorating the farmhouse" }
+          {
+            "id": "a",
+            "text": "Delete the coordinates to save storage"
+          },
+          {
+            "id": "b",
+            "text": "Correlate germination rate at each coordinate with soil data to identify problem zones"
+          },
+          {
+            "id": "c",
+            "text": "Use the coordinates to set the tractor speed only"
+          },
+          {
+            "id": "d",
+            "text": "Print a map for decorating the farmhouse"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "GPS + soil data + germination records form a feedback loop. The AI agent identifies which micro-zones underperformed and recommends targeted fertilization or irrigation for the next planting cycle.",
@@ -115,10 +158,22 @@
         "id": "q4",
         "text": "Drones used in Precision Agriculture use cameras that capture 'near-infrared' images. Why can't a regular smartphone camera detect early crop stress?",
         "options": [
-          { "id": "a", "text": "Smartphone cameras are too small" },
-          { "id": "b", "text": "Smartphone cameras only capture visible light; stressed plants show changes in near-infrared bands before visual symptoms appear" },
-          { "id": "c", "text": "Drones fly too high for smartphones to match" },
-          { "id": "d", "text": "Early crop stress is invisible from the sky" }
+          {
+            "id": "a",
+            "text": "Smartphone cameras are too small"
+          },
+          {
+            "id": "b",
+            "text": "Smartphone cameras only capture visible light; stressed plants show changes in near-infrared bands before visual symptoms appear"
+          },
+          {
+            "id": "c",
+            "text": "Drones fly too high for smartphones to match"
+          },
+          {
+            "id": "d",
+            "text": "Early crop stress is invisible from the sky"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "Healthy plants reflect near-infrared light strongly (invisible to human eyes). When stressed, this reflectance drops. Multispectral drone cameras detect this change days before visible yellowing or wilting—an 'early warning system' powered by physics and AI.",
@@ -132,10 +187,22 @@
         "id": "q5",
         "text": "By using AI-targeted pesticide spraying (only on affected zones detected by drone), a farmer reduces pesticide use by approximately 60%. Apart from cost savings, what is the most important environmental benefit?",
         "options": [
-          { "id": "a", "text": "The drone flies faster" },
-          { "id": "b", "text": "Less chemical runoff into water bodies, protecting soil microbiome and aquatic life" },
-          { "id": "c", "text": "The crops grow taller" },
-          { "id": "d", "text": "The soil becomes harder" }
+          {
+            "id": "a",
+            "text": "The drone flies faster"
+          },
+          {
+            "id": "b",
+            "text": "Less chemical runoff into water bodies, protecting soil microbiome and aquatic life"
+          },
+          {
+            "id": "c",
+            "text": "The crops grow taller"
+          },
+          {
+            "id": "d",
+            "text": "The soil becomes harder"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "Excess pesticides run off into rivers and groundwater, harming aquatic ecosystems and entering the food chain. Precision AI spraying reduces this chemical pollution dramatically—connecting your lesson on 'Pollution of Air and Water' (Chapter 18) to Precision Agriculture.",

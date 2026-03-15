@@ -1,0 +1,69 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "kseab-10-sci-electricity-ai",
+  "title": "Electricity — AI Chips and Smart Grid",
+  "subject": "Science",
+  "chapter": "Electricity",
+  "chapterNumber": 12,
+  "board": "kseab",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "AI Hardware & Karnataka's Smart Grid",
+    "tagline": "From Ohm's Law to AI chips: how your Class 10 electricity chapter powers the intelligence age"
+  },
+  "lesson": {
+    "officialFocus": "Electric current, potential difference, Ohm's Law (V = IR), resistance in series and parallel, heating effect of electric current (H = I²Rt), electric power (P = VI), commercial unit of energy (kWh).",
+    "introduction": "Karnataka's Bengaluru hosts the most AI startups in India — Infosys, Wipro, Flipkart, Swiggy, and hundreds of others. Every AI server, every smartphone, every smart meter — all run on the principles from your Class 10 Electricity chapter. Ohm's Law (V = IR) is not a board exam formula; it is the physics inside every transistor in every AI chip on earth.",
+    "sections": [
+      {
+        "title": "Ohm's Law → Transistors and AI Logic Gates",
+        "officialConcept": "Ohm's Law: V = IR. Current through a conductor is proportional to the voltage across it (at constant temperature). Resistance (R) opposes current flow.",
+        "aiEnhancement": "A transistor is a voltage-controlled resistor. When base voltage is low (< 0.7V), transistor resistance is extremely high — no current flows (state = 0, binary 'off'). When base voltage is high (> 0.7V), resistance drops to near zero — current flows freely (state = 1, binary 'on'). NVIDIA's H100 GPU has 80 billion such transistors, each switching between two Ohm's Law states billions of times per second. This is how AI processes data — billions of V = IR calculations happening simultaneously.",
+        "keyInsight": "Every 'thought' an AI has is billions of transistors switching between two Ohm's Law states."
+      },
+      {
+        "title": "Series and Parallel Circuits → Computer Memory and Processing",
+        "officialConcept": "In series circuits: total resistance = sum of individual resistances (R_total = R₁ + R₂ + ...). In parallel circuits: 1/R_total = 1/R₁ + 1/R₂ + ... Parallel circuits have lower total resistance.",
+        "aiEnhancement": "Computer RAM (memory) uses parallel circuit arrays. Each memory cell (a capacitor + transistor) is accessed in parallel — allowing thousands of cells to be read simultaneously. This is why parallel circuits have lower resistance: more paths for current = faster data access. CPU cache memory uses specific series-parallel combinations to balance speed and power consumption. Your series-parallel resistance chapter IS computer memory architecture.",
+        "keyInsight": "Parallel memory arrays give computers fast access because parallel circuits reduce total resistance — your textbook formula applied."
+      },
+      {
+        "title": "Heating Effect of Current → Thermal Management in AI Data Centres",
+        "officialConcept": "Heat produced by electric current: H = I²Rt (Joule's Law of Heating). More current, more resistance, or longer time = more heat.",
+        "aiEnhancement": "Bengaluru's Yeshwantpur houses several data centres (AWS, Google Cloud, Microsoft Azure). Each server rack generates 20-40 kW of heat from H = I²Rt. Data centre engineers must remove this heat using liquid cooling systems. When ChatGPT processes your query, the GPUs doing the computation heat up significantly — Joule heating is why AI data centres consume enormous energy and require advanced cooling. India's data centre industry must solve H = I²Rt at national scale.",
+        "keyInsight": "AI data centres are giant Joule heating problems — solved by your Class 10 formula H = I²Rt."
+      },
+      {
+        "title": "Power and kWh → Smart Meters and Karnataka Smart Grid",
+        "officialConcept": "Electric Power P = VI = I²R = V²/R (watts). Commercial unit of electricity = 1 kWh = 1 unit = energy consumed by a 1 kW device in 1 hour.",
+        "aiEnhancement": "Karnataka's BESCOM (Bengaluru Electric Supply Company) is deploying 6 million smart meters across Bengaluru. Each smart meter uses microprocessors (AI chips) to measure your power consumption (P = VI) every 15 minutes and transmit data wirelessly. The meter calculates your bill in kWh using the same formula from your chapter. BESCOM's AI system analyses consumption patterns to predict grid load — preventing outages. Your electricity chapter is the foundation of Karnataka's ₹2,000-crore smart grid project.",
+        "keyInsight": "BESCOM's smart meters measure P = VI and bill in kWh — your Class 10 textbook formulas run Karnataka's power grid."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Calculate Your Household Electricity Bill",
+      "description": "Identify all electrical appliances at home. Use P = VI (or the rated wattage on the label) to calculate each device's power consumption. Estimate daily usage hours. Calculate monthly consumption in kWh. Compare to your actual BESCOM bill.",
+      "components": ["Paper and pencil", "Calculator", "Your household electricity bill (BESCOM bill)"],
+      "steps": [
+        "List all appliances: ceiling fan (75W), LED bulb (9W), TV (100W), refrigerator (150W average), washing machine (500W)",
+        "Estimate daily usage: fan — 8 hrs, bulbs — 5 hrs, TV — 3 hrs, fridge — 24 hrs, washing machine — 1 hr",
+        "Calculate daily energy: Energy (kWh) = Power (kW) × Time (h)",
+        "Sum all appliances for total daily kWh",
+        "Multiply by 30 for monthly consumption",
+        "Multiply by ₹6.50/unit (Karnataka domestic tariff) for estimated bill",
+        "Compare to your actual bill — the difference may be 'vampire power' (standby consumption)"
+      ],
+      "scienceConnection": "P = VI (Power chapter), E = Pt in kWh (Commercial unit of energy), Series/Parallel connections in household wiring.",
+      "difficulty": "easy",
+      "estimatedCost": "₹0 — calculation exercise"
+    },
+    "agenticChallenge": {
+      "title": "Design an Energy-Saving Smart Home",
+      "description": "Using a spreadsheet or paper, design a 'smart home' schedule that minimises electricity consumption. Use time-of-use pricing (BESCOM charges less at night): ₹4/unit from 10 PM to 6 AM, ₹7/unit from 6 AM to 10 PM. Calculate how much you save by running the washing machine at night.",
+      "hint": "Washing machine: 500W for 1 hour = 0.5 kWh. Day rate: ₹3.50 saved per cycle. Monthly: ₹3.50 × 30 = ₹105 saved. Multiply by all time-shiftable appliances. This is peak-load management — what BESCOM's AI does at grid scale.",
+      "difficulty": "easy"
+    }
+  }
+}

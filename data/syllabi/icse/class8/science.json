@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "icse",
   "class": 8,
   "subject": "Science",
@@ -7,126 +8,211 @@
       "id": "icse-8-sci-01",
       "number": 1,
       "name": "Matter",
-      "topics": ["States of Matter", "Interconversion of States", "Plasma and BEC", "Evaporation"],
+      "topics": [
+        "States of Matter",
+        "Interconversion of States",
+        "Plasma and BEC",
+        "Evaporation"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-8-sci-02",
       "number": 2,
       "name": "Physical and Chemical Changes",
-      "topics": ["Physical Changes", "Chemical Changes", "Reversible and Irreversible Changes"],
+      "topics": [
+        "Physical Changes",
+        "Chemical Changes",
+        "Reversible and Irreversible Changes"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-8-sci-03",
       "number": 3,
       "name": "Elements, Compounds and Mixtures",
-      "topics": ["Elements", "Compounds", "Mixtures", "Separation Techniques"],
+      "topics": [
+        "Elements",
+        "Compounds",
+        "Mixtures",
+        "Separation Techniques"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-8-sci-04",
       "number": 4,
       "name": "Atomic Structure",
-      "topics": ["Atomic Number and Mass Number", "Electronic Configuration", "Valency", "Isotopes"],
+      "topics": [
+        "Atomic Number and Mass Number",
+        "Electronic Configuration",
+        "Valency",
+        "Isotopes"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-05",
       "number": 5,
       "name": "Language of Chemistry",
-      "topics": ["Symbols and Formulae", "Valency", "Chemical Equations"],
+      "topics": [
+        "Symbols and Formulae",
+        "Valency",
+        "Chemical Equations"
+      ],
       "enhancement": null
     },
     {
       "id": "icse-8-sci-06",
       "number": 6,
       "name": "Hydrogen",
-      "topics": ["Properties of Hydrogen", "Preparation and Uses", "Reactivity"],
+      "topics": [
+        "Properties of Hydrogen",
+        "Preparation and Uses",
+        "Reactivity"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-8-sci-07",
       "number": 7,
       "name": "Water",
-      "topics": ["Properties of Water", "Hard and Soft Water", "Water Purification", "Water Conservation"],
+      "topics": [
+        "Properties of Water",
+        "Hard and Soft Water",
+        "Water Purification",
+        "Water Conservation"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-8-sci-08",
       "number": 8,
       "name": "Carbon and Its Compounds",
-      "topics": ["Allotropes of Carbon", "Organic Compounds Basics", "Fuels and Combustion"],
+      "topics": [
+        "Allotropes of Carbon",
+        "Organic Compounds Basics",
+        "Fuels and Combustion"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-8-sci-09",
       "number": 9,
       "name": "Metals and Non-Metals",
-      "topics": ["Properties of Metals and Non-Metals", "Reactions of Metals", "Uses"],
+      "topics": [
+        "Properties of Metals and Non-Metals",
+        "Reactions of Metals",
+        "Uses"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-8-sci-10",
       "number": 10,
       "name": "Force and Pressure",
-      "topics": ["Types of Forces", "Newton's Laws (Introduction)", "Pressure", "Hydraulics"],
+      "topics": [
+        "Types of Forces",
+        "Newton's Laws (Introduction)",
+        "Pressure",
+        "Hydraulics"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-11",
       "number": 11,
       "name": "Work and Energy",
-      "topics": ["Work", "Energy Forms", "Kinetic and Potential Energy", "Energy Conservation"],
+      "topics": [
+        "Work",
+        "Energy Forms",
+        "Kinetic and Potential Energy",
+        "Energy Conservation"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-8-sci-12",
       "number": 12,
       "name": "Light Energy",
-      "topics": ["Reflection", "Laws of Reflection", "Refraction", "Prisms"],
+      "topics": [
+        "Reflection",
+        "Laws of Reflection",
+        "Refraction",
+        "Prisms"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-13",
       "number": 13,
       "name": "Sound",
-      "topics": ["Sound Production", "Propagation", "Frequency and Amplitude", "Musical Instruments"],
+      "topics": [
+        "Sound Production",
+        "Propagation",
+        "Frequency and Amplitude",
+        "Musical Instruments"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-14",
       "number": 14,
       "name": "Electricity",
-      "topics": ["Electric Current", "Circuits", "Resistance", "Heating and Lighting Effects"],
+      "topics": [
+        "Electric Current",
+        "Circuits",
+        "Resistance",
+        "Heating and Lighting Effects"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-15",
       "number": 15,
       "name": "Magnetism",
-      "topics": ["Natural and Artificial Magnets", "Magnetic Field", "Electromagnetism"],
+      "topics": [
+        "Natural and Artificial Magnets",
+        "Magnetic Field",
+        "Electromagnetism"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-8-sci-16",
       "number": 16,
       "name": "Cell and its Functions",
-      "topics": ["Cell Discovery", "Cell Organelles", "Cell Division", "Prokaryotes vs Eukaryotes"],
+      "topics": [
+        "Cell Discovery",
+        "Cell Organelles",
+        "Cell Division",
+        "Prokaryotes vs Eukaryotes"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-8-sci-17",
       "number": 17,
       "name": "Ecosystems",
-      "topics": ["Components of Ecosystem", "Food Chains and Webs", "Energy Flow", "Biodiversity"],
+      "topics": [
+        "Components of Ecosystem",
+        "Food Chains and Webs",
+        "Energy Flow",
+        "Biodiversity"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-8-sci-18",
       "number": 18,
       "name": "Pollution",
-      "topics": ["Air Pollution", "Water Pollution", "Soil Pollution", "Noise Pollution", "Remedies"],
+      "topics": [
+        "Air Pollution",
+        "Water Pollution",
+        "Soil Pollution",
+        "Noise Pollution",
+        "Remedies"
+      ],
       "enhancement": "Climate Technology"
     }
   ]

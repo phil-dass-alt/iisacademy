@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "kseab-8-sci-world-of-sounds",
   "title": "World of Sounds",
   "subject": "Science",
@@ -38,7 +39,10 @@
     "practicalAddon": {
       "title": "Visualize Your Voice: Free Spectrogram App",
       "difficulty": "beginner",
-      "materials": ["Smartphone (Android or iOS)", "Free app: 'Spectroid' or 'SpectrumView'"],
+      "materials": [
+        "Smartphone (Android or iOS)",
+        "Free app: 'Spectroid' or 'SpectrumView'"
+      ],
       "steps": [
         "Download the free app 'Spectroid' (Android) or 'SpectrumView' (iOS) on your smartphone.",
         "Open the app and observe the real-time spectrogram of ambient sounds in your room.",
@@ -65,10 +69,22 @@
         "id": "q1",
         "text": "Sound travels fastest through which of the following?",
         "options": [
-          { "id": "a", "text": "Air" },
-          { "id": "b", "text": "Water" },
-          { "id": "c", "text": "Steel rod" },
-          { "id": "d", "text": "Vacuum" }
+          {
+            "id": "a",
+            "text": "Air"
+          },
+          {
+            "id": "b",
+            "text": "Water"
+          },
+          {
+            "id": "c",
+            "text": "Steel rod"
+          },
+          {
+            "id": "d",
+            "text": "Vacuum"
+          }
         ],
         "correctOptionId": "c",
         "explanation": "Sound speed depends on the elasticity and density of the medium. Solids like steel are highly elastic, so vibrations transfer rapidly. Speed in steel ≈ 5,120 m/s vs. air ≈ 343 m/s. Sound cannot travel in vacuum at all.",
@@ -82,10 +98,22 @@
         "id": "q2",
         "text": "Which part of the human ear vibrates first when sound waves enter?",
         "options": [
-          { "id": "a", "text": "Cochlea" },
-          { "id": "b", "text": "Eardrum (Tympanic Membrane)" },
-          { "id": "c", "text": "Auditory Nerve" },
-          { "id": "d", "text": "Pinna" }
+          {
+            "id": "a",
+            "text": "Cochlea"
+          },
+          {
+            "id": "b",
+            "text": "Eardrum (Tympanic Membrane)"
+          },
+          {
+            "id": "c",
+            "text": "Auditory Nerve"
+          },
+          {
+            "id": "d",
+            "text": "Pinna"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "Sound waves enter the outer ear (pinna), travel through the ear canal, and cause the eardrum (tympanic membrane) to vibrate. This mechanical vibration is then amplified by three small bones (hammer, anvil, stirrup) and transmitted to the cochlea.",
@@ -99,10 +127,22 @@
         "id": "q3",
         "text": "When you speak into a voice assistant microphone, the analog sound wave is converted into digital data. What is the component that performs this conversion called?",
         "options": [
-          { "id": "a", "text": "Digital-to-Analog Converter (DAC)" },
-          { "id": "b", "text": "Analog-to-Digital Converter (ADC)" },
-          { "id": "c", "text": "Fourier Transformer" },
-          { "id": "d", "text": "Amplifier" }
+          {
+            "id": "a",
+            "text": "Digital-to-Analog Converter (DAC)"
+          },
+          {
+            "id": "b",
+            "text": "Analog-to-Digital Converter (ADC)"
+          },
+          {
+            "id": "c",
+            "text": "Fourier Transformer"
+          },
+          {
+            "id": "d",
+            "text": "Amplifier"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "An ADC (Analog-to-Digital Converter) samples the continuous analog voltage from the microphone at thousands of times per second and represents each sample as a binary number. This is how sound becomes data that AI can process.",
@@ -116,10 +156,22 @@
         "id": "q4",
         "text": "Active Noise Cancelling (ANC) earphones work by creating an 'anti-noise' wave. What property of the anti-noise wave cancels the ambient sound?",
         "options": [
-          { "id": "a", "text": "Higher frequency than the ambient noise" },
-          { "id": "b", "text": "Same amplitude but shifted 180° (opposite phase) as the ambient noise" },
-          { "id": "c", "text": "Lower amplitude than the ambient noise" },
-          { "id": "d", "text": "The anti-noise wave absorbs sound energy as heat" }
+          {
+            "id": "a",
+            "text": "Higher frequency than the ambient noise"
+          },
+          {
+            "id": "b",
+            "text": "Same amplitude but shifted 180° (opposite phase) as the ambient noise"
+          },
+          {
+            "id": "c",
+            "text": "Lower amplitude than the ambient noise"
+          },
+          {
+            "id": "d",
+            "text": "The anti-noise wave absorbs sound energy as heat"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "Destructive interference: when two identical waves are exactly out of phase (one is 180° shifted), their peaks align with the other's troughs and they cancel out. ANC uses this principle—the anti-noise wave has the same amplitude but opposite phase, resulting in silence.",
@@ -133,10 +185,22 @@
         "id": "q5",
         "text": "A voice AI model in Kannada first breaks your spoken words into their basic sound units (e.g., 'ka', 'ta', 'pa'). What are these basic sound units in linguistics/speech AI called?",
         "options": [
-          { "id": "a", "text": "Decibels" },
-          { "id": "b", "text": "Hertz" },
-          { "id": "c", "text": "Phonemes" },
-          { "id": "d", "text": "Amplitudes" }
+          {
+            "id": "a",
+            "text": "Decibels"
+          },
+          {
+            "id": "b",
+            "text": "Hertz"
+          },
+          {
+            "id": "c",
+            "text": "Phonemes"
+          },
+          {
+            "id": "d",
+            "text": "Amplitudes"
+          }
         ],
         "correctOptionId": "c",
         "explanation": "Phonemes are the smallest units of sound that distinguish one word from another. Kannada has 49 phonemes. A speech AI model is trained to recognize the unique frequency pattern (spectrogram) of each phoneme across different speakers and accents.",
