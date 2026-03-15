@@ -90,6 +90,9 @@ importers:
       next:
         specifier: 15.2.9
         version: 15.2.9(react-dom@18.3.1)(react@18.3.1)
+      next-auth:
+        specifier: ^4.24.5
+        version: 4.24.13(next@15.2.9)(react-dom@18.3.1)(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -176,6 +179,9 @@ importers:
       next:
         specifier: 15.2.9
         version: 15.2.9(react-dom@18.3.1)(react@18.3.1)
+      next-auth:
+        specifier: ^4.24.5
+        version: 4.24.13(next@15.2.9)(react-dom@18.3.1)(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -213,6 +219,9 @@ importers:
       next:
         specifier: 15.2.9
         version: 15.2.9(react-dom@18.3.1)(react@18.3.1)
+      next-auth:
+        specifier: ^4.24.5
+        version: 4.24.13(next@15.2.9)(react-dom@18.3.1)(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -262,6 +271,9 @@ importers:
       next:
         specifier: 15.2.9
         version: 15.2.9(react-dom@18.3.1)(react@18.3.1)
+      next-auth:
+        specifier: ^4.24.5
+        version: 4.24.13(next@15.2.9)(react-dom@18.3.1)(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1

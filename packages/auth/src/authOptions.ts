@@ -42,6 +42,18 @@ export const authOptions: NextAuthOptions = {
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
+        // Check subscription status and embed in token so middleware can gate access.
+        // Allow bypass for testing/dev via BYPASS_SUBSCRIPTION_CHECK=true.
+        if (process.env.BYPASS_SUBSCRIPTION_CHECK === 'true') {
+          token.hasSubscription = true;
+        } else {
+          try {
+            const { checkActiveSubscription } = await import('./supabase');
+            token.hasSubscription = await checkActiveSubscription(user.id as string);
+          } catch {
+            token.hasSubscription = false;
+          }
+        }
       }
       return token;
     },
