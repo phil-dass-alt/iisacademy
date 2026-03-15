@@ -1,0 +1,165 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. IIS Academy only delivers supplementary content.",
+  "board": "tamil-nadu",
+  "class": 12,
+  "subject": "Biology",
+  "stream": "science",
+  "competitiveTargets": [
+    "NEET",
+    "AIIMS"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Reproduction in Organisms",
+      "summary": "Types of reproduction, asexual and sexual reproduction, lifecycle patterns.",
+      "topics": [
+        "Asexual Reproduction",
+        "Sexual Reproduction",
+        "Lifecycle",
+        "Reproductive Health"
+      ],
+      "enhancement": "Biotechnology & Reproductive Medicine",
+      "aiEnhancementLesson": {
+        "title": "Reproduction to IVF AI & Stem Cell Technology",
+        "content": "Board Level: Asexual (binary fission, budding, fragmentation, vegetative propagation) and sexual reproduction. Life cycle types (diplontic, haplontic, haplo-diplontic). NEET Focus: Types of asexual reproduction in different organisms, fertilisation types. Intelligence Age: India performs 300,000+ IVF procedures annually (Manipal Fertility, Nova IVF — headquartered in Bengaluru). AI embryo selection systems (Vitrolife's EmbryoScope) analyse embryo development using time-lapse imaging and machine learning — selecting the embryo with highest probability of successful implantation. This AI is trained on your reproduction chapter's cellular development stages. CRISPR gene editing (your biotechnology connection) can now correct genetic mutations in embryos — applying your knowledge of sexual reproduction and cell division.",
+        "practicalAddOn": "Observe vegetative propagation: root a rose cutting in water. Monitor root development over 2 weeks. Calculate growth rate (cm/day). Connect to biotechnology: explain how tissue culture (micropropagation) scales this to produce 10,000 identical plants from a single superior specimen — used in Karnataka's jasmine cultivation industry."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Which is NOT an asexual reproduction type?",
+          "options": [
+            "Binary fission in Amoeba",
+            "Budding in Hydra",
+            "Sporulation in Rhizopus",
+            "Fertilisation in fish"
+          ],
+          "answer": "D",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Fertilisation involves fusion of gametes (sexual). All others are asexual (no gamete fusion, offspring identical to parent).",
+            "incorrect": "Fertilisation = sexual reproduction. Binary fission, budding, sporulation = asexual (single parent, identical offspring).",
+            "intelligenceAgeHint": "In vitro fertilisation (IVF) is AI-assisted sexual reproduction — AI embryo selection algorithms increase success rates from 30% to 55% in Indian fertility clinics."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] In angiosperms, the type of life cycle is:",
+          "options": [
+            "Haplontic",
+            "Diplontic",
+            "Haplo-diplontic",
+            "Alternation without dominance"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Angiosperms (flowering plants) have a diplontic life cycle — dominant phase is diploid (2n), haploid gametophyte is represented by pollen and embryo sac only.",
+            "incorrect": "Angiosperms = diplontic. Dominant sporophyte (2n). Humans are also diplontic. Algae like Spirogyra = haplontic. Ferns = haplo-diplontic.",
+            "intelligenceAgeHint": "AI plant breeding programs (like Monsanto's DEKALB AI) work with diploid angiosperm genetics to breed disease-resistant crops — understanding ploidy levels is essential for crop biotechnology."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] AI embryo selection in IVF analyses time-lapse images. It scores embryos based on cell division timing — early evidence shows embryos dividing on day 5 (blastocyst stage) have 55% success vs 30% for day 3 (8-cell stage) transfers. This AI applies which biological principle?",
+          "options": [
+            "Photosynthesis rate",
+            "Correlation between developmental stage and viability",
+            "Meiosis timing",
+            "Cell wall composition"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! AI embryo selection uses developmental biology — embryos reaching blastocyst (day 5) stage have survived more cell divisions, indicating genomic competence. The AI learned this correlation from your reproduction and cell division chapters.",
+            "incorrect": "IVF AI selects embryos based on developmental stage correlation with viability — blastocysts (post-day 5 division) have self-selected for developmental competence. Your reproduction chapter's cell division stages are the AI's selection criteria.",
+            "intelligenceAgeHint": "Nova IVF, founded in Bengaluru, now uses AI-assisted embryo selection in 50+ clinics across India — improving success rates from 30% to 55% by applying developmental biology ML models trained on your Class 12 reproduction chapter."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET reproduction: distinguish asexual types by organism. Binary fission (Amoeba, bacteria), budding (Hydra, yeast), sporulation (Rhizopus), vegetative propagation (plants). Parthenogenesis = development from unfertilised egg.",
+        "mnemonicAgent": "BBSVF for asexual reproduction: Binary fission, Budding, Sporulation, Vegetative propagation, Fragmentation. 'BBSVF — Be Born Several Various Fragments' — five asexual reproduction methods."
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Genetics and Heredity",
+      "summary": "Mendel's laws, dihybrid cross, exceptions to Mendel, sex determination, chromosomal disorders.",
+      "topics": [
+        "Mendel's Laws",
+        "Monohybrid Cross",
+        "Dihybrid Cross",
+        "Incomplete Dominance",
+        "Sex Determination",
+        "Chromosomal Disorders"
+      ],
+      "enhancement": "AI Genomics & Genetic Testing",
+      "aiEnhancementLesson": {
+        "title": "Mendel's Laws to AI Genetic Counselling & CRISPR Gene Therapy",
+        "content": "Board Level: Mendel's laws (segregation, independent assortment), monohybrid 3:1 ratio, dihybrid 9:3:3:1, incomplete dominance, multiple alleles, sex-linked traits. NEET Focus: Exceptions to Mendel's laws, linkage, crossing over. Intelligence Age: Medgenome (Bengaluru), India's genetic testing company, uses AI to interpret genetic test results — applying your Mendelian ratios to calculate disease risk for future children. CRISPR-Cas9 gene editing (Nobel Prize 2020) edits specific genes identified using AI genomics. The AI first uses your Mendel concepts to identify which allele causes disease, then designs the CRISPR guide RNA to correct it. India's genome project (IGVDB, announced 2024) sequences 10,000 Indian genomes — AI analyses population genetics based on Mendelian inheritance patterns.",
+        "practicalAddOn": "Genetics problem: Two parents Aa × Aa (A=brown eyes dominant, a=blue eyes recessive). Draw Punnett square. Calculate: (1) Probability of blue-eyed child. (2) If couple has 4 children, expected number with blue eyes. (3) If genetic AI screens embryos for genotype, what % would parents select (only AA or Aa) vs reject (aa)? Is this ethical? Discuss."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "In a dihybrid cross AaBb × AaBb, the ratio of AABB genotype in offspring is:",
+          "options": [
+            "9/16",
+            "1/16",
+            "3/16",
+            "4/16"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! P(AA)=1/4, P(BB)=1/4. P(AABB)=1/4×1/4=1/16 (genes are independent, Mendel's second law).",
+            "incorrect": "By independent assortment: P(AA)=1/4 AND P(BB)=1/4. P(AABB)=1/4×1/4=1/16.",
+            "intelligenceAgeHint": "Genetic counselling AI uses this probability calculation to counsel couples on disease risk for autosomal recessive conditions — your Punnett square IS AI genetic counselling."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] In humans, colourblindness is X-linked recessive. A carrier mother (X^N X^n) × normal father (X^N Y). Probability of colourblind son:",
+          "options": [
+            "0%",
+            "25%",
+            "50%",
+            "100%"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Sons get Y from father. Mother gives X^N (50%) or X^n (50%). Colourblind son = X^n Y. Probability = 50% of sons = 50% of all children × 50% sons = 25% of all. But of SONS specifically: 50%.",
+            "incorrect": "Sons receive Y from father, X from mother. Mother is X^N X^n. Probability son gets X^n = 50%. Probability of colourblind SON = 50% of all sons.",
+            "intelligenceAgeHint": "AI genetic counselling at Medgenome Bengaluru calculates exactly this X-linked inheritance probability — helping couples understand risk before pregnancy, based on your sex-linked genetics chapter."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] CRISPR-AI identifies a pathogenic allele in exon 3 of BRCA1 gene (autosomal dominant — one bad allele = high cancer risk). If a cell is Aa (normal A, pathogenic a), the AI-guided CRISPR corrects a→A. After correction, what fraction of daughter cells (after 2 divisions) will still have the pathogenic allele if CRISPR corrected only one of the two chromatids?",
+          "options": [
+            "0%",
+            "25%",
+            "50%",
+            "75%"
+          ],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! If CRISPR corrects only one chromatid of 'a' chromosome (leaving sister chromatid uncorrected), after replication the cell is mosaic. After 2 divisions: 2/4 = 50% cells carry uncorrected 'a'.",
+            "incorrect": "CRISPR editing one chromatid: after S phase, one chromosome = A (corrected), one = a (uncorrected). After 2 divisions: 2 cells with A, 2 with a = 50% still pathogenic.",
+            "intelligenceAgeHint": "CRISPR-AI at CSIR-CCMB Hyderabad calculates edit efficiency by tracking what fraction of cells received the correction — your Mendelian genetics and cell division chapter together describe this precision medicine calculation."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET genetics: codominance (AB blood group), incomplete dominance (snapdragon flower). Multiple alleles (ABO blood group: I^A, I^B, i). Sex-linked inheritance — X-linked vs Y-linked. Chromosomal disorders (Down's syndrome = trisomy 21).",
+        "mnemonicAgent": "MIDST for Mendel's exceptions: Multiple alleles, Incomplete dominance, Dominance complete, Sex linkage, Threshold effect. 'MIDST the exceptions to Mendel's simple rules.'"
+      }
+    }
+  ]
+}

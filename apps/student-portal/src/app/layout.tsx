@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import Link from 'next/link';
+import Image from 'next/image';
 import './globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'IIS Academy – Student Portal',
@@ -12,40 +11,35 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 min-h-screen`}>
-        {/* Universal navigation bar */}
-        <nav
-          style={{
-            position: 'sticky',
-            top: 0,
-            zIndex: 50,
-            backgroundColor: '#fff',
-            borderBottom: '1px solid #e5e7eb',
-            boxShadow: '0 1px 3px rgba(0,0,0,0.06)',
-          }}
-        >
-          <div
-            style={{
-              maxWidth: '1280px',
-              margin: '0 auto',
-              padding: '0 1.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              height: '64px',
-            }}
-          >
-            <a href="/" aria-label="IIS Academy — Home" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/IISA_logo.png" alt="IIS Academy" style={{ height: '36px', width: 'auto' }} />
-            </a>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontSize: '0.875rem' }}>
-              <a href="/dashboard" style={{ color: '#4b5563', textDecoration: 'none' }}>Dashboard</a>
-              <a href="/api/auth/signout" style={{ color: '#6b7280', textDecoration: 'none' }}>Sign Out</a>
+      <body className="bg-gray-50 min-h-screen font-sans">
+        {/* Universal navigation bar — IISA_logo.png top-left */}
+        <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+          <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+            <Link href="/" aria-label="IIS Academy — Home" className="flex items-center">
+              <Image
+                src="/images/IISA_logo.png"
+                alt="IIS Academy"
+                width={120}
+                height={36}
+                style={{ height: '36px', width: 'auto' }}
+                priority
+              />
+            </Link>
+            <div className="flex items-center gap-4 text-sm">
+              <Link href="/" className="text-gray-600 hover:text-indigo-700 transition-colors">Dashboard</Link>
+              <Link href="/pricing" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors">₹5999 + GST</Link>
+              <Link href="/api/auth/signout" className="text-gray-500 hover:text-red-600 transition-colors">Sign Out</Link>
             </div>
           </div>
         </nav>
         {children}
+        {/* Footer legal disclaimer */}
+        <footer className="mt-16 border-t border-gray-200 bg-white py-6 px-4 text-center text-xs text-gray-400">
+          © IIS Academy {new Date().getFullYear()} ·{' '}
+          <Link href="/legal/terms" className="underline hover:text-gray-600">Terms &amp; Conditions</Link>
+          {' '}·{' '}
+          <span>© Textbook content belongs to respective board authorities. IIS Academy provides supplementary enhancement content only.</span>
+        </footer>
       </body>
     </html>
   );

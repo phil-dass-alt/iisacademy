@@ -1,0 +1,169 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. IIS Academy only delivers supplementary content.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Economics",
+  "stream": "commerce",
+  "competitiveTargets": [
+    "CA Foundation",
+    "CUET",
+    "NDA"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Macroeconomics: National Income",
+      "summary": "Circular flow, GDP, methods of calculation, economic growth and development, HDI.",
+      "topics": [
+        "Circular Flow",
+        "GDP Methods",
+        "Economic Growth",
+        "HDI",
+        "India's Economy"
+      ],
+      "enhancement": "India's $5 Trillion Economy AI",
+      "aiEnhancementLesson": {
+        "title": "GDP to India's Digital Economy & AI-Powered Growth Analysis",
+        "content": "Board Level: Circular flow of income, three methods of GDP (output, expenditure, income). Economic growth vs development. HDI = f(income, education, health). JEE/CA Bridge: Multiplier effect, Keynesian cross, government spending impact on GDP. Intelligence Age: India's $3.5 trillion GDP target tracking uses AI-powered high-frequency economic indicators — mobile payments, satellite imagery of factories, electricity consumption, railway freight — all feeding into 'nowcasting' models that estimate GDP months before official release. NITI Aayog's AI platform monitors India's 17 SDG goals in real-time. The digital economy's contribution is measured by RBI's AI payment monitoring system (UPI processes 10 billion transactions/month). Your macroeconomics chapter is the conceptual foundation of India's entire economic policy architecture.",
+        "practicalAddOn": "Analyse India's GDP composition: (1) Agriculture: ~17%, (2) Industry: ~28%, (3) Services: ~55%. Draw a pie chart. Now: what was India's GDP share for each sector in 2000 (Agriculture was ~25%, Services ~48%)? What trend do you observe? How does India's AI and IT sector growth change this composition?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The income method of calculating national income sums:",
+          "options": [
+            "Final goods and services values",
+            "Consumer spending + investment + government + NX",
+            "Wages + rent + interest + profit across all sectors",
+            "Value added at each production stage"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Income method: NI = Σ(Wages + Rent + Interest + Profit) across all production sectors. Also called 'factor cost' method.",
+            "incorrect": "Income method = sum of all factor incomes: wages (labour), rent (land), interest (capital), profit (entrepreneur). Expenditure method = C+I+G+NX. Output method = value added.",
+            "intelligenceAgeHint": "India's income tax AI (CBDT) uses real-time income data from employers (TDS) to estimate national income — your income method of GDP is implemented in India's tax technology infrastructure."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] Government spends ₹100 crore on infrastructure with MPC=0.8. Final increase in national income (multiplier effect) is:",
+          "options": [
+            "₹100 crore",
+            "₹500 crore",
+            "₹400 crore",
+            "₹800 crore"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Multiplier k=1/(1-MPC)=1/(1-0.8)=1/0.2=5. ΔY=k×ΔG=5×100=₹500 crore.",
+            "incorrect": "Keynesian multiplier k=1/(1-MPC)=1/0.2=5. ΔY=k×ΔG=5×100=₹500 crore. ₹100cr government spending generates ₹500cr of national income.",
+            "intelligenceAgeHint": "India's Union Budget AI models calculate the multiplier effect of every infrastructure spending announcement — NITI Aayog uses this to predict GDP impact of budget decisions."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] India's AI economy nowcasting model uses: electricity consumption up 8%, UPI transactions up 22%, railway freight up 6%, factory PMI=54. GDP growth estimate is approximately:",
+          "options": [
+            "6% (based on composite of high-frequency indicators)",
+            "22% (based on UPI growth)",
+            "8% (based on electricity)",
+            "Cannot determine"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! AI nowcasting uses weighted composite of high-frequency indicators. Electricity (proxy for industrial output), UPI (proxy for consumption), freight (proxy for trade), PMI (forward-looking indicator). Composite ≈ 6-7% GDP growth.",
+            "incorrect": "AI GDP nowcasting uses weighted average of multiple real-time indicators. No single indicator = GDP. The composite of electricity+UPI+freight+PMI signals ≈ 6-7% GDP growth.",
+            "intelligenceAgeHint": "RBI and NITI Aayog use exactly this AI nowcasting approach to monitor India's economy in real-time — 20+ high-frequency indicators combined by ML models to estimate GDP before CSO publishes official data."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "CA Foundation: Understand circular flow, leakages (savings, taxes, imports) and injections (investment, government spending, exports). GDP=C+I+G+NX=income=output (three-way identity).",
+        "calculationHack": "Multiplier k=1/(1-MPC)=1/MPS. If MPC=0.75, k=4. If MPC=0.8, k=5. Higher MPC → higher multiplier → government spending has larger impact on GDP.",
+        "mnemonicAgent": "SITE for national income methods: Spending (Expenditure method = C+I+G+NX), Income (wages+rent+interest+profit), Total Value Added (Output method). 'SITE — three sites for measuring national income.'"
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Money and Banking",
+      "summary": "Money functions, money supply, credit creation, RBI, monetary policy, and banking reforms.",
+      "topics": [
+        "Functions of Money",
+        "Money Supply (M1,M2,M3)",
+        "Credit Creation",
+        "RBI",
+        "Monetary Policy",
+        "CRR and SLR"
+      ],
+      "enhancement": "Digital Payments & AI Banking",
+      "aiEnhancementLesson": {
+        "title": "Money & Banking to UPI Revolution & AI-Powered RBI Policy",
+        "content": "Board Level: Functions of money (medium of exchange, store of value, measure of value). M1, M2, M3 definitions. Credit multiplier = 1/CRR. RBI functions. Monetary policy tools (CRR, SLR, repo rate, OMO). JEE/CA Bridge: Money multiplier calculation, effects of repo rate change on economy. Intelligence Age: India's UPI (Unified Payments Interface) processed 10 billion transactions in October 2024 — the world's largest real-time payment system. RBI's AI surveillance system monitors UPI for fraud, money laundering (suspicious transaction patterns), and system stability — applying your M1/M2/M3 money supply framework to digital transactions. RBI's MOSPI (AI-powered monetary policy analysis tool) analyses 500+ economic indicators to recommend repo rate decisions — your monetary policy chapter is India's central banking algorithm.",
+        "practicalAddOn": "Calculate credit multiplier: If CRR=4%, initial deposit=₹100. Multiplier=1/0.04=25. Total money created=₹100×25=₹2500. Now: India's M3 (broad money) is ~₹250 lakh crore with high-powered money (H) of ~₹35 lakh crore. Calculate the actual money multiplier. Is it equal to 1/CRR? Why or why not?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If CRR=5%, the money multiplier is:",
+          "options": [
+            "5",
+            "20",
+            "0.05",
+            "50"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Money multiplier = 1/CRR = 1/0.05 = 20. Every ₹1 deposited in banks creates ₹20 of total money supply.",
+            "incorrect": "Money multiplier m = 1/CRR = 1/0.05 = 20. ₹1 of initial deposit can create ₹20 of total bank money through credit multiplier.",
+            "intelligenceAgeHint": "RBI's AI monetary model calculates actual money multiplier (currently ~6-7) considering cash leakages — your CRR formula is the simplified theoretical basis of India's monetary policy."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] RBI raises repo rate from 6% to 6.5%. Most likely impact on economy:",
+          "options": [
+            "Increase in credit, higher investment, higher GDP growth",
+            "Decrease in credit, lower investment, lower inflation",
+            "Increase in money supply, lower interest rates",
+            "No impact on economy"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Higher repo rate → banks' borrowing cost from RBI increases → banks raise lending rates → credit becomes expensive → investment falls → demand falls → inflation reduces.",
+            "incorrect": "Repo rate rise → bank borrowing costs ↑ → lending rates ↑ → credit demand ↓ → investment ↓ → GDP growth slower but inflation reduced. This is contractionary monetary policy.",
+            "intelligenceAgeHint": "RBI's AI MPC (Monetary Policy Committee) support system calculates exactly this transmission mechanism — each 0.25% repo rate change affects EMIs for 50 million Indian home loan borrowers."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] UPI processed ₹20 lakh crore in October 2024. If each transaction averages ₹2000, number of transactions is: How does this change M1 (narrow money = currency + demand deposits)?",
+          "options": [
+            "1 billion transactions; UPI transfers between accounts don't change M1 total",
+            "1 billion; M1 doubles",
+            "10 billion; M1 increases by ₹20L crore",
+            "Cannot determine"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! 20 lakh crore / 2000 = 10 billion transactions. UPI transfers between bank accounts are just demand deposit shifts (A's account → B's account) — M1 TOTAL doesn't change, only its composition shifts.",
+            "incorrect": "₹20L crore / ₹2000 = 10 billion transactions. UPI moves money between demand deposits — M1 total is unchanged (same money, different accounts). This is a key monetary economics insight.",
+            "intelligenceAgeHint": "RBI's AI payment monitoring system tracks exactly this demand deposit distribution shift via UPI — ensuring no systemic risk from payment concentration, using your M1 money supply framework."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "CA students: Commercial bank's credit creation: if deposit ₹D, CRR=r, total deposits created = D/r. High-powered money H = C+R (currency+reserves). M1=C+DD. M2=M1+savings. M3=M2+time deposits.",
+        "calculationHack": "Money multiplier = ΔM/ΔH (change in money supply per unit change in high-powered money). Theoretical max = 1/CRR. Actual < theoretical (cash leakages, banks hold excess reserves).",
+        "mnemonicAgent": "ROOMS for RBI tools: Repo rate, Open market operations, CRR, SLR, Statutory requirements. 'RBI has ROOMS of policy tools to control money supply and inflation.'"
+      }
+    }
+  ]
+}

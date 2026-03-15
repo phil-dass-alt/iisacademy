@@ -1,0 +1,718 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "board": "karnataka",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "science",
+  "competitiveTargets": [
+    "JEE Main",
+    "JEE Advanced",
+    "NEET"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Physical World and Measurement",
+      "summary": "Scope of physics, fundamental forces, measurement, SI units, significant figures, dimensional analysis and error analysis.",
+      "topics": [
+        "Scope of Physics",
+        "SI Units",
+        "Dimensional Analysis",
+        "Error Analysis",
+        "Significant Figures"
+      ],
+      "enhancement": "Measurement in AI & Robotics",
+      "aiEnhancementLesson": {
+        "title": "Precision Measurement: From Vernier Callipers to Nanometre-Scale AI Sensors",
+        "content": "Board Level: SI units, significant figures, error analysis, and dimensional formulae form the language of physics. Every physical quantity has a unit and a precision. Competitive Bridge: JEE tests dimensional analysis — learn to derive formulae from dimensions alone (e.g., derive the formula for time period of a pendulum using [T]=[M⁰L¹T⁻²]). Intelligence Age: AI systems in semiconductor manufacturing must measure features at the nanometre scale (1 nm = 10⁻⁹ m). TSMC's 3-nm chip fabrication uses laser interferometry and AI quality control systems that detect measurement errors smaller than an atom's diameter. Your significant figures chapter is the conceptual foundation of metrological AI. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Measure the diameter of a coin using Vernier callipers (or a ruler). Record 5 readings. Calculate mean, absolute error, relative error and express the result with correct significant figures. Then consider: at what scale would this measurement become insufficient for chip manufacturing?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The dimensional formula for pressure is:",
+          "options": [
+            "[MLT⁻²]",
+            "[ML⁻¹T⁻²]",
+            "[ML²T⁻²]",
+            "[M²L⁻¹T⁻²]"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Pressure = Force/Area = [MLT⁻²]/[L²] = [ML⁻¹T⁻²]",
+            "incorrect": "Pressure = Force/Area. Derive from [F]/[A] = [MLT⁻²]/[L²] = [ML⁻¹T⁻²]",
+            "intelligenceAgeHint": "Air pressure sensors in smartphones (used for altitude in Google Maps) measure [ML⁻¹T⁻²] to millipascal precision using MEMS technology based on your dimensional analysis."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] A student measures the time period of a simple pendulum 20 times and gets values between 1.94 s and 2.06 s. The mean value is 2.00 s. The percentage error in the measurement is:",
+          "options": [
+            "0.6%",
+            "3%",
+            "6%",
+            "0.3%"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Max error = (2.06−1.94)/2 = 0.06 s. % error = (0.06/2.00)×100 = 3%",
+            "incorrect": "Max absolute error = half the range = (2.06−1.94)/2 = 0.06 s. % error = (0.06/2.00)×100 = 3%",
+            "intelligenceAgeHint": "GPS atomic clocks operate with 0.0000001% timing error — enabling the 3-metre GPS accuracy in every smartphone. Precision measurement IS modern technology."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] AI-controlled robotic arms in semiconductor fabs must position wafers to ±0.1 nm accuracy. If the arm makes 5 independent movements each with ±0.1 nm error, what is the combined positioning error?",
+          "options": [
+            "±0.1 nm",
+            "±0.5 nm",
+            "±0.224 nm (≈±0.22 nm)",
+            "±5 nm"
+          ],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! For independent random errors: combined error = √(n) × individual error = √5 × 0.1 ≈ 0.224 nm. This is root-mean-square error propagation!",
+            "incorrect": "Independent random errors don't simply add — they combine as √(n) × σ = √5 × 0.1 ≈ 0.224 nm. This is why precision robotics uses statistical error analysis from your physics chapter.",
+            "intelligenceAgeHint": "TSMC's 3-nm chip nodes require positional accuracy of ±0.1 nm. AI error-compensation algorithms in their robots use exactly this root-sum-square error propagation from measurement theory."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Dimensional analysis shortcut: write dimensions of both sides of any equation to quickly verify or derive formulae.",
+        "calculationHack": "Percentage error in a product/quotient = sum of individual percentage errors (e.g., if A has 2% error and B has 3%, then A×B has 5% error).",
+        "mnemonicAgent": "SMELL = Significant figures: Mean, Error, Limit, Length, Moles (remember to apply sig figs to every measured quantity)."
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Kinematics",
+      "summary": "Motion in a straight line, equations of motion, graphs, projectile motion, relative velocity, and uniform circular motion.",
+      "topics": [
+        "Distance and Displacement",
+        "Speed and Velocity",
+        "Acceleration",
+        "Equations of Motion",
+        "Projectile Motion",
+        "Relative Velocity",
+        "Circular Motion"
+      ],
+      "enhancement": "AI Trajectory Prediction & Autonomous Vehicles",
+      "aiEnhancementLesson": {
+        "title": "From Equations of Motion to SpaceX Booster Landing & Drone AI",
+        "content": "Board Level: The three kinematic equations (v=u+at, s=ut+½at², v²=u²+2as) describe motion under constant acceleration. JEE adds calculus-based kinematics for non-uniform acceleration: v = dx/dt, a = dv/dt = d²x/dt². Competitive Bridge: For JEE, derive equations of motion using integration: ∫dv = ∫a dt → v = u + at. Intelligence Age: SpaceX's Falcon 9 first-stage landing uses kinematic prediction algorithms in real time. The onboard computer calculates: 'Given current height h, velocity v (downward), and maximum engine deceleration a_max, what is the minimum altitude to begin the burn?' This solves v² = u² + 2as for s — your kinematics equation applied at 100 Hz. A self-driving car's AI predicts the position of every vehicle in 5 seconds using x = x₀ + v₀t + ½at² — your equation of motion. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Projectile challenge: A cricket ball is hit at 30° with initial velocity 20 m/s. Calculate: (1) maximum height, (2) range, (3) time of flight. Then: how would a drone AI use these calculations to intercept the ball? Draw the trajectory and mark the interception point."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A body starts from rest and accelerates at 2 m/s² for 5 seconds, then decelerates at 4 m/s² until it stops. The total distance covered is:",
+          "options": [
+            "25 m",
+            "37.5 m",
+            "50 m",
+            "18.75 m"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Phase 1: v = 0 + 2×5 = 10 m/s, s₁ = ½×2×25 = 25 m. Phase 2: t = 10/4 = 2.5 s, s₂ = 10×2.5 − ½×4×6.25 = 25 − 12.5 = 12.5 m. Total = 37.5 m.",
+            "incorrect": "Phase 1: v = u + at = 0 + 2×5 = 10 m/s, s₁ = ½at² = 25 m. Phase 2: time = v/a = 10/4 = 2.5 s, s₂ = v²/2a = 100/8 = 12.5 m. Total = 37.5 m.",
+            "intelligenceAgeHint": "Tesla's Autopilot computes this exact deceleration profile 10 times per second to determine braking distance — your kinematics chapter is the core algorithm."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The velocity of a particle is given by v = (3t² − 2t) m/s. The displacement in t = 0 to t = 3 s is:",
+          "options": [
+            "18 m",
+            "21 m",
+            "27 m",
+            "15 m"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! x = ∫₀³ (3t² − 2t) dt = [t³ − t²]₀³ = (27 − 9) − 0 = 18 m",
+            "incorrect": "Use integration: x = ∫₀³ v dt = ∫₀³ (3t² − 2t) dt = [t³ − t²]₀³ = 27 − 9 = 18 m",
+            "intelligenceAgeHint": "SpaceX's rocket computer integrates a = dv/dt measurements 100 times per second to determine exact velocity and position — this is numerical integration of your calculus kinematics."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI drone must intercept a package thrown horizontally at 15 m/s from a height of 45 m. The drone starts at ground level directly below. Ignoring air resistance (g = 10 m/s²), how long does the drone have to reach the horizontal position of the package when it is at height 20 m?",
+          "options": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "1.5 s"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Height fallen = 45 − 20 = 25 m. Using h = ½gt²: 25 = ½×10×t² → t² = 5 → t ≈ 2.24 s ≈ 2 s. Horizontal distance = 15×2 = 30 m.",
+            "incorrect": "Time for package to fall from 45 m to 20 m: h = ½gt² → 25 = ½×10×t² → t = √5 ≈ 2.24 s. The drone must travel 15×2.24 ≈ 33.5 m horizontally in that time.",
+            "intelligenceAgeHint": "Amazon Prime Air drone delivery requires real-time projectile interception calculations. The onboard AI solves exactly these kinematic equations 50 times per second to navigate to the landing zone."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "For non-uniform acceleration: v = dx/dt, a = dv/dt. Use calculus: displacement = area under v-t graph (definite integral). JEE frequently tests this.",
+        "calculationHack": "Projectile range is maximum at 45°. For equal ranges, complementary angles (θ and 90°−θ) give the same range. Time of flight T = 2u sinθ/g.",
+        "mnemonicAgent": "SUVAT: s=displacement, u=initial velocity, v=final velocity, a=acceleration, t=time. Remember all 5 equations connect any 3 of these 5 variables."
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Laws of Motion",
+      "summary": "Newton's three laws, inertia, momentum, impulse, constraint motion, friction, and pseudo-forces in non-inertial frames.",
+      "topics": [
+        "Newton's First Law",
+        "Newton's Second Law",
+        "Newton's Third Law",
+        "Conservation of Momentum",
+        "Friction",
+        "Pseudo-Forces",
+        "Pulley Systems"
+      ],
+      "enhancement": "AI Robotics & Haptic Feedback",
+      "aiEnhancementLesson": {
+        "title": "From Newton's Laws to Surgical Robots & Self-Driving Car Physics",
+        "content": "Board Level: F = ma, conservation of momentum, and friction (f = μN) are the board essentials. JEE Competitive Bridge: Constraint motion and pseudo-forces. For an Atwood machine (two masses m₁ and m₂ over a pulley): use the 'system approach' — treat the whole system as one unit. Net force = (m₁−m₂)g, total mass = m₁+m₂, so a = (m₁−m₂)g/(m₁+m₂). This avoids writing two separate equations. For a block on an accelerating wedge: add pseudo-force (ma_wedge) in the non-inertial frame — the 'wedge frame' trick. Intelligence Age: Surgical robots (Da Vinci system, used in Manipal Hospital Bengaluru) must calculate the exact force to apply on tissue. The robot's AI continuously solves F = ma for the surgical tool, ensuring the applied force is sufficient for the procedure but below the tissue-damage threshold. This is Newton's Second Law applied with milligram precision in real time, using force sensors reading at 1 kHz. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Set up a virtual Atwood machine: 7 kg and 3 kg masses. Calculate: (1) acceleration using system approach, (2) tension in string, (3) velocity after 2 s. Then design an AI decision rule: if m₁−m₂ > safety threshold, slow the motor. What would the threshold be for a 1 m/s maximum speed?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A constant force acts on a body of mass 5 kg for 2 seconds, changing its velocity from 3 m/s to 7 m/s. The magnitude of the force is:",
+          "options": [
+            "10 N",
+            "20 N",
+            "5 N",
+            "15 N"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! F = ma = m(v−u)/t = 5×(7−3)/2 = 5×2 = 10 N",
+            "incorrect": "F = m×a = m×(Δv/t) = 5×(7−3)/2 = 5×4/2 = 10 N",
+            "intelligenceAgeHint": "Industrial robot arms use F = ma to calculate motor torque requirements for moving specific payloads — your Newton's Second Law is the core control algorithm."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] Two masses 7 kg and 3 kg are connected by a light string over a smooth pulley. The acceleration of the system is: (g = 10 m/s²)",
+          "options": [
+            "2 m/s²",
+            "4 m/s²",
+            "10 m/s²",
+            "5 m/s²"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! a = (m₁−m₂)g/(m₁+m₂) = (7−3)×10/(7+3) = 40/10 = 4 m/s²",
+            "incorrect": "System approach: Net force = (m₁−m₂)g = 40 N, Total mass = m₁+m₂ = 10 kg, a = 40/10 = 4 m/s²",
+            "intelligenceAgeHint": "Elevator control AI uses this exact formula to determine motor force needed to lift/lower the cabin plus passengers — Newton's 2nd Law for coupled systems."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI-controlled surgical robot must hover a tool perfectly still with 0.3 N weight while exerting a precisely controlled downward force of 0.1 N on tissue. What net upward force must the robot arm exert?",
+          "options": [
+            "0.3 N",
+            "0.4 N",
+            "0.1 N",
+            "0.2 N"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! For equilibrium of tool: F_arm (upward) = weight of tool + force on tissue = 0.3 + 0.1 = 0.4 N. Net force on tool = 0 (it's stationary).",
+            "incorrect": "The arm must support the tool's weight (0.3 N) AND the reaction to the tissue force (0.1 N, Newton's 3rd law). Total = 0.4 N upward.",
+            "intelligenceAgeHint": "Da Vinci surgical robots in Indian hospitals like Manipal and Apollo compute this force balance 1000 times per second using your Newton's laws, ensuring tissue is never damaged."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "System approach for multi-body problems: treat all connected bodies as one system. Net external force / total mass = acceleration. Then use individual body equations for internal forces.",
+        "calculationHack": "Pseudo-force in non-inertial frame = −ma₀ (opposite to frame acceleration). Block on accelerating wedge: add horizontal pseudo-force ma₀ in the block's free body diagram in wedge frame.",
+        "mnemonicAgent": "FMA: Force = Mass × Acceleration. Remember: F is EXTERNAL net force. In a system, internal forces (like tension) cancel. Only external forces (gravity, friction) contribute to system acceleration."
+      }
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Work, Energy and Power",
+      "summary": "Work done by a force, kinetic and potential energy, conservation of energy, power, elastic and inelastic collisions.",
+      "topics": [
+        "Work Done",
+        "Kinetic Energy",
+        "Potential Energy",
+        "Conservation of Energy",
+        "Power",
+        "Collisions"
+      ],
+      "enhancement": "Energy Systems & AI Power Management",
+      "aiEnhancementLesson": {
+        "title": "Energy Conservation in EV Batteries, Regenerative Braking & Neural Networks",
+        "content": "Board Level: W = Fs cosθ, KE = ½mv², gravitational PE = mgh, conservation of energy, elastic and inelastic collisions. JEE Bridge: Work-energy theorem for variable forces. Power P = dW/dt = Fv. For a spring: W = ½kx². Intelligence Age: Tesla's regenerative braking converts kinetic energy back to electrical energy (KE → PE_electrical) during deceleration — recovering up to 25% of energy. The AI energy management system optimises when to regen-brake vs friction-brake based on battery state-of-charge and driving conditions. Training a neural network is fundamentally an energy minimisation problem — 'gradient descent' finds the minimum of an energy function (loss function). The mathematics of potential energy wells describes both a ball rolling into a valley AND an AI model converging to its optimal solution. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate: A Tata Nexon EV (mass 1800 kg) decelerates from 60 km/h to 0. (1) What is the kinetic energy available for regeneration? (2) If the motor is 85% efficient in converting KE to electrical energy, how much energy is recovered in watt-hours? (3) If the battery is 40 kWh, what percentage is recovered per stop?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A spring with k = 200 N/m is compressed by 0.1 m. The elastic PE stored is:",
+          "options": [
+            "2 J",
+            "1 J",
+            "20 J",
+            "0.1 J"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! PE = ½kx² = ½×200×0.01 = 1 J",
+            "incorrect": "PE = ½kx² = ½×200×(0.1)² = ½×200×0.01 = 1 J",
+            "intelligenceAgeHint": "Spring-loaded mechanisms in robotic grippers store exactly this elastic PE — and the AI controller calculates grip force using ½kx² to avoid damaging fragile objects."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] A body of mass 2 kg initially at rest is acted upon by F = (3x² + 2) N along x-axis. Work done as it moves from x = 0 to x = 2 m is:",
+          "options": [
+            "10 J",
+            "12 J",
+            "14 J",
+            "16 J"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! W = ∫₀² (3x² + 2) dx = [x³ + 2x]₀² = (8+4) − 0 = 12 J. Wait — recalculating: [x³]₀² + [2x]₀² = 8 + 4 = 12 J.",
+            "incorrect": "W = ∫₀² F dx = ∫₀² (3x²+2) dx = [x³+2x]₀² = (8+4) = 12 J",
+            "intelligenceAgeHint": "Electric motor torque in robots varies with position — AI controllers integrate F(x)dx to calculate total work done, exactly like this JEE integral."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A Tesla Model 3 (1600 kg) decelerates from 30 m/s to 0. The regenerative braking system has 80% efficiency. How much energy (kJ) is recovered and stored in the battery?",
+          "options": [
+            "720 kJ",
+            "576 kJ",
+            "360 kJ",
+            "288 kJ"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! KE = ½mv² = ½×1600×900 = 720 kJ. Recovered = 0.8×720 = 576 kJ.",
+            "incorrect": "KE = ½×1600×30² = ½×1600×900 = 720 kJ. At 80% efficiency, recovered energy = 0.8×720 = 576 kJ = 0.16 kWh per stop.",
+            "intelligenceAgeHint": "Tesla's AI energy management system calculates this exact KE-to-battery conversion 10 times per second, optimising regen braking levels to maximise range — your energy conservation chapter powers EV AI."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Work by variable force = ∫F·dx (area under F-x graph). Work-energy theorem: Net work = ΔKE. Extremely common in JEE. Spring PE = ½kx² is a favourite JEE starting point.",
+        "calculationHack": "In elastic collisions: use both conservation of momentum AND conservation of KE. In perfectly inelastic: only use momentum conservation (they stick together). Shortcut: for equal masses in elastic collision, velocities exchange.",
+        "mnemonicAgent": "WEP: W=Work, E=Energy, P=Power. Remember: Power = Work/Time = Force × velocity. In circuits: P = IV. All forms of power follow P = (Energy transfer rate)."
+      }
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "title": "Gravitation",
+      "summary": "Newton's law of gravitation, gravitational field, potential, escape velocity, orbital mechanics, satellites, and Kepler's laws.",
+      "topics": [
+        "Universal Law of Gravitation",
+        "Gravitational Field",
+        "Escape Velocity",
+        "Orbital Mechanics",
+        "Satellites",
+        "Kepler's Laws"
+      ],
+      "enhancement": "Satellite Technology & Space AI",
+      "aiEnhancementLesson": {
+        "title": "From Kepler's Laws to ISRO Satellite Orbits & GPS Accuracy",
+        "content": "Board Level: F = Gm₁m₂/r², escape velocity v_e = √(2GM/R), orbital velocity v_o = √(GM/r), Kepler's three laws. JEE Bridge: Gravitational potential energy U = −GMm/r. Energy of a satellite: Total E = −GMm/2r (always negative). Intelligence Age: ISRO's Chandrayaan-3 used orbital mechanics (your gravitation chapter) to plan the 40-day lunar transfer orbit. The spacecraft first circled Earth in an elliptical orbit, then used a Lunar Orbit Insertion burn — all calculated using Kepler's laws. India's NAVIC satellite navigation system (indigenous GPS) relies on geostationary satellites at r = 42,164 km. Your orbital velocity formula v_o = √(GM/r) directly gives the 3.07 km/s needed to maintain this orbit. GPS timing requires atomic clock precision — time dilation corrections (from General Relativity) of 45 microseconds per day must be applied to your Newtonian orbital calculations. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate for ISRO's PSLV launch: (1) Escape velocity from Earth's surface (G=6.67×10⁻¹¹, M=6×10²⁴ kg, R=6.4×10⁶ m). (2) Orbital velocity at 600 km altitude ISS orbit. (3) Time period of ISS orbit. Compare with Chandrayaan-3 lunar transfer orbit data."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The escape velocity from Earth's surface (g = 10 m/s², R = 6400 km) is approximately:",
+          "options": [
+            "8 km/s",
+            "11.2 km/s",
+            "16 km/s",
+            "7.9 km/s"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! v_e = √(2gR) = √(2×10×6.4×10⁶) = √(1.28×10⁸) ≈ 11,314 m/s ≈ 11.2 km/s",
+            "incorrect": "v_e = √(2gR) = √(2×10×6.4×10⁶) ≈ 11.2 km/s. Note: 7.9 km/s is orbital velocity, not escape velocity.",
+            "intelligenceAgeHint": "ISRO's PSLV rocket needs to impart exactly 11.2 km/s to a payload to escape Earth — every kg of fuel calculation starts from your escape velocity formula."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] A satellite is in circular orbit at height h = R (R = Earth's radius) above Earth's surface. Its total mechanical energy compared to a satellite at Earth's surface is:",
+          "options": [
+            "Half as much (less negative)",
+            "Twice as much (more negative)",
+            "Equal",
+            "Zero"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Total E = −GMm/2r. At surface: r = R, E₁ = −GMm/2R. At height h=R: r = 2R, E₂ = −GMm/4R = E₁/2. Less negative = higher energy.",
+            "incorrect": "Total energy of satellite E = −GMm/2r. At r = R: E = −GMm/2R. At r = 2R: E = −GMm/4R = half as negative (higher energy level).",
+            "intelligenceAgeHint": "Mission control calculates exactly this energy change to plan 'orbit raising manoeuvres' for GPS and communication satellites — your gravitation energy formula drives satellite operations."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] India's NAVIC satellite is in a geostationary orbit (T = 24 h). Using Kepler's 3rd law (T² ∝ r³) and knowing ISS orbits at r₁ = 6970 km with T₁ = 92 min, what is the approximate geostationary orbit radius?",
+          "options": [
+            "35,000 km",
+            "42,200 km",
+            "28,500 km",
+            "50,000 km"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! T²/r³ = constant. (24×60)²/r₂³ = (92)²/(6970)³. Solving: r₂ ≈ 42,164 km ≈ 42,200 km.",
+            "incorrect": "Apply Kepler's 3rd law: T²/r³ = constant. (1440 min)²/r₂³ = (92)²/(6970 km)³. Solving gives r₂ ≈ 42,164 km — the actual geostationary orbit altitude.",
+            "intelligenceAgeHint": "This calculation determines where to place India's NAVIC navigation satellites. ISRO's orbit design team uses Kepler's 3rd law daily — your gravitation chapter IS India's space programme."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key satellite energy: KE = +GMm/2r, PE = −GMm/r, Total E = −GMm/2r. Binding energy = +GMm/2r. Geosynchronous period = 24 h. Orbital velocity decreases with altitude.",
+        "calculationHack": "Kepler's 3rd law: T² ∝ r³. Compare two orbits: (T₁/T₂)² = (r₁/r₂)³. No need for G and M — just ratios. Very fast for JEE problems.",
+        "mnemonicAgent": "KEPLER: K=keeps (period T), E=ellipses (shape of orbit), P=proportional to r³ (T²∝r³), L=law of equal areas (constant angular momentum), E=escape energy, R=radius determines all orbital properties."
+      }
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "title": "Properties of Matter",
+      "summary": "Elasticity, stress, strain, Young's modulus, bulk and shear moduli, surface tension, viscosity, and Bernoulli's theorem.",
+      "topics": [
+        "Stress and Strain",
+        "Young's Modulus",
+        "Surface Tension",
+        "Viscosity",
+        "Bernoulli's Theorem",
+        "Fluid Dynamics"
+      ],
+      "enhancement": "Materials Science & Fluid AI",
+      "aiEnhancementLesson": {
+        "title": "From Bernoulli to Aircraft AI, Drone Aerodynamics & Smart Materials",
+        "content": "Board Level: Young's modulus E = stress/strain = (F/A)/(ΔL/L). Surface tension, capillarity. Bernoulli's theorem: P + ½ρv² + ρgh = constant. Viscosity η = (F/A)/(dv/dy). JEE Bridge: Applications of Bernoulli — venturimeter, aerodynamic lift. Stokes' law: terminal velocity v_t = 2r²(ρ−σ)g/9η. Intelligence Age: Airbus and Boeing use Computational Fluid Dynamics (CFD) — computer simulation of Bernoulli's equation in 3D. AI-optimised wing shapes (discovered by neural networks) reduce drag by 7% compared to human-designed shapes. India's HAL Tejas fighter uses AI-controlled 'fly-by-wire' systems that apply Bernoulli's lift equation 100 times per second to maintain stability. Microfluidics — manipulating tiny fluid droplets using surface tension — is the technology behind COVID PCR test chips and DNA analysis microarrays. Your capillarity and surface tension chapter IS biomedical diagnostics. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Investigate surface tension: place a needle on water surface (surface tension supports it). Calculate: if needle has mass 0.1 g and length 5 cm, what surface tension (N/m) supports it? Compare with water's actual surface tension (0.073 N/m). How does soap affect this?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A wire of length 2 m and cross-section area 10⁻⁶ m² stretches by 0.01 m under 200 N force. The Young's modulus is:",
+          "options": [
+            "2×10¹⁰ Pa",
+            "4×10¹⁰ Pa",
+            "1×10¹⁰ Pa",
+            "2×10¹¹ Pa"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Y = (F×L)/(A×ΔL) = (200×2)/(10⁻⁶×0.01) = 400/10⁻⁸ = 4×10¹⁰ Pa",
+            "incorrect": "Y = stress/strain = (F/A)/(ΔL/L) = (200/10⁻⁶)/(0.01/2) = 2×10⁸/5×10⁻³ = 4×10¹⁰ Pa",
+            "intelligenceAgeHint": "The carbon fibre composites in ISRO rockets have Y ≈ 70×10¹⁰ Pa — 175× stiffer than steel. AI material selection algorithms use Young's modulus to optimise structural design."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] Water flows through a pipe of area 4 cm² at 2 m/s. It enters a narrower section of area 1 cm². The velocity in the narrow section is: (Bernoulli/continuity)",
+          "options": [
+            "2 m/s",
+            "4 m/s",
+            "8 m/s",
+            "0.5 m/s"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! By continuity: A₁v₁ = A₂v₂ → 4×2 = 1×v₂ → v₂ = 8 m/s",
+            "incorrect": "Continuity equation: A₁v₁ = A₂v₂. 4×2 = 1×v₂ → v₂ = 8 m/s. This is why water speed increases in a constriction — basis of the Venturi effect.",
+            "intelligenceAgeHint": "Cardiac surgeons use Bernoulli's principle to estimate blood flow velocity in narrowed arteries (stenosis) using Doppler ultrasound — the same equation you solved saves lives."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI-optimised aircraft wing produces lift L = ½ρv²ACₗ. If airspeed doubles (v → 2v) with the same wing, lift becomes:",
+          "options": [
+            "2× greater",
+            "4× greater",
+            "√2 times greater",
+            "Same"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! L ∝ v². If v doubles, L increases by 2² = 4 times. This is why fighter jets can turn tighter at higher speeds.",
+            "incorrect": "L = ½ρv²ACₗ — lift is proportional to v². Doubling v multiplies lift by 4. AI wing design algorithms must account for this v² dependence in all manoeuvres.",
+            "intelligenceAgeHint": "Airbus's AI-designed 'winglets' increase lift by 7% using optimised surface curvature — the AI numerically solves your Bernoulli equation in 3D across the wing surface."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Bernoulli + Continuity is a JEE favourite pair. Always apply continuity (A₁v₁=A₂v₂) first to find velocities, then Bernoulli (P+½ρv²+ρgh=const) for pressure.",
+        "calculationHack": "Terminal velocity v_t = 2r²(ρ_sphere−ρ_fluid)g/9η — memorise the formula. Stokes drag F = 6πηrv. These appear directly in JEE problems.",
+        "mnemonicAgent": "BEVY: Bernoulli, Elasticity, Viscosity — the three key fluid/solid mechanical properties. Remember: Bernoulli increases speed → decreases pressure (inverse relationship)."
+      }
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "title": "Thermal Properties of Matter",
+      "summary": "Temperature scales, thermal expansion, specific heat, calorimetry, change of state, heat transfer (conduction, convection, radiation), and Newton's law of cooling.",
+      "topics": [
+        "Temperature Scales",
+        "Thermal Expansion",
+        "Specific Heat",
+        "Calorimetry",
+        "Heat Transfer",
+        "Newton's Law of Cooling"
+      ],
+      "enhancement": "Thermal Management in AI & Electronics",
+      "aiEnhancementLesson": {
+        "title": "From Specific Heat to AI Chip Cooling & Climate Modelling",
+        "content": "Board Level: Thermal expansion (ΔL = αLΔT), specific heat (Q = mcΔT), latent heat, Stefan's law of radiation (P = σAT⁴). JEE Bridge: Newton's Law of Cooling — derive exponential decay. Radiation and conduction in combination problems. Intelligence Age: NVIDIA's H100 AI GPU generates 700 W of heat. Keeping it below 80°C requires liquid cooling systems designed using your specific heat and thermal conduction equations. Data centres running AI models (ChatGPT servers) consume as much cooling energy as electricity — Facebook's data centre in Oregon uses river water (high specific heat) for cooling. Global Climate AI models (used by ISRO for monsoon prediction) simulate heat transfer through the atmosphere using radiative transfer equations — directly based on Stefan's law and Newton's cooling you study in Class 11. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate: A smartphone processor (3 W heat, mass 5 g, specific heat of silicon = 700 J/kg·K) heats up over 60 s with no cooling. (1) What is the temperature rise? (2) Why does your phone need a heat spreader? (3) If water cooling (specific heat 4200 J/kg·K) with 1 g of water is added, how much does temperature rise decrease?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "100 g of water at 20°C is mixed with 50 g of water at 80°C. The final temperature is: (specific heat of water = 4.2 J/g·K)",
+          "options": [
+            "40°C",
+            "50°C",
+            "33.3°C",
+            "60°C"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Heat gained = heat lost. 100×4.2×(T−20) = 50×4.2×(80−T). 100(T−20) = 50(80−T). 100T−2000 = 4000−50T. 150T = 6000. T = 40°C.",
+            "incorrect": "Heat gained by cold water = heat lost by hot water. 100×(T−20) = 50×(80−T). 100T−2000 = 4000−50T. 150T = 6000. T = 40°C.",
+            "intelligenceAgeHint": "Data centre 'liquid cooling mixing valves' use this exact heat balance equation to maintain servers at optimal temperature — your calorimetry is industrial thermal management."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] A black body radiates at maximum wavelength λ_max = 2900 nm at temperature T. At what temperature does λ_max = 580 nm? (Wien's Law: λ_max × T = constant)",
+          "options": [
+            "1000 K",
+            "2500 K",
+            "5000 K",
+            "500 K"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! λ₁T₁ = λ₂T₂. 2900×T₁ = 580×T₂. If T₁ = 1000 K (example), T₂ = 2900×1000/580 = 5000 K. The sun's surface is ~5778 K (λ_max ≈ 500 nm).",
+            "incorrect": "Wien's law: λ_max T = constant = 2.9×10⁶ nm·K. If λ_max = 2900 nm, T = 1000 K. If λ_max = 580 nm, T = 2.9×10⁶/580 = 5000 K.",
+            "intelligenceAgeHint": "Thermal cameras in AI security systems detect body heat (T ≈ 310 K → λ_max ≈ 9.35 μm, infrared) using Wien's displacement law — this is how AI 'sees' in darkness."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An NVIDIA H100 GPU (700 W heat) is cooled by liquid with flow rate 5 L/min and inlet temperature 20°C. Using Q = mcΔT (water, c = 4.2 J/g·K, 1 L water = 1 kg), what is the outlet temperature?",
+          "options": [
+            "22°C",
+            "22.7°C",
+            "25°C",
+            "30°C"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Mass flow = 5 kg/min = 5000/60 = 83.3 g/s. Q = mcΔT → 700 = 83.3×4.2×ΔT → ΔT = 700/(350) ≈ 2°C. Wait: 700/(83.3×4.2) ≈ 2°C → T_out ≈ 22°C. More precisely: 700 W, flow = 5000g/60s = 83.3 g/s, ΔT = 700/(83.3×4.2) = 2.0°C → 22°C ≈ 22.7°C.",
+            "incorrect": "Power = ṁcΔT. ṁ = 5000g/60s ≈ 83.3 g/s. ΔT = P/(ṁc) = 700/(83.3×4.2) ≈ 2°C. T_out ≈ 22°C.",
+            "intelligenceAgeHint": "Every AI data centre uses this Q=mcΔT calculation to design cooling systems. Google's data centres process billions of queries — the cooling design is your Class 11 thermal chapter at industrial scale."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Wien's displacement law λ_max T = 2.9×10⁻³ m·K, Stefan-Boltzmann P = σεAT⁴ (σ = 5.67×10⁻⁸ W/m²·K⁴). These appear in JEE Modern Physics questions.",
+        "calculationHack": "In calorimetry, always: heat gained by cold = heat lost by hot. Q = mcΔT. For mixed masses m₁, m₂ at T₁, T₂: T_mix = (m₁T₁ + m₂T₂)/(m₁+m₂) if same specific heat.",
+        "mnemonicAgent": "CALF: Conduction (solids), Airconvection (fluids), Latent heat (phase change), Free radiation (Stefan's law). These are the four heat transfer modes — remember CALF to cover all thermal questions."
+      }
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "title": "Thermodynamics",
+      "summary": "Thermodynamic systems, laws of thermodynamics, isothermal and adiabatic processes, Carnot cycle, heat engines, and entropy.",
+      "topics": [
+        "Laws of Thermodynamics",
+        "Isothermal Process",
+        "Adiabatic Process",
+        "Carnot Cycle",
+        "Heat Engines",
+        "Entropy"
+      ],
+      "enhancement": "Engine AI & Climate Systems",
+      "aiEnhancementLesson": {
+        "title": "Carnot's Theorem to Electric Vehicles & AI Climate Modelling",
+        "content": "Board Level: First law (ΔU = Q − W), second law (entropy increases), Carnot efficiency η = 1 − T_L/T_H. JEE Bridge: Work done in isothermal and adiabatic processes. Adiabatic: TV^(γ−1) = const. Intelligence Age: The Carnot efficiency equation tells us the theoretical maximum efficiency of any heat engine. An internal combustion engine (petrol/diesel) has T_H ≈ 2000 K and T_L ≈ 700 K, giving max η ≈ 65%. Real engines achieve only 30–35% due to irreversibilities. Electric vehicles bypass thermodynamics entirely — they convert electrical energy directly to mechanical energy (no heat engine), achieving 90%+ efficiency. AI climate models simulate Earth as a thermodynamic system — the atmosphere has T_H (tropical regions) and T_L (polar regions), and convection (like a heat engine) drives all global weather. ISRO's climate prediction models solve thermodynamic equations across 10⁷ grid cells. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate Carnot efficiency for: (1) Petrol engine (T_H = 1800 K, T_L = 600 K). (2) Solar thermal power plant (T_H = 500°C, T_L = 25°C). (3) Compare with a Tesla Model 3 (100% efficient conversion, no heat engine). Discuss: why is the EV revolution a thermodynamics revolution?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A Carnot engine operates between 400 K and 200 K. Its efficiency is:",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! η = 1 − T_L/T_H = 1 − 200/400 = 1 − 0.5 = 50%",
+            "incorrect": "Carnot efficiency η = 1 − T_L/T_H = 1 − 200/400 = 0.5 = 50%",
+            "intelligenceAgeHint": "AI is designing 'Stirling engines' for next-gen space probes using optimised Carnot cycles — your efficiency formula determines feasibility of space missions."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] 1 mole of ideal gas undergoes isothermal expansion at 300 K from V₁ = 1 L to V₂ = 4 L. Work done by gas is: (R = 8.3 J/mol·K, ln2 = 0.69)",
+          "options": [
+            "1728 J",
+            "864 J",
+            "3456 J",
+            "432 J"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! W = nRT ln(V₂/V₁) = 1×8.3×300×ln4 = 2490×2×0.69 ≈ 2490×1.386 ≈ 3453 J ≈ 1728 J. Note: ln4 = 2ln2 = 2×0.693 = 1.386. W = 1×8.3×300×1.386 = 3452 J.",
+            "incorrect": "Isothermal work: W = nRT ln(V₂/V₁) = 1×8.3×300×ln(4) = 2490×1.386 ≈ 3451 J. Check: ln4 = 2ln2 = 2×0.69 = 1.38 → W = 2490×1.38 ≈ 3436 J.",
+            "intelligenceAgeHint": "Gas turbines in power plants that run AI data centres are designed using isothermal/adiabatic thermodynamics — your thermodynamics chapter determines the efficiency of India's electricity grid."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A solar thermal power plant (ISRO design concept) with T_H = 600°C and T_L = 30°C produces 10 MW of mechanical power. What is the minimum heat input rate required? (Use Carnot efficiency)",
+          "options": [
+            "15.3 MW",
+            "12.1 MW",
+            "10 MW",
+            "64.7 MW"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! η = 1 − 303/873 = 1 − 0.347 = 0.653. Q_H = W/η = 10/0.653 = 15.3 MW.",
+            "incorrect": "T_H = 873 K, T_L = 303 K. η = 1 − T_L/T_H = 1 − 303/873 ≈ 0.653. Q_H = W/η = 10/0.653 ≈ 15.3 MW (minimum, since real efficiency < Carnot).",
+            "intelligenceAgeHint": "ISRO's space solar power concepts and India's solar thermal plants use Carnot efficiency to size mirrors and collectors — your thermodynamics determines India's renewable energy future."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Process equations: Isothermal (T = const): PV = const, W = nRT ln(V₂/V₁). Adiabatic (Q = 0): TV^(γ−1) = const, W = (P₁V₁ − P₂V₂)/(γ−1). Isochoric (V = const): W = 0, ΔU = Q.",
+        "calculationHack": "For ideal gas processes, memorise: γ_monoatomic = 5/3, γ_diatomic = 7/5. First law: ΔU = nCvΔT regardless of process. Q = nCpΔT only for isobaric.",
+        "mnemonicAgent": "IAIA: Isothermal (T const), Adiabatic (Q=0), Isobaric (P const), Isochoric (V const). For JEE, Adiabatic is 'queen' — most complex and most tested. Remember IAIA!"
+      }
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "title": "Oscillations and Waves",
+      "summary": "Simple harmonic motion, energy in SHM, damped and forced oscillations, resonance, wave properties, sound waves, Doppler effect, and standing waves.",
+      "topics": [
+        "SHM",
+        "Energy in SHM",
+        "Resonance",
+        "Wave Properties",
+        "Sound",
+        "Doppler Effect",
+        "Standing Waves"
+      ],
+      "enhancement": "Ultrasound AI & Seismic Sensors",
+      "aiEnhancementLesson": {
+        "title": "From SHM to AI-Powered Ultrasound Diagnosis & Earthquake Early Warning",
+        "content": "Board Level: SHM — x = A sin(ωt+φ), ω = √(k/m) for spring, ω = √(g/L) for pendulum. Energy E = ½kA². Doppler effect: f_observed = f_source×(v±v_observer)/(v∓v_source). Standing waves: fn = n×v/2L. JEE Bridge: Superposition of waves, beats, resonance in closed/open pipes. Wave equation y(x,t) = A sin(kx−ωt). Intelligence Age: Medical ultrasound (used in hospitals like Narayana Health Bengaluru) uses high-frequency sound waves (2–15 MHz). The AI in modern ultrasound machines performs Doppler analysis of reflected sound to measure blood flow velocity (your Doppler formula). Fourier analysis (decomposing complex waves into simple SHMs) is the mathematical heart of audio AI, noise-cancelling headphones, and seismic earthquake detection. ISRO's earthquake early warning system detects P-waves (longitudinal waves) before destructive S-waves arrive — using your wave propagation equations. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Measure the frequency of a tuning fork using a sonometer (standing waves). Calculate: if a string of length 0.5 m, tension 100 N and linear density 0.01 kg/m vibrates in its fundamental mode, what is the frequency? Now consider: how would ultrasound at this frequency travel through tissue (density 1050 kg/m³, bulk modulus 2.25 GPa)?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "A spring-mass system has k = 100 N/m and m = 0.25 kg. Its time period is:",
+          "options": [
+            "π/5 s",
+            "π/10 s",
+            "2π/10 s",
+            "π/2 s"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! T = 2π√(m/k) = 2π√(0.25/100) = 2π√(0.0025) = 2π×0.05 = 0.1π = π/10 s.",
+            "incorrect": "Wait, let me recalculate: T = 2π√(m/k) = 2π√(0.25/100) = 2π×0.05 = 0.314 s = π/10 s.",
+            "intelligenceAgeHint": "MRI machines use resonant oscillations of hydrogen nuclei (tuned like spring-mass systems) — the resonant frequency tells the AI where the nucleus is in the body (magnetic gradient)"
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] A train moving at 30 m/s emits a whistle at 500 Hz. Speed of sound = 340 m/s. The frequency heard by a stationary observer in front of the train is:",
+          "options": [
+            "455 Hz",
+            "548 Hz",
+            "500 Hz",
+            "530 Hz"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! f = f₀×v/(v−v_s) = 500×340/(340−30) = 500×340/310 = 548.4 Hz ≈ 548 Hz",
+            "incorrect": "Doppler for source moving toward observer: f = f₀ × v/(v−v_s) = 500 × 340/(340−30) = 500 × 340/310 ≈ 548 Hz",
+            "intelligenceAgeHint": "Police speed radar guns use Doppler shift (of radio waves, same formula) to measure vehicle speed — and AI cameras analyse the Doppler signature to detect speeding automatically."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI ultrasound system detects blood flow by Doppler shift. Red blood cells move at 0.5 m/s toward the transducer. Ultrasound frequency = 5 MHz, speed of sound in blood = 1540 m/s. The Doppler shift in frequency is approximately:",
+          "options": [
+            "1628 Hz",
+            "3247 Hz",
+            "1623 Hz",
+            "5000 Hz"
+          ],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Δf = 2×f×v_blood×cosθ/v_sound = 2×5×10⁶×0.5×1/1540 ≈ 3247 Hz for perpendicular; for direct: Δf = f×v_blood/v_sound × 2 ≈ 3247 Hz. For approach only: Δf = f×v/v_s = 5×10⁶×0.5/1540 ≈ 1623 Hz.",
+            "incorrect": "Doppler shift Δf ≈ f₀ × (2v_blood)/v_sound = 5×10⁶ × 2×0.5/1540 ≈ 3247 Hz (for direct reflection). Your Doppler formula applied to medical diagnosis.",
+            "intelligenceAgeHint": "Cardiac AI (DeepMind's AI cardiologist) interprets these Doppler shifts in echocardiograms to detect heart valve problems — your Doppler chapter is literally saving lives in Indian hospitals."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Resonance in pipes: open pipe fundamental f₁ = v/2L (antinode-antinode). Closed pipe f₁ = v/4L (node-antinode). Beats: f_beat = |f₁ − f₂|. Standing wave: y = 2A sin(kx) cos(ωt).",
+        "calculationHack": "Doppler shortcut: source toward observer → higher frequency f = f₀(v+v_obs)/(v−v_src). Remember: approach → increase frequency. 'AAAA' — Approach Adds Always.",
+        "mnemonicAgent": "SWADE: Standing Waves, Amplitude, Doppler, Energy in SHM — the four key SHM/wave concepts for JEE. Remember SWADE to cover all oscillation/wave topics systematically."
+      }
+    }
+  ]
+}

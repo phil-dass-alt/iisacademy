@@ -1,0 +1,234 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Chemistry",
+  "stream": "science",
+  "competitiveTargets": ["JEE Main", "JEE Advanced", "NEET"],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Some Basic Concepts of Chemistry",
+      "summary": "Matter, Dalton's atomic theory, mole concept, molar mass, stoichiometry, concentration expressions.",
+      "topics": ["Matter", "Dalton's Atomic Theory", "Mole Concept", "Stoichiometry", "Empirical Formula"],
+      "enhancement": "AI Molecular Design & Drug Discovery",
+      "aiEnhancementLesson": {
+        "title": "Moles & Molecules: From Stoichiometry to AI Drug Discovery",
+        "content": "Board Level: 1 mole = 6.022×10²³ particles (Avogadro's number). Molar mass in g/mol. Stoichiometry: balanced equations → mole ratios. JEE Bridge: Limiting reagent problems, % yield, molarity-molality conversions. Intelligence Age: IBM's RXN for Chemistry AI predicts chemical reaction products from reactants (essentially solves stoichiometry computationally). Bengaluru-based pharmaceutical company Biocon uses AI to determine molar ratios of reagents for drug synthesis — optimising the yield of insulin and monoclonal antibodies. Every mole calculation in your textbook is a data point in the AI's training set. When AlphaFold (DeepMind's AI) predicts protein structures, it models atoms at the quantum level — but the counting logic uses your Avogadro's number.",
+        "practicalAddOn": "Calculate: 2 g of H₂ reacts with 16 g of O₂ to form water. (1) Which is the limiting reagent? (2) What mass of water forms? (3) What mass of excess reagent remains? (4) If done in 100 mL solution, what is the molarity of the remaining reagent?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "How many moles of CO₂ are produced when 0.5 mol C₃H₈ burns completely? (C₃H₈ + 5O₂ → 3CO₂ + 4H₂O)",
+          "options": ["0.5 mol", "1.5 mol", "3 mol", "5 mol"],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! 1 mol C₃H₈ → 3 mol CO₂. So 0.5 mol C₃H₈ → 0.5×3 = 1.5 mol CO₂.",
+            "incorrect": "From the balanced equation: 1 mol C₃H₈ → 3 mol CO₂. So 0.5 mol → 0.5×3 = 1.5 mol CO₂.",
+            "intelligenceAgeHint": "AI combustion simulation software in Tata Motors' engine design lab calculates exactly these mole ratios to optimise fuel efficiency — your stoichiometry drives automotive engineering."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] 5.6 g of Fe (M = 56) reacts with excess H₂SO₄ to produce FeSO₄. If % yield is 80%, what mass of FeSO₄ (M = 152) is obtained?",
+          "options": ["12.16 g", "15.2 g", "7.6 g", "19 g"],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! 5.6 g Fe = 0.1 mol. Theoretical FeSO₄ = 0.1 mol = 15.2 g. Actual = 0.8×15.2 = 12.16 g.",
+            "incorrect": "Moles Fe = 5.6/56 = 0.1 mol. Fe + H₂SO₄ → FeSO₄ + H₂ (1:1 ratio). Theoretical FeSO₄ = 0.1×152 = 15.2 g. Actual (80%) = 0.8×15.2 = 12.16 g.",
+            "intelligenceAgeHint": "Drug manufacturers like Biocon calculate % yield to optimise their synthesis and reduce waste — your stoichiometry is pharmaceutical manufacturing."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI drug discovery system proposes synthesising a drug molecule with molar mass 500 g/mol. To produce 1 kg of drug at 70% yield, starting from 3 reagents (1:1:1 mole ratio), how many moles of each reagent are needed?",
+          "options": ["2 mol", "2.86 mol", "1.43 mol", "4.28 mol"],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! 1 kg drug = 1000/500 = 2 mol. At 70% yield: moles needed = 2/0.7 = 2.86 mol of each reagent.",
+            "incorrect": "1 kg / 500 g/mol = 2 mol drug needed. At 70% yield, reagent moles = 2/0.7 = 2.86 mol each.",
+            "intelligenceAgeHint": "IBM's AI chemistry platform RXN computes these yield-adjusted mole calculations for thousands of candidate drug molecules simultaneously — choosing the most atom-efficient synthesis route."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Mole concept is the foundation of all JEE Chemistry. Master: moles = mass/M = particles/6×10²³ = volume(STP)/22.4. For solutions: moles = M×V(L).",
+        "calculationHack": "Limiting reagent: divide moles of each reactant by its stoichiometric coefficient. The smallest quotient = limiting reagent. This works for any number of reactants.",
+        "mnemonicAgent": "MOLE: Mass Over Molar mass gives moles (n = m/M). Then: moles × Avogadro = molecules. moles × 22.4 = volume at STP. moles × Molar mass = mass. All roads start from n = m/M."
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Structure of Atom",
+      "summary": "Bohr model, quantum numbers, orbitals, electronic configurations, and quantum mechanical model.",
+      "topics": ["Bohr Model", "Quantum Numbers", "Orbitals", "Electronic Configuration", "Quantum Mechanics"],
+      "enhancement": "Quantum Computing & AI Hardware",
+      "aiEnhancementLesson": {
+        "title": "From Electron Orbitals to Quantum Computing Qubits",
+        "content": "Board Level: Quantum numbers (n, l, m_l, m_s), orbital shapes (s, p, d, f), Aufbau principle, Hund's rule, Pauli exclusion. Bohr model energy levels: E_n = −13.6/n² eV. JEE Bridge: Photoelectric effect calculations, de Broglie wavelength λ = h/mv, Heisenberg uncertainty principle ΔxΔp ≥ h/4π. Intelligence Age: A quantum computer uses quantum bits (qubits) that exploit the superposition principle — exactly like an electron simultaneously existing in multiple orbital states before measurement. IBM's Quantum Eagle processor (127 qubits) operates by maintaining electrons in superposition states, using the same quantum mechanical principles as your orbital theory. Bengaluru's IISc has India's first quantum computer (using superconducting qubits). Your quantum numbers (n, l, m_l, m_s) describe the quantum state of an electron — in a qubit, the same quantum state formalism encodes computational information.",
+        "practicalAddOn": "Calculate: (1) Energy required to ionise hydrogen from n=2 state. (2) De Broglie wavelength of an electron at 1% speed of light. (3) Compare this wavelength with the size of a hydrogen atom — can this electron 'see' atomic structures? This is the basis of electron microscopy used in semiconductor fabrication."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The maximum number of electrons in a subshell with l = 2 is:",
+          "options": ["2", "6", "10", "14"],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! l = 2 is the d subshell. Number of orbitals = 2l+1 = 5. Each orbital has 2 electrons. Total = 10.",
+            "incorrect": "For l=2 (d subshell): m_l values = −2,−1,0,+1,+2 → 5 orbitals × 2 electrons each = 10 electrons.",
+            "intelligenceAgeHint": "The 10 electrons in d-orbitals of transition metals (Cu, Fe, Ni) give them magnetic properties used in hard drives, MRI machines, and electric motors."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] An electron in hydrogen is excited from n=1 to n=3. The de Broglie wavelength changes by factor: (λ = h/mv, and mvr = nh/2π for Bohr orbits)",
+          "options": ["3×", "9×", "1/3×", "1/9×"],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! From Bohr: mvr = nh/2π → mv = nh/2πr. λ = h/mv = 2πr/n. Since r ∝ n², λ ∝ n²/n = n. So λ₃/λ₁ = 3/1 = 3.",
+            "incorrect": "Bohr: mvr = nh/2π → λ = h/mv = 2πr/n. r ∝ n², so λ ∝ n²/n = n. Therefore λ₃ = 3λ₁.",
+            "intelligenceAgeHint": "This de Broglie wavelength relationship explains why quantum computers need cooling to near absolute zero — thermal vibrations destroy quantum coherence at the atomic scale."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A qubit in IBM's quantum computer exists in superposition: ψ = 0.6|0⟩ + 0.8|1⟩. The probability of measuring state |1⟩ is related to which quantum mechanical principle?",
+          "options": ["Aufbau Principle", "Pauli Exclusion Principle", "Born's probability interpretation (|ψ|²)", "Hund's Rule"],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! P(|1⟩) = |0.8|² = 0.64 (64%). Born's rule: probability = |coefficient|². This is your orbital probability density applied to quantum computing!",
+            "incorrect": "Born's rule: P = |amplitude|² = |0.8|² = 0.64. The orbital probability density ψ²(r) from your chemistry chapter IS the same Born's rule used in quantum computers.",
+            "intelligenceAgeHint": "When IISc Bengaluru's quantum computer runs an algorithm, it manipulates quantum state amplitudes exactly like this — your orbital probability concepts are quantum computing 101."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key formulae: E_n = −13.6/n² eV, r_n = 0.529n² Å, v_n = 2.18×10⁶/n m/s (for H). de Broglie: λ = h/mv = h/√(2mKE). These appear directly in JEE.",
+        "calculationHack": "For energy of photon emitted: ΔE = 13.6(1/n₁² − 1/n₂²) eV. For Rydberg: 1/λ = R_H(1/n₁² − 1/n₂²) where R_H = 1.097×10⁷ m⁻¹. Lyman (n=1), Balmer (n=2), Paschen (n=3).",
+        "mnemonicAgent": "SPDF: Sharp, Principal, Diffuse, Fundamental — the orbital names l=0,1,2,3. Remember: 'Some Poor Dogs Fight' for orbital order. Electrons fill: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p... (follow (n+l) rule)."
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Classification of Elements and Periodicity",
+      "summary": "Mendeleev and modern periodic table, periodic trends in atomic radius, ionisation energy, electron affinity, electronegativity.",
+      "topics": ["Periodic Table", "Periodic Trends", "Atomic Radius", "Ionisation Energy", "Electronegativity"],
+      "enhancement": "Material Discovery AI",
+      "aiEnhancementLesson": {
+        "title": "From Periodic Trends to AI-Discovered Materials for Indian Industry",
+        "content": "Board Level: Atomic radius (decreases across period, increases down group), ionisation energy (opposite trend), electronegativity, periodic table structure — s, p, d, f blocks. JEE Bridge: Anomalous configurations (Cr, Cu), effective nuclear charge Z_eff, and their effect on periodic properties. Intelligence Age: Google DeepMind's GNoME AI (Graph Networks for Materials Exploration) discovered 2.2 million new stable materials — using periodic table trends as features in its neural network. The AI input is: element position in periodic table + periodic trends (your Class 11 chapter). Output: predicted crystal structure + stability. Indian Rare Earth Ltd (Bengaluru) uses AI to optimise separation of lanthanide elements based on their periodic property differences (ionic radius, which decreases across lanthanides — 'lanthanide contraction' — a JEE favourite).",
+        "practicalAddOn": "Using periodic trends, predict which would have: (1) highest ionisation energy among Na, Mg, Al, Si, P, S, Cl, Ar; (2) smallest atomic radius among Li, Na, K, Rb, Cs; (3) highest electronegativity in the 2nd period. Explain each in terms of nuclear charge and electron shielding."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The correct order of ionisation energy among Li, Na, K is:",
+          "options": ["Li > Na > K", "K > Na > Li", "Na > Li > K", "All equal"],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Down a group, atomic radius increases → valence electron farther from nucleus → less energy to remove. So Li (smallest, highest IE) > Na > K.",
+            "incorrect": "Down a group, atomic size increases → valence electrons are farther from nucleus and more shielded → ionisation energy decreases. Li > Na > K.",
+            "intelligenceAgeHint": "This ionisation energy trend determines which metals are used in batteries: Li has high IE but its ionic form Li⁺ readily travels in electrolytes — making lithium the best battery metal."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The electronic configuration of Cr (Z=24) is [Ar]3d⁵4s¹ instead of [Ar]3d⁴4s². This is because:",
+          "options": ["3d fills before 4s in Cr", "Half-filled d-subshell has extra stability", "4s orbital is unavailable in Cr", "Pauli principle requires this"],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Half-filled (d⁵) and fully-filled (d¹⁰) subshells have extra stability due to exchange energy and symmetric electron distribution. Cr and Cu are the classic JEE exceptions.",
+            "incorrect": "Extra stability of half-filled (d⁵) subshell due to maximum exchange energy. Cr: [Ar]3d⁵4s¹ (stable) vs [Ar]3d⁴4s² (less stable). Cu: [Ar]3d¹⁰4s¹ (stable) vs [Ar]3d⁹4s² (less stable).",
+            "intelligenceAgeHint": "The unique d-orbital configuration of Cr gives it excellent corrosion resistance — this is why 'stainless steel' contains 10-30% chromium. Your periodic table directly explains why India's Bandra-Worli Sea Link uses stainless steel cables."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] Google's GNoME AI uses periodic table features to predict new materials. Which combination of periodic properties would it check first for a potential high-temperature superconductor?",
+          "options": ["Ionisation energy and atomic radius only", "Electronegativity difference, d-orbital occupancy, ionic radius, and oxidation states", "Group number only", "Molar mass and melting point"],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Superconductivity depends on electron pairing in d-orbitals, crystal geometry (ionic radius ratio), charge balance (oxidation states), and bond polarity (electronegativity difference). GNoME uses all these periodic features.",
+            "incorrect": "High-Tc superconductors (like YBCO) require specific d-orbital occupancy (partially filled Cu d-orbitals), ionic size ratios (for the perovskite structure), and oxidation state balance. GNoME's AI learns these relationships from your periodic table data.",
+            "intelligenceAgeHint": "India's IICT Hyderabad uses AI material prediction to discover new semiconductors for solar cells — they feed your periodic table data into neural networks to predict which combinations will work."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Exceptions: Cr=[Ar]3d⁵4s¹, Cu=[Ar]3d¹⁰4s¹. Trends: IE increases across period (except BE > B IE, and S > P IE — exceptions for filled/half-filled orbital stability). Electronegativity: F highest (4.0), Cs lowest.",
+        "calculationHack": "Effective nuclear charge Z_eff = Z − σ (shielding). Slater's rules give σ. Z_eff increases across period → atomic radius decreases, IE increases. Simple logic beats memorisation.",
+        "mnemonicAgent": "ARENA: Atomic Radius (decreases →), IE (increases →), Electron Affinity (generally increases →), eNegAtivity (increases →). All trends go the same way across a period. 'ARENA' — across the periodic table."
+      }
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Chemical Bonding and Molecular Structure",
+      "summary": "Ionic and covalent bonds, VSEPR theory, hybridisation, molecular orbital theory, hydrogen bonding, polarity.",
+      "topics": ["Ionic Bond", "Covalent Bond", "VSEPR Theory", "Hybridisation", "MO Theory", "Hydrogen Bond", "Polarity"],
+      "enhancement": "Drug Design & Molecular AI",
+      "aiEnhancementLesson": {
+        "title": "From Chemical Bonds to AI Drug Design & Molecular Simulation",
+        "content": "Board Level: Lewis structures, VSEPR theory (bond pair-lone pair repulsion → geometry), hybridisation (sp, sp², sp³), resonance, hydrogen bonding (DNA base pairing), polarity. JEE Bridge: Molecular orbital theory (bonding and antibonding orbitals, bond order = (bonding − antibonding)/2). Intelligence Age: AI drug design (like Schrödinger's Glide software used at Biocon Bengaluru) predicts how drug molecules bind to protein targets using molecular mechanics — essentially solving VSEPR and MO theory computationally for molecules with thousands of atoms. AlphaFold 2 (DeepMind) predicted 200+ million protein structures using deep learning trained on your bond angle and geometry data. The DNA double helix is held together by hydrogen bonds (your Class 11 chapter) — CRISPR gene editing tools must understand these bonds to cut DNA at precise locations. Your chemical bonding chapter IS molecular biology and pharmaceutical design.",
+        "practicalAddOn": "Draw Lewis structures and predict geometries for: (1) SF₆ — expanded octet, octahedral. (2) XeF₄ — square planar, 2 lone pairs. (3) PCl₅ — trigonal bipyramidal. For each, explain why this geometry minimises VSEPR repulsion. Then consider: how does an AI drug predict which geometry allows the molecule to fit into a protein binding pocket?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The geometry of H₂O (2 bonding pairs + 2 lone pairs) according to VSEPR is:",
+          "options": ["Linear", "Trigonal planar", "Bent/V-shaped", "Tetrahedral"],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! H₂O has 4 electron pairs (tetrahedral arrangement) but only 2 are bonding pairs → bent geometry with bond angle ~104.5° (reduced from 109.5° due to lone pair repulsion).",
+            "incorrect": "H₂O: 4 electron pairs (sp³) → tetrahedral electron geometry. But only 2 bonds → bent/V-shaped MOLECULAR geometry. Lone pairs push bonding pairs closer → angle = 104.5°.",
+            "intelligenceAgeHint": "Water's bent geometry gives it a dipole moment → hydrogen bonding → high specific heat → life as we know it. AI climate models simulate billions of water molecules using this V-shaped geometry."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The bond order of O₂⁻ (superoxide ion) using MO theory is:",
+          "options": ["1", "1.5", "2", "2.5"],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! O₂ has bond order 2 (σ2s²σ*2s²σ2p²π2p⁴π*2p²). Adding one electron to O₂⁻ fills one π* → (bonding−antibonding)/2 = (8−5)/2 = 1.5.",
+            "incorrect": "O₂ MO: bonding = 8, antibonding = 4, BO = (8−4)/2 = 2. For O₂⁻, one extra e⁻ enters π* orbital → antibonding = 5. BO = (8−5)/2 = 1.5.",
+            "intelligenceAgeHint": "Superoxide (O₂⁻) is produced in cellular respiration and causes oxidative stress — understanding its bond order tells us about its reactivity. Antioxidant drug design uses this MO analysis."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI drug design system predicts that a drug molecule must have a specific hydrogen bond donor-acceptor pattern to bind to a COVID protease. The ideal geometry requires an angle of ~170° for the H-bond. Which hybridisation of the donor atom supports near-linear H-bonds?",
+          "options": ["sp³ (109.5°)", "sp² (120°)", "sp (180°)", "Any hybridisation works"],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! sp hybridisation gives 180° bond angles — the closest to the ideal ~170° for strong hydrogen bonds. Linear donors form stronger H-bonds, critical for drug-protein binding.",
+            "incorrect": "sp hybridisation creates linear geometry (180°) — nearest to optimal H-bond angle of ~170°. Drug design AI (Schrödinger, Glide) filters candidate molecules based on H-bond geometry from your hybridisation chapter.",
+            "intelligenceAgeHint": "COVID antiviral drugs (Paxlovid) were designed by AI that modelled H-bond patterns — Tata Institute and IISc researchers used molecular simulation based on your chemical bonding chapter."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "MO bond orders: H₂=1, He₂=0 (unstable), O₂=2, N₂=3. O₂ is paramagnetic (2 unpaired e⁻ in π*). N₂ most stable (BO=3). JEE frequently tests MO of diatomic molecules.",
+        "calculationHack": "VSEPR shortcut: Count total electron pairs around central atom. BP=2 LP=0→linear; BP=3 LP=0→trigonal planar; BP=4 LP=0→tetrahedral; BP=3 LP=1→trigonal pyramidal; BP=2 LP=2→bent.",
+        "mnemonicAgent": "VSEPR-HALT: Hybridisation, Angle, Lone pairs, Triangle/Tetrahedral/Linear. For any molecule: count e⁻ pairs → determine hybridisation → identify geometry → predict angle → find lone pairs."
+      }
+    }
+  ]
+}

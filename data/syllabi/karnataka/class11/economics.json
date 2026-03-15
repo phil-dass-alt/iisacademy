@@ -1,0 +1,245 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "board": "karnataka",
+  "class": 11,
+  "subject": "Economics",
+  "stream": "commerce",
+  "competitiveTargets": [
+    "CA Foundation",
+    "CA Intermediate",
+    "CUET"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Introduction to Economics",
+      "summary": "Definition, scope, central problems of an economy, types of economies (capitalist, socialist, mixed), and economic concepts.",
+      "topics": [
+        "Definition of Economics",
+        "Central Problems",
+        "Types of Economies",
+        "Microeconomics vs Macroeconomics"
+      ],
+      "enhancement": "AI Economics & Digital Platforms",
+      "aiEnhancementLesson": {
+        "title": "Classical Economics to Platform Economics: How AI is Transforming Markets",
+        "content": "Board Level: Economics = study of allocation of scarce resources. Three central problems: What to produce? How to produce? For whom to produce? Types: Capitalist (market), Socialist (government), Mixed (India). JEE/CA Bridge: Economic efficiency, Pareto optimality, opportunity cost. Intelligence Age: Platform economics (Flipkart, Amazon, Swiggy, Ola) is digital capitalism at scale. Amazon's AI answers 'What to produce?' by predicting what you'll buy before you search. 'How to produce?' is answered by AI inventory management (Amazon's warehouse robots). 'For whom to produce?' is solved by AI personalisation — showing different products to different users. India's startup ecosystem (Bengaluru's Silicon Valley) has created ₹20+ lakh crore in value by solving these three classical economic problems using AI. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Case study: Zomato answers the three central economic questions in real time. (1) What to produce: AI predicts demand for biryani on Friday evenings. (2) How to produce: AI optimises delivery routes and kitchen assignments. (3) For whom: AI personalises recommendations. Identify one Indian startup and explain how it uses AI to address each central problem."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The central problem of 'what to produce' in an economy refers to:",
+          "options": [
+            "Technology choice for production",
+            "Allocation of goods to consumers",
+            "Decision on which goods and how much to produce",
+            "Pricing strategy of producers"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! 'What to produce' = deciding which goods (consumer/capital goods) and in what quantities given scarce resources.",
+            "incorrect": "Central problem 'What to produce' = choosing which goods/services to make (consumer vs capital goods) and quantities.",
+            "intelligenceAgeHint": "Amazon's demand prediction AI solves this 'What to produce?' problem in real-time — predicting what 100 million Indian shoppers will want before they even search."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] India's mixed economy means:",
+          "options": [
+            "Only government enterprises",
+            "Only private enterprises",
+            "Co-existence of public and private sector with government regulation",
+            "Equal shares of public and private sector"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Mixed economy = public sector (Railways, ONGC) + private sector (Tata, Reliance) + government regulation (RBI, SEBI, Competition Commission of India).",
+            "incorrect": "Mixed economy: public sector + private sector + government regulation. India's post-1991 liberalisation reduced government's role while maintaining regulation.",
+            "intelligenceAgeHint": "India's digital economy is a mixed model: private platforms (Flipkart, Ola) + public infrastructure (UPI, ONDC, DigiLocker) + regulation (TRAI, CCI). Your mixed economy chapter describes modern India."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] Zomato's AI predicts that biryani demand will be 40% higher on Friday evenings. This is an example of which central economic problem being solved by AI?",
+          "options": [
+            "For whom to produce",
+            "What to produce (and how much)",
+            "How to produce",
+            "Pricing"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Predicting what to produce (biryani) and how much (40% more quantity) is solving the 'What to produce?' problem using AI demand forecasting.",
+            "incorrect": "AI demand prediction answers 'What to produce?' — determining which goods are needed and in what quantities. Zomato's AI solves your textbook's central economic problem computationally.",
+            "intelligenceAgeHint": "Swiggy, Zomato and Amazon use ML forecasting to solve 'What to produce?' in real time — India's food delivery economy runs on your Class 11 Economics central problem applied through AI."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "CA Foundation covers economic concepts deeply. Opportunity cost = value of best alternative foregone. Production possibility curve (PPC) shows trade-offs. Understand PPC slope = opportunity cost.",
+        "calculationHack": "Opportunity cost formula: if you give up producing X units of A to produce Y units of B, OC per unit of B = X/Y. Draw PPC for 2 goods to visualise.",
+        "mnemonicAgent": "WH2F: What to produce, How to produce, For whom — the three central problems. 'WH2F — the two H's of Economics.' Every economic system answers these in its own way."
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Demand and Supply",
+      "summary": "Law of demand, demand curve, elasticity of demand, supply, law of supply, market equilibrium, and price mechanism.",
+      "topics": [
+        "Law of Demand",
+        "Demand Curve",
+        "Price Elasticity",
+        "Supply",
+        "Law of Supply",
+        "Market Equilibrium"
+      ],
+      "enhancement": "AI Pricing & Dynamic Markets",
+      "aiEnhancementLesson": {
+        "title": "Supply & Demand to Surge Pricing AI & E-Commerce Dynamic Pricing",
+        "content": "Board Level: Law of demand (P↑→Q_d↓), demand curve (downward sloping), elasticity E_d = %ΔQ/%ΔP. Law of supply (P↑→Q_s↑). Equilibrium at intersection of D and S curves. JEE/CA Bridge: Price ceiling, price floor, consumer and producer surplus. Intelligence Age: Ola and Uber's 'surge pricing' is real-time dynamic equilibrium — when demand (rainy day) exceeds supply (available drivers), price is automatically raised until Q_d=Q_s. The AI solves your equilibrium equation at 1-minute intervals. Flipkart's 'Big Billion Days' uses demand elasticity AI — if demand is elastic for TVs (E>1), a small price cut generates large revenue increase. Amazon's AI adjusts prices 2.5 million times per day using your elasticity formula. India's commodity markets (BSE, NSE) price discovery uses the D-S intersection computed by millions of market participants simultaneously. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate elasticity: TV price drops from ₹50,000 to ₹45,000 (10% fall). Quantity demanded rises from 1000 to 1300 units (30% rise). E_d = 30/10 = 3. Elastic! Should Flipkart reduce price? Calculate revenue before (₹50,000×1000) and after (₹45,000×1300). Which is higher? What does this say about pricing strategy?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If price elasticity of demand for a good is 2, a 5% rise in price will cause quantity demanded to:",
+          "options": [
+            "Fall by 2.5%",
+            "Fall by 10%",
+            "Rise by 10%",
+            "Fall by 5%"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! |E_d|=|%ΔQ/%ΔP|=2. %ΔQ=E×%ΔP=2×5=10%. Price rise → demand falls: −10%.",
+            "incorrect": "E_d = %ΔQ / %ΔP. %ΔQ = E_d × %ΔP = 2 × 5% = 10%. Price rise → quantity demanded falls by 10%.",
+            "intelligenceAgeHint": "Flipkart's pricing AI computes exactly this elasticity formula before every price change — if demand is elastic (E>1), price cuts increase revenue; if inelastic, price rise increases revenue."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] A price ceiling set BELOW equilibrium price causes:",
+          "options": [
+            "Surplus (excess supply)",
+            "Shortage (excess demand)",
+            "Equilibrium maintained",
+            "Price to rise to ceiling level"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Price ceiling < equilibrium → price is too low → Q_d > Q_s → shortage. Rationing needed (e.g., India's PDS ration system for wheat).",
+            "incorrect": "Price ceiling BELOW equilibrium: legally enforced maximum price. Quantity demanded (at this low price) > quantity supplied → shortage. India's PDS essential commodities system uses this.",
+            "intelligenceAgeHint": "India's ONDC (Open Network for Digital Commerce) debates price regulation in digital markets — the shortage vs surplus analysis from your chapter informs these government policy decisions."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] Ola's surge pricing algorithm raises price by 3× during peak demand. This is:",
+          "options": [
+            "A price ceiling (government imposed)",
+            "Dynamic price adjustment toward new market equilibrium",
+            "Price discrimination with no economic rationale",
+            "Violation of supply law"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Surge pricing moves the price toward the new (temporary) equilibrium — higher demand (rainy day) shifts D curve right → higher equilibrium P → Ola's AI adjusts price to clear the market.",
+            "incorrect": "Surge pricing = dynamic equilibrium adjustment. Rain increases demand (D curve shifts right). At old price: shortage (too many riders, too few drivers). AI raises price until Q_d=Q_s.",
+            "intelligenceAgeHint": "Ola's surge pricing AI solves the demand-supply equilibrium equation every minute for every city zone — your Class 11 Economics supply-demand model runs India's cab market in real time."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "Consumer surplus = area between demand curve and price line (triangle). Producer surplus = area between supply curve and price line. Total welfare = CS + PS. Price controls reduce total welfare.",
+        "calculationHack": "Elasticity shortcuts: Perfectly inelastic: vertical demand curve (necessities like insulin). Perfectly elastic: horizontal demand curve (commodities with perfect substitutes). Unit elastic: E=1, revenue unchanged by price change.",
+        "mnemonicAgent": "DIPES for elasticity: Determinants are Income, Price of related goods, Expectations, Substitutes/complements (DIPES). These five factors determine whether demand is elastic or inelastic — remember DIPES."
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "National Income Accounting",
+      "summary": "GDP, GNP, NNP, methods of national income measurement, economic growth, and development.",
+      "topics": [
+        "GDP",
+        "GNP",
+        "NNP",
+        "Methods of Measurement",
+        "Economic Growth"
+      ],
+      "enhancement": "India's Digital Economy & AI GDP",
+      "aiEnhancementLesson": {
+        "title": "National Income to India's $5 Trillion Economy & Digital GDP",
+        "content": "Board Level: GDP = C + I + G + NX (expenditure method). NNP = GNP − Depreciation. Three methods: Output, Expenditure, Income. GDP vs GNP (GDP excludes foreign earnings). JEE/CA Bridge: GDP deflator, real vs nominal GDP, per capita income, HDI. Intelligence Age: India's digital economy contributes 11% of GDP (₹22 lakh crore in 2024). ITES (IT-enabled services — Infosys, TCS, Wipro headquartered in Bengaluru) contribute significantly to India's Service sector GDP. India's 'GIG economy' (Swiggy, Zomato, Ola delivery partners — 7+ million workers) is now part of GDP measurement. AI-powered GST system processes ₹1.87 lakh crore/month in tax collections — enabling India's GDP monitoring in near-real-time rather than quarterly estimates. Your national income chapter describes the framework used to assess India's economic progress toward the $5 trillion economy goal. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Calculate India's GDP using expenditure method with recent data: (1) Private consumption (C): ~₹70 lakh crore. (2) Gross investment (I): ~₹50 lakh crore. (3) Government spending (G): ~₹35 lakh crore. (4) Net exports (X-M): approximately −₹5 lakh crore (India imports more than exports). Estimate GDP and compare with India's actual nominal GDP."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "GDP = C + I + G + NX. If NX is negative (trade deficit), GDP is:",
+          "options": [
+            "Higher than C+I+G",
+            "Lower than C+I+G",
+            "Equal to C+I+G",
+            "Cannot be determined"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! If NX < 0 (imports > exports), GDP = C+I+G + (negative NX) < C+I+G. Trade deficit reduces GDP.",
+            "incorrect": "GDP = C+I+G+NX. If NX is negative, GDP < C+I+G. India typically runs a trade deficit (imports oil, electronics > exports software, textiles).",
+            "intelligenceAgeHint": "RBI's AI models monitor India's trade balance in real-time using port clearance data to estimate NX — allowing immediate GDP forecasting instead of quarterly estimates."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] India's nominal GDP is ₹300 lakh crore. GDP deflator = 150 (base year = 100). Real GDP is:",
+          "options": [
+            "₹200 lakh crore",
+            "₹450 lakh crore",
+            "₹300 lakh crore",
+            "₹150 lakh crore"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Real GDP = Nominal GDP / (Deflator/100) = 300/(150/100) = 300/1.5 = ₹200 lakh crore.",
+            "incorrect": "Real GDP = Nominal GDP × (100/Deflator) = 300 × (100/150) = 300 × (2/3) = ₹200 lakh crore. Deflator removes inflation effect.",
+            "intelligenceAgeHint": "RBI uses real GDP (inflation-adjusted) for monetary policy decisions. AI models project real GDP growth to determine if interest rate cuts or hikes are needed."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] India's digital economy (IT services, e-commerce, fintech) grew 15% in 2024 while traditional sectors grew 7%. If digital sector = 11% of GDP and traditional = 89%, what is total GDP growth?",
+          "options": [
+            "7.88%",
+            "11%",
+            "15%",
+            "8.98%"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Weighted growth = 0.11×15% + 0.89×7% = 1.65% + 6.23% = 7.88%.",
+            "incorrect": "Weighted average: 0.11×15 + 0.89×7 = 1.65+6.23 = 7.88% total GDP growth.",
+            "intelligenceAgeHint": "India's CSO (Central Statistical Office) uses exactly this weighted sector growth calculation for GDP estimates — your weighted average concept IS national income accounting."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "CA students: Know all three GDP methods — Output (value added), Expenditure (C+I+G+NX), Income (wages+rent+interest+profit). All give the same result (National Income Identity). Double counting avoided using value-added method.",
+        "calculationHack": "GDP Growth Rate = (GDP_current − GDP_previous)/GDP_previous × 100. Real growth = Nominal growth − Inflation rate (approximate). For CA exams, always distinguish nominal vs real values.",
+        "mnemonicAgent": "CIGX for GDP: Consumption + Investment + Government spending + eXports minus imports. 'CIGX — the GDP equation spelling CIGX.' Memorise this formula for every CA and CUET exam."
+      }
+    }
+  ]
+}

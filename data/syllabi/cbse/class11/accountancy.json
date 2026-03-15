@@ -1,0 +1,91 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy provides supplementary enhancement content only.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Accountancy",
+  "stream": "commerce",
+  "competitiveTargets": [
+    "CA Foundation",
+    "CA Intermediate",
+    "CUET"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Introduction to Accounting",
+      "summary": "Nature and purpose of accounting, accounting concepts and conventions, double-entry system, types of accounts.",
+      "topics": [
+        "Nature of Accounting",
+        "Accounting Concepts",
+        "Double Entry System",
+        "Types of Accounts",
+        "Books of Accounts"
+      ],
+      "enhancement": "AI Accounting & FinTech",
+      "aiEnhancementLesson": {
+        "title": "From Double-Entry Bookkeeping to AI Accounting & GST Automation",
+        "content": "Board Level: Accounting = art of recording, classifying, summarising financial transactions. Concepts: entity, going concern, accrual, conservatism. Double-entry: every debit has equal credit. Rules: Personal (Dr=receiver, Cr=giver), Real (Dr=what comes in), Nominal (Dr=expenses/losses). CA Bridge: Journal, ledger, trial balance sequence. Tally ERP fundamentals. Intelligence Age: Tally Solutions (Bengaluru-based) serves 7 million businesses with AI-powered accounting — automating your double-entry system and GST filing. India's GST AI (GSTN system) processes 2 crore invoices daily, automatically checking debit-credit matching. Intuit's TurboTax AI does tax returns using your accounting rules. Zerodha's Kite app automatically calculates P&L using your nominal account debit-credit rules. Your chapter IS the foundation of India's entire digital accounting infrastructure.",
+        "practicalAddOn": "Pass journal entries for: (1) Started business with ₹50,000 cash. (2) Bought goods for ₹20,000 cash. (3) Sold goods for ₹30,000 on credit. For each: identify accounts (Personal/Real/Nominal), apply rule (Dr/Cr), and post to T-accounts. Verify: total debits = total credits in all entries."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "When goods are sold on credit, the journal entry is:",
+          "options": [
+            "Debit Cash, Credit Sales",
+            "Debit Sales, Credit Debtors",
+            "Debit Debtors, Credit Sales",
+            "Debit Cash, Credit Debtors"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Credit sale: Debtors Account Dr. (personal account, receiver gets goods → Dr.). Sales Account Cr. (nominal account, revenue earned → Cr.).",
+            "incorrect": "Credit sale: Debtors A/c Dr (receiver of goods — personal account rule) / Sales A/c Cr (income — nominal account rule). No cash received yet.",
+            "intelligenceAgeHint": "Every credit sale on Amazon/Flipkart creates this exact journal entry in their ERP system — AI accounting software (SAP, Oracle Financials) processes millions of these entries per second."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[CA Level] Which accounting concept requires recording expenses in the period they are incurred (not when paid)?",
+          "options": [
+            "Entity concept",
+            "Accrual concept",
+            "Conservatism",
+            "Matching concept"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Accrual concept: recognise revenue when earned and expenses when incurred, regardless of cash flow. This matches with 'matching concept' (match revenues with related expenses in same period).",
+            "incorrect": "Accrual concept: record transactions when they occur (not when cash changes hands). Salary for March paid in April is recorded as March expense (accrued liability).",
+            "intelligenceAgeHint": "India's Companies Act mandates accrual-based accounting for all listed companies. RoC's AI audit system flags companies that don't follow accrual accounting — your concept is legally enforced."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] Tally's AI auto-reconciles bank statements with books. If bank shows ₹5,00,000 balance but Tally shows ₹4,80,000, the difference is ₹20,000. Which is most likely cause?",
+          "options": [
+            "Bank error",
+            "Cheques issued but not yet presented for payment (outstanding cheques)",
+            "Double-entry error",
+            "Tax calculation difference"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Outstanding cheques: business issued cheques (recorded in books) but they haven't been presented at bank yet → bank balance higher than book balance. Common bank reconciliation item.",
+            "incorrect": "Book balance < Bank balance by ₹20,000 → usually means cheques issued by firm not yet cleared at bank (outstanding cheques) or bank has credited something not yet recorded in books.",
+            "intelligenceAgeHint": "Tally's AI bank reconciliation module automatically identifies outstanding cheques, direct bank deposits, and errors — applying your bank reconciliation statement logic at million-transaction scale for Indian businesses."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "caEdge": "CA Foundation: Master the 'Golden Rules': Personal (Dr Receiver, Cr Giver), Real (Dr what comes in, Cr what goes out), Nominal (Dr expenses/losses, Cr income/gains). These rules ARE CA Foundation accounting.",
+        "calculationHack": "Trial balance check: sum of all Dr balances = sum of all Cr balances. If not equal, there's an error. Common errors: wrong-side posting, omission, arithmetic mistakes.",
+        "mnemonicAgent": "RPN for accounting rules: Real account (comes In=Dr, goes Out=Cr), Personal (Receiver=Dr, Giver=Cr), Nominal (expense/loss=Dr, income/gain=Cr). 'RPN — Real Personal Nominal — the three account types rule everything.'"
+      }
+    }
+  ]
+}

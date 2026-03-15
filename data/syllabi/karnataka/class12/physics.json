@@ -1,28 +1,42 @@
 {
   "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
-  "board": "cbse",
+  "board": "karnataka",
   "class": 12,
   "subject": "Physics",
   "stream": "science",
-  "competitiveTargets": ["JEE Main", "JEE Advanced", "NEET"],
+  "competitiveTargets": [
+    "JEE Main",
+    "JEE Advanced",
+    "NEET"
+  ],
   "chapters": [
     {
       "id": 1,
       "number": 1,
       "title": "Electric Charges and Fields",
       "summary": "Coulomb's Law, electric field, Gauss's Law, electric flux, and field due to charge distributions.",
-      "topics": ["Coulomb's Law","Electric Field","Gauss's Law","Electric Flux"],
+      "topics": [
+        "Coulomb's Law",
+        "Electric Field",
+        "Gauss's Law",
+        "Electric Flux"
+      ],
       "enhancement": "AI Circuits & Electronics",
       "aiEnhancementLesson": {
         "title": "Electrostatics → AI Touchscreens & Semiconductor Chips",
-        "content": "Board Level: Coulomb's Law F=kq₁q₂/r², Gauss's Law ∮E·dA=Q_enc/ε₀. JEE Bridge: Inside a conducting shell, E=0 (Gauss's law). Charged shell outside behaves like point charge. Competitive Edge: JEE loves 'charged shell inside field' and 'electric field due to ring/disc' problems using direct integration. Intelligence Age: Capacitive touchscreens use Coulomb's law — your finger (conductor) distorts the local electric field measured by screen electrodes at 120 Hz. TSMC's 3-nm chip gates use Gauss's law field calculations at the atomic scale. India's Smart Power Grid uses electrostatic field analysis for insulator design.",
+        "content": "Board Level: Coulomb's Law F=kq₁q₂/r², Gauss's Law ∮E·dA=Q_enc/ε₀. JEE Bridge: Inside a conducting shell, E=0 (Gauss's law). Charged shell outside behaves like point charge. Competitive Edge: JEE loves 'charged shell inside field' and 'electric field due to ring/disc' problems using direct integration. Intelligence Age: Capacitive touchscreens use Coulomb's law — your finger (conductor) distorts the local electric field measured by screen electrodes at 120 Hz. TSMC's 3-nm chip gates use Gauss's law field calculations at the atomic scale. India's Smart Power Grid uses electrostatic field analysis for insulator design. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Rub a comb on hair. Attract tiny paper pieces. Estimate the charge on the comb using F=kq₁q₂/r² (assume induced charge on paper is 10% of comb charge, distance=2 cm, paper mass=0.001 g). Compare with the field strength 1 cm from the comb."
       },
       "quiz": [
         {
           "id": 1,
           "question": "If the distance between two point charges is doubled, the electrostatic force becomes:",
-          "options": ["Double","Half","One-fourth","Four times"],
+          "options": [
+            "Double",
+            "Half",
+            "One-fourth",
+            "Four times"
+          ],
           "answer": "C",
           "difficulty": "board",
           "feedback": {
@@ -34,7 +48,12 @@
         {
           "id": 2,
           "question": "[JEE Level] A hollow metal sphere of radius R is uniformly charged with Q. The electric field at distance r < R from centre is:",
-          "options": ["kQ/r²","kQ/R²","Zero","kQr/R³"],
+          "options": [
+            "kQ/r²",
+            "kQ/R²",
+            "Zero",
+            "kQr/R³"
+          ],
           "answer": "C",
           "difficulty": "competitive",
           "feedback": {
@@ -46,7 +65,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] In a capacitive touchscreen, a finger acts as a conductor that changes the ______ of the screen's internal electric field.",
-          "options": ["Gravity","Capacitance","Magnetic North","Weight"],
+          "options": [
+            "Gravity",
+            "Capacitance",
+            "Magnetic North",
+            "Weight"
+          ],
           "answer": "B",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -67,18 +91,28 @@
       "number": 2,
       "title": "Electrostatic Potential and Capacitance",
       "summary": "Electric potential, equipotential surfaces, capacitors, dielectrics, energy in capacitors.",
-      "topics": ["Electric Potential","Capacitors","Dielectrics","Energy Storage"],
+      "topics": [
+        "Electric Potential",
+        "Capacitors",
+        "Dielectrics",
+        "Energy Storage"
+      ],
       "enhancement": "AI Circuits & Electronics",
       "aiEnhancementLesson": {
         "title": "Capacitors → Supercapacitors in EVs & AI Data Centres",
-        "content": "Board Level: V=kQ/r, C=Q/V, U=½CV². Parallel: C=C₁+C₂. Series: 1/C=1/C₁+1/C₂. JEE Bridge: Common potential when capacitors are connected; energy loss in sharing. Intelligence Age: Supercapacitors (100 F, 2.7 V) store 364 J — used in EV regenerative braking and data centre UPS systems. India's Amara Raja Energy manufactures these for Ola Electric. Your U=½CV² directly determines EV braking energy recovery capacity.",
+        "content": "Board Level: V=kQ/r, C=Q/V, U=½CV². Parallel: C=C₁+C₂. Series: 1/C=1/C₁+1/C₂. JEE Bridge: Common potential when capacitors are connected; energy loss in sharing. Intelligence Age: Supercapacitors (100 F, 2.7 V) store 364 J — used in EV regenerative braking and data centre UPS systems. India's Amara Raja Energy manufactures these for Ola Electric. Your U=½CV² directly determines EV braking energy recovery capacity. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Build a capacitor with two aluminium foil sheets and a plastic bag separator. Connect to 9V battery. Measure stored charge by quickly disconnecting and discharging through a 1kΩ resistor while measuring peak voltage."
       },
       "quiz": [
         {
           "id": 1,
           "question": "Two capacitors 4μF and 6μF in series across 100V. Total energy stored is:",
-          "options": ["12 mJ","6 mJ","5 mJ","2.4 mJ"],
+          "options": [
+            "12 mJ",
+            "6 mJ",
+            "5 mJ",
+            "2.4 mJ"
+          ],
           "answer": "A",
           "difficulty": "board",
           "feedback": {
@@ -90,7 +124,12 @@
         {
           "id": 2,
           "question": "[JEE Level] Capacitor C charged to V₀ is connected to uncharged 2C. Common potential is:",
-          "options": ["V₀/2","V₀/3","2V₀/3","V₀"],
+          "options": [
+            "V₀/2",
+            "V₀/3",
+            "2V₀/3",
+            "V₀"
+          ],
           "answer": "B",
           "difficulty": "competitive",
           "feedback": {
@@ -102,7 +141,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] An EV supercapacitor (C=100F, V=2.7V) supplies 1kW backup to AI servers. How long?",
-          "options": ["0.364 s","0.182 s","1 s","3.64 s"],
+          "options": [
+            "0.364 s",
+            "0.182 s",
+            "1 s",
+            "3.64 s"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -123,18 +167,29 @@
       "number": 3,
       "title": "Current Electricity",
       "summary": "Ohm's law, resistivity, Kirchhoff's laws, Wheatstone bridge, and potentiometer.",
-      "topics": ["Ohm's Law","Kirchhoff's Laws","Wheatstone Bridge","Potentiometer","Drift Velocity"],
+      "topics": [
+        "Ohm's Law",
+        "Kirchhoff's Laws",
+        "Wheatstone Bridge",
+        "Potentiometer",
+        "Drift Velocity"
+      ],
       "enhancement": "AI Circuit Design",
       "aiEnhancementLesson": {
         "title": "Kirchhoff's Laws to India's Smart Grid & AI Circuit Simulation",
-        "content": "Board Level: V=IR, KVL (sum of voltages around loop=0), KCL (sum of currents at node=0), Wheatstone bridge balance P/Q=R/S. Intelligence Age: India's Smart Grid uses AI applying KCL to 400+ transmission nodes in real time. NVIDIA's SPICE circuit simulator (based entirely on Kirchhoff's laws) simulates chips with billions of transistors. Your current electricity chapter is the foundation of India's entire power infrastructure management.",
+        "content": "Board Level: V=IR, KVL (sum of voltages around loop=0), KCL (sum of currents at node=0), Wheatstone bridge balance P/Q=R/S. Intelligence Age: India's Smart Grid uses AI applying KCL to 400+ transmission nodes in real time. NVIDIA's SPICE circuit simulator (based entirely on Kirchhoff's laws) simulates chips with billions of transistors. Your current electricity chapter is the foundation of India's entire power infrastructure management. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Build a Wheatstone bridge with 4 resistors. Check balance using a galvanometer. Replace one with an unknown resistance. Use P/Q=R/S to find the unknown. This is how strain gauge sensors in weighing machines work."
       },
       "quiz": [
         {
           "id": 1,
           "question": "Cell of EMF 12V, internal resistance 2Ω, external resistance 10Ω. Terminal voltage:",
-          "options": ["10 V","12 V","8 V","11 V"],
+          "options": [
+            "10 V",
+            "12 V",
+            "8 V",
+            "11 V"
+          ],
           "answer": "A",
           "difficulty": "board",
           "feedback": {
@@ -146,7 +201,12 @@
         {
           "id": 2,
           "question": "[JEE Level] In balanced Wheatstone bridge (P/Q=R/S), if P doubles only, galvanometer shows:",
-          "options": ["No deflection (still balanced)","Deflection — current flows","Deflection magnitude doubles","Cannot determine"],
+          "options": [
+            "No deflection (still balanced)",
+            "Deflection — current flows",
+            "Deflection magnitude doubles",
+            "Cannot determine"
+          ],
           "answer": "B",
           "difficulty": "competitive",
           "feedback": {
@@ -158,7 +218,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] Smart grid AI applies KCL: node has 150A and 80A incoming, 200A outgoing. Fourth line carries:",
-          "options": ["30A in","30A out","430A out","70A in"],
+          "options": [
+            "30A in",
+            "30A out",
+            "430A out",
+            "70A in"
+          ],
           "answer": "B",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -179,18 +244,29 @@
       "number": 4,
       "title": "Moving Charges and Magnetism",
       "summary": "Biot-Savart law, Ampere's law, force on current-carrying conductor, solenoid, and torque on current loop.",
-      "topics": ["Biot-Savart Law","Ampere's Law","Lorentz Force","Solenoid","Cyclotron"],
+      "topics": [
+        "Biot-Savart Law",
+        "Ampere's Law",
+        "Lorentz Force",
+        "Solenoid",
+        "Cyclotron"
+      ],
       "enhancement": "AI Circuits & Electronics",
       "aiEnhancementLesson": {
         "title": "Magnetism → MRI Machines, Maglev Trains & EV Motors",
-        "content": "Board Level: F=qv×B (Lorentz force), F=BIL for wire, B=μ₀I/2πr (infinite wire), B=μ₀nI (solenoid). JEE Bridge: Force between parallel conductors (definition of ampere), circular motion of charged particle in B field. Intelligence Age: MRI machines (used at AIIMS Delhi, Apollo Bengaluru) use superconducting solenoids creating B=1.5–3T fields — your solenoid formula B=μ₀nI at giant scale. India's Hyperloop project (Virgin Hyperloop considered Pune-Mumbai route) uses linear induction motors based on moving charges in magnetic fields — your Lorentz force F=qv×B is the propulsion equation.",
+        "content": "Board Level: F=qv×B (Lorentz force), F=BIL for wire, B=μ₀I/2πr (infinite wire), B=μ₀nI (solenoid). JEE Bridge: Force between parallel conductors (definition of ampere), circular motion of charged particle in B field. Intelligence Age: MRI machines (used at AIIMS Delhi, Apollo Bengaluru) use superconducting solenoids creating B=1.5–3T fields — your solenoid formula B=μ₀nI at giant scale. India's Hyperloop project (Virgin Hyperloop considered Pune-Mumbai route) uses linear induction motors based on moving charges in magnetic fields — your Lorentz force F=qv×B is the propulsion equation. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Calculate: a solenoid with 1000 turns/metre, I=10A. B=μ₀nI=4π×10⁻⁷×1000×10=12.57mT. Compare with Earth's field (50μT). How many turns/metre does an MRI machine need to achieve B=1.5T at I=200A?"
       },
       "quiz": [
         {
           "id": 1,
           "question": "A proton (charge q, mass m) moves with velocity v perpendicular to B. The radius of circular motion is:",
-          "options": ["qB/mv","mv/qB","mv²/qB","qBv/m"],
+          "options": [
+            "qB/mv",
+            "mv/qB",
+            "mv²/qB",
+            "qBv/m"
+          ],
           "answer": "B",
           "difficulty": "board",
           "feedback": {
@@ -202,7 +278,12 @@
         {
           "id": 2,
           "question": "[JEE Level] Two parallel wires carry currents I₁=3A and I₂=5A in same direction, separated by d=10cm. Force per unit length between them (in μN/m) is:",
-          "options": ["30","15","60","3"],
+          "options": [
+            "30",
+            "15",
+            "60",
+            "3"
+          ],
           "answer": "A",
           "difficulty": "competitive",
           "feedback": {
@@ -214,7 +295,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] An MRI solenoid needs B=1.5T with 1000 turns/m. What current is required? (μ₀=4π×10⁻⁷)",
-          "options": ["1194 A","597 A","11940 A","119 A"],
+          "options": [
+            "1194 A",
+            "597 A",
+            "11940 A",
+            "119 A"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -235,18 +321,29 @@
       "number": 5,
       "title": "Electromagnetic Induction",
       "summary": "Faraday's laws, Lenz's law, eddy currents, self-inductance, mutual inductance, and AC generator.",
-      "topics": ["Faraday's Laws","Lenz's Law","Eddy Currents","Self-Inductance","Mutual Inductance"],
+      "topics": [
+        "Faraday's Laws",
+        "Lenz's Law",
+        "Eddy Currents",
+        "Self-Inductance",
+        "Mutual Inductance"
+      ],
       "enhancement": "EV & Wireless Power",
       "aiEnhancementLesson": {
         "title": "Electromagnetic Induction → EV Motors & Wireless Charging",
-        "content": "Board Level: EMF = −dΦ/dt (Faraday). Lenz's law (opposing direction). L: EMF=−L(dI/dt). Mutual inductance M: EMF₂=−M(dI₁/dt). JEE Bridge: Motional EMF = BLv. LC oscillations T=2π√(LC). Intelligence Age: Wireless phone charging (iPhone MagSafe, Ola Electric S1 Pro) uses mutual inductance — changing current in the charging pad coil induces EMF in your phone coil (M × dI/dt). Tesla EV motors rotate at 18,000 RPM using 3-phase electromagnetic induction — the inverter AI controls rotor flux 10,000 times/second using your Faraday's law.",
+        "content": "Board Level: EMF = −dΦ/dt (Faraday). Lenz's law (opposing direction). L: EMF=−L(dI/dt). Mutual inductance M: EMF₂=−M(dI₁/dt). JEE Bridge: Motional EMF = BLv. LC oscillations T=2π√(LC). Intelligence Age: Wireless phone charging (iPhone MagSafe, Ola Electric S1 Pro) uses mutual inductance — changing current in the charging pad coil induces EMF in your phone coil (M × dI/dt). Tesla EV motors rotate at 18,000 RPM using 3-phase electromagnetic induction — the inverter AI controls rotor flux 10,000 times/second using your Faraday's law. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Generator demonstration: rotate a coil between magnet poles. Measure EMF with galvanometer. Calculate theoretical ε₀=NBAω for your setup. This is exactly how Bhakra Dam's turbogenerators produce 1500 MW for North India."
       },
       "quiz": [
         {
           "id": 1,
           "question": "A coil of 100 turns, area 10cm², in B=0.5T rotating at f=50Hz. Peak EMF is:",
-          "options": ["157 V","15.7 V","1570 V","0.157 V"],
+          "options": [
+            "157 V",
+            "15.7 V",
+            "1570 V",
+            "0.157 V"
+          ],
           "answer": "B",
           "difficulty": "board",
           "feedback": {
@@ -258,7 +355,12 @@
         {
           "id": 2,
           "question": "[JEE Level] M=0.4H between two coils. Current in coil 1 changes at 5A/s. EMF in coil 2 is:",
-          "options": ["2 V","0.08 V","8 V","0.4 V"],
+          "options": [
+            "2 V",
+            "0.08 V",
+            "8 V",
+            "0.4 V"
+          ],
           "answer": "A",
           "difficulty": "competitive",
           "feedback": {
@@ -270,7 +372,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] EV regenerative braking uses EMI to convert kinetic energy back to electrical. Car mass=1500kg, v=20m/s, motor efficiency=85%. Energy recovered (kJ) is:",
-          "options": ["255 kJ","300 kJ","170 kJ","127.5 kJ"],
+          "options": [
+            "255 kJ",
+            "300 kJ",
+            "170 kJ",
+            "127.5 kJ"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -291,18 +398,30 @@
       "number": 6,
       "title": "Alternating Current",
       "summary": "AC circuits, RMS values, impedance, resonance, transformers, and power in AC circuits.",
-      "topics": ["AC Generator","RMS Values","Impedance","LCR Circuits","Resonance","Transformers"],
+      "topics": [
+        "AC Generator",
+        "RMS Values",
+        "Impedance",
+        "LCR Circuits",
+        "Resonance",
+        "Transformers"
+      ],
       "enhancement": "Power Grid & Smart Electronics",
       "aiEnhancementLesson": {
         "title": "AC Circuits → Smart Grid, 5G Base Stations & Power Electronics",
-        "content": "Board Level: V=V₀ sin(ωt), I_rms=I₀/√2, Z=√(R²+(X_L-X_C)²), resonance ω₀=1/√(LC), transformer V₁/V₂=N₁/N₂. JEE Bridge: Power factor cos φ, average power P=V_rms×I_rms×cosφ. Intelligence Age: India's 5G towers use LC resonant circuits tuned to specific frequencies (your resonance formula ω₀=1/√LC determines which frequency band — 700 MHz, 3.5 GHz, or 26 GHz). Smart transformers in India's grid use AI to monitor power factor and correct it in real-time, improving efficiency. Every data centre power supply unit (PSU) is an AC-DC converter using your AC circuit principles.",
+        "content": "Board Level: V=V₀ sin(ωt), I_rms=I₀/√2, Z=√(R²+(X_L-X_C)²), resonance ω₀=1/√(LC), transformer V₁/V₂=N₁/N₂. JEE Bridge: Power factor cos φ, average power P=V_rms×I_rms×cosφ. Intelligence Age: India's 5G towers use LC resonant circuits tuned to specific frequencies (your resonance formula ω₀=1/√LC determines which frequency band — 700 MHz, 3.5 GHz, or 26 GHz). Smart transformers in India's grid use AI to monitor power factor and correct it in real-time, improving efficiency. Every data centre power supply unit (PSU) is an AC-DC converter using your AC circuit principles. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Calculate resonant frequency for: L=1mH, C=100pF (typical for a 5G antenna filter). f₀=1/2π√LC. Compare with 5G frequency bands (700 MHz to 26 GHz). Why is resonance essential for tuning a radio to a specific station (or 5G band)?"
       },
       "quiz": [
         {
           "id": 1,
           "question": "In a series LCR circuit at resonance, the impedance equals:",
-          "options": ["Zero","R only","√(R²+X_L²)","√(R²+X_C²)"],
+          "options": [
+            "Zero",
+            "R only",
+            "√(R²+X_L²)",
+            "√(R²+X_C²)"
+          ],
           "answer": "B",
           "difficulty": "board",
           "feedback": {
@@ -314,7 +433,12 @@
         {
           "id": 2,
           "question": "[JEE Level] A transformer has 200 primary turns, 1000 secondary turns, and 240V primary voltage. If load draws 2A at secondary, primary current is: (ideal transformer)",
-          "options": ["0.4 A","10 A","50 A","2 A"],
+          "options": [
+            "0.4 A",
+            "10 A",
+            "50 A",
+            "2 A"
+          ],
           "answer": "B",
           "difficulty": "competitive",
           "feedback": {
@@ -326,7 +450,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] A 5G base station antenna filter requires resonance at f=3.5 GHz. If L=1nH, what capacitance is needed? (f=1/2π√LC)",
-          "options": ["2.06 fF","20.6 fF","0.206 pF","2.06 pF"],
+          "options": [
+            "2.06 fF",
+            "20.6 fF",
+            "0.206 pF",
+            "2.06 pF"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -347,18 +476,30 @@
       "number": 7,
       "title": "Ray Optics and Optical Instruments",
       "summary": "Reflection, refraction, lenses, prisms, mirrors, optical instruments, and resolving power.",
-      "topics": ["Reflection","Refraction","Lenses","Total Internal Reflection","Optical Instruments","Resolving Power"],
+      "topics": [
+        "Reflection",
+        "Refraction",
+        "Lenses",
+        "Total Internal Reflection",
+        "Optical Instruments",
+        "Resolving Power"
+      ],
       "enhancement": "AI Vision & Optical Technology",
       "aiEnhancementLesson": {
         "title": "Optics → LiDAR in Self-Driving Cars & AI Camera Design",
-        "content": "Board Level: Mirror formula 1/f=1/v+1/u, lens formula 1/f=1/v-1/u, total internal reflection, prism. JEE Bridge: Combination of lenses, chromatic aberration, resolving power. Intelligence Age: Waymo's self-driving cars use LiDAR (Light Detection And Ranging) — pulsed laser beams that use your time-of-flight equation (d=½ct) and your lens formula for focusing the beam. iPhone Pro's camera uses 5-element lens systems with adaptive optics — each lens precisely designed using your lens formula. India's ISRO Cartosat satellite uses a 2.5m focal length telescope (your lens/mirror formulae) to image Earth at 0.25m resolution from 600km altitude.",
+        "content": "Board Level: Mirror formula 1/f=1/v+1/u, lens formula 1/f=1/v-1/u, total internal reflection, prism. JEE Bridge: Combination of lenses, chromatic aberration, resolving power. Intelligence Age: Waymo's self-driving cars use LiDAR (Light Detection And Ranging) — pulsed laser beams that use your time-of-flight equation (d=½ct) and your lens formula for focusing the beam. iPhone Pro's camera uses 5-element lens systems with adaptive optics — each lens precisely designed using your lens formula. India's ISRO Cartosat satellite uses a 2.5m focal length telescope (your lens/mirror formulae) to image Earth at 0.25m resolution from 600km altitude. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Measure the focal length of a convex lens: hold it near a window, project the outside image onto a wall. Distance from lens to wall = focal length (since object is at infinity, v=f). Verify using lens formula with a nearby object."
       },
       "quiz": [
         {
           "id": 1,
           "question": "An object is 30cm from a convex lens of focal length 10cm. Image distance is:",
-          "options": ["15 cm","20 cm","30 cm","10 cm"],
+          "options": [
+            "15 cm",
+            "20 cm",
+            "30 cm",
+            "10 cm"
+          ],
           "answer": "A",
           "difficulty": "board",
           "feedback": {
@@ -370,7 +511,12 @@
         {
           "id": 2,
           "question": "[JEE Level] A prism of glass (μ=1.5) has apex angle 60°. Minimum deviation is:",
-          "options": ["37.2°","30°","45°","60°"],
+          "options": [
+            "37.2°",
+            "30°",
+            "45°",
+            "60°"
+          ],
           "answer": "A",
           "difficulty": "competitive",
           "feedback": {
@@ -382,7 +528,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] A LiDAR laser pulse travels to a wall and back in t=40ns. Distance to wall is: (c=3×10⁸ m/s)",
-          "options": ["6 m","12 m","3 m","60 m"],
+          "options": [
+            "6 m",
+            "12 m",
+            "3 m",
+            "60 m"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
@@ -403,18 +554,30 @@
       "number": 8,
       "title": "Atoms and Nuclei",
       "summary": "Bohr model, atomic spectra, nuclear structure, radioactivity, nuclear reactions, and binding energy.",
-      "topics": ["Bohr Model","Hydrogen Spectrum","Radioactivity","Nuclear Reactions","Binding Energy","Half-life"],
+      "topics": [
+        "Bohr Model",
+        "Hydrogen Spectrum",
+        "Radioactivity",
+        "Nuclear Reactions",
+        "Binding Energy",
+        "Half-life"
+      ],
       "enhancement": "Nuclear Medicine & Quantum AI",
       "aiEnhancementLesson": {
         "title": "Atoms & Nuclei → PET Scans, Nuclear Power & Quantum Computers",
-        "content": "Board Level: Bohr model energy levels E_n=-13.6/n² eV. Radioactive decay: N=N₀e⁻λt, half-life t₁/₂=0.693/λ. Binding energy per nucleon. Q-value of nuclear reactions. JEE Bridge: Radioactive series, radioactive equilibrium. Intelligence Age: PET (Positron Emission Tomography) scans used at Tata Memorial Hospital use ¹⁸F (fluorine-18, t₁/₂=110 min) — a radioactive tracer. The AI interprets the decay pattern to create 3D images of cancer tumour metabolism. India's nuclear power plants (Kudankulam, Tarapur) use your binding energy equation (ΔE=Δm×c²) for power generation. Quantum computing uses superposition states of atomic energy levels (your Bohr model) as quantum bits.",
+        "content": "Board Level: Bohr model energy levels E_n=-13.6/n² eV. Radioactive decay: N=N₀e⁻λt, half-life t₁/₂=0.693/λ. Binding energy per nucleon. Q-value of nuclear reactions. JEE Bridge: Radioactive series, radioactive equilibrium. Intelligence Age: PET (Positron Emission Tomography) scans used at Tata Memorial Hospital use ¹⁸F (fluorine-18, t₁/₂=110 min) — a radioactive tracer. The AI interprets the decay pattern to create 3D images of cancer tumour metabolism. India's nuclear power plants (Kudankulam, Tarapur) use your binding energy equation (ΔE=Δm×c²) for power generation. Quantum computing uses superposition states of atomic energy levels (your Bohr model) as quantum bits. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
         "practicalAddOn": "Calculate: ¹⁴C has t₁/₂=5730 years. A fossil bone shows 25% of normal ¹⁴C. How old is it? (Answer: 2 half-lives = 11,460 years). This is carbon dating — archaeology using your radioactivity chapter."
       },
       "quiz": [
         {
           "id": 1,
           "question": "Energy of electron in hydrogen atom at n=2 is: (E₁=-13.6 eV)",
-          "options": ["-13.6 eV","-6.8 eV","-3.4 eV","-1.51 eV"],
+          "options": [
+            "-13.6 eV",
+            "-6.8 eV",
+            "-3.4 eV",
+            "-1.51 eV"
+          ],
           "answer": "C",
           "difficulty": "board",
           "feedback": {
@@ -426,7 +589,12 @@
         {
           "id": 2,
           "question": "[JEE Level] A radioactive sample has t₁/₂=2 days. After 8 days, fraction remaining is:",
-          "options": ["1/16","1/8","1/4","1/2"],
+          "options": [
+            "1/16",
+            "1/8",
+            "1/4",
+            "1/2"
+          ],
           "answer": "A",
           "difficulty": "competitive",
           "feedback": {
@@ -438,7 +606,12 @@
         {
           "id": 3,
           "question": "[Intelligence Age] A PET scan uses ¹⁸F (t₁/₂=110min). If 100 MBq is injected and scan takes place 55 min after injection, activity during scan is:",
-          "options": ["70.7 MBq","50 MBq","25 MBq","100 MBq"],
+          "options": [
+            "70.7 MBq",
+            "50 MBq",
+            "25 MBq",
+            "100 MBq"
+          ],
           "answer": "A",
           "difficulty": "intelligenceAge",
           "feedback": {
