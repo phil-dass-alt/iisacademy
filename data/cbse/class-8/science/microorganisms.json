@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "cbse-8-sci-microorganisms",
   "title": "Microorganisms: Friend and Foe",
   "subject": "Science",
@@ -39,7 +40,13 @@
     "practicalAddon": {
       "title": "Observe Fermentation at Home (Yeast Lab)",
       "difficulty": "beginner",
-      "materials": ["1 packet active dry yeast (5g)", "1 teaspoon sugar", "Warm water (about 40°C)", "A clear glass bottle", "A balloon"],
+      "materials": [
+        "1 packet active dry yeast (5g)",
+        "1 teaspoon sugar",
+        "Warm water (about 40°C)",
+        "A clear glass bottle",
+        "A balloon"
+      ],
       "steps": [
         "Add warm water (about 250 ml) to the bottle.",
         "Add the yeast and sugar. Stir gently.",
@@ -66,10 +73,22 @@
         "id": "q1",
         "text": "Which microorganism is responsible for converting milk into curd?",
         "options": [
-          { "id": "a", "text": "Yeast" },
-          { "id": "b", "text": "Lactobacillus" },
-          { "id": "c", "text": "Amoeba" },
-          { "id": "d", "text": "Penicillium" }
+          {
+            "id": "a",
+            "text": "Yeast"
+          },
+          {
+            "id": "b",
+            "text": "Lactobacillus"
+          },
+          {
+            "id": "c",
+            "text": "Amoeba"
+          },
+          {
+            "id": "d",
+            "text": "Penicillium"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "Lactobacillus bacteria ferment lactose (milk sugar) into lactic acid, curdling the milk proteins and giving curd its characteristic tangy taste.",
@@ -83,10 +102,22 @@
         "id": "q2",
         "text": "In the 'Intelligence Age,' how can AI-modified bacteria help the environment?",
         "options": [
-          { "id": "a", "text": "By producing more plastic" },
-          { "id": "b", "text": "By breaking down non-biodegradable waste" },
-          { "id": "c", "text": "By stopping photosynthesis" },
-          { "id": "d", "text": "By increasing global warming" }
+          {
+            "id": "a",
+            "text": "By producing more plastic"
+          },
+          {
+            "id": "b",
+            "text": "By breaking down non-biodegradable waste"
+          },
+          {
+            "id": "c",
+            "text": "By stopping photosynthesis"
+          },
+          {
+            "id": "d",
+            "text": "By increasing global warming"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "AI-designed enzymes (like enhanced PETase) can reprogram bacteria to break down plastics and other non-biodegradable pollutants—turning a major environmental problem into a biological solution.",
@@ -100,10 +131,22 @@
         "id": "q3",
         "text": "Which of these is a 'vector' for the Malaria parasite Plasmodium?",
         "options": [
-          { "id": "a", "text": "Housefly" },
-          { "id": "b", "text": "Female Anopheles mosquito" },
-          { "id": "c", "text": "Cockroach" },
-          { "id": "d", "text": "Butterfly" }
+          {
+            "id": "a",
+            "text": "Housefly"
+          },
+          {
+            "id": "b",
+            "text": "Female Anopheles mosquito"
+          },
+          {
+            "id": "c",
+            "text": "Cockroach"
+          },
+          {
+            "id": "d",
+            "text": "Butterfly"
+          }
         ],
         "correctOptionId": "b",
         "explanation": "The female Anopheles mosquito carries Plasmodium (the malaria-causing protozoan) and transmits it when it bites a human. The male mosquito feeds only on plant nectar.",
@@ -117,10 +160,22 @@
         "id": "q4",
         "text": "Alexander Fleming discovered the first antibiotic (Penicillin) from which organism?",
         "options": [
-          { "id": "a", "text": "Virus" },
-          { "id": "b", "text": "Protozoa" },
-          { "id": "c", "text": "Fungus (Mould)" },
-          { "id": "d", "text": "Algae" }
+          {
+            "id": "a",
+            "text": "Virus"
+          },
+          {
+            "id": "b",
+            "text": "Protozoa"
+          },
+          {
+            "id": "c",
+            "text": "Fungus (Mould)"
+          },
+          {
+            "id": "d",
+            "text": "Algae"
+          }
         ],
         "correctOptionId": "c",
         "explanation": "In 1928, Alexander Fleming observed that the mould Penicillium notatum was killing the bacteria in his petri dish. This accidental discovery led to Penicillin—the first antibiotic, saving millions of lives.",
@@ -134,10 +189,22 @@
         "id": "q5",
         "text": "What is the process of converting sugar into alcohol (and CO₂) by yeast called?",
         "options": [
-          { "id": "a", "text": "Nitrogen Fixation" },
-          { "id": "b", "text": "Pasteurization" },
-          { "id": "c", "text": "Fermentation" },
-          { "id": "d", "text": "Infection" }
+          {
+            "id": "a",
+            "text": "Nitrogen Fixation"
+          },
+          {
+            "id": "b",
+            "text": "Pasteurization"
+          },
+          {
+            "id": "c",
+            "text": "Fermentation"
+          },
+          {
+            "id": "d",
+            "text": "Infection"
+          }
         ],
         "correctOptionId": "c",
         "explanation": "Fermentation is the anaerobic breakdown of sugar by yeast, producing ethanol (alcohol) and CO₂. It is used in bread making (CO₂ makes dough rise), brewing, and biofuel production.",

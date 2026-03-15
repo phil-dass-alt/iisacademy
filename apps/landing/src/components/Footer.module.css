@@ -11,7 +11,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
 }
@@ -37,6 +37,14 @@
 .logo {
   font-size: 1.2rem;
   color: var(--color-white);
+}
+
+.logoImg {
+  height: 34px;
+  width: auto;
+  display: block;
+  margin-bottom: 0.75rem;
+  filter: brightness(0) invert(1);
 }
 
 .logo strong {
@@ -101,4 +109,16 @@
 
 .taglineSmall {
   color: rgba(255, 255, 255, 0.4);
+}
+
+.disclaimer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem 0 0.75rem;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.disclaimer strong {
+  color: rgba(255, 255, 255, 0.8);
 }

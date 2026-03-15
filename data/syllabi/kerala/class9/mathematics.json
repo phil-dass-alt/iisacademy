@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "kerala",
   "class": 9,
   "subject": "Mathematics",
@@ -40,7 +41,7 @@
       "name": "New Operations",
       "topics": [
         "Matrices Basics",
-        "Determinants (2\u00d72)"
+        "Determinants (2×2)"
       ],
       "enhancement": "AI Technology"
     },
@@ -81,7 +82,7 @@
       "number": 8,
       "name": "Solids",
       "topics": [
-        "Cone, Sphere, Cylinder \u2014 Volume and Surface Area"
+        "Cone, Sphere, Cylinder — Volume and Surface Area"
       ],
       "enhancement": null
     },

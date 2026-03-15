@@ -1,6 +1,7 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "ap-9-sci-aitech-q1",
-  "title": "Science + AI Technology: Andhra Pradesh Class 9 \u2014 Forces and Motion",
+  "title": "Science + AI Technology: Andhra Pradesh Class 9 — Forces and Motion",
   "subject": "Science",
   "board": "andhra-pradesh",
   "class": 9,
@@ -28,7 +29,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Weight = (5+2)\u00d710 = 70 N. For hovering (constant velocity = 0), net force = 0 \u2192 Newton's 1st Law: Thrust = Weight = 70 N. Amazon, Flipkart and Zomato are testing drone delivery in Hyderabad. Every drone hover uses Newton's 1st Law!",
+      "explanation": "Weight = (5+2)×10 = 70 N. For hovering (constant velocity = 0), net force = 0 → Newton's 1st Law: Thrust = Weight = 70 N. Amazon, Flipkart and Zomato are testing drone delivery in Hyderabad. Every drone hover uses Newton's 1st Law!",
       "difficulty": "easy",
       "subject": "Science",
       "chapter": "Laws of Motion",

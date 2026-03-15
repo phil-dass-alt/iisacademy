@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "cbse-8-math-finlit-q1",
   "title": "Mathematics + Financial Literacy: Class 8 — Profit, Loss and Interest",
   "subject": "Mathematics",
@@ -10,10 +11,22 @@
       "id": "q1",
       "text": "Raju buys a bicycle for ₹1,500 and sells it for ₹1,800. What is his profit percentage?",
       "options": [
-        { "id": "a", "text": "15%" },
-        { "id": "b", "text": "20%" },
-        { "id": "c", "text": "25%" },
-        { "id": "d", "text": "30%" }
+        {
+          "id": "a",
+          "text": "15%"
+        },
+        {
+          "id": "b",
+          "text": "20%"
+        },
+        {
+          "id": "c",
+          "text": "25%"
+        },
+        {
+          "id": "d",
+          "text": "30%"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Profit = SP - CP = 1800 - 1500 = ₹300. Profit% = (300/1500) × 100 = 20%. This is exactly how a shop calculates its margin!",
@@ -27,10 +40,22 @@
       "id": "q2",
       "text": "A shopkeeper marks a shirt at ₹800 and offers a 15% discount. What is the selling price?",
       "options": [
-        { "id": "a", "text": "₹680" },
-        { "id": "b", "text": "₹700" },
-        { "id": "c", "text": "₹720" },
-        { "id": "d", "text": "₹640" }
+        {
+          "id": "a",
+          "text": "₹680"
+        },
+        {
+          "id": "b",
+          "text": "₹700"
+        },
+        {
+          "id": "c",
+          "text": "₹720"
+        },
+        {
+          "id": "d",
+          "text": "₹640"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "Discount = 15% of 800 = ₹120. SP = 800 - 120 = ₹680. Every 'Sale' tag you see in a mall uses this exact calculation!",
@@ -44,10 +69,22 @@
       "id": "q3",
       "text": "Priya deposits ₹5,000 in a post office savings account at 7.5% simple interest per year. How much interest will she earn in 3 years?",
       "options": [
-        { "id": "a", "text": "₹1,000" },
-        { "id": "b", "text": "₹1,125" },
-        { "id": "c", "text": "₹1,250" },
-        { "id": "d", "text": "₹1,500" }
+        {
+          "id": "a",
+          "text": "₹1,000"
+        },
+        {
+          "id": "b",
+          "text": "₹1,125"
+        },
+        {
+          "id": "c",
+          "text": "₹1,250"
+        },
+        {
+          "id": "d",
+          "text": "₹1,500"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "SI = (P × R × T) / 100 = (5000 × 7.5 × 3) / 100 = ₹1,125. Post Office savings schemes are among the safest investments for families in India!",
@@ -61,10 +98,22 @@
       "id": "q4",
       "text": "A pizza shop buys flour, cheese, and other ingredients worth ₹200 to make 10 pizzas. If they sell each pizza for ₹60, what is the overall profit percentage?",
       "options": [
-        { "id": "a", "text": "150%" },
-        { "id": "b", "text": "200%" },
-        { "id": "c", "text": "175%" },
-        { "id": "d", "text": "300%" }
+        {
+          "id": "a",
+          "text": "150%"
+        },
+        {
+          "id": "b",
+          "text": "200%"
+        },
+        {
+          "id": "c",
+          "text": "175%"
+        },
+        {
+          "id": "d",
+          "text": "300%"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "Total Revenue = 10 × 60 = ₹600. CP = ₹200. Profit = ₹400. Profit% = (400/200) × 100 = 200%. Note: actual restaurants also pay rent, salaries etc. This is why pizza shops don't keep all 200%!",
@@ -78,10 +127,22 @@
       "id": "q5",
       "text": "Ananya has ₹10,000. She invests ₹6,000 in FD at 8% simple interest for 2 years, and puts the rest in a piggy bank. How much total money will she have after 2 years?",
       "options": [
-        { "id": "a", "text": "₹10,960" },
-        { "id": "b", "text": "₹11,200" },
-        { "id": "c", "text": "₹10,720" },
-        { "id": "d", "text": "₹10,480" }
+        {
+          "id": "a",
+          "text": "₹10,960"
+        },
+        {
+          "id": "b",
+          "text": "₹11,200"
+        },
+        {
+          "id": "c",
+          "text": "₹10,720"
+        },
+        {
+          "id": "d",
+          "text": "₹10,480"
+        }
       ],
       "correctOptionId": "a",
       "explanation": "FD Interest = (6000 × 8 × 2)/100 = ₹960. FD amount = ₹6,960. Piggy bank = ₹4,000. Total = ₹10,960. This is why financial advisors say: never keep all money in a piggy bank!",
@@ -95,10 +156,22 @@
       "id": "q6",
       "text": "A mobile phone costs ₹15,000. GST of 18% is added. What is the final price you pay?",
       "options": [
-        { "id": "a", "text": "₹17,200" },
-        { "id": "b", "text": "₹17,700" },
-        { "id": "c", "text": "₹18,000" },
-        { "id": "d", "text": "₹16,500" }
+        {
+          "id": "a",
+          "text": "₹17,200"
+        },
+        {
+          "id": "b",
+          "text": "₹17,700"
+        },
+        {
+          "id": "c",
+          "text": "₹18,000"
+        },
+        {
+          "id": "d",
+          "text": "₹16,500"
+        }
       ],
       "correctOptionId": "b",
       "explanation": "GST = 18% of 15000 = ₹2,700. Final price = 15000 + 2700 = ₹17,700. Every electronic purchase includes GST — this is the government's share of every sale in India.",
@@ -112,13 +185,23 @@
       "id": "q7",
       "text": "Vivaan earns ₹12,000/month from part-time work. If he saves 25% and spends the rest, how much does he spend annually? What is the direct proportion formula used?",
       "options": [
-        { "id": "a", "text": "₹1,08,000, Spending ∝ Income" },
-        { "id": "b", "text": "₹90,000, Spending ∝ Income" },
-        { "id": "c", "text": "₹1,08,000, Spending ∝ 1/Income" },
-        { "id": "d", "text": "₹3,000, Spending ∝ 1/Saving" }
+        {
+          "id": "a",
+          "text": "₹1,08,000, Spending ∝ Income"
+        },
+        {
+          "id": "b",
+          "text": "₹90,000, Spending ∝ Income"
+        },
+        {
+          "id": "c",
+          "text": "₹1,08,000, Spending ∝ 1/Income"
+        },
+        {
+          "id": "d",
+          "text": "₹3,000, Spending ∝ 1/Saving"
+        }
       ],
-      "correctOptionId": "b",
-      "explanation": "Monthly spending = 75% of 12000 = ₹9,000. Annual = 9000 × 12 = ₹1,08,000... wait, that's option a. Annual spending = 12000 × 0.75 × 12 = ₹1,08,000. But option b says ₹90,000... Let me recalculate: Savings = 25% × 12000 = ₹3,000/month. Spending = ₹9,000/month. Annual spending = ₹1,08,000. Spending is in direct proportion to income — if income doubles, spending doubles.",
       "correctOptionId": "a",
       "explanation": "Monthly spending = 75% of ₹12,000 = ₹9,000. Annual spending = ₹9,000 × 12 = ₹1,08,000. This is direct proportion: spending ∝ income.",
       "difficulty": "hard",

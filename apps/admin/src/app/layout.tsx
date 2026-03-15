@@ -32,15 +32,14 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           {/* Sidebar */}
           <aside className="w-64 bg-gray-900 text-white flex flex-col">
             <div className="p-4 border-b border-gray-700">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">IIS</span>
-                </div>
+              <a href="/" className="flex items-center gap-2 no-underline">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/IISA_logo.png" alt="IIS Academy" className="h-8 w-auto brightness-0 invert" />
                 <div>
-                  <div className="font-bold text-sm">IIS Academy</div>
+                  <div className="font-bold text-sm text-white">IIS Academy</div>
                   <div className="text-xs text-gray-400">Admin Panel</div>
                 </div>
-              </div>
+              </a>
             </div>
             <nav className="flex-1 p-4 space-y-1">
               {[

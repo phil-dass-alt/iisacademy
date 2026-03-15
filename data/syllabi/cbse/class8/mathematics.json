@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "cbse",
   "class": 8,
   "subject": "Mathematics",
@@ -7,112 +8,181 @@
       "id": "cbse-8-math-01",
       "number": 1,
       "name": "Rational Numbers",
-      "topics": ["Properties of Rational Numbers", "Number Line Representation", "Operations on Rational Numbers"],
+      "topics": [
+        "Properties of Rational Numbers",
+        "Number Line Representation",
+        "Operations on Rational Numbers"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-02",
       "number": 2,
       "name": "Linear Equations in One Variable",
-      "topics": ["Solving Linear Equations", "Applications of Linear Equations", "Reducing Equations to Linear Form"],
+      "topics": [
+        "Solving Linear Equations",
+        "Applications of Linear Equations",
+        "Reducing Equations to Linear Form"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-03",
       "number": 3,
       "name": "Understanding Quadrilaterals",
-      "topics": ["Polygons", "Sum of Angles", "Parallelograms", "Special Parallelograms"],
+      "topics": [
+        "Polygons",
+        "Sum of Angles",
+        "Parallelograms",
+        "Special Parallelograms"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-04",
       "number": 4,
       "name": "Practical Geometry",
-      "topics": ["Constructing Quadrilaterals", "Special Cases of Quadrilateral Construction"],
+      "topics": [
+        "Constructing Quadrilaterals",
+        "Special Cases of Quadrilateral Construction"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-05",
       "number": 5,
       "name": "Data Handling",
-      "topics": ["Frequency Distribution", "Bar Graphs", "Pie Charts", "Probability Basics"],
+      "topics": [
+        "Frequency Distribution",
+        "Bar Graphs",
+        "Pie Charts",
+        "Probability Basics"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-06",
       "number": 6,
       "name": "Squares and Square Roots",
-      "topics": ["Perfect Squares", "Finding Square Roots", "Pythagorean Triplets"],
+      "topics": [
+        "Perfect Squares",
+        "Finding Square Roots",
+        "Pythagorean Triplets"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-07",
       "number": 7,
       "name": "Cubes and Cube Roots",
-      "topics": ["Perfect Cubes", "Cube Root by Prime Factorisation"],
+      "topics": [
+        "Perfect Cubes",
+        "Cube Root by Prime Factorisation"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-08",
       "number": 8,
       "name": "Comparing Quantities",
-      "topics": ["Ratios and Percentages", "Increase/Decrease Percentages", "Profit and Loss", "Simple Interest", "Compound Interest"],
+      "topics": [
+        "Ratios and Percentages",
+        "Increase/Decrease Percentages",
+        "Profit and Loss",
+        "Simple Interest",
+        "Compound Interest"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-09",
       "number": 9,
       "name": "Algebraic Expressions and Identities",
-      "topics": ["Terms, Factors and Coefficients", "Monomials/Polynomials", "Multiplication of Polynomials", "Standard Identities"],
+      "topics": [
+        "Terms, Factors and Coefficients",
+        "Monomials/Polynomials",
+        "Multiplication of Polynomials",
+        "Standard Identities"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-10",
       "number": 10,
       "name": "Visualising Solid Shapes",
-      "topics": ["Views of 3D Shapes", "Mapping Space", "Faces, Edges and Vertices"],
+      "topics": [
+        "Views of 3D Shapes",
+        "Mapping Space",
+        "Faces, Edges and Vertices"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-11",
       "number": 11,
       "name": "Mensuration",
-      "topics": ["Area of Trapezium and Polygons", "Surface Area of Cube/Cuboid/Cylinder", "Volume of Cube/Cuboid/Cylinder"],
+      "topics": [
+        "Area of Trapezium and Polygons",
+        "Surface Area of Cube/Cuboid/Cylinder",
+        "Volume of Cube/Cuboid/Cylinder"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-12",
       "number": 12,
       "name": "Exponents and Powers",
-      "topics": ["Powers with Negative Exponents", "Laws of Exponents", "Scientific Notation"],
+      "topics": [
+        "Powers with Negative Exponents",
+        "Laws of Exponents",
+        "Scientific Notation"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-8-math-13",
       "number": 13,
       "name": "Direct and Inverse Proportions",
-      "topics": ["Direct Proportion", "Inverse Proportion", "Real-world Applications"],
+      "topics": [
+        "Direct Proportion",
+        "Inverse Proportion",
+        "Real-world Applications"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-14",
       "number": 14,
       "name": "Factorisation",
-      "topics": ["Factorisation using Common Factors", "Regrouping", "Factorisation using Identities", "Division of Algebraic Expressions"],
+      "topics": [
+        "Factorisation using Common Factors",
+        "Regrouping",
+        "Factorisation using Identities",
+        "Division of Algebraic Expressions"
+      ],
       "enhancement": null
     },
     {
       "id": "cbse-8-math-15",
       "number": 15,
       "name": "Introduction to Graphs",
-      "topics": ["Bar Graphs", "Pie Graphs", "Line Graphs", "Linear Graphs"],
+      "topics": [
+        "Bar Graphs",
+        "Pie Graphs",
+        "Line Graphs",
+        "Linear Graphs"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "cbse-8-math-16",
       "number": 16,
       "name": "Playing with Numbers",
-      "topics": ["Numbers in General Form", "Games with Numbers", "Divisibility Tests"],
+      "topics": [
+        "Numbers in General Form",
+        "Games with Numbers",
+        "Divisibility Tests"
+      ],
       "enhancement": null
     }
   ]

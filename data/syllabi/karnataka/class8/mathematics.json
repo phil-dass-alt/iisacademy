@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "karnataka",
   "class": 8,
   "subject": "Mathematics",
@@ -7,70 +8,116 @@
       "id": "ka-8-math-01",
       "number": 1,
       "name": "Number System",
-      "topics": ["Rational Numbers", "Irrational Numbers", "Real Numbers", "Operations"],
+      "topics": [
+        "Rational Numbers",
+        "Irrational Numbers",
+        "Real Numbers",
+        "Operations"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-8-math-02",
       "number": 2,
       "name": "Linear Equations in One Variable",
-      "topics": ["Solving Equations", "Applications", "Word Problems"],
+      "topics": [
+        "Solving Equations",
+        "Applications",
+        "Word Problems"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-8-math-03",
       "number": 3,
       "name": "Ratio, Proportion and Variation",
-      "topics": ["Ratio", "Proportion", "Direct Variation", "Inverse Variation"],
+      "topics": [
+        "Ratio",
+        "Proportion",
+        "Direct Variation",
+        "Inverse Variation"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-8-math-04",
       "number": 4,
       "name": "Commercial Arithmetic",
-      "topics": ["Profit and Loss", "Discount", "Tax", "Simple Interest", "Compound Interest"],
+      "topics": [
+        "Profit and Loss",
+        "Discount",
+        "Tax",
+        "Simple Interest",
+        "Compound Interest"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-8-math-05",
       "number": 5,
       "name": "Algebraic Expressions and Identities",
-      "topics": ["Algebraic Expressions", "Identities", "Factorisation"],
+      "topics": [
+        "Algebraic Expressions",
+        "Identities",
+        "Factorisation"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-8-math-06",
       "number": 6,
       "name": "Exponents and Powers",
-      "topics": ["Negative Exponents", "Scientific Notation", "Laws of Exponents"],
+      "topics": [
+        "Negative Exponents",
+        "Scientific Notation",
+        "Laws of Exponents"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "ka-8-math-07",
       "number": 7,
       "name": "Quadrilaterals",
-      "topics": ["Properties of Quadrilaterals", "Parallelograms", "Special Quadrilaterals"],
+      "topics": [
+        "Properties of Quadrilaterals",
+        "Parallelograms",
+        "Special Quadrilaterals"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-8-math-08",
       "number": 8,
       "name": "Data Handling",
-      "topics": ["Grouped Data", "Histograms", "Pie Charts", "Probability"],
+      "topics": [
+        "Grouped Data",
+        "Histograms",
+        "Pie Charts",
+        "Probability"
+      ],
       "enhancement": "Financial Literacy"
     },
     {
       "id": "ka-8-math-09",
       "number": 9,
       "name": "Mensuration",
-      "topics": ["Area of Trapezium", "Area of General Quadrilateral", "Surface Area", "Volume"],
+      "topics": [
+        "Area of Trapezium",
+        "Area of General Quadrilateral",
+        "Surface Area",
+        "Volume"
+      ],
       "enhancement": null
     },
     {
       "id": "ka-8-math-10",
       "number": 10,
       "name": "Square Root and Cube Root",
-      "topics": ["Square Roots", "Cube Roots", "Applications"],
+      "topics": [
+        "Square Roots",
+        "Cube Roots",
+        "Applications"
+      ],
       "enhancement": null
     }
   ]

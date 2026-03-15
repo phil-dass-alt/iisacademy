@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "ka-10-math-finlit-q1",
   "title": "Mathematics + Financial Literacy: Karnataka Class 10",
   "subject": "Mathematics",
@@ -8,27 +9,27 @@
   "questions": [
     {
       "id": "q1",
-      "text": "A farmer in Karnataka borrows \u20b950,000 from a cooperative bank at 9% per annum simple interest for 2 years. What is the total amount he repays?",
+      "text": "A farmer in Karnataka borrows ₹50,000 from a cooperative bank at 9% per annum simple interest for 2 years. What is the total amount he repays?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b959,000"
+          "text": "₹59,000"
         },
         {
           "id": "b",
-          "text": "\u20b954,500"
+          "text": "₹54,500"
         },
         {
           "id": "c",
-          "text": "\u20b959,050"
+          "text": "₹59,050"
         },
         {
           "id": "d",
-          "text": "\u20b955,000"
+          "text": "₹55,000"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "SI = (50000 \u00d7 9 \u00d7 2)/100 = \u20b99,000. Total = \u20b959,000. Karnataka's PCARD (Primary Agricultural Credit and Rural Development) offers crop loans at these rates. Agricultural loans are critical to farmers' livelihoods.",
+      "explanation": "SI = (50000 × 9 × 2)/100 = ₹9,000. Total = ₹59,000. Karnataka's PCARD (Primary Agricultural Credit and Rural Development) offers crop loans at these rates. Agricultural loans are critical to farmers' livelihoods.",
       "difficulty": "easy",
       "subject": "Mathematics",
       "chapter": "Real Numbers",
@@ -37,27 +38,27 @@
     },
     {
       "id": "q2",
-      "text": "A Bengaluru tech employee earns \u20b980,000/month. She invests 30% in SIP mutual fund monthly. Using AP, after 12 months with d = \u20b9500 increase per month (salary hike), what is her total investment in year 1?",
+      "text": "A Bengaluru tech employee earns ₹80,000/month. She invests 30% in SIP mutual fund monthly. Using AP, after 12 months with d = ₹500 increase per month (salary hike), what is her total investment in year 1?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b93,15,000"
+          "text": "₹3,15,000"
         },
         {
           "id": "b",
-          "text": "\u20b93,15,900"
+          "text": "₹3,15,900"
         },
         {
           "id": "c",
-          "text": "\u20b93,24,000"
+          "text": "₹3,24,000"
         },
         {
           "id": "d",
-          "text": "\u20b92,88,000"
+          "text": "₹2,88,000"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Month 1: 30% of 80000=\u20b924000. Monthly increase in investment: 30% of \u20b9500=\u20b9150. AP: a=24000, d=150, n=12. Sn = 12/2 \u00d7 (2\u00d724000 + 11\u00d7150) = 6\u00d7(48000+1650) = 6\u00d749650 = \u20b92,97,900. Wait, this changes with salary increase. Initial SIP = 30% of month's salary. Total = 12\u00d724000 + 150\u00d7(0+1+...+11) = 288000 + 150\u00d766 = 288000+9900 = \u20b92,97,900. Closest to option b.",
+      "explanation": "Month 1: 30% of 80000=₹24000. Monthly increase in investment: 30% of ₹500=₹150. AP: a=24000, d=150, n=12. Sn = 12/2 × (2×24000 + 11×150) = 6×(48000+1650) = 6×49650 = ₹2,97,900. Wait, this changes with salary increase. Initial SIP = 30% of month's salary. Total = 12×24000 + 150×(0+1+...+11) = 288000 + 150×66 = 288000+9900 = ₹2,97,900. Closest to option b.",
       "difficulty": "hard",
       "subject": "Mathematics",
       "chapter": "Arithmetic Progressions",

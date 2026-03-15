@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "ka-10-sci-climate-q1",
+  "title": "Science + Climate Technology: Class 10 — Karnataka State Board",
+  "subject": "Science",
+  "board": "karnataka",
+  "class": 10,
+  "enhancementTag": "Climate Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Karnataka generates over 70% of its electricity from renewable sources (hydro + solar + wind). A solar plant in Pavagada (Asia's largest solar park) generates 2,050 MW of power. If it operates for 8 hours a day, how many kilowatt-hours (units) of electricity does it generate daily, and how many average homes (consuming 5 kWh/day) can it power?",
+      "options": [
+        { "id": "a", "text": "16,400,000 kWh/day; 3,280,000 homes — using Energy = Power × Time" },
+        { "id": "b", "text": "2,050,000 kWh/day; 410,000 homes — incorrect unit conversion" },
+        { "id": "c", "text": "8,000,000 kWh/day; 1,600,000 homes — using 4 hours instead of 8" },
+        { "id": "d", "text": "164,000 kWh/day; 32,800 homes — MW not converted to kW" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "2,050 MW = 2,050,000 kW. Energy per day = 2,050,000 kW × 8 h = 16,400,000 kWh. Homes powered = 16,400,000 / 5 = 3,280,000 homes. Pavagada Solar Park (Tumkur district, Karnataka) powers over 3 million homes! Your Electricity chapter (P = VI, E = Pt) is the formula Karnataka's energy ministry uses to plan renewable energy policy.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Electricity",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q2",
+      "text": "The Western Ghats, running through Karnataka (Coorg, Chikkamagaluru, Hassan), are a UNESCO World Heritage biodiversity hotspot. If a forest fire destroys 500 hectares, and each hectare stores 150 tonnes of carbon, how many tonnes of CO₂ are released? (Carbon to CO₂ conversion: 1 tonne C = 3.67 tonnes CO₂)",
+      "options": [
+        { "id": "a", "text": "275,250 tonnes CO₂ — 500 × 150 × 3.67" },
+        { "id": "b", "text": "75,000 tonnes CO₂ — using carbon mass only" },
+        { "id": "c", "text": "183,500 tonnes CO₂ — incorrect multiplier" },
+        { "id": "d", "text": "500,000 tonnes CO₂ — rough estimate" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Carbon stored = 500 × 150 = 75,000 tonnes. CO₂ released = 75,000 × 3.67 = 275,250 tonnes. This uses your Chapter on Carbon Compounds — carbon cycles through organisms (photosynthesis storing carbon), combustion (releasing CO₂). Karnataka's Forest Department monitors carbon stocks using satellite imagery and these formulae to protect the Western Ghats biodiversity hotspot.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Carbon and its Compounds",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q3",
+      "text": "Bengaluru's Bellandur Lake became notorious for frothing and catching fire due to chemical pollution (industrial effluents and sewage containing phosphates, ammonia). Which type of chemical reaction best describes the combustion events at the lake surface?",
+      "options": [
+        { "id": "a", "text": "Decomposition reaction — compounds breaking down spontaneously" },
+        { "id": "b", "text": "Oxidation (combustion) reaction — organic pollutants and methane gas from anaerobic decomposition igniting" },
+        { "id": "c", "text": "Neutralisation reaction — acids and bases reacting" },
+        { "id": "d", "text": "Displacement reaction — metals displacing other metals in solution" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bellandur Lake's fires were caused by methane (CH₄) and hydrogen sulfide (H₂S) — gases produced by anaerobic decomposition of organic pollutants in the heavily polluted lake — igniting when exposed to air. CH₄ + 2O₂ → CO₂ + 2H₂O (combustion). This is your Chapter 1 (Chemical Reactions and Equations). The National Green Tribunal (NGT) ordered lake cleanup in 2017 using your chemistry concepts to address real environmental disasters in Bengaluru.",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Chemical Reactions and Equations",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q4",
+      "text": "Mangaluru Port handles coal imports for power plants. A cargo ship's lens-shaped hull displaces water equal to its weight (Archimedes' Principle). If the ship's total loaded weight is 50,000 tonnes, and seawater density is 1,025 kg/m³, what volume of water does it displace?",
+      "options": [
+        { "id": "a", "text": "48,780 m³ — mass/density = 50,000,000 / 1,025" },
+        { "id": "b", "text": "50,000 m³ — treating density as 1,000 kg/m³ (fresh water)" },
+        { "id": "c", "text": "51,250 m³ — incorrect formula application" },
+        { "id": "d", "text": "5,000 m³ — omitting unit conversion" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Volume = Mass / Density = 50,000 tonnes / 1.025 tonnes/m³ = 48,780 m³. This is Archimedes' Principle from your Fluids/Thrust and Pressure chapter. Port engineers at New Mangalore Port use this to determine how deep a ship can sit in water (draft), which affects whether large coal carriers can enter the port. Your physics protects Karnataka's energy supply!",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Gravitation and Fluids",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q5",
+      "text": "Karnataka's Biligiri Rangaswamy Temple (BRT) Tiger Reserve is a key biodiversity corridor. In this ecosystem, if the primary productivity (energy from photosynthesis) is 8,000 kcal/m²/year, and only 10% transfers to each successive trophic level, which food web correctly shows that tigers (apex predator) receive the least energy?",
+      "options": [
+        { "id": "a", "text": "Grasses (8,000) → Deer (800) → Tiger (80) — 10% transfer rule" },
+        { "id": "b", "text": "Grasses (8,000) → Deer (4,000) → Tiger (2,000) — 50% transfer rule" },
+        { "id": "c", "text": "Grasses (800) → Deer (8,000) → Tiger (800) — reversed energy flow" },
+        { "id": "d", "text": "All levels receive equal energy — energy is conserved" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The 10% energy transfer rule: producers have most energy; each consumer level has 10× less. Grasses: 8,000 → Deer: 800 → Tiger: 80 kcal/m²/year. This is why large predators need huge territories — a tiger needs hundreds of deer to sustain itself. Your Chapter on Our Environment (food chains, energy flow) directly explains why BRT Tiger Reserve needs 540 km² for its tiger population, and why deforestation disrupts the entire food web.",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Our Environment",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    }
+  ]
+}

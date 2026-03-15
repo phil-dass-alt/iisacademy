@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "tn-10-math-finlit-q1",
   "title": "Mathematics + Financial Literacy: Tamil Nadu Class 10",
   "subject": "Mathematics",
@@ -8,27 +9,27 @@
   "questions": [
     {
       "id": "q1",
-      "text": "A Chennai family deposits \u20b912,000 in a bank at 6% compound interest annually. What is the amount after 3 years?",
+      "text": "A Chennai family deposits ₹12,000 in a bank at 6% compound interest annually. What is the amount after 3 years?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b914,160"
+          "text": "₹14,160"
         },
         {
           "id": "b",
-          "text": "\u20b914,326"
+          "text": "₹14,326"
         },
         {
           "id": "c",
-          "text": "\u20b915,000"
+          "text": "₹15,000"
         },
         {
           "id": "d",
-          "text": "\u20b913,500"
+          "text": "₹13,500"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "A = 12000 \u00d7 (1.06)\u00b3 = 12000 \u00d7 1.191016 = \u20b914,292 \u2248 \u20b914,326 (exact: 12000\u00d71.191016 = 14292.19). Tamil Nadu's cooperative banks offer 5.5-6% on FDs. Understanding compound interest helps families make better investment decisions.",
+      "explanation": "A = 12000 × (1.06)³ = 12000 × 1.191016 = ₹14,292 ≈ ₹14,326 (exact: 12000×1.191016 = 14292.19). Tamil Nadu's cooperative banks offer 5.5-6% on FDs. Understanding compound interest helps families make better investment decisions.",
       "difficulty": "medium",
       "subject": "Mathematics",
       "chapter": "Numbers and Sequences",
@@ -37,27 +38,27 @@
     },
     {
       "id": "q2",
-      "text": "Using statistics: Monthly expenses of a Tamil Nadu household over 6 months: \u20b918,000, \u20b922,000, \u20b919,000, \u20b925,000, \u20b921,000, \u20b923,000. Calculate mean, median. Is this family's spending stable?",
+      "text": "Using statistics: Monthly expenses of a Tamil Nadu household over 6 months: ₹18,000, ₹22,000, ₹19,000, ₹25,000, ₹21,000, ₹23,000. Calculate mean, median. Is this family's spending stable?",
       "options": [
         {
           "id": "a",
-          "text": "Mean=\u20b921,333, Median=\u20b921,500; relatively stable with some variation"
+          "text": "Mean=₹21,333, Median=₹21,500; relatively stable with some variation"
         },
         {
           "id": "b",
-          "text": "Mean=\u20b920,000, Median=\u20b920,000; perfectly stable"
+          "text": "Mean=₹20,000, Median=₹20,000; perfectly stable"
         },
         {
           "id": "c",
-          "text": "Mean=\u20b923,000, Median=\u20b922,000; unstable spending"
+          "text": "Mean=₹23,000, Median=₹22,000; unstable spending"
         },
         {
           "id": "d",
-          "text": "Mean=\u20b921,000, Median=\u20b923,000; need more data"
+          "text": "Mean=₹21,000, Median=₹23,000; need more data"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Mean = (18000+22000+19000+25000+21000+23000)/6 = 128000/6 = \u20b921,333. Sorted: 18000,19000,21000,22000,23000,25000. Median = (21000+22000)/2 = \u20b921,500. Mean\u2248Median means relatively symmetric distribution \u2014 spending is somewhat stable. Financial planners say mean-median gap < 5% indicates stable spending patterns.",
+      "explanation": "Mean = (18000+22000+19000+25000+21000+23000)/6 = 128000/6 = ₹21,333. Sorted: 18000,19000,21000,22000,23000,25000. Median = (21000+22000)/2 = ₹21,500. Mean≈Median means relatively symmetric distribution — spending is somewhat stable. Financial planners say mean-median gap < 5% indicates stable spending patterns.",
       "difficulty": "hard",
       "subject": "Mathematics",
       "chapter": "Statistics and Probability",

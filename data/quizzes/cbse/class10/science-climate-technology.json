@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "cbse-10-sci-climate-q1",
+  "title": "Science + Climate Technology: Class 10 — Electricity, Reactions and Ecosystems",
+  "subject": "Science",
+  "board": "cbse",
+  "class": 10,
+  "enhancementTag": "Climate Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A solar panel (photovoltaic cell) converts sunlight into electricity. If a panel generates 12 V and has an internal resistance of 2 Ω, and is connected to a load resistance of 10 Ω, what is the current in the circuit and the power delivered to the load?",
+      "options": [
+        { "id": "a", "text": "I = 1 A, P_load = 10 W — using Ohm's Law and P = I²R" },
+        { "id": "b", "text": "I = 6 A, P_load = 360 W — using V/R with load only" },
+        { "id": "c", "text": "I = 0.5 A, P_load = 2.5 W — incorrect voltage applied" },
+        { "id": "d", "text": "I = 2 A, P_load = 40 W — parallel circuit formula" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Total resistance = 2 + 10 = 12 Ω. Current I = V/R_total = 12/12 = 1 A. Power to load = I² × R_load = 1² × 10 = 10 W. Solar panel engineers use exactly these calculations (your Chapter 12: Electricity) to design efficient photovoltaic systems. India's Adani Green Energy uses GW-scale solar farms based on these principles.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Electricity",
+      "board": "cbse",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q2",
+      "text": "Carbon dioxide (CO₂) is a product of combustion reactions. When methane (CH₄) burns in oxygen: CH₄ + 2O₂ → CO₂ + 2H₂O. This is a climate concern. What type of chemical reaction is this, and how does Carbon Capture and Storage (CCS) technology aim to reverse the problem?",
+      "options": [
+        { "id": "a", "text": "Decomposition reaction; CCS decomposes CO₂ back into C and O₂ using electrolysis" },
+        { "id": "b", "text": "Combination reaction; CCS prevents CO₂ from reaching atmosphere by combining it with alkaline solutions" },
+        { "id": "c", "text": "Combustion (oxidation) reaction; CCS captures CO₂ at the source and stores it underground or converts it to useful compounds" },
+        { "id": "d", "text": "Displacement reaction; CCS displaces CO₂ with oxygen in the atmosphere" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Combustion is an exothermic oxidation reaction (your Chapter 1: Chemical Reactions and Equations). CCS technology captures CO₂ directly from power plant exhaust using chemical absorption (amines react with CO₂). This captured gas is then compressed and stored underground in geological formations. Some technologies convert CO₂ to methanol (a fuel) — closing the carbon cycle. India's National Hydrogen Mission uses related electrochemical processes from your chemistry chapters.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Chemical Reactions and Equations",
+      "board": "cbse",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q3",
+      "text": "In a food chain: Grass → Grasshopper → Frog → Snake → Eagle, if 10,000 J of energy is available at the grass level, how much energy reaches the Eagle? (10% energy transfer rule applies at each level)",
+      "options": [
+        { "id": "a", "text": "1 J — four energy transfers at 10% efficiency each" },
+        { "id": "b", "text": "10 J — three energy transfers at 10% efficiency" },
+        { "id": "c", "text": "1000 J — one energy transfer" },
+        { "id": "d", "text": "100 J — two energy transfers at 10% efficiency" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "10,000 × 10% = 1,000 J (grasshopper) → × 10% = 100 J (frog) → × 10% = 10 J (snake) → × 10% = 1 J (eagle). This is the 10% energy rule in food chains (your Chapter 15: Our Environment). Climate scientists use this exact model to calculate how much land is needed to support different diets — plant-based diets require 10× less land than meat-based diets. Reducing meat consumption is one of the top climate action recommendations.",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Our Environment",
+      "board": "cbse",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q4",
+      "text": "The greenhouse effect involves CO₂, methane, and water vapour absorbing infrared radiation from Earth's surface. This relates to which property of electromagnetic radiation studied in Class 10?",
+      "options": [
+        { "id": "a", "text": "Reflection of light — greenhouse gases reflect sunlight back to Earth" },
+        { "id": "b", "text": "Refraction of light — CO₂ bends infrared rays toward Earth" },
+        { "id": "c", "text": "Selective absorption — molecules absorb specific wavelengths (infrared) of the electromagnetic spectrum and re-radiate heat" },
+        { "id": "d", "text": "Dispersion — greenhouse gases split sunlight into its components" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Greenhouse gases have molecular structures that vibrate at frequencies matching infrared wavelengths, causing selective absorption. This is your Light chapter — electromagnetic radiation, different wavelengths, and the electromagnetic spectrum. Climate satellites like NASA's MERRA-2 measure these infrared absorption patterns to track global warming. Your optics chapter applies directly to climate science!",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Light – Reflection and Refraction",
+      "board": "cbse",
+      "enhancementTag": "Climate Technology"
+    },
+    {
+      "id": "q5",
+      "text": "India's PM Surya Ghar scheme subsidises rooftop solar installations. If a household installs a 3 kW solar system that generates 4 units (kWh) per day, and electricity costs ₹8/unit, how much does the family save annually, and what is the carbon offset if each unit of grid electricity emits 0.82 kg CO₂?",
+      "options": [
+        { "id": "a", "text": "Annual savings: ₹8,760; Carbon offset: 1,197 kg CO₂/year" },
+        { "id": "b", "text": "Annual savings: ₹11,680; Carbon offset: 1,197 kg CO₂/year" },
+        { "id": "c", "text": "Annual savings: ₹8,760; Carbon offset: 984 kg CO₂/year" },
+        { "id": "d", "text": "Annual savings: ₹14,600; Carbon offset: 1,500 kg CO₂/year" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Daily savings: 4 units × ₹8 = ₹32. Annual: ₹32 × 365 = ₹11,680. Daily CO₂ offset: 4 × 0.82 = 3.28 kg. Annual: 3.28 × 365 = 1,197.2 kg ≈ 1,197 kg CO₂/year (roughly planting 54 trees). This combines your Electricity chapter (power = V×I, energy = P×t) with environmental science. India needs to install 500 GW of solar by 2030 — these calculations determine national energy policy.",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Electricity",
+      "board": "cbse",
+      "enhancementTag": "Climate Technology"
+    }
+  ]
+}

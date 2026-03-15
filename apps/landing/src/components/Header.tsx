@@ -9,10 +9,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <span className={styles.logoIcon}>🎓</span>
-          <span className={styles.logoText}>
-            IIS <strong>Academy</strong>
-          </span>
+          <img src="/images/IISA_logo.png" alt="IIS Academy" className={styles.logoImg} />
         </div>
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}>
           <a href="#boards" className={styles.navLink}>

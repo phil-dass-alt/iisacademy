@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "cbse-9-sci-aitech-q1",
+  "title": "Science + AI Technology: Class 9 — Motion, Gravitation, Sound and Matter",
+  "subject": "Science",
+  "board": "cbse",
+  "class": 9,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A self-driving car's GPS system records its position every second: 0 m, 10 m, 25 m, 45 m, 70 m. What is the acceleration of the car between seconds 3 and 5?",
+      "options": [
+        { "id": "a", "text": "5 m/s² — using the formula a = (v₂ - v₁) / t" },
+        { "id": "b", "text": "12.5 m/s² — average of all speeds" },
+        { "id": "c", "text": "10 m/s² — constant acceleration throughout" },
+        { "id": "d", "text": "2.5 m/s² — final speed divided by total time" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Speed at t=3: (45-25)=20 m/s. Speed at t=5: (70-45)=25 m/s. Acceleration = Δv/Δt = (25-20)/2 = 2.5 m/s². Actually the correct calculation: displacement at each second is 10, 15, 20, 25 → velocities are increasing by 5 m/s every second → a = 5 m/s². Tesla Autopilot uses this exact kinematic analysis (equations of motion) to plan smooth acceleration profiles. Your Class 9 Chapter 8: Motion!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Motion",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q2",
+      "text": "ISRO's Chandrayaan-3 orbited the Moon at an altitude where gravitational acceleration g = 1.62 m/s². If the lander had a mass of 1752 kg, what was its weight on the Moon vs. Earth (g = 9.8 m/s²)?",
+      "options": [
+        { "id": "a", "text": "Moon: 2838 N, Earth: 17170 N — the lander weighed 6× less on Moon" },
+        { "id": "b", "text": "Moon: 17170 N, Earth: 2838 N — gravity is weaker on Earth" },
+        { "id": "c", "text": "Same weight on both — mass determines weight" },
+        { "id": "d", "text": "Moon: 1080 N, Earth: 5000 N — approximate values only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "W = mg. Moon: 1752 × 1.62 = 2838 N. Earth: 1752 × 9.8 = 17,170 N. Ratio ≈ 1/6. ISRO engineers used this exact formula (Gravitation chapter) to design thruster fuel requirements for the soft landing. The famous '17 minutes of terror' landing calculation is your Chapter 10 Gravitation applied in real-time!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Gravitation",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q3",
+      "text": "An AI voice assistant (like Siri) cannot understand speech in a vacuum chamber. A student says this is because sound requires a medium. She then states that AI voice recognition works by analysing which property of sound waves?",
+      "options": [
+        { "id": "a", "text": "The colour of the sound wave" },
+        { "id": "b", "text": "Frequency patterns over time (spectrograms) — different words have different frequency signatures" },
+        { "id": "c", "text": "The speed of sound only — faster = louder word" },
+        { "id": "d", "text": "Wavelength alone determines the word spoken" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sound requires a medium (your Chapter 12). AI speech recognition first converts the sound wave into a spectrogram — a 2D image of frequency vs. time. Different phonemes ('ka', 'pa', 'ta') produce distinct spectrograms. The AI neural network then classifies these spectrograms into words. Your Wave Properties chapter (frequency, amplitude) are literally the input features of all voice AI systems.",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Sound",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q4",
+      "text": "In AI chip manufacturing (semiconductor fabrication), materials are classified as conductors, insulators, or semiconductors. Silicon (Si) is the primary material for AI chips. Which classification is Silicon and why?",
+      "options": [
+        { "id": "a", "text": "Conductor — it freely conducts electricity at all temperatures" },
+        { "id": "b", "text": "Insulator — it blocks all electrical current" },
+        { "id": "c", "text": "Semiconductor — its conductivity can be precisely controlled by adding impurities (doping)" },
+        { "id": "d", "text": "Superconductor — it conducts electricity without resistance" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Silicon is a semiconductor — it has conductivity between conductors and insulators, and this can be precisely controlled by doping (adding phosphorus or boron). This controllable conductivity is what makes transistors possible — a transistor is a voltage-controlled switch. Your Chapter on Matter Properties (Is Matter Around Us Pure?) introduces mixtures and pure substances; semiconductor doping is controlled mixing at the atomic scale. Every AI chip = billions of silicon transistors.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Matter in Our Surroundings",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q5",
+      "text": "A drone uses Newton's Third Law to hover: thrust from propellers = weight. If the drone (mass = 0.5 kg, g = 10 m/s²) needs to accelerate upward at 2 m/s², what total thrust force must the propellers provide?",
+      "options": [
+        { "id": "a", "text": "5 N — just enough to overcome gravity" },
+        { "id": "b", "text": "6 N — weight plus force for acceleration (F = ma + mg)" },
+        { "id": "c", "text": "1 N — only the acceleration force needed" },
+        { "id": "d", "text": "10 N — double the weight for safety" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Net force needed for upward acceleration: F_net = ma = 0.5 × 2 = 1 N upward. But also must overcome gravity (weight = 0.5 × 10 = 5 N). Total thrust = Weight + Net force = 5 + 1 = 6 N. This is Newton's Second Law (F = ma) applied in real-time by DJI drone flight controllers, thousands of calculations per second. Your Chapter 9: Force and Newton's Laws!",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Force and Laws of Motion",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

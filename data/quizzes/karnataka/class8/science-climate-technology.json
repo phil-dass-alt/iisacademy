@@ -1,6 +1,7 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "ka-8-sci-greenmat-q1",
-  "title": "Science + Green Materials: Karnataka Class 8 \u2014 Metals and Fuels",
+  "title": "Science + Green Materials: Karnataka Class 8 — Metals and Fuels",
   "subject": "Science",
   "board": "karnataka",
   "class": 8,
@@ -8,27 +9,27 @@
   "questions": [
     {
       "id": "q1",
-      "text": "Karnataka is investing in solar energy to replace coal power plants. A 1 MW coal plant burns 300 tonnes of coal/day emitting 800 tonnes of CO\u2082. A 1 MW solar farm emits 0 tonnes of CO\u2082 daily. If Karnataka has 50 such coal plants, how much CO\u2082 is saved daily by converting all to solar?",
+      "text": "Karnataka is investing in solar energy to replace coal power plants. A 1 MW coal plant burns 300 tonnes of coal/day emitting 800 tonnes of CO₂. A 1 MW solar farm emits 0 tonnes of CO₂ daily. If Karnataka has 50 such coal plants, how much CO₂ is saved daily by converting all to solar?",
       "options": [
         {
           "id": "a",
-          "text": "40,000 tonnes CO\u2082/day"
+          "text": "40,000 tonnes CO₂/day"
         },
         {
           "id": "b",
-          "text": "15,000 tonnes CO\u2082/day"
+          "text": "15,000 tonnes CO₂/day"
         },
         {
           "id": "c",
-          "text": "800 tonnes CO\u2082/day"
+          "text": "800 tonnes CO₂/day"
         },
         {
           "id": "d",
-          "text": "4,000 tonnes CO\u2082/day"
+          "text": "4,000 tonnes CO₂/day"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "CO\u2082 saved = 50 \u00d7 800 = 40,000 tonnes/day. That's 1.46 crore tonnes/year! Karnataka already generates 14,700 MW of renewable energy. Your combustion and coal chapters explain exactly why India is racing to solar power.",
+      "explanation": "CO₂ saved = 50 × 800 = 40,000 tonnes/day. That's 1.46 crore tonnes/year! Karnataka already generates 14,700 MW of renewable energy. Your combustion and coal chapters explain exactly why India is racing to solar power.",
       "difficulty": "medium",
       "subject": "Science",
       "chapter": "Coal and Petroleum / Combustion and Flame",
