@@ -3,6 +3,8 @@ import { initAdaptiveState, updateAdaptiveState } from './adaptive';
 import { calculateMasteryLevel } from './feedback';
 
 const POINTS_PER_CORRECT_ANSWER = 10;
+
+export class QuizEngine {
   private questions: Question[];
   private attempts: QuizAttempt[] = [];
   private adaptiveState: AdaptiveState;

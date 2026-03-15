@@ -56,10 +56,10 @@ export function selectNextQuestion(
   const preferredDifficulty = remaining.filter((q) => q.difficulty === state.currentDifficulty);
   if (preferredDifficulty.length > 0) {
     const idx = Math.floor(Math.random() * preferredDifficulty.length);
-    return preferredDifficulty[idx].id;
+    return preferredDifficulty[idx]?.id ?? null;
   }
 
   // Fallback to any remaining question
   const idx = Math.floor(Math.random() * remaining.length);
-  return remaining[idx].id;
+  return remaining[idx]?.id ?? null;
 }

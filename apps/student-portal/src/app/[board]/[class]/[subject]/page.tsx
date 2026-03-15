@@ -11,7 +11,12 @@ interface SubjectPageProps {
   };
 }
 
+const VALID_SEGMENT = /^[a-z0-9-]+$/i;
+
 async function getSyllabus(board: string, cls: string, subject: string) {
+  if (!VALID_SEGMENT.test(board) || !VALID_SEGMENT.test(cls) || !VALID_SEGMENT.test(subject)) {
+    return null;
+  }
   try {
     const dataPath = path.join(process.cwd(), '../../data/syllabus', board, cls, `${subject}.json`);
     const content = fs.readFileSync(dataPath, 'utf-8');

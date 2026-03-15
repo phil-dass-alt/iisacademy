@@ -113,7 +113,7 @@ export function QuizPlayer({ questions }: QuizPlayerProps) {
       {/* Progress */}
       <div className="flex items-center justify-between mb-4">
         <span className="text-sm text-gray-500">Question {currentIdx + 1} of {questions.length}</span>
-        <span className="text-sm font-medium text-indigo-600">Score: {score}/{currentIdx}</span>
+        <span className="text-sm font-medium text-indigo-600">Score: {score}/{currentIdx + 1}</span>
       </div>
       <div className="w-full bg-gray-100 rounded-full h-1.5 mb-5">
         <div

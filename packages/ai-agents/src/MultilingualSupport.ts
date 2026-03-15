@@ -88,7 +88,7 @@ const UI_TRANSLATIONS: Record<SupportedLanguage, Record<string, string>> = {
 };
 
 export function translate(key: string, language: SupportedLanguage): string {
-  return UI_TRANSLATIONS[language]?.[key] ?? UI_TRANSLATIONS['en'][key] ?? key;
+  return UI_TRANSLATIONS[language]?.[key] ?? UI_TRANSLATIONS['en']?.[key] ?? key;
 }
 
 export function getAvailableLanguages(board: string): SupportedLanguage[] {
