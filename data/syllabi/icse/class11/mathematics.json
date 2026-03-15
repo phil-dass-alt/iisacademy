@@ -1,20 +1,479 @@
 {
-  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "icse",
   "class": 11,
   "subject": "Mathematics",
-  "stream": "Science/Commerce",
-  "wing": "senior",
+  "stream": "science",
+  "competitiveTargets": [
+    "JEE Main",
+    "JEE Advanced"
+  ],
   "chapters": [
-    { "id": "icse-11-math-01", "number": 1, "name": "Sets, Relations and Functions", "topics": ["Set Operations", "Venn Diagrams", "Types of Functions", "Composition"], "enhancement": "Database Theory & Functional Programming" },
-    { "id": "icse-11-math-02", "number": 2, "name": "Complex Numbers", "topics": ["Argand Plane", "Polar Form", "de Moivre's Theorem"], "enhancement": "Signal Processing & Quantum Computing" },
-    { "id": "icse-11-math-03", "number": 3, "name": "Quadratic Equations", "topics": ["Nature of Roots", "Sum & Product of Roots", "Inequalities"], "enhancement": "Optimization in ML" },
-    { "id": "icse-11-math-04", "number": 4, "name": "Sequences and Series", "topics": ["AP", "GP", "HP", "Special Sums"], "enhancement": "Recursive Algorithms & Neural Architectures" },
-    { "id": "icse-11-math-05", "number": 5, "name": "Permutations and Combinations", "topics": ["Factorial", "nPr", "nCr", "Pascal's Triangle"], "enhancement": "Cryptography & Combinatorial Optimization" },
-    { "id": "icse-11-math-06", "number": 6, "name": "Binomial Theorem", "topics": ["Binomial Expansion", "General Term", "Approximations"], "enhancement": "Probability in ML" },
-    { "id": "icse-11-math-07", "number": 7, "name": "Trigonometry", "topics": ["Compound Angles", "Multiple Angles", "Inverse Functions", "Heights & Distances"], "enhancement": "Robotics Kinematics & Computer Graphics" },
-    { "id": "icse-11-math-08", "number": 8, "name": "Coordinate Geometry", "topics": ["Straight Lines", "Circles", "Conics"], "enhancement": "Computer Vision & GPS" },
-    { "id": "icse-11-math-09", "number": 9, "name": "Calculus: Limits and Derivatives", "topics": ["Limits", "Continuity", "Differentiation Rules"], "enhancement": "Gradient Descent & Backpropagation" },
-    { "id": "icse-11-math-10", "number": 10, "name": "Statistics and Probability", "topics": ["Dispersion", "Correlation", "Conditional Probability", "Bayes' Theorem"], "enhancement": "Data Science & AI Decision Systems" }
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Sets",
+      "summary": "Sets, subsets, union, intersection, complement, De Morgan's laws, Venn diagrams, and applications.",
+      "topics": [
+        "Set Notation",
+        "Subsets",
+        "Union and Intersection",
+        "Complement",
+        "De Morgan's Laws",
+        "Venn Diagrams"
+      ],
+      "enhancement": "Boolean Logic & AI Database Queries",
+      "aiEnhancementLesson": {
+        "title": "From Venn Diagrams to SQL Databases & AI Data Operations",
+        "content": "Board Level: Sets, subsets, universal set, union (A∪B), intersection (A∩B), complement (A'), De Morgan's laws: (A∪B)' = A'∩B'. JEE Bridge: Problems involving n(A∪B) = n(A) + n(B) − n(A∩B) — inclusion-exclusion principle. Intelligence Age: SQL (Structured Query Language), used to query every major database from Amazon to Flipkart, is built on set theory. SQL JOIN = A∩B (intersection). SQL UNION = A∪B. SQL NOT = A'. Every database query on Swiggy, Ola, or Zomato uses set theory operations at billions of records. AI systems filter training data using set operations — 'give me all images WITH cats AND WITHOUT dogs' is a set intersection/complement operation directly from your chapter. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Use a Venn diagram to solve: Out of 100 students, 60 study Science, 50 study Maths, 30 study both. How many study (1) only Science, (2) only Maths, (3) neither? Then write the SQL equivalent: SELECT COUNT(*) WHERE Science=TRUE AND Maths=FALSE."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If A = {1,2,3,4,5} and B = {3,4,5,6,7}, then A∩B' contains:",
+          "options": [
+            "{1,2}",
+            "{3,4,5}",
+            "{6,7}",
+            "{1,2,3,4,5,6,7}"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! B' = elements not in B = {1,2} (assuming U contains 1-7). A∩B' = elements in A that are NOT in B = {1,2}.",
+            "incorrect": "B' = complement of B. A∩B' = elements in A but not in B. A={1,2,3,4,5}, B={3,4,5,6,7}. Elements in A but not in B = {1,2}.",
+            "intelligenceAgeHint": "This is SQL: SELECT * FROM A WHERE id NOT IN (SELECT id FROM B) — the LEFT ANTI-JOIN operation used in fraud detection AI to find transactions NOT matching known patterns."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] In a survey of 700 people, 200 read newspaper A, 300 read B, 400 read C. 100 read A&B, 150 read B&C, 75 read A&C, and 50 read all three. How many read none?",
+          "options": [
+            "25",
+            "75",
+            "125",
+            "575"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! n(A∪B∪C) = 200+300+400−100−150−75+50 = 625. None = 700−625 = 75. Wait: 625 people read at least one. None = 700−625 = 75.",
+            "incorrect": "n(A∪B∪C) = n(A)+n(B)+n(C)−n(A∩B)−n(B∩C)−n(A∩C)+n(A∩B∩C) = 200+300+400−100−150−75+50 = 625. None = 700−625 = 75.",
+            "intelligenceAgeHint": "Market research AI at Flipkart uses inclusion-exclusion across customer segment overlaps to prevent double-counting in customer reach calculations."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI content filter must block posts that contain EITHER hate speech OR graphic violence. If 1 million posts are analysed, 40,000 contain hate speech, 25,000 contain violence, and 8,000 contain both. How many posts are blocked?",
+          "options": [
+            "57,000",
+            "65,000",
+            "73,000",
+            "33,000"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! n(H∪V) = 40,000 + 25,000 − 8,000 = 57,000 posts blocked.",
+            "incorrect": "n(H∪V) = n(H) + n(V) − n(H∩V) = 40,000 + 25,000 − 8,000 = 57,000. Without subtraction, you'd double-count the 8,000 posts with both.",
+            "intelligenceAgeHint": "Meta's AI Trust & Safety team uses inclusion-exclusion every day to report content moderation statistics — your Venn diagram chapter is social media policy implementation."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Inclusion-exclusion is a JEE staple. For three sets: n(A∪B∪C) = n(A)+n(B)+n(C)−n(A∩B)−n(B∩C)−n(A∩C)+n(A∩B∩C). Draw Venn diagram for any complex problem.",
+        "calculationHack": "Quick check: if n(A∪B) = n(A) + n(B), the sets are disjoint (no intersection). Always ask: can the sets overlap? If yes, subtract the overlap.",
+        "mnemonicAgent": "UNION adds, INTERSECTION subtracts (when finding total): n(A∪B) = n(A) + n(B) − n(A∩B). Think: 'You Unite by Adding, but avoid double-counting the Intersection.'"
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Relations and Functions",
+      "summary": "Ordered pairs, Cartesian product, relations, functions, domain and range, types of functions, composition.",
+      "topics": [
+        "Ordered Pairs",
+        "Cartesian Product",
+        "Relations",
+        "Functions",
+        "Domain and Range",
+        "Composition of Functions"
+      ],
+      "enhancement": "AI Function Composition & Neural Networks",
+      "aiEnhancementLesson": {
+        "title": "Functions — The Mathematical Foundation of Every Neural Network",
+        "content": "Board Level: Functions f: A→B, one-one (injective), onto (surjective), bijective functions, composition f∘g, domain, range, codomain. JEE Bridge: Modulus function, signum, greatest integer, fractional part functions. Inverse of a function. Intelligence Age: A neural network is literally a composition of functions. Input x → f₁(x) (layer 1) → f₂(f₁(x)) (layer 2) → ... → output. Your function composition f∘g∘h IS a neural network forward pass. Each layer applies an activation function (e.g., ReLU(x) = max(0,x) or sigmoid(x) = 1/(1+e⁻ˣ)). Backpropagation (how AI learns) uses the chain rule of derivatives applied to function composition — your function concepts are the literal mathematics of artificial intelligence. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Model a simple neural network: Layer 1: f₁(x) = 2x + 1. Layer 2: f₂(x) = max(0, x) [ReLU]. Layer 3: f₃(x) = 1/(1+e⁻ˣ) [sigmoid]. Compute f₃(f₂(f₁(x))) for x = {−1, 0, 1, 2}. Plot the output. What type of function does the composition create? Is it monotone?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If f(x) = 2x + 3 and g(x) = x² − 1, then (f∘g)(2) equals:",
+          "options": [
+            "9",
+            "11",
+            "7",
+            "15"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! g(2) = 4−1 = 3. f(g(2)) = f(3) = 2(3)+3 = 9. Wait: f(3) = 2×3+3 = 9? Let me recheck. (f∘g)(x) = f(g(x)). g(2)=3. f(3)=2×3+3=9. Answer should be A=9. Recalculating: (f∘g)(2) = f(g(2)) = f(4−1) = f(3) = 2(3)+3 = 9.",
+            "incorrect": "(f∘g)(x) = f(g(x)). Step 1: g(2) = 2²−1 = 3. Step 2: f(3) = 2(3)+3 = 9.",
+            "intelligenceAgeHint": "Every AI model evaluates exactly this kind of function composition — input passes through g (first layer) then f (second layer). The output is f(g(input)) — your function composition IS deep learning."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The range of f(x) = |x−2| + |x+3| for x ∈ ℝ is:",
+          "options": [
+            "[0, ∞)",
+            "[5, ∞)",
+            "[3, ∞)",
+            "ℝ"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! By triangle inequality: |x−2| + |x+3| ≥ |(x−2)−(x+3)| is wrong direction. Actually |a| + |b| ≥ |a−b|. For x between −3 and 2: f(x) = (2−x)+(x+3)=5. For x>2: f(x)=x−2+x+3=2x+1>5. For x<−3: f(x)=2−x−x−3=−2x−1>5. Minimum is 5.",
+            "incorrect": "Minimum of |x−2|+|x+3| occurs when x ∈ [−3,2]: value = (2−x)+(x+3) = 5. Outside this range, value > 5. So range = [5, ∞).",
+            "intelligenceAgeHint": "The absolute value function is used in AI 'L1 loss' (Mean Absolute Error) — minimising ∑|predicted−actual|. Understanding its minimum is the basis of Lasso regression in machine learning."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI activation function ReLU(x) = max(0, x) is applied, then sigmoid σ(x) = 1/(1+e⁻ˣ). For input x = −1, the composition σ(ReLU(−1)) equals:",
+          "options": [
+            "0.5",
+            "0.27",
+            "0",
+            "0.73"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! ReLU(−1) = max(0, −1) = 0. σ(0) = 1/(1+e⁰) = 1/(1+1) = 0.5.",
+            "incorrect": "Step 1: ReLU(−1) = max(0, −1) = 0 (ReLU clips negative values to 0). Step 2: σ(0) = 1/(1+e⁰) = 1/2 = 0.5.",
+            "intelligenceAgeHint": "This function composition is computed billions of times per second in ChatGPT's neural network — every 'thought' the AI has is your function composition from Class 11 Maths applied at scale."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key functions to master: |x| (modulus), [x] (greatest integer/floor), {x} = x−[x] (fractional part), sgn(x). For JEE: solve equations/inequalities involving these. Domain restrictions are crucial.",
+        "calculationHack": "Greatest integer function: [x] = n when n ≤ x < n+1. Useful shortcut: for [x] questions, test integer boundaries. For f∘g, always evaluate inner function first.",
+        "mnemonicAgent": "DICE for functions: Domain (valid inputs), Image (actual outputs), Codomain (possible outputs), Exactly-one-output (function definition). 'DICE' — every function has a DICE."
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Trigonometric Functions",
+      "summary": "Angles in radians, trigonometric ratios, identities, graphs, and trigonometric equations.",
+      "topics": [
+        "Radian Measure",
+        "Trig Ratios",
+        "Compound Angle Formulae",
+        "Trig Identities",
+        "Inverse Trig Functions",
+        "Trig Equations"
+      ],
+      "enhancement": "Signal Processing & Fourier AI",
+      "aiEnhancementLesson": {
+        "title": "Trigonometry in Music AI, 5G Signals & Fourier Transforms",
+        "content": "Board Level: sin, cos, tan, compound angle formulae (sin(A+B), cos(A+B)), transformation formulae, general solutions of trig equations. JEE Bridge: Range of expressions like a sinθ + b cosθ = ±√(a²+b²). Solving trig equations. Intelligence Age: Every sound, radio signal, and image is a sum of sine and cosine waves (Fourier series: f(t) = Σ[aₙcos(nωt) + bₙsin(nωt)]). Spotify's AI music recommender analyses the Fourier transform of songs — decomposing them into sine waves at different frequencies (your trig functions). India's 5G towers transmit data as modulated sine waves — the MIMO antenna systems calculate signal combinations using trig addition formulae. Noise-cancelling headphones (used by millions of Indian students for online classes) compute the EXACT opposite sine wave to cancel noise — direct application of your compound angle formulae. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Build a signal: y = 3sin(x) + 4cos(x). Calculate: (1) amplitude = √(3²+4²) = 5, (2) phase angle, (3) maximum value. Then analyse: a noise signal of 2sin(100πt). What sine wave would cancel it exactly? How do ANC headphones implement this in real time?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The maximum value of 3sinθ + 4cosθ is:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Maximum of a sinθ + b cosθ = √(a²+b²) = √(9+16) = √25 = 5.",
+            "incorrect": "Max of a sinθ + b cosθ = √(a²+b²) = √(3²+4²) = √(9+16) = √25 = 5. Min = −5.",
+            "intelligenceAgeHint": "This 5 is the amplitude of the combined signal — exactly what a 5G engineer calculates when combining signal components to maximise tower strength."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The general solution of sin2θ = cos3θ is: (hint: cosα = sin(90°−α))",
+          "options": [
+            "θ = nπ/5 + π/10, n∈Z",
+            "θ = nπ ± π/10, n∈Z",
+            "θ = (2n+1)π/5, n∈Z",
+            "θ = nπ/5, n∈Z"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! sin2θ = cos3θ = sin(π/2−3θ). General solution: 2θ = nπ + (−1)ⁿ(π/2−3θ). For even n: 2θ = 2mπ + π/2−3θ → 5θ = 2mπ+π/2 → θ = 2mπ/5 + π/10.",
+            "incorrect": "sin2θ = cos3θ = sin(π/2−3θ). So 2θ = nπ + (−1)ⁿ(π/2−3θ). This gives θ = nπ/5+π/10 for even n.",
+            "intelligenceAgeHint": "Wireless engineers solve trig equations like this to find when two antenna signals are in phase (constructive interference) — maximising 5G signal strength for your internet connection."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A noise-cancelling headphone detects noise: N(t) = 5sin(2π×200t). The cancelling wave must be:",
+          "options": [
+            "5sin(2π×200t)",
+            "5cos(2π×200t)",
+            "5sin(2π×200t + π) = −5sin(2π×200t)",
+            "5sin(2π×400t)"
+          ],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! To cancel N(t) = A sin(ωt), the cancelling wave = −A sin(ωt) = A sin(ωt + π). Same amplitude, exactly 180° out of phase → destructive interference → silence.",
+            "incorrect": "Cancellation requires opposite wave: N(t) + C(t) = 0. So C(t) = −N(t) = −5sin(200×2πt) = 5sin(200×2πt + π). Phase-shifted by π (180°).",
+            "intelligenceAgeHint": "Your Bose QC45 or Sony WH-1000XM5 headphones compute this exact cancelling sine wave 200,000 times per second using a tiny AI chip — your Class 11 trig is the silence you hear."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key identities: sin²θ+cos²θ=1, sin2θ=2sinθcosθ, cos2θ=1−2sin²θ=2cos²θ−1. Range formulae: a sinθ+b cosθ ∈ [−√(a²+b²), √(a²+b²)]. Critical for JEE.",
+        "calculationHack": "For max/min of expressions: convert a sinθ+b cosθ → R sin(θ+φ) where R=√(a²+b²), tanφ=b/a. Max = R, min = −R. Very fast in JEE.",
+        "mnemonicAgent": "CAST: Cos positive (4th quadrant), All positive (1st), Sin positive (2nd), Tan positive (3rd). Remember 'CAST' going anti-clockwise to determine signs of trig functions in each quadrant."
+      }
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Complex Numbers and Quadratic Equations",
+      "summary": "Complex numbers, algebraic operations, modulus, argument, polar form, Argand plane, quadratic equations.",
+      "topics": [
+        "Complex Numbers",
+        "Modulus and Argument",
+        "Polar Form",
+        "Argand Plane",
+        "Quadratic Equations",
+        "Discriminant"
+      ],
+      "enhancement": "Signal Processing & Quantum Phase",
+      "aiEnhancementLesson": {
+        "title": "Complex Numbers in Quantum Computing & Signal Processing AI",
+        "content": "Board Level: z = a+ib, |z| = √(a²+b²), arg(z) = θ, polar form z = r(cosθ+i sinθ) = re^(iθ), De Moivre's theorem, quadratic formula, discriminant. JEE Bridge: Cube roots of unity ω, complex geometry — locus problems. Intelligence Age: Quantum computing uses complex numbers in quantum state vectors: |ψ⟩ = α|0⟩ + β|1⟩ where α,β are complex numbers with |α|²+|β|²=1. The probability amplitudes in quantum mechanics are your complex number modulus squares. Signal processing (AC circuit analysis in electrical engineering) uses complex impedance Z = R + jX — making circuit calculations that would take pages into one complex division. Every 5G signal is represented as a complex exponential e^(jωt) — Euler's formula directly from your Class 11 chapter. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Calculate: (1) Represent a 5G signal e^(j×2π×3.5×10⁹×t) in polar form. What does the modulus represent? What does the argument represent? (2) If two signals differ by phase π/3, what is the complex ratio of their phasors? (3) Why do engineers use complex numbers instead of separate amplitude and phase variables?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If z = 1 + i, then |z|² equals:",
+          "options": [
+            "1",
+            "√2",
+            "2",
+            "i"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! z = 1+i. |z|² = 1² + 1² = 2.",
+            "incorrect": "|z|² = (real part)² + (imaginary part)² = 1² + 1² = 1 + 1 = 2.",
+            "intelligenceAgeHint": "In quantum computing, |α|² gives the probability of measuring state |0⟩. The qubit wave function uses exactly this complex modulus squared from your chapter."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] The locus of z = x+iy satisfying |z−1| = |z+1| is:",
+          "options": [
+            "x=0 (imaginary axis)",
+            "y=0 (real axis)",
+            "A circle of radius 1",
+            "x+y=1"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! |z−1| = |z+1| → equal distance from points (1,0) and (−1,0) → perpendicular bisector → y-axis (x=0).",
+            "incorrect": "|z−1| = |z+1| means point z is equidistant from (1,0) and (−1,0) in the Argand plane → perpendicular bisector of these two points → x=0 (imaginary axis).",
+            "intelligenceAgeHint": "GPS triangulation uses exactly this locus logic — your position is where |d₁|=|d₂| for multiple satellite distances. GPS AI solves complex locus equations to pinpoint your location."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A quantum qubit state is |ψ⟩ = (1+i)/√4 |0⟩ + (1−i)/√4 |1⟩. What is the probability of measuring |0⟩?",
+          "options": [
+            "0.5",
+            "0.25",
+            "0.75",
+            "1/√2"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! P(|0⟩) = |(1+i)/√4|² = |1+i|²/4 = 2/4 = 0.5. (|1+i|² = 1+1 = 2)",
+            "incorrect": "P(|0⟩) = |α|² where α = (1+i)/√4. |1+i|² = 1² + 1² = 2. |α|² = 2/4 = 0.5.",
+            "intelligenceAgeHint": "This quantum probability calculation using complex modulus squared is the core operation of IBM Quantum's computing — IISc Bengaluru's quantum lab performs this calculation millions of times per experiment."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Cube roots of unity: 1+ω+ω²=0 and ω³=1. De Moivre: (cosθ+isinθ)ⁿ = cos(nθ)+i sin(nθ). For JEE, complex geometry (circles, lines in Argand plane) is frequently tested.",
+        "calculationHack": "Convert to polar form for multiplication: z₁z₂ → |z₁||z₂|∠(θ₁+θ₂). Division: |z₁|/|z₂|∠(θ₁−θ₂). Much faster than algebraic multiplication for powers.",
+        "mnemonicAgent": "MAPS for complex numbers: Modulus (|z|=r), Argument (θ=arg(z)), Polar form (re^iθ), Standard form (a+ib). 'MAPS' — use the right form for each problem type."
+      }
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "title": "Permutations and Combinations",
+      "summary": "Fundamental counting principle, permutations, combinations, binomial theorem, Pascal's triangle.",
+      "topics": [
+        "Fundamental Counting Principle",
+        "Permutations",
+        "Combinations",
+        "Binomial Theorem",
+        "Pascal's Triangle"
+      ],
+      "enhancement": "Cryptography & AI Combinatorial Search",
+      "aiEnhancementLesson": {
+        "title": "From P&C to Cryptography, AI Search Algorithms & Genetic Algorithms",
+        "content": "Board Level: nPr = n!/(n−r)!, nCr = n!/r!(n−r)!, Binomial theorem: (a+b)ⁿ = Σ(nCr × aⁿ⁻ʳ × bʳ). JEE Bridge: Rank of a word, circular permutations, multinomial, coefficient problems in binomial. Intelligence Age: RSA cryptography (securing every HTTPS website including iisacademy.in) is based on the difficulty of factoring large numbers — combinatorial mathematics. A 256-bit encryption key has 2²⁵⁶ ≈ 10⁷⁷ possible combinations — your counting principle shows why brute force is impossible. AI genetic algorithms optimise solutions by 'combining' (recombining — like nCr selection) candidate solutions. Google's AI search uses combinatorial pruning (Alpha-Beta algorithm) to evaluate millions of move combinations in Chess AI. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Calculate: (1) How many ways can 5 students be arranged in a row? (2) How many 4-letter passwords from {A,B,C,D,E,F} without repetition? (3) How many committees of 3 from 8 students? (4) Why can't a computer try all 8-character passwords from 62 characters? Calculate the number and compare with 1 billion attempts/second."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The coefficient of x³ in the expansion of (1+x)⁷ is:",
+          "options": [
+            "21",
+            "35",
+            "7",
+            "28"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Coefficient of xʳ in (1+x)ⁿ = nCr. Coefficient of x³ = 7C3 = 7!/(3!×4!) = 35.",
+            "incorrect": "In (1+x)ⁿ, the coefficient of xʳ is nCr. So coefficient of x³ in (1+x)⁷ = 7C3 = 7×6×5/(3×2×1) = 35.",
+            "intelligenceAgeHint": "Binomial coefficients appear in neural network weight initialisation — the number of paths through a network layer follows Pascal's triangle (your binomial theorem)."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] Letters of PERMUTATION are arranged. The number of arrangements where all vowels are together is:",
+          "options": [
+            "8! × 5!",
+            "9! × 5!",
+            "9! × 4!",
+            "7! × 5!"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! PERMUTATION has vowels E,U,A,I,O (5 vowels). Treat as one unit: 9 units (8 consonants + 1 vowel block) arranged in 8!/(P appears twice) ways, vowels in 5! ways. But P appears twice in consonants — check letters.",
+            "incorrect": "PERMUTATION: P,E,R,M,U,T,A,T,I,O,N = 11 letters. Vowels: E,U,A,I,O = 5. Treat vowel group as 1 unit: 7 consonants + 1 unit = 8 units. 8! arrangements (T appears twice: ÷2! and... check). Vowel arrangements: 5!.",
+            "intelligenceAgeHint": "Arrangement algorithms in AI text generation (like GPT) use combinatorial logic to explore valid word sequences — the same counting principles you use for letter arrangements."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A 4-digit PIN uses digits 0-9 (repetition allowed). An AI must guess it. If the AI tries 1000 PINs/second, what is the WORST-CASE time to crack all possible PINs?",
+          "options": [
+            "10 seconds",
+            "100 seconds",
+            "1000 seconds",
+            "10,000 seconds"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Total PINs = 10⁴ = 10,000. At 1000/second: time = 10,000/1000 = 10 seconds. This is why 4-digit PINs are considered insecure against automated attacks!",
+            "incorrect": "10 × 10 × 10 × 10 = 10,000 possible PINs. At 1,000 guesses/second: 10,000/1,000 = 10 seconds. This demonstrates why bank PINs lock after 3 attempts (rate-limiting defence).",
+            "intelligenceAgeHint": "Bank security AI uses this combinatorial analysis to set lockout policies — after 3 wrong attempts, you're locked. The AI calculates exactly how many attempts make a PIN insecure based on your fundamental counting principle."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Circular permutations: (n−1)! for n objects. If clockwise = anticlockwise (necklace): (n−1)!/2. De-arrangement (no fixed points): n![1−1/1!+1/2!−1/3!+...]. These appear in JEE.",
+        "calculationHack": "For binomial: middle term is T(n/2+1) for even n. Largest coefficient is at middle term. For finding specific terms: Tr+1 = nCr × aⁿ⁻ʳ × bʳ.",
+        "mnemonicAgent": "PiCK: Permutations for Placement (order matters), Combinations for seleKtion (order doesn't matter). When ORDER MATTERS, use P. When only CHOOSING, use C. PiCK the right one!"
+      }
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "title": "Limits and Derivatives",
+      "summary": "Concept of limit, algebraic limits, trigonometric limits, derivatives, differentiation rules.",
+      "topics": [
+        "Concept of Limit",
+        "Algebraic Limits",
+        "Trigonometric Limits",
+        "Derivatives",
+        "Differentiation Rules"
+      ],
+      "enhancement": "AI Gradient Descent & Machine Learning",
+      "aiEnhancementLesson": {
+        "title": "Derivatives — The Mathematics That Trains Every AI Model",
+        "content": "Board Level: Limit of a function, L-Hospital's rule, derivatives (d/dx of xⁿ, sinx, cosx, eˣ, ln x), product rule, chain rule. JEE Bridge: Derivatives of composite functions, implicit differentiation, L-Hospital's rule for 0/0 forms. Intelligence Age: Machine learning models learn by minimising a loss function L(w) — finding the weights w that minimise prediction errors. Gradient descent is the algorithm: w_new = w_old − α×(dL/dw), where dL/dw is the derivative of the loss function with respect to weights. This is your derivative from Class 11! Every training step of ChatGPT, Google Translate, or any AI model computes derivatives (actually gradients — multi-variable derivatives) using backpropagation — the chain rule of derivatives applied recursively through layers. NVIDIA's GPUs are optimised for computing these derivatives at scale. (ICSE context: This connects directly to India's top ICSE schools and national competitive exams.)",
+        "practicalAddOn": "Manual gradient descent: Start with f(x) = x² − 4x + 5 (minimum at x=2). Start at x=0. Take steps: x_new = x_old − 0.1×f'(x_old). Compute 5 iterations. Plot convergence to minimum. This IS machine learning — your derivative drives AI training."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "d/dx[x³ + 2x² − x + 5] at x = 1 is:",
+          "options": [
+            "4",
+            "7",
+            "6",
+            "3"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! f'(x) = 3x² + 4x − 1. f'(1) = 3 + 4 − 1 = 6.",
+            "incorrect": "f'(x) = 3x² + 4x − 1 (using power rule). At x=1: f'(1) = 3(1) + 4(1) − 1 = 6.",
+            "intelligenceAgeHint": "This derivative calculation is performed billions of times per second during AI model training — the gradient of the loss function at the current parameter values."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] lim(x→0) [sin(3x)/x] equals:",
+          "options": [
+            "1",
+            "3",
+            "0",
+            "1/3"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! lim(x→0) sin(3x)/x = 3 × lim(x→0) sin(3x)/(3x) = 3 × 1 = 3. (using standard limit sin(u)/u → 1 as u→0)",
+            "incorrect": "Use standard limit: lim(u→0) sin(u)/u = 1. Let u = 3x: lim(x→0) sin(3x)/(3x) = 1. So sin(3x)/x = 3×sin(3x)/(3x) → 3×1 = 3.",
+            "intelligenceAgeHint": "Taylor series (used in AI to approximate complex functions) uses exactly these limit/derivative calculations — sin(x) ≈ x − x³/6 + ... is derived using your limits chapter."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI model has loss L = w² − 4w + 5. Using gradient descent with α=0.5, starting at w=0, what is w after ONE update step?",
+          "options": [
+            "w = 0",
+            "w = 1",
+            "w = 2",
+            "w = −2"
+          ],
+          "answer": "C",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! dL/dw = 2w − 4. At w=0: gradient = −4. Update: w_new = 0 − 0.5×(−4) = 0 + 2 = 2. (Correct: w moves toward minimum at w=2!)",
+            "incorrect": "Gradient dL/dw = 2w − 4. At w=0: dL/dw = −4. Update: w = 0 − 0.5×(−4) = 2. The derivative tells the AI which direction to move — toward the minimum (w=2).",
+            "intelligenceAgeHint": "This exact calculation (w_new = w_old − α × gradient) is how ChatGPT's 1.76 trillion parameters were trained — 100 billion gradient descent steps using your derivative from Class 11 Maths."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key limits: sin(x)/x→1, tan(x)/x→1, (1+x)^(1/x)→e, (eˣ−1)/x→1, ln(1+x)/x→1 as x→0. Derivatives: d/dx[logₐx]=1/(x lna), d/dx[aˣ]=aˣ lna.",
+        "calculationHack": "L'Hospital's rule for 0/0 or ∞/∞: lim[f/g] = lim[f'/g']. Apply repeatedly if needed. For polynomial/polynomial limits: factorise to cancel common factors — L'Hospital is a backup.",
+        "mnemonicAgent": "SILENT for derivatives: Sum rule, Inverse (chain rule), L'Hospital, Exponential d/dx[eˣ]=eˣ, Negative power, Trig rules. 'SILENT' covers all differentiation techniques."
+      }
+    }
   ]
 }

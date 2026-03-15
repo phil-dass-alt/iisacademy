@@ -1,16 +1,244 @@
 {
-  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. IIS Academy only delivers supplementary content.",
   "board": "icse",
   "class": 12,
   "subject": "Mathematics",
-  "stream": "Science/Commerce",
-  "wing": "senior",
+  "stream": "science",
+  "competitiveTargets": [
+    "JEE Main",
+    "JEE Advanced"
+  ],
   "chapters": [
-    { "id": "icse-12-math-01", "number": 1, "name": "Relations and Functions", "topics": ["Equivalence Relations", "Injective/Surjective/Bijective", "Inverse Functions"], "enhancement": "Type Theory & Functional Programming", "competitivePlugin": { "jee": true } },
-    { "id": "icse-12-math-02", "number": 2, "name": "Algebra", "topics": ["Matrices", "Determinants", "Boolean Algebra"], "enhancement": "Deep Learning Mathematics", "competitivePlugin": { "jee": true } },
-    { "id": "icse-12-math-03", "number": 3, "name": "Calculus", "topics": ["Differentiation", "Applications of Derivatives", "Integration", "Differential Equations"], "enhancement": "Physics Simulations & Economic Modelling", "competitivePlugin": { "jee": true } },
-    { "id": "icse-12-math-04", "number": 4, "name": "Vectors and 3D Geometry", "topics": ["Vector Operations", "Lines & Planes in 3D", "Shortest Distance"], "enhancement": "3D Game Development & Robotics", "competitivePlugin": { "jee": true } },
-    { "id": "icse-12-math-05", "number": 5, "name": "Linear Programming", "topics": ["Formulation", "Graphical Method", "Corner Points"], "enhancement": "Supply Chain Optimization & ML Regularization", "competitivePlugin": { "jee": false } },
-    { "id": "icse-12-math-06", "number": 6, "name": "Probability", "topics": ["Bayes' Theorem", "Random Variables", "Distribution Functions"], "enhancement": "Probabilistic AI & Risk Modeling", "competitivePlugin": { "jee": true } }
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Relations and Functions",
+      "summary": "Types of relations, types of functions, composition, inverse functions, binary operations.",
+      "topics": [
+        "Types of Relations",
+        "Types of Functions",
+        "Composite Functions",
+        "Inverse Functions",
+        "Binary Operations"
+      ],
+      "enhancement": "AI Mathematics & Graph Theory",
+      "aiEnhancementLesson": {
+        "title": "Relations & Functions to Knowledge Graphs & Recommendation AI",
+        "content": "Board Level: Equivalence relations, injective, surjective, bijective functions. Inverse exists iff bijective. Composition f∘g. JEE Bridge: Checking if function is one-one (horizontal line test) or onto (range=codomain). Intelligence Age: Google's Knowledge Graph (the technology behind 'Who directed Avatar?' answers) is a mathematical relation — billions of (entity, relation, entity) triples like (James Cameron, directed, Avatar). The recommendation AI on Netflix/Hotstar uses function composition: raw_data → feature_function → embedding_function → recommendation_function. The entire pipeline is f∘g∘h. Your bijective function requirement appears in AI's embedding layers — only bijective mappings preserve full information.",
+        "practicalAddOn": "Map a social network as a relation: 5 students. Draw arrows (a,b) if a follows b on Instagram. Check: (1) Is 'follow' a reflexive relation? (2) Is it symmetric? (3) Is it transitive? (4) Is it an equivalence relation? This is how graph AI analyses social networks."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "f:R→R defined by f(x)=2x+3 is:",
+          "options": [
+            "One-one but not onto",
+            "Onto but not one-one",
+            "Both bijective",
+            "Neither"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! f(x₁)=f(x₂)→2x₁+3=2x₂+3→x₁=x₂ (one-one). For any y∈R: x=(y-3)/2∈R (onto). Bijective!",
+            "incorrect": "One-one: f(x₁)=f(x₂)→x₁=x₂ ✓. Onto: every real y = 2x+3 has solution x=(y-3)/2 ∈ R ✓. Bijective.",
+            "intelligenceAgeHint": "AI encoder functions must be bijective (one-one onto) to preserve all information — if the encoder isn't bijective, data is lost and the AI can't reconstruct the original."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] f(x)=x²−4x+5 on [2,∞). The inverse function f⁻¹(y) is:",
+          "options": [
+            "√(y-1)+2",
+            "√(y+1)+2",
+            "√(y-1)-2",
+            "2+√(y-1)"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! y=(x-2)²+1 (completing square). x-2=√(y-1) (since x≥2). x=2+√(y-1)=f⁻¹(y).",
+            "incorrect": "f(x)=x²-4x+5=(x-2)²+1. For x≥2: y=(x-2)²+1 → (x-2)²=y-1 → x=2+√(y-1).",
+            "intelligenceAgeHint": "Inverse functions appear in AI decoding (encoder-decoder architectures like DALL-E 3). The decoder must be the mathematical inverse of the encoder to reconstruct original images."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] Netflix's recommendation model: Feature extraction f: profiles→10D vector, Similarity g: vector×vector→[0,1]. For user A and user B, g(f(A),f(B))=0.87. This means:",
+          "options": [
+            "A and B are unrelated",
+            "A and B are 87% similar in viewing preferences",
+            "f is not well-defined",
+            "Recommendation fails"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Composition (g∘f)(A,B)=0.87 means high cosine similarity between their feature vectors → Netflix will recommend similar content to both users.",
+            "incorrect": "The composition g(f(A),f(B)) = 0.87 measures profile similarity. High value (close to 1) = highly similar viewing preferences → Netflix recommends same shows to both users.",
+            "intelligenceAgeHint": "Your function composition f∘g is the mathematical backbone of Netflix, Spotify, and Amazon Prime recommendations — 200 million Indian streaming users benefit from this applied mathematics."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "For JEE: bijective ↔ invertible. To check one-one: f(x₁)=f(x₂)→x₁=x₂. To check onto: find range; if range=codomain, onto. Inverse: swap x,y and solve for y.",
+        "calculationHack": "Composite function problems: evaluate from RIGHT to LEFT (inner function first). (f∘g)(x)=f(g(x)). Very common JEE MCQ type.",
+        "mnemonicAgent": "BIOC: Bijective = Injective + surjective (Onto and one-one Combined). 'BIOC — Bijective Is One-one and onto Combined.'"
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Matrices and Determinants",
+      "summary": "Matrix operations, inverse, determinants, Cramer's rule, and system of linear equations.",
+      "topics": [
+        "Matrix Operations",
+        "Inverse Matrix",
+        "Determinants",
+        "Cramer's Rule",
+        "System of Equations"
+      ],
+      "enhancement": "AI Linear Algebra & Deep Learning",
+      "aiEnhancementLesson": {
+        "title": "Matrices — The Language of AI: From NCERT to Deep Learning",
+        "content": "Board Level: Matrix addition, multiplication, inverse A⁻¹=adjA/|A|, determinants, Cramer's rule. JEE Bridge: Rank, consistency of system, properties of determinants. Intelligence Age: Every AI model is a sequence of matrix multiplications. When you type a message to ChatGPT, your text becomes a vector, then goes through 96 layers of matrix multiplication W×x+b (W=weight matrix, x=input vector, b=bias). Each matrix is your Chapter 3/4! Google's PageRank algorithm (which determines website rankings) solves a system of linear equations — Cramer's rule applied to billions of web pages. IISc Bengaluru's computational lab solves 10,000×10,000 matrix equations daily for material simulation.",
+        "practicalAddOn": "Solve 2×2 system using matrix inverse: 2x+y=8, 3x-2y=1. Write as AX=B. Find A⁻¹ (using adj/det). X=A⁻¹B. Verify answer. Now: this 2-variable system is what your calculator or phone's linear algebra chip solves — a 1 billion parameter neural network solves 1 billion such equations simultaneously."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "If A=[[2,1],[1,3]], then |A|=",
+          "options": [
+            "5",
+            "7",
+            "6",
+            "3"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! |A|=2×3-1×1=6-1=5.",
+            "incorrect": "|A|=a₁₁×a₂₂-a₁₂×a₂₁=2×3-1×1=6-1=5.",
+            "intelligenceAgeHint": "Determinants check if a matrix is invertible (|A|≠0). AI models check matrix ranks and determinants to detect degenerate layers that lose information."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] If A is a 3×3 matrix with |A|=4, then |2A|=",
+          "options": [
+            "8",
+            "16",
+            "32",
+            "64"
+          ],
+          "answer": "C",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! |kA|=kⁿ|A| for n×n matrix. |2A|=2³×4=8×4=32.",
+            "incorrect": "Property: |kA|=kⁿ|A| for n×n matrix. |2A|=2³×4=8×4=32.",
+            "intelligenceAgeHint": "Matrix scaling in AI neural networks follows this determinant scaling property — understanding how scaling affects matrix properties is essential for numerical stability in deep learning."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A small neural network layer computes Y=WX+b where W is 3×4 matrix, X is 4×1 input. Y has dimensions:",
+          "options": [
+            "4×1",
+            "3×1",
+            "3×4",
+            "1×1"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Matrix multiplication: (3×4)×(4×1)=(3×1). Output Y is 3-dimensional.",
+            "incorrect": "Matrix multiplication rule: (m×n)×(n×p)=(m×p). (3×4)×(4×1)=(3×1) — a 3-element output vector.",
+            "intelligenceAgeHint": "Every neural network layer is this matrix multiplication Y=WX+b. ChatGPT performs this 96 times per token (word) generated — your matrix dimensions chapter determines AI architecture."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key properties: |AB|=|A||B|, |Aⁿ|=|A|ⁿ, |A⁻¹|=1/|A|, |kA|=kⁿ|A|. Adjoint property: A×adj(A)=|A|I. For Cramer's rule: x=Dx/D, y=Dy/D, z=Dz/D.",
+        "calculationHack": "For 3×3 determinant: expand along the row/column with most zeros. Cofactor expansion saves time. Or use Sarrus' rule (for 3×3 only).",
+        "mnemonicAgent": "CRIME for matrix inverse: Cofactors matrix, Row→Column (transpose=adjoint), I×A=|A|×I, Matrix inverse = adj(A)/|A|, Existence requires |A|≠0. 'CRIME to invert a matrix — follow CRIME steps.'"
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Integrals",
+      "summary": "Integration as antiderivative, methods of integration, definite integrals, and applications.",
+      "topics": [
+        "Integration by Substitution",
+        "Integration by Parts",
+        "Partial Fractions",
+        "Definite Integrals",
+        "Area under Curves"
+      ],
+      "enhancement": "AI Calculus & Probability",
+      "aiEnhancementLesson": {
+        "title": "Integration — From Calculus to AI Neural Network Training & Probability",
+        "content": "Board Level: Antiderivatives, ∫xⁿdx=xⁿ⁺¹/(n+1)+C. Integration by parts: ∫udv=uv−∫vdu. Definite integrals. Area = ∫ab f(x)dx. JEE Bridge: Integration by substitution (tricky substitutions), reduction formulae, properties of definite integrals. Intelligence Age: Backpropagation (AI training algorithm) uses the chain rule and integration concepts. Continuous probability distributions (Gaussian/normal bell curve) are defined using ∫f(x)dx=1 — the area under the curve = 1 (total probability). Financial AI (Zerodha, Groww) uses integral calculus for option pricing (Black-Scholes model) — ∫probability×payoff dx. India's quant finance industry in Mumbai/Bengaluru uses your integration chapter for market risk models.",
+        "practicalAddOn": "Calculate: A normal distribution has probability density f(x)=e⁻x²/√π. Verify: ∫from -1 to 1 f(x)dx ≈ 0.84 (84% of data within 1 standard deviation). This is why 68% of exam scores fall within ±1 SD of the mean — your integration gives the probability."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "∫(2x+3)⁵ dx = (using substitution u=2x+3)",
+          "options": [
+            "(2x+3)⁶/12+C",
+            "(2x+3)⁶/6+C",
+            "(2x+3)⁶+C",
+            "(2x+3)⁴/4+C"
+          ],
+          "answer": "A",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Let u=2x+3, du=2dx. ∫u⁵×du/2=u⁶/(2×6)+C=(2x+3)⁶/12+C.",
+            "incorrect": "Substitution: u=2x+3, du=2dx → dx=du/2. ∫u⁵(du/2)=u⁶/12=(2x+3)⁶/12+C.",
+            "intelligenceAgeHint": "Gradient descent in AI training integrates the loss function over the parameter space — your integration chapter determines how AI models converge to optimal solutions."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[JEE Level] ∫₀^π x sinx dx =",
+          "options": [
+            "π",
+            "0",
+            "2π",
+            "π/2"
+          ],
+          "answer": "A",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Integration by parts: u=x, dv=sinx dx. [−x cosx]₀^π + ∫₀^π cosx dx = π + [sinx]₀^π = π + 0 = π.",
+            "incorrect": "By parts: ∫x sinx dx = −x cosx + ∫cosx dx = −x cosx + sinx. Evaluate 0 to π: (−π cos π + sinπ)−(0+0) = π+0 = π.",
+            "intelligenceAgeHint": "Fourier transform (used in signal processing AI and MRI) involves integrals of exactly this type — your Chapter 3 integral techniques are the foundation of medical imaging mathematics."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A stock price PDF: f(x)=0.4e^(−0.4x) for x≥0. Probability that price change > 3% is: ∫₃^∞ 0.4e^(−0.4x) dx =",
+          "options": [
+            "e^(−1.2) ≈ 0.301",
+            "0.4×3=1.2",
+            "e^(1.2)≈3.32",
+            "0.4"
+          ],
+          "answer": "A",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! ∫₃^∞ 0.4e^(−0.4x) dx = [−e^(−0.4x)]₃^∞ = 0−(−e^(−1.2)) = e^(−1.2) ≈ 0.301.",
+            "incorrect": "∫₃^∞ 0.4e^(-0.4x)dx=[−e^(-0.4x)]₃^∞=0+e^(-1.2)≈0.301. 30.1% probability of >3% price change.",
+            "intelligenceAgeHint": "Zerodha and Groww's risk AI calculates option Greeks using exactly these exponential integrals — your Class 12 integration chapter runs India's ₹10 lakh crore derivatives market."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "jeeEdge": "Key JEE integration properties: ∫ₐᵇ f(x)dx=∫ₐᵇ f(a+b−x)dx (King's property). ∫₀²ᵃ f(x)dx=2∫₀ᵃ f(x)dx if f(2a-x)=f(x), else 0. These properties simplify many JEE integrals.",
+        "calculationHack": "Integration by parts: LIATE rule for choosing u (Logarithmic > Inverse trig > Algebraic > Trigonometric > Exponential). Choose u as the first applicable type. Prevents common mistakes.",
+        "mnemonicAgent": "LIATE for integration by parts: Logarithmic, Inverse trig, Algebraic (xⁿ), Trigonometric, Exponential. 'LIATE — Lions In Africa Take Elephants' — choose u from left of LIATE."
+      }
+    }
   ]
 }
