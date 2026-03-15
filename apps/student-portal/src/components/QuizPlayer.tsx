@@ -27,7 +27,7 @@ export function QuizPlayer({ questions }: QuizPlayerProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [showHint, setShowHint] = useState(false);
-  const [_answers, setAnswers] = useState<{ id: number; selected: string; correct: boolean }[]>([]);
+  const [answers, setAnswers] = useState<{ id: number; selected: string; correct: boolean }[]>([]);
 
   const currentQuestion = questions[currentIdx];
 
