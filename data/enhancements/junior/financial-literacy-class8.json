@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-finlit-class8",
   "title": "Mathematics → Financial Literacy: Class 8",
   "wing": "junior",
   "class": 8,
   "enhancementTag": "Financial Literacy",
-  "subjects": ["Mathematics"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Mathematics"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "You've learned about percentages, profit/loss, and simple interest in your Class 8 Math. But did you know these exact formulas run real bank accounts, grocery store discounts, and your parents' salary slips? Let's connect your classroom math to the money world around you.",
     "sections": [
@@ -43,7 +53,11 @@
         "Week 2: Calculate % for each category using your profit/percentage formulas",
         "Final: Compare actual spending vs what you wished you'd spent — this is variance analysis"
       ],
-      "mathFormulas": ["Percentage = (Part/Whole) × 100", "SI = (P × R × T) / 100", "Profit% = (SP - CP) / CP × 100"],
+      "mathFormulas": [
+        "Percentage = (Part/Whole) × 100",
+        "SI = (P × R × T) / 100",
+        "Profit% = (SP - CP) / CP × 100"
+      ],
       "realWorldSkill": "Budgeting",
       "difficulty": "easy"
     },

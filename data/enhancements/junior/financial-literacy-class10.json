@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-finlit-class10",
   "title": "Mathematics → Financial Literacy: Class 10",
   "wing": "junior",
   "class": 10,
   "enhancementTag": "Financial Literacy",
-  "subjects": ["Mathematics"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Mathematics"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "Class 10 Mathematics — Arithmetic Progressions, Quadratic Equations, Statistics and Probability — directly map to financial planning, investment analysis, and risk modelling. You're one step away from understanding how money really works.",
     "sections": [

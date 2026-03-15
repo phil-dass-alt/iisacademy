@@ -1,0 +1,96 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "ka-9-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: Class 9 — Karnataka State Board",
+  "subject": "Mathematics",
+  "board": "karnataka",
+  "class": 9,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A Bengaluru startup employee earns ₹6,00,000 per annum. The income tax slabs are: 0% up to ₹2,50,000; 5% from ₹2,50,001 to ₹5,00,000; 20% from ₹5,00,001 to ₹10,00,000. What is their annual income tax before any deductions?",
+      "options": [
+        { "id": "a", "text": "₹37,500 — applying slab rates correctly" },
+        { "id": "b", "text": "₹1,20,000 — 20% flat on entire income" },
+        { "id": "c", "text": "₹25,000 — 5% flat on entire income" },
+        { "id": "d", "text": "₹62,500 — incorrect slab boundaries" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "0% on first ₹2,50,000 = ₹0. 5% on next ₹2,50,000 (₹2,50,001 to ₹5,00,000) = ₹12,500. 20% on next ₹1,00,000 (₹5,00,001 to ₹6,00,000) = ₹20,000. Total tax = ₹0 + ₹12,500 + ₹20,000 = ₹32,500. (Note: exact 2024-25 regime differs slightly). This slab system uses linear equations and percentage across intervals — your Class 9 algebra and percentage chapters.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Linear Equations and Inequalities",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "A plot of land in Kolar shows a triangular shape with base 80 m and height 60 m. The government charges stamp duty of 5% on the land value. If land is priced at ₹2,000 per square metre, what is the total cost including stamp duty?",
+      "options": [
+        { "id": "a", "text": "₹50,40,000 — area × price + 5% stamp duty" },
+        { "id": "b", "text": "₹48,00,000 — area × price only" },
+        { "id": "c", "text": "₹96,00,000 — using full rectangle area" },
+        { "id": "d", "text": "₹52,00,000 — incorrect area calculation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Area of triangle = ½ × base × height = ½ × 80 × 60 = 2,400 m². Land value = 2,400 × ₹2,000 = ₹48,00,000. Stamp duty = 5% of ₹48,00,000 = ₹2,40,000. Total = ₹50,40,000. Real estate in Karnataka uses exactly this — triangular/irregular plots need area formulae (your Chapter: Areas of Plane Figures) to determine stamp duty, which is a major government revenue source.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Areas of Plane Figures",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q3",
+      "text": "A Mysuru shopkeeper's monthly sales data (in ₹ thousands) over 6 months is: 45, 52, 38, 60, 55, 48. The shopkeeper claims sales are 'on average' above ₹50,000. Is this claim correct, and which measure of central tendency should be used for financial reporting?",
+      "options": [
+        { "id": "a", "text": "Incorrect — mean is ₹49,667 (below ₹50,000); mean is the appropriate measure for financial reporting" },
+        { "id": "b", "text": "Correct — median is ₹51,500 (above ₹50,000); median should be used" },
+        { "id": "c", "text": "Correct — mode is ₹60,000 (highest month used)" },
+        { "id": "d", "text": "Incorrect — range shows high variability so no average is reliable" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mean = (45+52+38+60+55+48)/6 = 298/6 = 49.67 thousand = ₹49,667. The claim is slightly incorrect. For financial reporting (GST returns, bank loan applications), mean (arithmetic average) is standard. Note: Median = average of 3rd and 4th values when sorted (38, 45, 48, 52, 55, 60) = (48+52)/2 = 50,000 — the shopkeeper could legitimately use median! This connects your Statistics chapter to business reporting.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Statistics",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q4",
+      "text": "Karnataka's Namma Metro (Phase 2) is funded partly by bonds offering 7.5% compound interest per annum. If you invest ₹10,000 in these bonds, how much do you receive after 3 years?",
+      "options": [
+        { "id": "a", "text": "₹12,423 — using CI = P(1 + r/100)ⁿ" },
+        { "id": "b", "text": "₹12,250 — using simple interest for 3 years" },
+        { "id": "c", "text": "₹12,000 — flat 20% over 3 years" },
+        { "id": "d", "text": "₹13,000 — overestimated compounding" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A = P(1 + r/100)ⁿ = 10000 × (1.075)³ = 10000 × 1.2423 = ₹12,423 (approx). Simple interest would give only ₹12,250. The extra ₹173 is 'interest on interest' — the power of compounding. Namma Metro bonds, Fixed Deposits, and government savings schemes all use compound interest. Your Chapter on Compound Interest shows why starting to invest early is powerful.",
+      "difficulty": "easy",
+      "subject": "Mathematics",
+      "chapter": "Compound Interest",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q5",
+      "text": "A Class 9 student in Shivamogga wants to save ₹50,000 for a laptop in 2 years. A bank offers 6% compound interest per annum. How much should she deposit now (present value calculation)?",
+      "options": [
+        { "id": "a", "text": "₹44,500 — using PV = FV / (1 + r/100)ⁿ" },
+        { "id": "b", "text": "₹44,000 — simple interest approximation" },
+        { "id": "c", "text": "₹47,170 — using 6% × 2 as total rate" },
+        { "id": "d", "text": "₹40,000 — rough 20% discount" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "PV = FV / (1+r/100)ⁿ = 50,000 / (1.06)² = 50,000 / 1.1236 ≈ ₹44,499 ≈ ₹44,500. This 'present value' concept is used by every bank, insurance company, and financial planner in India. If she deposits ₹44,500 today at 6% CI, it grows to ₹50,000 in 2 years. Your Compound Interest chapter is the foundation of all financial planning!",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Compound Interest",
+      "board": "karnataka",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

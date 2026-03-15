@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-climate-class10",
   "title": "Science → Climate Technology & Sustainability: Class 10",
   "wing": "junior",
   "class": 10,
   "enhancementTag": "Climate Technology",
-  "subjects": ["Science"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Science"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "Class 10 Science chapters on Electricity, Magnetic Effects, Sources of Energy, and Our Environment directly connect to climate technology — the fastest-growing sector in the world. Solar panels, electric vehicles, wind turbines, and carbon capture all run on your textbook science.",
     "sections": [

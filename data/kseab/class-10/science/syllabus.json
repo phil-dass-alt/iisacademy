@@ -1,0 +1,114 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "kseab-10-sci-syllabus",
+  "board": "kseab",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ka-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": ["Types of Chemical Reactions", "Oxidation and Reduction", "Effects of Oxidation in Everyday Life"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Properties of Acids and Bases", "pH Scale", "Salts and their Uses"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-metals",
+      "topics": ["Physical and Chemical Properties", "Reactivity Series", "Extraction of Metals", "Corrosion"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-10-sci-04",
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "topics": ["Covalent Bonding", "Allotropes of Carbon", "Hydrocarbons", "Important Carbon Compounds"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-05",
+      "number": 5,
+      "name": "Periodic Classification of Elements",
+      "topics": ["Döbereiner's Triads", "Newlands' Octaves", "Mendeleev's Periodic Table", "Modern Periodic Table"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-06",
+      "number": 6,
+      "name": "Life Processes",
+      "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-07",
+      "number": 7,
+      "name": "Control and Coordination",
+      "topics": ["Nervous System", "Reflex Action", "Endocrine System", "Plant Hormones"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-08",
+      "number": 8,
+      "name": "How Do Organisms Reproduce?",
+      "topics": ["Asexual Reproduction", "Sexual Reproduction in Plants", "Human Reproductive System"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-09",
+      "number": 9,
+      "name": "Heredity and Evolution",
+      "topics": ["Mendel's Laws", "Sex Determination", "Evolution", "Speciation"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-10",
+      "number": 10,
+      "name": "Light — Reflection and Refraction",
+      "topics": ["Reflection by Spherical Mirrors", "Refraction of Light", "Lens Formula", "Power of a Lens"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-11",
+      "number": 11,
+      "name": "The Human Eye and the Colourful World",
+      "topics": ["Structure of the Eye", "Defects of Vision", "Refraction through Prisms", "Scattering of Light"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-12",
+      "number": 12,
+      "name": "Electricity",
+      "topics": ["Electric Current and Circuit", "Ohm's Law", "Resistance", "Heating Effect", "Power"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-13",
+      "number": 13,
+      "name": "Magnetic Effects of Electric Current",
+      "topics": ["Magnetic Field", "Electromagnetic Induction", "Electric Motor", "AC Generator"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-14",
+      "number": 14,
+      "name": "Our Environment",
+      "topics": ["Ecosystem", "Food Chains and Webs", "Ozone Layer", "Waste Management"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-15",
+      "number": 15,
+      "name": "Management of Natural Resources",
+      "topics": ["Conservation of Forests and Water", "Coal and Petroleum", "Water Harvesting"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

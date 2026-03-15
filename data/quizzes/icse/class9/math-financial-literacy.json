@@ -1,6 +1,7 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "icse-9-math-finlit-q1",
-  "title": "Mathematics + Financial Literacy: ICSE Class 9 \u2014 Compound Interest and Statistics",
+  "title": "Mathematics + Financial Literacy: ICSE Class 9 — Compound Interest and Statistics",
   "subject": "Mathematics",
   "board": "icse",
   "class": 9,
@@ -8,27 +9,27 @@
   "questions": [
     {
       "id": "q1",
-      "text": "A car depreciates at 15% per year. If the current value is \u20b98,00,000, what will it be worth after 3 years?",
+      "text": "A car depreciates at 15% per year. If the current value is ₹8,00,000, what will it be worth after 3 years?",
       "options": [
         {
           "id": "a",
-          "text": "\u20b94,89,050"
+          "text": "₹4,89,050"
         },
         {
           "id": "b",
-          "text": "\u20b95,20,000"
+          "text": "₹5,20,000"
         },
         {
           "id": "c",
-          "text": "\u20b94,12,800"
+          "text": "₹4,12,800"
         },
         {
           "id": "d",
-          "text": "\u20b93,64,000"
+          "text": "₹3,64,000"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Depreciation uses CI formula: A = P(1 - r/100)^t = 800000(0.85)^3 = 800000\u00d70.614125 = \u20b94,91,300 \u2248 \u20b94,89,050. Car depreciation is why financial advisors say: 'a car is a liability, not an asset'.",
+      "explanation": "Depreciation uses CI formula: A = P(1 - r/100)^t = 800000(0.85)^3 = 800000×0.614125 = ₹4,91,300 ≈ ₹4,89,050. Car depreciation is why financial advisors say: 'a car is a liability, not an asset'.",
       "difficulty": "medium",
       "subject": "Mathematics",
       "chapter": "Compound Interest",
@@ -57,7 +58,7 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Sorted: 11,12,14,18,25. Mean = 80/5 = 16. Median = 14 (middle value). For stability, median is better \u2014 it ignores the one exceptional year (25 lakhs) that might not repeat. Analysts use both for a complete picture.",
+      "explanation": "Sorted: 11,12,14,18,25. Mean = 80/5 = 16. Median = 14 (middle value). For stability, median is better — it ignores the one exceptional year (25 lakhs) that might not repeat. Analysts use both for a complete picture.",
       "difficulty": "hard",
       "subject": "Mathematics",
       "chapter": "Statistics",

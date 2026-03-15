@@ -1,11 +1,21 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "junior-aitech-class8",
   "title": "Science → AI & Technology: Class 8",
   "wing": "junior",
   "class": 8,
   "enhancementTag": "AI Technology",
-  "subjects": ["Science"],
-  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "subjects": [
+    "Science"
+  ],
+  "applicableBoards": [
+    "cbse",
+    "icse",
+    "karnataka",
+    "tamil-nadu",
+    "kerala",
+    "andhra-pradesh"
+  ],
   "lesson": {
     "introduction": "Force, friction, light, sound, and electricity from your Class 8 Science — these are not just textbook concepts. They are the exact physics that makes robots move, AI sensors work, and smart devices respond to you. Let's bridge your classroom science to the technology age.",
     "sections": [
@@ -43,7 +53,13 @@
     "practicalAddOn": {
       "title": "Build a Simple AI Sensor Circuit",
       "description": "Using basic components (LED, resistor, LDR — Light Dependent Resistor), build a circuit that 'senses' light and responds — a basic AI sensor. This is the foundation of any smart home device.",
-      "components": ["1 LED", "1 × 330Ω resistor", "1 LDR (Light Dependent Resistor)", "9V battery", "Breadboard and wires"],
+      "components": [
+        "1 LED",
+        "1 × 330Ω resistor",
+        "1 LDR (Light Dependent Resistor)",
+        "9V battery",
+        "Breadboard and wires"
+      ],
       "steps": [
         "Connect LDR in series with LED and resistor on breadboard",
         "Connect to 9V battery",

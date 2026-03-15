@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "icse",
   "class": 9,
   "subject": "Science",
@@ -7,140 +8,234 @@
       "id": "icse-9-sci-01",
       "number": 1,
       "name": "Measurement and Experimentation",
-      "topics": ["SI Units", "Measuring Instruments", "Significant Figures", "Errors"],
+      "topics": [
+        "SI Units",
+        "Measuring Instruments",
+        "Significant Figures",
+        "Errors"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-02",
       "number": 2,
       "name": "Motion in One Dimension",
-      "topics": ["Scalars and Vectors", "Distance and Displacement", "Speed and Velocity", "Equations of Motion"],
+      "topics": [
+        "Scalars and Vectors",
+        "Distance and Displacement",
+        "Speed and Velocity",
+        "Equations of Motion"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-03",
       "number": 3,
       "name": "Laws of Motion",
-      "topics": ["Newton's Three Laws", "Momentum", "Conservation of Momentum", "Friction"],
+      "topics": [
+        "Newton's Three Laws",
+        "Momentum",
+        "Conservation of Momentum",
+        "Friction"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-04",
       "number": 4,
       "name": "Fluids",
-      "topics": ["Thrust and Pressure", "Atmospheric Pressure", "Buoyancy", "Archimedes' Principle"],
+      "topics": [
+        "Thrust and Pressure",
+        "Atmospheric Pressure",
+        "Buoyancy",
+        "Archimedes' Principle"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-05",
       "number": 5,
       "name": "Heat and Energy",
-      "topics": ["Heat and Temperature", "Specific Heat Capacity", "Calorimetry", "Heat Transfer Methods"],
+      "topics": [
+        "Heat and Temperature",
+        "Specific Heat Capacity",
+        "Calorimetry",
+        "Heat Transfer Methods"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-9-sci-06",
       "number": 6,
       "name": "Light",
-      "topics": ["Reflection of Light", "Mirrors: Concave and Convex", "Refraction", "Lens"],
+      "topics": [
+        "Reflection of Light",
+        "Mirrors: Concave and Convex",
+        "Refraction",
+        "Lens"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-07",
       "number": 7,
       "name": "Sound",
-      "topics": ["Wave Motion", "Characteristics of Sound", "Ultrasound", "Hearing and Noise"],
+      "topics": [
+        "Wave Motion",
+        "Characteristics of Sound",
+        "Ultrasound",
+        "Hearing and Noise"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-08",
       "number": 8,
       "name": "Electricity and Magnetism",
-      "topics": ["Electrical Quantities", "Circuits", "Ohm's Law", "Magnets", "Electromagnets"],
+      "topics": [
+        "Electrical Quantities",
+        "Circuits",
+        "Ohm's Law",
+        "Magnets",
+        "Electromagnets"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "icse-9-sci-09",
       "number": 9,
       "name": "Matter and Composition",
-      "topics": ["Atomic Theory", "Structure of Atom", "Isotopes", "Molecules and Formulae"],
+      "topics": [
+        "Atomic Theory",
+        "Structure of Atom",
+        "Isotopes",
+        "Molecules and Formulae"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-9-sci-10",
       "number": 10,
       "name": "Physical and Chemical Changes",
-      "topics": ["Physical Changes", "Chemical Changes", "Signs of Chemical Reaction", "Reversibility"],
+      "topics": [
+        "Physical Changes",
+        "Chemical Changes",
+        "Signs of Chemical Reaction",
+        "Reversibility"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-9-sci-11",
       "number": 11,
       "name": "Elements, Compounds and Mixtures",
-      "topics": ["Definitions and Examples", "Separating Mixtures", "Alloys"],
+      "topics": [
+        "Definitions and Examples",
+        "Separating Mixtures",
+        "Alloys"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-9-sci-12",
       "number": 12,
       "name": "Water",
-      "topics": ["Properties of Water", "Hardness", "Purification", "Water Cycle", "Conservation"],
+      "topics": [
+        "Properties of Water",
+        "Hardness",
+        "Purification",
+        "Water Cycle",
+        "Conservation"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "icse-9-sci-13",
       "number": 13,
       "name": "Organic Chemistry",
-      "topics": ["Carbon Compounds", "Hydrocarbons", "Functional Groups Basics"],
+      "topics": [
+        "Carbon Compounds",
+        "Hydrocarbons",
+        "Functional Groups Basics"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "icse-9-sci-14",
       "number": 14,
       "name": "Cell: The Unit of Life",
-      "topics": ["Discovery", "Types of Cells", "Cell Organelles", "Diffusion and Osmosis"],
+      "topics": [
+        "Discovery",
+        "Types of Cells",
+        "Cell Organelles",
+        "Diffusion and Osmosis"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-15",
       "number": 15,
       "name": "Tissues",
-      "topics": ["Plant Tissues", "Animal Tissues"],
+      "topics": [
+        "Plant Tissues",
+        "Animal Tissues"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-16",
       "number": 16,
       "name": "The Flower",
-      "topics": ["Parts of a Flower", "Pollination", "Fertilisation", "Seed and Fruit Formation"],
+      "topics": [
+        "Parts of a Flower",
+        "Pollination",
+        "Fertilisation",
+        "Seed and Fruit Formation"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-17",
       "number": 17,
       "name": "Pollination and Fertilisation",
-      "topics": ["Types of Pollination", "Double Fertilisation"],
+      "topics": [
+        "Types of Pollination",
+        "Double Fertilisation"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-18",
       "number": 18,
       "name": "Nervous System",
-      "topics": ["Structure of Neuron", "Central Nervous System", "Peripheral Nervous System", "Reflex Arc"],
+      "topics": [
+        "Structure of Neuron",
+        "Central Nervous System",
+        "Peripheral Nervous System",
+        "Reflex Arc"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-19",
       "number": 19,
       "name": "Endocrine System",
-      "topics": ["Endocrine Glands", "Hormones and Functions"],
+      "topics": [
+        "Endocrine Glands",
+        "Hormones and Functions"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "icse-9-sci-20",
       "number": 20,
       "name": "Population",
-      "topics": ["World Population", "Population Growth", "Age Structure", "Environmental Impact"],
+      "topics": [
+        "World Population",
+        "Population Growth",
+        "Age Structure",
+        "Environmental Impact"
+      ],
       "enhancement": "Climate Technology"
     }
   ]

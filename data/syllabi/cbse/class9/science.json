@@ -1,4 +1,5 @@
 {
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "board": "cbse",
   "class": 9,
   "subject": "Science",
@@ -7,105 +8,185 @@
       "id": "cbse-9-sci-01",
       "number": 1,
       "name": "Matter in Our Surroundings",
-      "topics": ["Physical Nature of Matter", "Characteristics of Particles", "States of Matter", "Evaporation"],
+      "topics": [
+        "Physical Nature of Matter",
+        "Characteristics of Particles",
+        "States of Matter",
+        "Evaporation"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "cbse-9-sci-02",
       "number": 2,
       "name": "Is Matter Around Us Pure?",
-      "topics": ["Mixtures", "Solutions", "Separating Mixtures", "Physical and Chemical Changes"],
+      "topics": [
+        "Mixtures",
+        "Solutions",
+        "Separating Mixtures",
+        "Physical and Chemical Changes"
+      ],
       "enhancement": "Green Materials"
     },
     {
       "id": "cbse-9-sci-03",
       "number": 3,
       "name": "Atoms and Molecules",
-      "topics": ["Laws of Chemical Combination", "Atomic Theory", "Atomic and Molecular Mass", "Mole Concept"],
+      "topics": [
+        "Laws of Chemical Combination",
+        "Atomic Theory",
+        "Atomic and Molecular Mass",
+        "Mole Concept"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "cbse-9-sci-04",
       "number": 4,
       "name": "Structure of the Atom",
-      "topics": ["Charged Particles", "Thomson's Model", "Rutherford's Model", "Bohr's Model", "Neutrons", "Valency"],
+      "topics": [
+        "Charged Particles",
+        "Thomson's Model",
+        "Rutherford's Model",
+        "Bohr's Model",
+        "Neutrons",
+        "Valency"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-9-sci-05",
       "number": 5,
       "name": "The Fundamental Unit of Life",
-      "topics": ["Cell Theory", "Prokaryotic vs Eukaryotic", "Cell Organelles", "Cell Membrane and Wall"],
+      "topics": [
+        "Cell Theory",
+        "Prokaryotic vs Eukaryotic",
+        "Cell Organelles",
+        "Cell Membrane and Wall"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "cbse-9-sci-06",
       "number": 6,
       "name": "Tissues",
-      "topics": ["Plant Tissues", "Animal Tissues"],
+      "topics": [
+        "Plant Tissues",
+        "Animal Tissues"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "cbse-9-sci-07",
       "number": 7,
       "name": "Diversity in Living Organisms",
-      "topics": ["Basis for Classification", "Classification and Evolution", "The Hierarchy of Classification"],
+      "topics": [
+        "Basis for Classification",
+        "Classification and Evolution",
+        "The Hierarchy of Classification"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "cbse-9-sci-08",
       "number": 8,
       "name": "Motion",
-      "topics": ["Uniform and Non-uniform Motion", "Measuring Rate of Motion", "Rate of Change of Velocity", "Equations of Motion", "Circular Motion"],
+      "topics": [
+        "Uniform and Non-uniform Motion",
+        "Measuring Rate of Motion",
+        "Rate of Change of Velocity",
+        "Equations of Motion",
+        "Circular Motion"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-9-sci-09",
       "number": 9,
       "name": "Force and Laws of Motion",
-      "topics": ["Balanced and Unbalanced Forces", "Newton's Laws of Motion", "Inertia", "Momentum", "Third Law Applications"],
+      "topics": [
+        "Balanced and Unbalanced Forces",
+        "Newton's Laws of Motion",
+        "Inertia",
+        "Momentum",
+        "Third Law Applications"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-9-sci-10",
       "number": 10,
       "name": "Gravitation",
-      "topics": ["Gravitation", "Free Fall", "Mass and Weight", "Thrust and Pressure", "Archimedes' Principle", "Buoyancy"],
+      "topics": [
+        "Gravitation",
+        "Free Fall",
+        "Mass and Weight",
+        "Thrust and Pressure",
+        "Archimedes' Principle",
+        "Buoyancy"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-9-sci-11",
       "number": 11,
       "name": "Work and Energy",
-      "topics": ["Work Done by a Force", "Energy", "Kinetic and Potential Energy", "Law of Conservation of Energy", "Power"],
+      "topics": [
+        "Work Done by a Force",
+        "Energy",
+        "Kinetic and Potential Energy",
+        "Law of Conservation of Energy",
+        "Power"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "cbse-9-sci-12",
       "number": 12,
       "name": "Sound",
-      "topics": ["Production and Propagation of Sound", "Reflection of Sound", "Echo", "Sonar", "Structure of Human Ear"],
+      "topics": [
+        "Production and Propagation of Sound",
+        "Reflection of Sound",
+        "Echo",
+        "Sonar",
+        "Structure of Human Ear"
+      ],
       "enhancement": "AI Technology"
     },
     {
       "id": "cbse-9-sci-13",
       "number": 13,
       "name": "Why Do We Fall Ill?",
-      "topics": ["Health and Disease", "Causes of Disease", "Infectious and Non-infectious Diseases", "Principles of Treatment and Prevention"],
+      "topics": [
+        "Health and Disease",
+        "Causes of Disease",
+        "Infectious and Non-infectious Diseases",
+        "Principles of Treatment and Prevention"
+      ],
       "enhancement": "BioTech"
     },
     {
       "id": "cbse-9-sci-14",
       "number": 14,
       "name": "Natural Resources",
-      "topics": ["The Breath of Life: Air", "Water", "Mineral Riches in the Soil", "Biogeochemical Cycles"],
+      "topics": [
+        "The Breath of Life: Air",
+        "Water",
+        "Mineral Riches in the Soil",
+        "Biogeochemical Cycles"
+      ],
       "enhancement": "Climate Technology"
     },
     {
       "id": "cbse-9-sci-15",
       "number": 15,
       "name": "Improvement in Food Resources",
-      "topics": ["Improvement in Crop Yields", "Manure and Fertilizers", "Irrigation", "Animal Husbandry"],
+      "topics": [
+        "Improvement in Crop Yields",
+        "Manure and Fertilizers",
+        "Irrigation",
+        "Animal Husbandry"
+      ],
       "enhancement": "Climate Technology"
     }
   ]

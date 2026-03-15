@@ -1,0 +1,70 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "id": "kseab-10-sci-control-coordination-ai",
+  "title": "Control and Coordination — Neural Networks and AI",
+  "subject": "Science",
+  "chapter": "Control and Coordination",
+  "chapterNumber": 7,
+  "board": "kseab",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "Artificial Neural Networks — Biology meets AI",
+    "tagline": "Your nervous system is the blueprint for ChatGPT and every AI system"
+  },
+  "lesson": {
+    "officialFocus": "Nervous system structure (brain, spinal cord, nerves), neuron structure (dendrite, axon, synapse), reflex action, endocrine system (hormones), and feedback mechanisms.",
+    "introduction": "Artificial Intelligence (AI) was literally designed to mimic your nervous system. The neuron, synapse, reflex arc, and feedback mechanism from your Class 10 biology chapter are the biological inspiration for artificial neural networks — the technology that powers ChatGPT, Google Translate, face recognition, and your IIS Academy AI tutor. Understanding your nervous system IS understanding AI.",
+    "sections": [
+      {
+        "title": "Neurons → Artificial Neurons (Perceptrons)",
+        "officialConcept": "A neuron has dendrites (receive signals), a cell body (processes signals), and an axon (transmits signal). A neuron 'fires' (sends signal) when the accumulated input exceeds a threshold. Synapses are junctions between neurons where signals are transmitted chemically.",
+        "aiEnhancement": "An artificial neuron (perceptron) directly mirrors biological neurons: Inputs (like dendrites) receive data → Weights (like synapse strength) scale each input → Summation (like cell body) adds weighted inputs → Activation function (like threshold) decides whether to 'fire' → Output (like axon) passes result to next layer. When you ask ChatGPT a question, your query passes through 96 layers of artificial neurons, each mimicking this biological process. The synaptic weights (1.76 trillion of them in GPT-4) are learned from training data — exactly like biological synaptic strengthening through learning.",
+        "keyInsight": "Every AI model is a mathematical neuroscience experiment — your neuron chapter IS AI architecture."
+      },
+      {
+        "title": "Reflex Arc → Real-Time AI Responses",
+        "officialConcept": "A reflex arc bypasses the brain: stimulus → sensory neuron → spinal cord → motor neuron → effector. This enables rapid, involuntary responses (e.g., withdrawing hand from heat) without conscious thought.",
+        "aiEnhancement": "Self-driving car AI uses 'reflex arcs' in its safety system. When sensors detect an imminent collision (stimulus), the emergency braking system activates in < 100 milliseconds — bypassing the main decision-making AI (brain equivalent). This is called 'safety-critical real-time AI' — designed to respond faster than any human driver, just like your spinal reflex arc responds faster than conscious thought. Tesla's automatic emergency braking is biological reflex arc engineering applied to vehicles.",
+        "keyInsight": "Autonomous vehicle safety systems are machine reflex arcs — faster than human conscious reaction, mirroring spinal cord reflex pathways."
+      },
+      {
+        "title": "Feedback Mechanisms → AI Reinforcement Learning",
+        "officialConcept": "Endocrine glands use negative feedback: when blood sugar rises, pancreas secretes insulin to lower it; when blood sugar falls, glucagon is secreted to raise it. This self-regulating feedback keeps the body in homeostasis.",
+        "aiEnhancement": "AI uses reinforcement learning — a computational feedback mechanism. An AI agent takes an action, receives a reward (positive) or penalty (negative) signal, and adjusts its behaviour to maximise future rewards. This is computational homeostasis — the AI 'regulates' its behaviour toward an optimal state, just like your endocrine feedback system. DeepMind's AlphaGo learned to play Go at superhuman level using reinforcement learning — millions of feedback cycles adjusting its 'neural' weights, exactly like biological learning through experience.",
+        "keyInsight": "Reinforcement learning AI uses the same feedback principle as your body's hormonal regulation — stimulus, response, correction."
+      },
+      {
+        "title": "The Brain's Hierarchy → Deep Learning Architecture",
+        "officialConcept": "The brain has three main regions: cerebrum (complex thinking, memory, language), cerebellum (balance, coordination, muscle control), medulla oblongata (involuntary functions: breathing, heart rate). Different regions process different types of information hierarchically.",
+        "aiEnhancement": "Deep learning models mirror the brain's hierarchical processing. Early layers detect simple features (like primary sensory cortex detecting edges in images). Middle layers detect complex patterns (faces, objects). Final layers make decisions (like the frontal lobe). This hierarchical processing is why deep learning is called 'deep' — it has many layers, each at increasing abstraction, just like your brain's processing hierarchy from medulla (basic) to cerebrum (complex).",
+        "keyInsight": "Deep learning's layer hierarchy is directly inspired by the brain's hierarchical organisation — your biology chapter is AI architecture."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Build a 3-Neuron Neural Network by Hand",
+      "description": "Simulate how a simple AI classifies whether a student should 'revise' or 'proceed' based on two inputs: quiz score and study hours. Perform forward propagation manually using simple arithmetic.",
+      "components": ["Paper, pencil, calculator"],
+      "steps": [
+        "Draw: 2 input neurons (Quiz Score out of 10, Study Hours), 2 hidden neurons, 1 output neuron",
+        "Assign weights: Input→Hidden: [0.6, 0.4; 0.3, 0.7]. Hidden→Output: [0.5, 0.5]",
+        "Input values: Quiz = 8/10 = 0.8, Study = 3 hours = 0.3 (normalised to 0-1 for ≤10 hrs)",
+        "Hidden neuron 1 = (0.8 × 0.6) + (0.3 × 0.3) = 0.48 + 0.09 = 0.57. Apply threshold: if > 0.5, output = 1",
+        "Hidden neuron 2 = (0.8 × 0.4) + (0.3 × 0.7) = 0.32 + 0.21 = 0.53. Apply threshold: if > 0.5, output = 1",
+        "Output = (1 × 0.5) + (1 × 0.5) = 1.0. Decision: Proceed (output ≥ 0.5 = Proceed, < 0.5 = Revise)",
+        "Try with Quiz = 0.3, Study = 0.1. What does the network recommend?"
+      ],
+      "scienceConnection": "Biology: Neuron threshold firing (Chapter 7). Mathematics: Weighted sums and algebra. This is a simplified version of what ChatGPT does 1,000 times per token it generates.",
+      "difficulty": "medium",
+      "estimatedCost": "₹0 — paper and pencil"
+    },
+    "agenticChallenge": {
+      "title": "Train an AI on Google Teachable Machine",
+      "description": "Use Google Teachable Machine (teachablemachine.withgoogle.com) to train a neural network to distinguish between two hand gestures (thumbs up vs. thumbs down). Observe how the model improves with more training examples — this is the artificial equivalent of synaptic strengthening through practice.",
+      "hint": "Train with 20 examples per class. Test accuracy. Add 40 more examples. Observe accuracy improvement. This mirrors how biological memory strengthens with repetition — your Class 10 biology concept of neural plasticity.",
+      "difficulty": "easy",
+      "link": "https://teachablemachine.withgoogle.com"
+    }
+  }
+}

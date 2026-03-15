@@ -7,7 +7,8 @@ export default function Footer() {
         <div className={styles.grid}>
           <div className={styles.brand}>
             <div className={styles.logo}>
-              🎓 IIS <strong>Academy</strong>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/IISA_logo.png" alt="IIS Academy" className={styles.logoImg} />
             </div>
             <p className={styles.tagline}>
               Intelligence Age Enhancement Layer for Indian School Education
@@ -62,6 +63,21 @@ export default function Footer() {
             </a>
             <a href="/terms" className={styles.colLink}>
               Terms &amp; Conditions
+            </a>
+          </div>
+          <div className={styles.col}>
+            <h4 className={styles.colTitle}>Legal</h4>
+            <a href="/legal/terms" className={styles.colLink}>
+              Terms &amp; Conditions
+            </a>
+            <a href="/legal/terms" className={styles.colLink}>
+              Privacy Policy
+            </a>
+            <a href="/legal/terms" className={styles.colLink}>
+              Refund Policy
+            </a>
+            <a href="mailto:support@iisacademy.com" className={styles.colLink}>
+              Contact Us
             </a>
           </div>
         </div>

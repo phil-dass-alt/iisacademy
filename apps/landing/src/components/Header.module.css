@@ -25,12 +25,10 @@
   color: var(--color-primary);
 }
 
-.logoIcon {
-  font-size: 1.5rem;
-}
-
-.logoText strong {
-  font-weight: 800;
+.logoImg {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav {
