@@ -1,0 +1,132 @@
+{
+  "board": "andhra-pradesh",
+  "class": 8,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "ap-8-math-01",
+      "number": 1,
+      "name": "Rational Numbers",
+      "topics": [
+        "Properties",
+        "Representation on Number Line",
+        "Operations"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-8-math-02",
+      "number": 2,
+      "name": "Linear Equations in One Variable",
+      "topics": [
+        "Solving Equations",
+        "Word Problems"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-8-math-03",
+      "number": 3,
+      "name": "Construction of Quadrilaterals",
+      "topics": [
+        "Constructing Quadrilaterals with Given Conditions"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-04",
+      "number": 4,
+      "name": "Exponents and Powers",
+      "topics": [
+        "Laws of Exponents",
+        "Scientific Notation"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-math-05",
+      "number": 5,
+      "name": "Comparing Quantities using Proportion",
+      "topics": [
+        "Direct and Inverse Proportion",
+        "Compound Interest"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-8-math-06",
+      "number": 6,
+      "name": "Square Roots and Cube Roots",
+      "topics": [
+        "Finding Square Roots and Cube Roots"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-07",
+      "number": 7,
+      "name": "Frequency Distribution Tables and Graphs",
+      "topics": [
+        "Frequency Tables",
+        "Histograms",
+        "Frequency Polygons"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-8-math-08",
+      "number": 8,
+      "name": "Exploring Geometrical Figures",
+      "topics": [
+        "Congruence",
+        "Similarity",
+        "Transformations"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-09",
+      "number": 9,
+      "name": "Area of Plane Figures",
+      "topics": [
+        "Area of Triangles",
+        "Quadrilaterals",
+        "Circles"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-10",
+      "number": 10,
+      "name": "Algebraic Expressions",
+      "topics": [
+        "Multiplication",
+        "Division",
+        "Identities"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-11",
+      "number": 11,
+      "name": "Factorisation",
+      "topics": [
+        "Common Factor",
+        "Identities",
+        "Trinomials"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-math-12",
+      "number": 12,
+      "name": "Introduction to Graphs",
+      "topics": [
+        "Bar and Line Graphs",
+        "Pie Charts",
+        "Coordinate Graphs"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "icse-9-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: ICSE Class 9 \u2014 Compound Interest and Statistics",
+  "subject": "Mathematics",
+  "board": "icse",
+  "class": 9,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A car depreciates at 15% per year. If the current value is \u20b98,00,000, what will it be worth after 3 years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b94,89,050"
+        },
+        {
+          "id": "b",
+          "text": "\u20b95,20,000"
+        },
+        {
+          "id": "c",
+          "text": "\u20b94,12,800"
+        },
+        {
+          "id": "d",
+          "text": "\u20b93,64,000"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Depreciation uses CI formula: A = P(1 - r/100)^t = 800000(0.85)^3 = 800000\u00d70.614125 = \u20b94,91,300 \u2248 \u20b94,89,050. Car depreciation is why financial advisors say: 'a car is a liability, not an asset'.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Compound Interest",
+      "board": "icse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "A company's annual profits (in lakhs) for 5 years: 12, 18, 14, 25, 11. Calculate mean and median. Which should a job-seeker use to judge company stability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mean=16 lakhs, Median=14 lakhs; Median is better as it's resistant to outliers"
+        },
+        {
+          "id": "b",
+          "text": "Mean=16 lakhs, Median=18 lakhs; Mean shows total earning"
+        },
+        {
+          "id": "c",
+          "text": "Mean=14 lakhs, Median=16 lakhs; Mean is always better"
+        },
+        {
+          "id": "d",
+          "text": "Mean=20 lakhs, Median=14 lakhs; use mode for stability"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sorted: 11,12,14,18,25. Mean = 80/5 = 16. Median = 14 (middle value). For stability, median is better \u2014 it ignores the one exceptional year (25 lakhs) that might not repeat. Analysts use both for a complete picture.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Statistics",
+      "board": "icse",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

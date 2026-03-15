@@ -1,0 +1,95 @@
+{
+  "id": "cbse-8-sci-aitech-q1",
+  "title": "Science + AI Technology: Class 8 — Force, Light and Electricity",
+  "subject": "Science",
+  "board": "cbse",
+  "class": 8,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A robot arm exerts a force of 50 N over an area of 0.01 m². What pressure does it apply? How does this relate to hydraulic systems in industrial robots?",
+      "options": [
+        { "id": "a", "text": "500 Pa; Pascal's Law transmits this pressure equally in hydraulic oil" },
+        { "id": "b", "text": "5000 Pa; hydraulic systems multiply force using area difference" },
+        { "id": "c", "text": "0.5 Pa; pressure is inversely proportional to area" },
+        { "id": "d", "text": "50 Pa; force equals pressure in liquids" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "P = F/A = 50/0.01 = 5000 Pa. In hydraulic robots, Pascal's Law means: if a small piston area has 5000 Pa, a larger piston area of 0.5 m² feels F = 5000 × 0.5 = 2500 N force! Industrial robots use this to lift cars.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Force and Pressure",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q2",
+      "text": "Alexa (Amazon Echo) listens to your voice at 44,100 samples per second. Which sound property is most important for AI to distinguish between 'Alexa, play music' and 'Alexa, set alarm'?",
+      "options": [
+        { "id": "a", "text": "Amplitude (loudness)" },
+        { "id": "b", "text": "Frequency pattern (pitch variation over time)" },
+        { "id": "c", "text": "Speed of sound" },
+        { "id": "d", "text": "Medium of propagation" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Speech recognition AI analyzes frequency patterns over time (spectrograms). Each word has a unique frequency-time pattern. Amplitude matters for detecting if you spoke, but frequency patterns distinguish words. This is how Siri, Alexa and Google Assistant understand you!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Sound",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q3",
+      "text": "A self-driving car's LiDAR sensor emits a laser beam. The beam hits a wall and returns in 0.000002 seconds. Speed of light = 3×10⁸ m/s. How far is the wall?",
+      "options": [
+        { "id": "a", "text": "300 m" },
+        { "id": "b", "text": "600 m" },
+        { "id": "c", "text": "150 m" },
+        { "id": "d", "text": "60 m" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Distance = Speed × Time/2 = 3×10⁸ × 0.000002 / 2 = 3×10⁸ × 10⁻⁶ = 300 m. LiDAR uses light reflection (your Light chapter) to map 360° surroundings 10-20 times per second. Tesla, Waymo, and Uber all use this.",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Light",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q4",
+      "text": "A USB charger conducts electricity to your phone. Which material is used for the wire inside and why?",
+      "options": [
+        { "id": "a", "text": "Iron, because it's strong" },
+        { "id": "b", "text": "Copper, because it's a good conductor with low resistance" },
+        { "id": "c", "text": "Plastic, because it's flexible" },
+        { "id": "d", "text": "Rubber, because it's safe" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Copper is used because: (1) excellent electrical conductor — low resistance means less heat generated, (2) ductile — can be drawn into thin wires, (3) relatively affordable. Every circuit board, phone cable, and power line uses copper. Your Chapter on Materials — Metals and Non-metals explains why metals conduct electricity!",
+      "difficulty": "easy",
+      "subject": "Science",
+      "chapter": "Chemical Effects of Electric Current",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    },
+    {
+      "id": "q5",
+      "text": "An LDR (Light Dependent Resistor) is used in a smart street light. In daylight, LDR resistance = 500 Ω. At night, LDR resistance = 100,000 Ω. What happens to current in the circuit as it gets dark, and why does this switch the light ON?",
+      "options": [
+        { "id": "a", "text": "Current increases; high current activates the relay to turn on the light" },
+        { "id": "b", "text": "Current decreases; low current triggers the microcontroller to switch on the light" },
+        { "id": "c", "text": "Current stays the same; the light uses a timer instead" },
+        { "id": "d", "text": "Voltage increases; higher voltage powers the bulb" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "By Ohm's Law: I = V/R. As resistance increases (dark), current decreases. The microcontroller detects this low current as 'dark' signal and activates the relay to turn the streetlight on. Every automated street light and camera night-mode uses this principle from your electricity chapter!",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Chemical Effects of Electric Current",
+      "board": "cbse",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

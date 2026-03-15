@@ -1,0 +1,107 @@
+{
+  "board": "kerala",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "kl-10-math-01",
+      "number": 1,
+      "name": "Arithmetic Sequences",
+      "topics": [
+        "AP nth Term",
+        "Sum of n Terms",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-10-math-02",
+      "number": 2,
+      "name": "Second Degree Equations",
+      "topics": [
+        "Quadratic Equations",
+        "Factorization",
+        "Quadratic Formula"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-10-math-03",
+      "number": 3,
+      "name": "Mathematics of Chance",
+      "topics": [
+        "Probability",
+        "Random Experiments",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-10-math-04",
+      "number": 4,
+      "name": "Circles",
+      "topics": [
+        "Chord and Arc",
+        "Tangents",
+        "Angles"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-10-math-05",
+      "number": 5,
+      "name": "Coordinates and Lines",
+      "topics": [
+        "Distance Formula",
+        "Slope",
+        "Equations of Lines"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-10-math-06",
+      "number": 6,
+      "name": "Polynomials",
+      "topics": [
+        "Operations",
+        "Factorization",
+        "Roots"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-10-math-07",
+      "number": 7,
+      "name": "Trigonometry",
+      "topics": [
+        "Ratios",
+        "Identities",
+        "Heights and Distances"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-10-math-08",
+      "number": 8,
+      "name": "Mensuration",
+      "topics": [
+        "Solid Figures",
+        "Surface Area",
+        "Volume",
+        "Combined Shapes"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-10-math-09",
+      "number": 9,
+      "name": "Statistics",
+      "topics": [
+        "Grouped Data",
+        "Histograms",
+        "Measures of Dispersion"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "junior-finlit-class8",
+  "title": "Mathematics → Financial Literacy: Class 8",
+  "wing": "junior",
+  "class": 8,
+  "enhancementTag": "Financial Literacy",
+  "subjects": ["Mathematics"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "You've learned about percentages, profit/loss, and simple interest in your Class 8 Math. But did you know these exact formulas run real bank accounts, grocery store discounts, and your parents' salary slips? Let's connect your classroom math to the money world around you.",
+    "sections": [
+      {
+        "title": "Profit and Loss → Running a Business",
+        "content": "When a shopkeeper buys a product for ₹80 and sells it for ₹100, the profit is ₹20 — that's 25% profit margin. Every business from your local kirana store to Amazon uses exactly this math. A startup founder calculates the 'gross margin' using the same formula you use for profit percentage.",
+        "realWorldConnection": "Profit % = (SP - CP) / CP × 100. Flipkart's gross margin in 2023 was about 28% — calculated using this same formula.",
+        "keyInsight": "Your Chapter 8 profit/loss formula IS the foundation of business accounting."
+      },
+      {
+        "title": "Simple Interest → Bank Savings Accounts",
+        "content": "If you deposit ₹10,000 in a savings account at 4% per annum, after 2 years you get ₹800 as interest. This is exactly Simple Interest (SI = PRT/100). Every savings account, FD (Fixed Deposit), and loan uses this or compound interest.",
+        "realWorldConnection": "SBI savings accounts currently offer 2.70% p.a. for balances below ₹10 lakhs. Use SI formula to calculate your annual interest.",
+        "keyInsight": "Banks pay you for depositing money — and charge you for loans — using your SI/CI formulas."
+      },
+      {
+        "title": "Comparing Quantities → GST and Discounts",
+        "content": "When you buy a ₹500 book and get 20% discount, you pay ₹400. Then GST of 18% is added = ₹72. Total = ₹472. This is real-world percentage chaining — the same skill you practice in data handling and comparing quantities chapters.",
+        "realWorldConnection": "Every invoice in India now has GST calculated using percentages. Learning to read a bill requires exactly your Class 8 math skills.",
+        "keyInsight": "GST = Government's percentage tax. Your percentage chapter directly explains every product bill."
+      },
+      {
+        "title": "Direct and Inverse Proportion → Budgeting",
+        "content": "If 5 kg of rice costs ₹250, then 8 kg costs ₹400. This is direct proportion — a core skill in budget planning. When you earn more, you can save more (direct proportion). When the price rises, you can buy less with the same money (inverse proportion).",
+        "realWorldConnection": "A household budget uses proportion calculations daily — how much dal for 4 people vs 6 people, scaling recipes, calculating petrol costs per km.",
+        "keyInsight": "Proportion is the heart of all scaling problems — from cooking to company budgets."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "₹500 Experiment: Track Your Money for 2 Weeks",
+      "description": "Take ₹500 (pocket money or a hypothetical amount). Track every ₹ spent and saved over 2 weeks. Calculate: What % went to food? Transport? Entertainment? Savings? This is real budgeting.",
+      "steps": [
+        "Day 1: Open a notebook or use a free app like Walnut to log expenses",
+        "Week 1: Record every expense, no matter how small",
+        "Week 2: Calculate % for each category using your profit/percentage formulas",
+        "Final: Compare actual spending vs what you wished you'd spent — this is variance analysis"
+      ],
+      "mathFormulas": ["Percentage = (Part/Whole) × 100", "SI = (P × R × T) / 100", "Profit% = (SP - CP) / CP × 100"],
+      "realWorldSkill": "Budgeting",
+      "difficulty": "easy"
+    },
+    "agenticChallenge": {
+      "title": "Mini Business Simulation",
+      "description": "Simulate running a small business for one month using only Class 8 math. Start with ₹1,000 capital, buy products (calculate cost price), set selling price for 25% profit, track losses, and compute net profit/loss at month end.",
+      "hint": "Use a spreadsheet (Excel or Google Sheets) — even a 5×5 table works. This is how a real P&L (Profit and Loss) statement works.",
+      "realWorldConnection": "Every startup founder and shopkeeper does exactly this calculation daily."
+    },
+    "furtherExploration": [
+      "Khan Academy: Personal Finance course (free)",
+      "Zerodha Varsity: Module 1 - Introduction to Stock Markets",
+      "National Stock Exchange (NSE) Youth Financial Literacy Program"
+    ]
+  }
+}

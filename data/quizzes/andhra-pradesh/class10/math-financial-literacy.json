@@ -1,0 +1,68 @@
+{
+  "id": "ap-10-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: Andhra Pradesh Class 10",
+  "subject": "Mathematics",
+  "board": "andhra-pradesh",
+  "class": 10,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "An Andhra Pradesh farmer plants 3 crops. Probabilities of good harvest: Rice P=0.7, Cotton P=0.6, Maize P=0.8. If crops are independent, what is the probability of all three having good harvests?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.336"
+        },
+        {
+          "id": "b",
+          "text": "0.70"
+        },
+        {
+          "id": "c",
+          "text": "2.10"
+        },
+        {
+          "id": "d",
+          "text": "0.50"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "P(all three) = 0.7 \u00d7 0.6 \u00d7 0.8 = 0.336. This means in 3 out of 10 years, all three crops do well. Crop insurance pricing uses exactly this probability calculation. PMFBY (PM Fasal Bima Yojana) premiums are calculated using district-level crop probability data.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Probability",
+      "board": "andhra-pradesh",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "An Amaravati startup invested \u20b95 lakhs. Revenue grew as GP: Year 1: \u20b92L, Year 2: \u20b94L, Year 3: \u20b98L (doubling each year). If this trend continues, what is total revenue in 5 years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b962 lakhs"
+        },
+        {
+          "id": "b",
+          "text": "\u20b932 lakhs"
+        },
+        {
+          "id": "c",
+          "text": "\u20b916 lakhs"
+        },
+        {
+          "id": "d",
+          "text": "\u20b948 lakhs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "GP: a=2, r=2, n=5. Sn = a(r\u207f-1)/(r-1) = 2(2\u2075-1)/(2-1) = 2\u00d731 = 62 lakhs. GP growth = exponential growth = the dream of every startup! This is why Zomato, Swiggy, and Ola showed GP revenue curves to investors. Your AP Class 10 GP formula IS startup finance.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Progressions",
+      "board": "andhra-pradesh",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

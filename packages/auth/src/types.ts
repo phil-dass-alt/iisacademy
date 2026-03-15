@@ -1,3 +1,32 @@
+export type MembershipTier = "free" | "basic" | "premium" | "school";
+export type BoardCode =
+  | "cbse"
+  | "icse"
+  | "karnataka"
+  | "tamil-nadu"
+  | "kerala"
+  | "andhra-pradesh";
+
+export interface AuthUser {
+  id: string;
+  email: string;
+  name?: string;
+  role: "student" | "teacher" | "admin" | "school_admin";
+  board?: BoardCode;
+  wing?: "junior" | "senior" | "university";
+  schoolId?: string;
+  membershipTier?: MembershipTier;
+  membershipExpiresAt?: number;
+}
+
+export interface MembershipAccess {
+  tier: MembershipTier;
+  allowedWings: Array<"junior" | "senior" | "university">;
+  allowedBoards: BoardCode[];
+  enhancementsEnabled: boolean;
+  quizAccessLevel: "basic" | "full" | "adaptive";
+  analyticsEnabled: boolean;
+
 export type SubscriptionStatus = 'active' | 'expired' | 'trial' | 'none';
 export type UserRole = 'student' | 'teacher' | 'school_admin' | 'super_admin';
 
@@ -8,6 +37,7 @@ export interface UserProfile {
   role: UserRole;
   avatarUrl?: string;
   createdAt: string;
+
 }
 
 export interface Subscription {
@@ -46,3 +76,4 @@ export interface AuthSession {
   subscription?: Subscription;
   accessToken: string;
 }
+

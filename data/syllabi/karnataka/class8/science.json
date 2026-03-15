@@ -1,0 +1,91 @@
+{
+  "board": "karnataka",
+  "class": 8,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ka-8-sci-01",
+      "number": 1,
+      "name": "Crop Production and Management",
+      "topics": ["Kharif and Rabi Crops", "Soil Preparation", "Irrigation", "Storage"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-8-sci-02",
+      "number": 2,
+      "name": "Microorganisms",
+      "topics": ["Types", "Uses and Harmful Effects", "Food Preservation", "Disease Causes"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-8-sci-03",
+      "number": 3,
+      "name": "Coal and Petroleum",
+      "topics": ["Natural Resources", "Coal Products", "Petroleum Refining"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-8-sci-04",
+      "number": 4,
+      "name": "Combustion and Flame",
+      "topics": ["Types of Combustion", "Flame Structure", "Fire Extinguishing"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-8-sci-05",
+      "number": 5,
+      "name": "Materials: Metals and Non-Metals",
+      "topics": ["Properties", "Chemical Reactions", "Extraction"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-8-sci-06",
+      "number": 6,
+      "name": "Force and Pressure",
+      "topics": ["Types of Forces", "Pressure", "Liquid Pressure", "Atmospheric Pressure"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-8-sci-07",
+      "number": 7,
+      "name": "Light",
+      "topics": ["Reflection", "Refraction", "Dispersion", "Human Eye"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-8-sci-08",
+      "number": 8,
+      "name": "Sound",
+      "topics": ["Properties of Sound", "Propagation", "Echo", "Musical Sounds"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-8-sci-09",
+      "number": 9,
+      "name": "Cell",
+      "topics": ["Cell Structure", "Cell Organelles", "Types of Cells"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-8-sci-10",
+      "number": 10,
+      "name": "Reproduction",
+      "topics": ["Asexual and Sexual Reproduction", "Reproductive Organs"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-8-sci-11",
+      "number": 11,
+      "name": "Conservation of Plants and Animals",
+      "topics": ["Deforestation", "Conservation", "Biosphere Reserves", "Endangered Species"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-8-sci-12",
+      "number": 12,
+      "name": "Pollution",
+      "topics": ["Air Pollution", "Water Pollution", "Soil Pollution", "Remedies"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

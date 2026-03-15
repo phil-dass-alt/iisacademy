@@ -1,0 +1,63 @@
+{
+  "id": "junior-finlit-class9",
+  "title": "Mathematics → Financial Literacy: Class 9",
+  "wing": "junior",
+  "class": 9,
+  "enhancementTag": "Financial Literacy",
+  "subjects": ["Mathematics"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "Class 9 mathematics introduces you to probability, statistics, and linear equations — powerful tools that professional analysts, insurers, and economists use daily. Let's see how your classroom math connects to real financial decision-making.",
+    "sections": [
+      {
+        "title": "Statistics → Reading Financial Reports",
+        "content": "The mean, median, and mode you calculate for a grouped data table are the same measures financial analysts use when studying stock prices, employee salaries, and economic surveys. The median household income in India (₹1.2 lakh/year) is exactly a median calculation from survey data.",
+        "realWorldConnection": "RBI (Reserve Bank of India) publishes Consumer Price Index using statistical means and medians. Your statistics chapter IS economic literacy.",
+        "keyInsight": "Mean, Median, Mode — these three numbers tell the story of any dataset, from exam scores to stock markets."
+      },
+      {
+        "title": "Probability → Insurance and Risk",
+        "content": "If a bag has 10 balls (6 red, 4 blue), P(red) = 6/10 = 0.6. Insurance companies use EXACTLY this logic: if 6 out of 10 cars get minor accidents per year, and repairs cost ₹20,000 each, the expected cost is 0.6 × 20,000 = ₹12,000/year — so premiums are set above this.",
+        "realWorldConnection": "IRDAI (Insurance Regulatory Authority of India) mandates that insurance pricing be based on actuarial probability calculations — using your Class 9 probability formula.",
+        "keyInsight": "Every insurance premium you or your family pays is a probability calculation."
+      },
+      {
+        "title": "Linear Equations → Break-Even Analysis",
+        "content": "A canteen has fixed costs of ₹5,000/month and earns ₹30 per meal. When does it break even? 30x = 5000 → x = 167 meals. This is a linear equation in one variable — the 'break-even point' every business calculates before launching.",
+        "realWorldConnection": "Shark Tank India's entrepreneurs calculate break-even in every pitch. Your linear equation is their business model.",
+        "keyInsight": "Break-even = Total Fixed Costs ÷ Profit per Unit. Linear equations drive business decisions."
+      },
+      {
+        "title": "Compound Interest Deep Dive",
+        "content": "₹10,000 invested at 12% compound interest (typical equity mutual fund average) doubles in 6 years (Rule of 72: 72/12=6). After 30 years, ₹10,000 becomes ₹10,000 × (1.12)^30 ≈ ₹3,00,000. This is the magic of compounding — why Warren Buffett says 'start early'.",
+        "realWorldConnection": "SIP in a Nifty Index Fund has delivered ~12-13% CAGR over 20 years. ₹5,000/month for 20 years ≈ ₹50 lakh at 12% CAGR.",
+        "keyInsight": "Compound Interest is 'the eighth wonder of the world' — Albert Einstein. It also appears in your Class 9 math book."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Build a Simple Budget Tracker Spreadsheet",
+      "description": "Create a monthly budget tracker using Google Sheets or Excel that uses mean, median, and percentage calculations to analyse your (or a hypothetical family's) expenses.",
+      "steps": [
+        "List 10 expense categories (food, transport, school, etc.)",
+        "Enter monthly amounts for 3 months",
+        "Calculate mean monthly expense per category using AVERAGE formula",
+        "Calculate what % each category is of total income",
+        "Identify top 3 categories — could any be reduced?"
+      ],
+      "mathFormulas": ["Mean = (x₁+x₂+...+xₙ)/n", "Probability P(A) = favourable outcomes / total outcomes", "Break-even: Fixed Cost = (Revenue per unit) × x"],
+      "realWorldSkill": "Financial Planning",
+      "difficulty": "medium"
+    },
+    "agenticChallenge": {
+      "title": "Mutual Fund Simulator",
+      "description": "Pick any 2 real mutual funds from AMFI (amfiindia.com) or Zerodha Coin. Using historical NAV data, calculate the 1-year, 3-year, and 5-year CAGR using the compound interest formula. Compare the two funds. Which would you choose and why?",
+      "hint": "CAGR = [(Ending Value / Beginning Value)^(1/years)] - 1. This is the compound interest formula rearranged for the rate.",
+      "realWorldConnection": "This is literally what a SEBI-registered investment advisor does when recommending mutual funds."
+    },
+    "furtherExploration": [
+      "Zerodha Varsity: Module 3 - Fundamental Analysis",
+      "RBI Kids Portal: money.rbi.org.in",
+      "MoneyControl.com: Learning Section"
+    ]
+  }
+}

@@ -1,6 +1,19 @@
+
+export type Board =
+  | "cbse"
+  | "icse"
+  | "karnataka"
+  | "tamil-nadu"
+  | "kerala"
+  | "andhra-pradesh";
+export type Wing = "junior" | "senior" | "university";
+/** Junior Wing covers Classes 8–10 */
+export const JUNIOR_WING_CLASSES = [8, 9, 10] as const;
+
 export type BoardName = 'CBSE' | 'ICSE' | 'Karnataka' | 'Tamil Nadu' | 'Kerala' | 'Andhra Pradesh';
 export type ClassNumber = 8 | 9 | 10 | 11 | 12;
 export type SubjectName = 'Science' | 'Mathematics' | 'Social Science' | 'English' | 'History' | 'Geography' | 'Physics' | 'Chemistry' | 'Biology';
+
 
 export interface AIEnhancementLesson {
   title: string;
