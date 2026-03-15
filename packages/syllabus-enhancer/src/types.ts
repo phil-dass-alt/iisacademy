@@ -1,5 +1,13 @@
-export type Board = "cbse" | "icse" | "state";
+export type Board =
+  | "cbse"
+  | "icse"
+  | "karnataka"
+  | "tamil-nadu"
+  | "kerala"
+  | "andhra-pradesh";
 export type Wing = "junior" | "senior" | "university";
+/** Junior Wing covers Classes 8–10 */
+export const JUNIOR_WING_CLASSES = [8, 9, 10] as const;
 
 export interface Chapter {
   id: string;

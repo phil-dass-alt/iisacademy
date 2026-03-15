@@ -1,0 +1,112 @@
+{
+  "board": "karnataka",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "ka-10-math-01",
+      "number": 1,
+      "name": "Real Numbers",
+      "topics": ["Euclid's Division Algorithm", "Fundamental Theorem of Arithmetic", "Irrational Numbers"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ka-10-math-02",
+      "number": 2,
+      "name": "Polynomials",
+      "topics": ["Degree", "Zeros of Polynomials", "Division Algorithm"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-03",
+      "number": 3,
+      "name": "Pair of Linear Equations in Two Variables",
+      "topics": ["Graphical and Algebraic Methods", "Consistency of Equations"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ka-10-math-04",
+      "number": 4,
+      "name": "Quadratic Equations",
+      "topics": ["Standard Form", "Solutions", "Nature of Roots"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ka-10-math-05",
+      "number": 5,
+      "name": "Arithmetic Progressions",
+      "topics": ["General Term", "Sum to n Terms", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ka-10-math-06",
+      "number": 6,
+      "name": "Triangles",
+      "topics": ["Similarity", "Pythagoras Theorem", "Areas of Similar Triangles"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-07",
+      "number": 7,
+      "name": "Coordinate Geometry",
+      "topics": ["Distance Formula", "Section Formula", "Area of Triangle"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-math-08",
+      "number": 8,
+      "name": "Introduction to Trigonometry",
+      "topics": ["Trigonometric Ratios", "Identities", "Values of Standard Angles"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-math-09",
+      "number": 9,
+      "name": "Applications of Trigonometry",
+      "topics": ["Heights and Distances"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-10",
+      "number": 10,
+      "name": "Circles",
+      "topics": ["Tangents", "Number of Tangents"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-11",
+      "number": 11,
+      "name": "Constructions",
+      "topics": ["Division of Line Segment", "Tangents to Circle"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-12",
+      "number": 12,
+      "name": "Areas Related to Circles",
+      "topics": ["Area of Sector", "Area of Segment"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-13",
+      "number": 13,
+      "name": "Surface Areas and Volumes",
+      "topics": ["Combinations of Solids", "Conversion of Solids", "Frustum"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-math-14",
+      "number": 14,
+      "name": "Statistics",
+      "topics": ["Mean, Median, Mode for Grouped Data", "Ogive"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ka-10-math-15",
+      "number": 15,
+      "name": "Probability",
+      "topics": ["Theoretical Probability", "Classical Probability"],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

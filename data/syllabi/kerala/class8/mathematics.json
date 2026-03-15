@@ -1,0 +1,115 @@
+{
+  "board": "kerala",
+  "class": 8,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "kl-8-math-01",
+      "number": 1,
+      "name": "Equal Shares",
+      "topics": [
+        "Division",
+        "Fractions",
+        "Ratios"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-8-math-02",
+      "number": 2,
+      "name": "Decimal Forms",
+      "topics": [
+        "Decimal Fractions",
+        "Operations",
+        "Conversions"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-8-math-03",
+      "number": 3,
+      "name": "Pairs of Equations",
+      "topics": [
+        "Linear Equations in Two Variables",
+        "Graphical Solutions",
+        "Algebraic Methods"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-8-math-04",
+      "number": 4,
+      "name": "Prisms",
+      "topics": [
+        "Lateral Surface Area",
+        "Volume of Prisms"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-math-05",
+      "number": 5,
+      "name": "Irrational Numbers",
+      "topics": [
+        "Square Roots",
+        "Irrational Numbers",
+        "Number Line"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-math-06",
+      "number": 6,
+      "name": "Circle Maths",
+      "topics": [
+        "Arc Length",
+        "Area of Sector",
+        "Circle Theorems"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-math-07",
+      "number": 7,
+      "name": "Polynomials",
+      "topics": [
+        "Degree",
+        "Factorization",
+        "Algebraic Identities"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-math-08",
+      "number": 8,
+      "name": "New Numbers",
+      "topics": [
+        "Negative Numbers",
+        "Directed Numbers",
+        "Number Patterns"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-8-math-09",
+      "number": 9,
+      "name": "Banking and Finance",
+      "topics": [
+        "Simple and Compound Interest",
+        "EMI Basics",
+        "Savings"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-8-math-10",
+      "number": 10,
+      "name": "Statistics",
+      "topics": [
+        "Mean, Median, Mode",
+        "Data Representation"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

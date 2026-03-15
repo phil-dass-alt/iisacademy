@@ -1,0 +1,39 @@
+{
+  "id": "ka-8-sci-greenmat-q1",
+  "title": "Science + Green Materials: Karnataka Class 8 \u2014 Metals and Fuels",
+  "subject": "Science",
+  "board": "karnataka",
+  "class": 8,
+  "enhancementTag": "Climate Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Karnataka is investing in solar energy to replace coal power plants. A 1 MW coal plant burns 300 tonnes of coal/day emitting 800 tonnes of CO\u2082. A 1 MW solar farm emits 0 tonnes of CO\u2082 daily. If Karnataka has 50 such coal plants, how much CO\u2082 is saved daily by converting all to solar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40,000 tonnes CO\u2082/day"
+        },
+        {
+          "id": "b",
+          "text": "15,000 tonnes CO\u2082/day"
+        },
+        {
+          "id": "c",
+          "text": "800 tonnes CO\u2082/day"
+        },
+        {
+          "id": "d",
+          "text": "4,000 tonnes CO\u2082/day"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CO\u2082 saved = 50 \u00d7 800 = 40,000 tonnes/day. That's 1.46 crore tonnes/year! Karnataka already generates 14,700 MW of renewable energy. Your combustion and coal chapters explain exactly why India is racing to solar power.",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Coal and Petroleum / Combustion and Flame",
+      "board": "karnataka",
+      "enhancementTag": "Climate Technology"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "board": "andhra-pradesh",
+  "class": 9,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ap-9-sci-01",
+      "number": 1,
+      "name": "Matter Around Us",
+      "topics": [
+        "States of Matter",
+        "Interconversion",
+        "Evaporation"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-9-sci-02",
+      "number": 2,
+      "name": "Is Matter Pure?",
+      "topics": [
+        "Pure Substances",
+        "Mixtures",
+        "Separation Techniques"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-9-sci-03",
+      "number": 3,
+      "name": "Atoms and Molecules",
+      "topics": [
+        "Atomic Theory",
+        "Molecules",
+        "Mole Concept"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-sci-04",
+      "number": 4,
+      "name": "Structure of Atom",
+      "topics": [
+        "Subatomic Particles",
+        "Bohr's Model",
+        "Electronic Configuration"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-05",
+      "number": 5,
+      "name": "The Fundamental Unit of Life",
+      "topics": [
+        "Cell Theory",
+        "Cell Organelles",
+        "Cell Types"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-9-sci-06",
+      "number": 6,
+      "name": "Tissues",
+      "topics": [
+        "Plant Tissues",
+        "Animal Tissues",
+        "Functions"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-9-sci-07",
+      "number": 7,
+      "name": "Motion",
+      "topics": [
+        "Velocity",
+        "Acceleration",
+        "Equations",
+        "Graphs"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-08",
+      "number": 8,
+      "name": "Laws of Motion",
+      "topics": [
+        "Newton's Laws",
+        "Inertia",
+        "Momentum"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-09",
+      "number": 9,
+      "name": "Gravitation",
+      "topics": [
+        "Gravitational Force",
+        "Free Fall",
+        "Buoyancy"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-10",
+      "number": 10,
+      "name": "Floating Bodies",
+      "topics": [
+        "Density",
+        "Archimedes Principle",
+        "Buoyancy Applications"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-11",
+      "number": 11,
+      "name": "Work and Energy",
+      "topics": [
+        "Work Done",
+        "Energy Forms",
+        "Power"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ap-9-sci-12",
+      "number": 12,
+      "name": "Sound",
+      "topics": [
+        "Nature of Sound",
+        "Characteristics",
+        "Echo",
+        "Ultrasound"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-sci-13",
+      "number": 13,
+      "name": "Why do we Fall Ill",
+      "topics": [
+        "Health",
+        "Disease",
+        "Pathogens",
+        "Prevention"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-9-sci-14",
+      "number": 14,
+      "name": "Natural Resources",
+      "topics": [
+        "Resources",
+        "Biogeochemical Cycles",
+        "Ozone Layer"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

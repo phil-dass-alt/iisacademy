@@ -1,0 +1,184 @@
+{
+  "board": "andhra-pradesh",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ap-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": [
+        "Balancing Equations",
+        "Types of Reactions",
+        "Redox"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": [
+        "Properties",
+        "pH",
+        "Preparation of Salts"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-Metals",
+      "topics": [
+        "Properties",
+        "Reactivity Series",
+        "Extraction",
+        "Corrosion"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-10-sci-04",
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "topics": [
+        "Carbon Bonding",
+        "Organic Compounds",
+        "Soaps and Detergents"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-10-sci-05",
+      "number": 5,
+      "name": "Classification of Elements \u2014 Periodic Table",
+      "topics": [
+        "Periods and Groups",
+        "Trends in Properties"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-sci-06",
+      "number": 6,
+      "name": "Life Processes",
+      "topics": [
+        "Nutrition",
+        "Respiration",
+        "Transport",
+        "Excretion"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-10-sci-07",
+      "number": 7,
+      "name": "Control and Coordination",
+      "topics": [
+        "Nervous System",
+        "Hormones",
+        "Plant Hormones"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-10-sci-08",
+      "number": 8,
+      "name": "Reproduction",
+      "topics": [
+        "Asexual and Sexual Reproduction",
+        "Reproductive Health"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-10-sci-09",
+      "number": 9,
+      "name": "Heredity and Evolution",
+      "topics": [
+        "Mendel's Laws",
+        "Darwin's Theory",
+        "Speciation"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-10-sci-10",
+      "number": 10,
+      "name": "The Universe",
+      "topics": [
+        "Solar System",
+        "Stars",
+        "Galaxies",
+        "Space Exploration"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-sci-11",
+      "number": 11,
+      "name": "Reflection of Light at Curved Surfaces",
+      "topics": [
+        "Concave and Convex Mirrors",
+        "Mirror Formula"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-sci-12",
+      "number": 12,
+      "name": "Refraction of Light at Curved Surfaces",
+      "topics": [
+        "Lens Formula",
+        "Power of Lens",
+        "Lens Applications"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-sci-13",
+      "number": 13,
+      "name": "Functioning of a Lens in Human Eye",
+      "topics": [
+        "Eye Structure",
+        "Defects",
+        "Correction"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-sci-14",
+      "number": 14,
+      "name": "Electric Current",
+      "topics": [
+        "Ohm's Law",
+        "Series/Parallel Circuits",
+        "Power",
+        "Energy"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-sci-15",
+      "number": 15,
+      "name": "Electromagnetism",
+      "topics": [
+        "Magnetic Effects of Current",
+        "Motor",
+        "Generator"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-sci-16",
+      "number": 16,
+      "name": "Our Environment",
+      "topics": [
+        "Ecosystem",
+        "Ozone Depletion",
+        "Waste Management"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

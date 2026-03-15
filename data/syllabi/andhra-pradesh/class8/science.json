@@ -1,0 +1,181 @@
+{
+  "board": "andhra-pradesh",
+  "class": 8,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ap-8-sci-01",
+      "number": 1,
+      "name": "Force",
+      "topics": [
+        "Contact and Non-contact Forces",
+        "Effects of Force",
+        "Balanced Forces"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-sci-02",
+      "number": 2,
+      "name": "Friction",
+      "topics": [
+        "Static and Kinetic Friction",
+        "Rolling Friction",
+        "Fluid Friction"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-sci-03",
+      "number": 3,
+      "name": "Synthetic Fibres and Plastics",
+      "topics": [
+        "Nylon, Rayon, Polyester",
+        "Plastics and Environment"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-8-sci-04",
+      "number": 4,
+      "name": "Metals and Non-Metals",
+      "topics": [
+        "Properties",
+        "Reactions of Metals",
+        "Uses"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ap-8-sci-05",
+      "number": 5,
+      "name": "Coal and Petroleum",
+      "topics": [
+        "Natural Resources",
+        "Products",
+        "Conservation"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ap-8-sci-06",
+      "number": 6,
+      "name": "Combustion and Flame",
+      "topics": [
+        "Conditions for Combustion",
+        "Flame",
+        "Calorific Value"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ap-8-sci-07",
+      "number": 7,
+      "name": "Conservation of Plants and Animals",
+      "topics": [
+        "Forests",
+        "Wildlife",
+        "Biosphere Reserves"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ap-8-sci-08",
+      "number": 8,
+      "name": "Cell",
+      "topics": [
+        "Cell Theory",
+        "Organelles",
+        "Cell Division"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-8-sci-09",
+      "number": 9,
+      "name": "Reproduction in Animals",
+      "topics": [
+        "Sexual and Asexual Reproduction"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ap-8-sci-10",
+      "number": 10,
+      "name": "Reaching the Age of Adolescence",
+      "topics": [
+        "Puberty",
+        "Hormones",
+        "Reproductive Health"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-sci-11",
+      "number": 11,
+      "name": "Sound",
+      "topics": [
+        "Vibration",
+        "Propagation",
+        "Characteristics",
+        "Noise Pollution"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-sci-12",
+      "number": 12,
+      "name": "Chemical Effects of Electric Current",
+      "topics": [
+        "Conductors and Insulators",
+        "Electrolysis",
+        "Electroplating"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-sci-13",
+      "number": 13,
+      "name": "Some Natural Phenomena",
+      "topics": [
+        "Lightning",
+        "Earthquakes",
+        "Electric Discharge"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-8-sci-14",
+      "number": 14,
+      "name": "Light",
+      "topics": [
+        "Reflection",
+        "Dispersion",
+        "Kaleidoscope"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-8-sci-15",
+      "number": 15,
+      "name": "Air, Water and Soil Pollution",
+      "topics": [
+        "Causes",
+        "Effects",
+        "Prevention"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ap-8-sci-16",
+      "number": 16,
+      "name": "Micro-organisms",
+      "topics": [
+        "Types",
+        "Uses",
+        "Harmful Effects"
+      ],
+      "enhancement": "BioTech"
+    }
+  ]
+}

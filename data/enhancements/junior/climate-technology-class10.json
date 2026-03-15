@@ -1,0 +1,64 @@
+{
+  "id": "junior-climate-class10",
+  "title": "Science → Climate Technology & Sustainability: Class 10",
+  "wing": "junior",
+  "class": 10,
+  "enhancementTag": "Climate Technology",
+  "subjects": ["Science"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "Class 10 Science chapters on Electricity, Magnetic Effects, Sources of Energy, and Our Environment directly connect to climate technology — the fastest-growing sector in the world. Solar panels, electric vehicles, wind turbines, and carbon capture all run on your textbook science.",
+    "sections": [
+      {
+        "title": "Electricity → Solar Power Revolution",
+        "content": "A solar panel is a large-scale application of the photoelectric effect: photons (light particles) knock electrons loose from silicon, creating electric current. Your electricity chapter (V = IR, P = VI) applies directly: a 400W solar panel generates 400W at ~40V. Current = P/V = 400/40 = 10A. Connecting panels in series/parallel follows your circuit rules exactly.",
+        "realWorldConnection": "India's solar capacity crossed 80 GW in 2024. PM Surya Ghar (Rooftop Solar) scheme: 1 kW system on a house saves ₹1,000-1,500/month on electricity. Your electricity chapter explains every solar system design.",
+        "keyInsight": "Solar panel efficiency is calculated using P = VI and energy = P × time. Your electricity chapter runs ₹5 lakh crore solar market."
+      },
+      {
+        "title": "Magnetic Effects of Current → Electric Vehicles",
+        "content": "An electric car motor is a rotating electromagnet: current flows through coil in magnetic field → force (Fleming's left-hand rule from your chapter) → rotation → wheels turn. Regenerative braking is generator action (Faraday's law from your chapter): wheels turning → coil rotating in magnet → electricity generated → battery charged.",
+        "realWorldConnection": "Tata Nexon EV motor produces 143 PS using Fleming's left-hand rule you study in Class 10. The regenerative braking recovers 15-20% of kinetic energy using Faraday's law.",
+        "keyInsight": "Every EV motor uses Fleming's Left-Hand Rule. Every EV regenerative brake uses Faraday's Electromagnetic Induction."
+      },
+      {
+        "title": "Our Environment → Carbon Footprint Science",
+        "content": "The food web and energy flow (10% rule: only 10% energy transfers up each level) from your environment chapter explains why plant-based diets have lower carbon footprint. Producing 1 kg beef requires 10 kg grain (10% transfer rule). At each level, 90% is lost as heat — exactly your energy flow in ecosystems.",
+        "realWorldConnection": "The IPCC (UN Climate Panel) reports that 14.5% of global greenhouse emissions come from livestock — directly explainable by your ecosystem energy chain. Eating less beef = reducing emissions.",
+        "keyInsight": "The 10% rule of energy transfer in food chains IS the science behind climate-friendly diets."
+      },
+      {
+        "title": "Sources of Energy → Green Hydrogen Future",
+        "content": "Hydrogen fuel cells (the next big clean energy technology) split water into H₂ and O₂ using electricity (electrolysis — your Class 8 chapter). Hydrogen is then burnt or used in fuel cells to generate electricity. The entire reaction: 2H₂O → 2H₂ + O₂ (electrolysis) then 2H₂ + O₂ → 2H₂O + energy (fuel cell).",
+        "realWorldConnection": "India's National Green Hydrogen Mission targets 5 million metric tonnes of green hydrogen by 2030. NTPC and Reliance Industries are investing ₹1 lakh crore. Your sources of energy chapter explains the entire technology.",
+        "keyInsight": "Green hydrogen = renewable electricity + electrolysis (your Class 8 chapter) + fuel cell. Three chapters from your syllabus explain India's biggest clean energy bet."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Calculate Your Home's Carbon Footprint",
+      "description": "Use electricity bills, transport, and food data to estimate your family's annual CO₂ emissions. Then design a 'Net Zero Plan' using solar, EVs, and diet changes.",
+      "steps": [
+        "Step 1 — Electricity: Monthly units × 0.82 kg CO₂/unit (India grid emission factor) = kg CO₂",
+        "Step 2 — Transport: km driven × 0.21 kg CO₂/km (petrol car average) = kg CO₂",
+        "Step 3 — Food: Estimate meat consumption × 27 kg CO₂/kg (beef) or 6 kg CO₂/kg (chicken)",
+        "Step 4 — Total annual CO₂. Compare to India per-capita average of 1.9 tonnes/year",
+        "Step 5 — Design a reduction plan: solar panels (offset X tonnes), cycling instead of car (offset Y tonnes)"
+      ],
+      "scienceConnection": "Electricity chapter (units = kWh), Our Environment (carbon cycle), Sources of Energy (renewable vs fossil)",
+      "realWorldSkill": "Carbon Literacy and Sustainability Planning",
+      "difficulty": "medium"
+    },
+    "agenticChallenge": {
+      "title": "Design a Net-Zero School",
+      "description": "Design a school building that produces as much energy as it consumes. Calculate: (1) energy needs per day (lighting + fans + computers using P = VI × hours), (2) solar panels needed to meet needs (400W panels, 5 peak sun hours/day in India), (3) battery storage for nights and cloudy days, (4) payback period at ₹8/unit electricity saved.",
+      "hint": "This is real 'green building' design. LEED (Leadership in Energy and Environmental Design) certified buildings follow exactly this process. Your electricity chapter has all the formulas needed.",
+      "difficulty": "hard"
+    },
+    "furtherExploration": [
+      "NITI Aayog India Energy Dashboard: niti.gov.in",
+      "Our World in Data: Climate Change (ourworldindata.org)",
+      "Carbon footprint calculator: carbonfootprint.com",
+      "ISRO: India's Environmental Monitoring Satellites"
+    ]
+  }
+}

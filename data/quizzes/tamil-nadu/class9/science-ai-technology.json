@@ -1,0 +1,39 @@
+{
+  "id": "tn-9-sci-aitech-q1",
+  "title": "Science + AI Technology: Tamil Nadu Class 9 \u2014 Motion and Forces",
+  "subject": "Science",
+  "board": "tamil-nadu",
+  "class": 9,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A Chennai Metro train accelerates from rest to 60 km/h in 30 seconds. What is the acceleration? Which Newton's Law governs the motion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a=0.556 m/s\u00b2, Newton's 2nd Law (F=ma)"
+        },
+        {
+          "id": "b",
+          "text": "a=2 m/s\u00b2, Newton's 1st Law"
+        },
+        {
+          "id": "c",
+          "text": "a=0.5 m/s\u00b2, Newton's 3rd Law"
+        },
+        {
+          "id": "d",
+          "text": "a=1 m/s\u00b2, Newton's 2nd Law"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "u=0, v=60 km/h=16.67 m/s, t=30s. a=(v-u)/t = 16.67/30 = 0.556 m/s\u00b2. Newton's 2nd Law: F=ma determines the motor force needed. Chennai Metro's traction system calculates this for every departure \u2014 your motion equations run mass transit systems!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Motion",
+      "board": "tamil-nadu",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

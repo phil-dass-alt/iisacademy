@@ -1,0 +1,105 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "cbse-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": ["Chemical Equations", "Types of Chemical Reactions", "Oxidation and Reduction"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Acids and Bases in Solutions", "pH Scale", "Salts", "Preparation of Sodium Hydroxide", "Bleaching Powder"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-metals",
+      "topics": ["Physical and Chemical Properties", "Reactivity Series", "Extraction of Metals", "Corrosion"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-10-sci-04",
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "topics": ["Covalent Bonding", "Versatile Nature of Carbon", "Saturated/Unsaturated Carbon Compounds", "Functional Groups", "Soaps and Detergents"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-10-sci-05",
+      "number": 5,
+      "name": "Life Processes",
+      "topics": ["Nutrition", "Respiration", "Transportation in Plants and Animals", "Excretion"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-10-sci-06",
+      "number": 6,
+      "name": "Control and Coordination",
+      "topics": ["Nervous System", "Reflex Arc", "Endocrine System", "Plant Hormones"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-10-sci-07",
+      "number": 7,
+      "name": "How do Organisms Reproduce?",
+      "topics": ["Asexual Reproduction", "Sexual Reproduction in Plants and Animals", "Reproductive Health"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-10-sci-08",
+      "number": 8,
+      "name": "Heredity and Evolution",
+      "topics": ["Heredity", "Mendel's Experiments", "How do Traits Get Expressed", "Evolution", "Speciation"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-10-sci-09",
+      "number": 9,
+      "name": "Light — Reflection and Refraction",
+      "topics": ["Reflection of Light", "Spherical Mirrors", "Refraction of Light", "Lens", "Lens Formula"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-10-sci-10",
+      "number": 10,
+      "name": "The Human Eye and the Colourful World",
+      "topics": ["Human Eye", "Defects of Vision", "Glass Prism Dispersion", "Atmospheric Refraction"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-10-sci-11",
+      "number": 11,
+      "name": "Electricity",
+      "topics": ["Electric Current and Circuit", "Electric Potential", "Ohm's Law", "Resistance", "Heating Effect", "Electric Power"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-10-sci-12",
+      "number": 12,
+      "name": "Magnetic Effects of Electric Current",
+      "topics": ["Magnetic Field and Field Lines", "Magnetic Effect of Current", "Electric Motor", "Electromagnetic Induction", "Generator"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-10-sci-13",
+      "number": 13,
+      "name": "Our Environment",
+      "topics": ["Ecosystem", "Food Chains and Webs", "Ozone Layer Depletion", "Waste Management"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "cbse-10-sci-14",
+      "number": 14,
+      "name": "Management of Natural Resources",
+      "topics": ["Management of Natural Resources", "Forests and Wildlife", "Water for All", "Coal and Petroleum", "Sustainable Development"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

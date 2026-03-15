@@ -1,0 +1,114 @@
+{
+  "board": "tamil-nadu",
+  "class": 9,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "tn-9-math-01",
+      "number": 1,
+      "name": "Set Language",
+      "topics": [
+        "Sets",
+        "Set Operations",
+        "Venn Diagrams"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-9-math-02",
+      "number": 2,
+      "name": "Real Numbers",
+      "topics": [
+        "Rational and Irrational Numbers",
+        "Number Line",
+        "Operations"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "tn-9-math-03",
+      "number": 3,
+      "name": "Algebra",
+      "topics": [
+        "Polynomials",
+        "GCD and LCM",
+        "Rational Expressions"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-9-math-04",
+      "number": 4,
+      "name": "Geometry",
+      "topics": [
+        "Quadrilaterals",
+        "Circles",
+        "Concurrence"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-9-math-05",
+      "number": 5,
+      "name": "Coordinate Geometry",
+      "topics": [
+        "Cartesian Plane",
+        "Plotting Points",
+        "Distance Formula"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-math-06",
+      "number": 6,
+      "name": "Trigonometry",
+      "topics": [
+        "Trigonometric Ratios",
+        "Reciprocal Ratios",
+        "Identities"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-math-07",
+      "number": 7,
+      "name": "Mensuration",
+      "topics": [
+        "Perimeter and Area",
+        "Volume and Surface Area"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-9-math-08",
+      "number": 8,
+      "name": "Statistics",
+      "topics": [
+        "Measures of Central Tendency",
+        "Frequency Distribution"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "tn-9-math-09",
+      "number": 9,
+      "name": "Probability",
+      "topics": [
+        "Experimental Probability",
+        "Theoretical Probability"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "tn-9-math-10",
+      "number": 10,
+      "name": "Information Processing",
+      "topics": [
+        "Algorithms",
+        "Data Structures",
+        "Fibonacci Numbers"
+      ],
+      "enhancement": "AI Technology"
+    }
+  ]
+}

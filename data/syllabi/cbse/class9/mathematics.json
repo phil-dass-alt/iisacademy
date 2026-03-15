@@ -1,0 +1,112 @@
+{
+  "board": "cbse",
+  "class": 9,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "cbse-9-math-01",
+      "number": 1,
+      "name": "Number Systems",
+      "topics": ["Irrational Numbers", "Real Numbers on Number Line", "Laws of Exponents", "Decimal Expansions"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-9-math-02",
+      "number": 2,
+      "name": "Polynomials",
+      "topics": ["Polynomials in One Variable", "Zeroes of a Polynomial", "Remainder Theorem", "Factor Theorem", "Algebraic Identities"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-03",
+      "number": 3,
+      "name": "Coordinate Geometry",
+      "topics": ["Cartesian System", "Plotting Points", "Linear Equations in Two Variables as Graphs"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-9-math-04",
+      "number": 4,
+      "name": "Linear Equations in Two Variables",
+      "topics": ["Linear Equations", "Solution of a Linear Equation", "Graph of a Linear Equation", "Equations of Lines Parallel to Axes"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-9-math-05",
+      "number": 5,
+      "name": "Introduction to Euclid's Geometry",
+      "topics": ["Euclid's Definitions and Axioms", "Euclid's Postulates", "Equivalent Versions of Euclid's Fifth Postulate"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-06",
+      "number": 6,
+      "name": "Lines and Angles",
+      "topics": ["Basic Terms and Definitions", "Intersecting Lines", "Parallel Lines", "Angle Sum Property of a Triangle"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-07",
+      "number": 7,
+      "name": "Triangles",
+      "topics": ["Congruence of Triangles", "Criteria for Congruence", "Properties of Triangles", "Inequalities in a Triangle"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-08",
+      "number": 8,
+      "name": "Quadrilaterals",
+      "topics": ["Angle Sum Property", "Types of Quadrilaterals", "Properties of Parallelogram", "Mid-point Theorem"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-09",
+      "number": 9,
+      "name": "Areas of Parallelograms and Triangles",
+      "topics": ["Figures on the Same Base and Between Same Parallels", "Parallelograms on Same Base", "Triangles on Same Base"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-10",
+      "number": 10,
+      "name": "Circles",
+      "topics": ["Chords of a Circle", "Angle Subtended by Chord", "Perpendicular from Centre", "Cyclic Quadrilaterals"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-11",
+      "number": 11,
+      "name": "Constructions",
+      "topics": ["Basic Constructions", "Construction of Triangles"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-12",
+      "number": 12,
+      "name": "Heron's Formula",
+      "topics": ["Area of Triangle by Heron's Formula", "Application to Quadrilaterals"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-13",
+      "number": 13,
+      "name": "Surface Areas and Volumes",
+      "topics": ["Surface Area of Cuboid/Cube/Cylinder/Cone/Sphere", "Volume of Cuboid/Cube/Cylinder/Cone/Sphere"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-9-math-14",
+      "number": 14,
+      "name": "Statistics",
+      "topics": ["Collection of Data", "Presentation of Data", "Measures of Central Tendency", "Bar Graphs and Histograms"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "cbse-9-math-15",
+      "number": 15,
+      "name": "Probability",
+      "topics": ["Probability as Frequency", "Empirical Probability"],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

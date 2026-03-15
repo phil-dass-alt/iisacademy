@@ -1,0 +1,160 @@
+{
+  "board": "tamil-nadu",
+  "class": 9,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "tn-9-sci-01",
+      "number": 1,
+      "name": "Measurement",
+      "topics": [
+        "Systems of Measurement",
+        "Scientific Notation",
+        "Errors"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-02",
+      "number": 2,
+      "name": "Motion",
+      "topics": [
+        "Uniform and Non-Uniform Motion",
+        "Equations of Motion"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-03",
+      "number": 3,
+      "name": "Fluids",
+      "topics": [
+        "Pressure",
+        "Buoyancy",
+        "Archimedes Principle"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-04",
+      "number": 4,
+      "name": "Electric Charge and Electric Current",
+      "topics": [
+        "Charges",
+        "Current",
+        "Ohm's Law",
+        "Circuits"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-05",
+      "number": 5,
+      "name": "Magnetism and Electromagnetism",
+      "topics": [
+        "Magnets",
+        "Magnetic Field",
+        "Electromagnetism"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-06",
+      "number": 6,
+      "name": "Light",
+      "topics": [
+        "Reflection and Refraction",
+        "Mirrors and Lenses",
+        "Optical Instruments"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-07",
+      "number": 7,
+      "name": "Matter around us",
+      "topics": [
+        "States of Matter",
+        "Elements, Compounds, Mixtures"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-9-sci-08",
+      "number": 8,
+      "name": "Atomic Structure",
+      "topics": [
+        "Atomic Models",
+        "Electrons, Protons, Neutrons",
+        "Isotopes"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-9-sci-09",
+      "number": 9,
+      "name": "Solutions",
+      "topics": [
+        "Types of Solutions",
+        "Concentration",
+        "Solubility"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-9-sci-10",
+      "number": 10,
+      "name": "Carbon and its Compounds",
+      "topics": [
+        "Carbon Bonding",
+        "Hydrocarbons",
+        "Functional Groups"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-9-sci-11",
+      "number": 11,
+      "name": "Plant Physiology",
+      "topics": [
+        "Photosynthesis",
+        "Transpiration",
+        "Plant Growth"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-9-sci-12",
+      "number": 12,
+      "name": "Structural Organisation of Animals",
+      "topics": [
+        "Tissues",
+        "Organ Systems",
+        "Homeostasis"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-9-sci-13",
+      "number": 13,
+      "name": "Reproduction in Plants and Animals",
+      "topics": [
+        "Types of Reproduction",
+        "Reproductive Organs"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-9-sci-14",
+      "number": 14,
+      "name": "Ecology",
+      "topics": [
+        "Ecosystem",
+        "Food Webs",
+        "Biodiversity",
+        "Conservation"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

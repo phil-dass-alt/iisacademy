@@ -1,0 +1,105 @@
+{
+  "board": "karnataka",
+  "class": 9,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ka-9-sci-01",
+      "number": 1,
+      "name": "Matter in Our Surroundings",
+      "topics": ["States of Matter", "Change of State", "Evaporation"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-9-sci-02",
+      "number": 2,
+      "name": "Is Matter Around Us Pure?",
+      "topics": ["Pure Substances", "Mixtures", "Separation Methods"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-9-sci-03",
+      "number": 3,
+      "name": "Atoms and Molecules",
+      "topics": ["Atomic Theory", "Molecular Formula", "Mole Concept"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-9-sci-04",
+      "number": 4,
+      "name": "Structure of the Atom",
+      "topics": ["Sub-atomic Particles", "Atomic Models", "Electronic Configuration"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-9-sci-05",
+      "number": 5,
+      "name": "The Fundamental Unit of Life",
+      "topics": ["Cell Theory", "Cell Organelles", "Cell Division"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-9-sci-06",
+      "number": 6,
+      "name": "Tissues",
+      "topics": ["Plant and Animal Tissues", "Functions"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-9-sci-07",
+      "number": 7,
+      "name": "Motion",
+      "topics": ["Distance and Displacement", "Speed, Velocity, Acceleration", "Equations of Motion", "Graphs"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-9-sci-08",
+      "number": 8,
+      "name": "Force and Laws of Motion",
+      "topics": ["Newton's Laws", "Momentum", "Conservation of Momentum"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-9-sci-09",
+      "number": 9,
+      "name": "Gravitation",
+      "topics": ["Universal Gravitation", "Free Fall", "Buoyancy"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-9-sci-10",
+      "number": 10,
+      "name": "Work, Energy and Power",
+      "topics": ["Work", "Forms of Energy", "Energy Conservation", "Power"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-9-sci-11",
+      "number": 11,
+      "name": "Sound",
+      "topics": ["Characteristics", "Speed", "Reflection", "Echo"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-9-sci-12",
+      "number": 12,
+      "name": "Why Do We Fall Ill?",
+      "topics": ["Health and Disease", "Infectious Diseases", "Prevention and Treatment"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-9-sci-13",
+      "number": 13,
+      "name": "Natural Resources",
+      "topics": ["Air, Water, Soil", "Biogeochemical Cycles", "Ozone Layer"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-9-sci-14",
+      "number": 14,
+      "name": "Improvement in Food Resources",
+      "topics": ["Crop Improvement", "Crop Protection", "Animal Husbandry"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

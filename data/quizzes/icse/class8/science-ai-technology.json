@@ -1,0 +1,39 @@
+{
+  "id": "icse-8-sci-aitech-q1",
+  "title": "Science + AI Technology: ICSE Class 8 \u2014 Force, Light and Electricity",
+  "subject": "Science",
+  "board": "icse",
+  "class": 8,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A pressure sensor in a robot's foot detects 200 Pa when walking on hard floor. When walking on soft carpet, the same weight spreads over 3\u00d7 the area. What pressure does the carpet sensor detect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "66.7 Pa"
+        },
+        {
+          "id": "b",
+          "text": "600 Pa"
+        },
+        {
+          "id": "c",
+          "text": "200 Pa"
+        },
+        {
+          "id": "d",
+          "text": "100 Pa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "P = F/A. Same force, 3\u00d7 area \u2192 P = 200/3 \u2248 66.7 Pa. Robotic pressure sensors use this to detect surface types and adjust gait. Boston Dynamics' robots sense floor type using pressure arrays \u2014 exactly your Force and Pressure chapter!",
+      "difficulty": "medium",
+      "subject": "Science",
+      "chapter": "Force and Pressure",
+      "board": "icse",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

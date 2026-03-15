@@ -1,0 +1,147 @@
+{
+  "board": "icse",
+  "class": 8,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "icse-8-math-01",
+      "number": 1,
+      "name": "Rational Numbers",
+      "topics": ["Properties: Commutativity, Associativity, Distributivity", "Representation on Number Line", "Rational Numbers Between Two Rationals"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-02",
+      "number": 2,
+      "name": "Exponents",
+      "topics": ["Powers with Negative Integers", "Laws of Exponents", "Scientific Notation"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-8-math-03",
+      "number": 3,
+      "name": "Squares and Square Roots",
+      "topics": ["Perfect Squares", "Square Roots by Factorisation", "Square Roots by Division Method"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-04",
+      "number": 4,
+      "name": "Cubes and Cube Roots",
+      "topics": ["Cubes", "Cube Roots by Factorisation"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-05",
+      "number": 5,
+      "name": "Playing with Numbers",
+      "topics": ["Puzzles and Patterns", "Divisibility Tests", "Cryptarithmetic"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-06",
+      "number": 6,
+      "name": "Sets",
+      "topics": ["Introduction to Sets", "Set Notation", "Types of Sets", "Operations on Sets", "Venn Diagrams"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-07",
+      "number": 7,
+      "name": "Percent and Percentage",
+      "topics": ["Percent as Fraction and Decimal", "Finding Percentage", "Problems on Percentage"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-08",
+      "number": 8,
+      "name": "Profit, Loss and Discount",
+      "topics": ["Profit and Loss Percentage", "Discount", "VAT and Sales Tax", "Cost Price and Selling Price"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-09",
+      "number": 9,
+      "name": "Simple and Compound Interest",
+      "topics": ["Simple Interest", "Compound Interest", "Time Period and Rates"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-10",
+      "number": 10,
+      "name": "Direct and Inverse Variation",
+      "topics": ["Direct Variation", "Inverse Variation", "Joint Variation"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-11",
+      "number": 11,
+      "name": "Time and Work",
+      "topics": ["Time and Work Problems", "Pipes and Cisterns"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-12",
+      "number": 12,
+      "name": "Algebraic Expressions",
+      "topics": ["Identities", "Expansions", "Factorisation"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-13",
+      "number": 13,
+      "name": "Linear Equations and Inequalities",
+      "topics": ["Solving Linear Equations", "Inequalities", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-14",
+      "number": 14,
+      "name": "Quadrilaterals",
+      "topics": ["Types of Quadrilaterals", "Properties of Parallelograms", "Constructions"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-15",
+      "number": 15,
+      "name": "Construction of Polygons",
+      "topics": ["Regular Polygons", "Constructing Quadrilaterals"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-16",
+      "number": 16,
+      "name": "Representing 3-D in 2-D",
+      "topics": ["Nets", "Isometric Drawing", "Views of Solids"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-17",
+      "number": 17,
+      "name": "Area of Trapezium and Polygon",
+      "topics": ["Area of Trapezium", "Area of Polygons by Division"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-18",
+      "number": 18,
+      "name": "Volume and Surface Area of Solids",
+      "topics": ["Cube and Cuboid", "Cylinder", "Volume and Capacity"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-8-math-19",
+      "number": 19,
+      "name": "Data Handling",
+      "topics": ["Frequency Distribution Tables", "Bar Graphs and Pie Charts", "Mean, Median and Mode"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-8-math-20",
+      "number": 20,
+      "name": "Probability",
+      "topics": ["Experimental and Theoretical Probability", "Equally Likely Outcomes"],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}
