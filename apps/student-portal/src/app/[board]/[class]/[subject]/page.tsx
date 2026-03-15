@@ -4,30 +4,75 @@ import fs from 'fs';
 import path from 'path';
 
 interface SubjectPageProps {
-  params: {
+  params: Promise<{
     board: string;
     class: string;
     subject: string;
-  };
+  }>;
 }
 
 const VALID_SEGMENT = /^[a-z0-9-]+$/i;
+
+/** Normalise class segment: "class-8" → "class8", "class-11" → "class11" */
+function normalizeClassSlug(cls: string): string {
+  return cls.replace(/-/g, '');
+}
+
+interface RawChapter {
+  id?: number | string;
+  number?: number;
+  name?: string;
+  title?: string;
+  summary?: string;
+  topics?: string[];
+  enhancement?: string | null;
+  aiEnhancementLesson?: { title: string; content: string; practicalAddOn: string };
+  quiz?: unknown[];
+}
+
+interface RawSyllabus {
+  board: string;
+  class: number;
+  subject: string;
+  chapters: RawChapter[];
+  [key: string]: unknown;
+}
+
+function normalizeSyllabus(raw: RawSyllabus) {
+  return {
+    ...raw,
+    chapters: raw.chapters.map((c) => ({
+      id: typeof c.id === 'number' ? c.id : c.number ?? 1,
+      title: c.title ?? c.name ?? 'Chapter',
+      summary: c.summary ?? (c.topics ? c.topics.join(' · ') : ''),
+      aiEnhancementLesson: c.aiEnhancementLesson ?? {
+        title: `${c.enhancement ?? 'Intelligence Age'} Enhancement`,
+        content: `This chapter connects to ${c.enhancement ?? 'modern technology'} applications in the real world.`,
+        practicalAddOn: 'Explore how the concepts in this chapter are used in cutting-edge technology and industry.',
+      },
+      quiz: Array.isArray(c.quiz) ? c.quiz : [],
+    })),
+  };
+}
 
 async function getSyllabus(board: string, cls: string, subject: string) {
   if (!VALID_SEGMENT.test(board) || !VALID_SEGMENT.test(cls) || !VALID_SEGMENT.test(subject)) {
     return null;
   }
   try {
-    const dataPath = path.join(process.cwd(), '../../data/syllabus', board, cls, `${subject}.json`);
+    const normalizedCls = normalizeClassSlug(cls);
+    const dataPath = path.join(process.cwd(), '../../data/syllabi', board, normalizedCls, `${subject}.json`);
     const content = fs.readFileSync(dataPath, 'utf-8');
-    return JSON.parse(content);
+    const raw: RawSyllabus = JSON.parse(content);
+    return normalizeSyllabus(raw);
   } catch {
     return null;
   }
 }
 
 export default async function SubjectPage({ params }: SubjectPageProps) {
-  const syllabus = await getSyllabus(params.board, params.class, params.subject);
+  const resolvedParams = await params;
+  const syllabus = await getSyllabus(resolvedParams.board, resolvedParams.class, resolvedParams.subject);
 
   if (!syllabus) {
     notFound();
@@ -40,9 +85,9 @@ export default async function SubjectPage({ params }: SubjectPageProps) {
           <nav className="text-sm text-gray-500 mb-2">
             <Link href="/" className="hover:text-indigo-600">Dashboard</Link>
             <span className="mx-2">›</span>
-            <span className="capitalize">{params.board.replace(/-/g, ' ')}</span>
+            <span className="capitalize">{resolvedParams.board.replace(/-/g, ' ')}</span>
             <span className="mx-2">›</span>
-            <span className="capitalize">{params.class.replace(/-/g, ' ')}</span>
+            <span className="capitalize">{resolvedParams.class.replace(/-/g, ' ')}</span>
             <span className="mx-2">›</span>
             <span className="capitalize font-semibold text-gray-900">{syllabus.subject}</span>
           </nav>
@@ -58,7 +103,7 @@ export default async function SubjectPage({ params }: SubjectPageProps) {
           {syllabus.chapters.map((chapter: { id: number; title: string; summary: string }) => (
             <Link
               key={chapter.id}
-              href={`/${params.board}/${params.class}/${params.subject}/chapter-${chapter.id}`}
+              href={`/${resolvedParams.board}/${resolvedParams.class}/${resolvedParams.subject}/chapter-${chapter.id}`}
               className="block bg-white rounded-xl border border-gray-200 shadow-sm p-5 hover:shadow-md hover:border-indigo-200 transition-all group"
             >
               <div className="flex items-start gap-4">

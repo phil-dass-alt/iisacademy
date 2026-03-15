@@ -9,25 +9,83 @@ import { DualTrackLesson } from '@/components/DualTrackLesson';
 import { CompetitivePlugin } from '@/components/CompetitivePlugin';
 import { SeniorQuizPlayer } from '@/components/SeniorQuizPlayer';
 
+interface QuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+  answer: string;
+  difficulty?: string;
+  feedback: {
+    correct: string;
+    incorrect: string;
+    intelligenceAgeHint: string;
+  };
+}
+
 interface ChapterPageProps {
-  params: {
+  params: Promise<{
     board: string;
     class: string;
     subject: string;
     chapter: string;
-  };
+  }>;
 }
 
 const VALID_SEGMENT = /^[a-z0-9-]+$/i;
+
+function normalizeClassSlug(cls: string): string {
+  return cls.replace(/-/g, '');
+}
+
+interface RawChapter {
+  id?: number | string;
+  number?: number;
+  name?: string;
+  title?: string;
+  summary?: string;
+  topics?: string[];
+  enhancement?: string | null;
+  aiEnhancementLesson?: { title: string; content: string; practicalAddOn: string };
+  quiz?: unknown[];
+  competitivePlugin?: unknown;
+}
+
+interface RawSyllabus {
+  board: string;
+  class: number;
+  subject: string;
+  chapters: RawChapter[];
+  [key: string]: unknown;
+}
+
+function normalizeSyllabus(raw: RawSyllabus) {
+  return {
+    ...raw,
+    chapters: raw.chapters.map((c) => ({
+      id: typeof c.id === 'number' ? c.id : c.number ?? 1,
+      title: c.title ?? c.name ?? 'Chapter',
+      summary: c.summary ?? (c.topics ? c.topics.join(' · ') : ''),
+      aiEnhancementLesson: c.aiEnhancementLesson ?? {
+        title: `${c.enhancement ?? 'Intelligence Age'} Enhancement`,
+        content: `This chapter connects to ${c.enhancement ?? 'modern technology'} applications in the real world.`,
+        practicalAddOn: 'Explore how the concepts in this chapter are used in cutting-edge technology and industry.',
+      },
+      quiz: Array.isArray(c.quiz) ? (c.quiz as QuizQuestion[]) : [],
+      competitivePlugin: c.competitivePlugin ?? null,
+    })),
+  };
+}
 
 async function getSyllabus(board: string, cls: string, subject: string) {
   if (!VALID_SEGMENT.test(board) || !VALID_SEGMENT.test(cls) || !VALID_SEGMENT.test(subject)) {
     return null;
   }
   try {
-    const dataPath = path.join(process.cwd(), '../../data/syllabus', board, cls, `${subject}.json`);
+    const normalizedCls = normalizeClassSlug(cls);
+    const dataPath = path.join(process.cwd(), '../../data/syllabi', board, normalizedCls, `${subject}.json`);
     const content = fs.readFileSync(dataPath, 'utf-8');
-    return JSON.parse(content);
+    const raw: RawSyllabus = JSON.parse(content);
+    return normalizeSyllabus(raw);
   } catch {
     return null;
   }
@@ -48,12 +106,13 @@ async function getSeniorLesson(board: string, cls: string, subject: string, chap
 }
 
 export default async function ChapterPage({ params }: ChapterPageProps) {
-  const chapterParam = params.chapter;
-  const isSeniorClass = params.class === 'class-11' || params.class === 'class-12';
+  const resolvedParams = await params;
+  const chapterParam = resolvedParams.chapter;
+  const isSeniorClass = resolvedParams.class === 'class-11' || resolvedParams.class === 'class-12';
 
   // For senior wing, try to load the standalone lesson file first
   if (isSeniorClass) {
-    const lesson = await getSeniorLesson(params.board, params.class, params.subject, chapterParam);
+    const lesson = await getSeniorLesson(resolvedParams.board, resolvedParams.class, resolvedParams.subject, chapterParam);
     if (lesson) {
       const hasDualTrack = Boolean(lesson.dualTrack);
       const hasCompetitivePlugin = Boolean(lesson.competitivePlugin?.activated);
@@ -67,8 +126,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               <nav className="text-sm text-gray-500 mb-2">
                 <Link href="/" className="hover:text-indigo-600">Dashboard</Link>
                 <span className="mx-2">›</span>
-                <Link href={`/${params.board}/${params.class}/${params.subject}`} className="hover:text-indigo-600 capitalize">
-                  {params.subject}
+                <Link href={`/${resolvedParams.board}/${resolvedParams.class}/${resolvedParams.subject}`} className="hover:text-indigo-600 capitalize">
+                  {resolvedParams.subject}
                 </Link>
                 <span className="mx-2">›</span>
                 <span className="font-semibold text-gray-900">{lesson.title}</span>
@@ -143,7 +202,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
   // Fallback: existing syllabus-based chapter page (junior wing)
   const chapterId = parseInt(chapterParam.replace('chapter-', ''), 10);
-  const syllabus = await getSyllabus(params.board, params.class, params.subject);
+  const syllabus = await getSyllabus(resolvedParams.board, resolvedParams.class, resolvedParams.subject);
 
   if (!syllabus) notFound();
 
@@ -159,8 +218,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <nav className="text-sm text-gray-500 mb-2">
             <Link href="/" className="hover:text-indigo-600">Dashboard</Link>
             <span className="mx-2">›</span>
-            <Link href={`/${params.board}/${params.class}/${params.subject}`} className="hover:text-indigo-600 capitalize">
-              {params.subject}
+            <Link href={`/${resolvedParams.board}/${resolvedParams.class}/${resolvedParams.subject}`} className="hover:text-indigo-600 capitalize">
+              {resolvedParams.subject}
             </Link>
             <span className="mx-2">›</span>
             <span className="font-semibold text-gray-900">Chapter {chapterId}</span>
@@ -197,14 +256,14 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         <div className="flex justify-between pt-4">
           {chapterId > 1 ? (
             <Link
-              href={`/${params.board}/${params.class}/${params.subject}/chapter-${chapterId - 1}`}
+              href={`/${resolvedParams.board}/${resolvedParams.class}/${resolvedParams.subject}/chapter-${chapterId - 1}`}
               className="flex items-center gap-2 bg-white border border-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:shadow-sm transition-shadow text-sm font-medium"
             >
               ← Previous Chapter
             </Link>
           ) : <div />}
           <Link
-            href={`/${params.board}/${params.class}/${params.subject}/chapter-${chapterId + 1}`}
+            href={`/${resolvedParams.board}/${resolvedParams.class}/${resolvedParams.subject}/chapter-${chapterId + 1}`}
             className="flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors text-sm font-medium"
           >
             Next Chapter →

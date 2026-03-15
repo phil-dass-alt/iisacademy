@@ -1,0 +1,327 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "board": "karnataka",
+  "class": 11,
+  "subject": "Biology",
+  "stream": "science",
+  "competitiveTargets": [
+    "NEET",
+    "AIIMS"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "The Living World",
+      "summary": "Characteristics of living organisms, taxonomy, classification, nomenclature, and biodiversity.",
+      "topics": [
+        "Characteristics of Living Organisms",
+        "Taxonomy",
+        "Binomial Nomenclature",
+        "Classification Hierarchy",
+        "Biodiversity"
+      ],
+      "enhancement": "AI Taxonomy & Biodiversity Informatics",
+      "aiEnhancementLesson": {
+        "title": "From Binomial Nomenclature to AI Species Discovery & Biodiversity AI",
+        "content": "Board Level: Characteristics of life, need for classification, taxonomic categories (Kingdom→Species), binomial nomenclature (Genus species, e.g., Homo sapiens), NEET Focus: Classification of organisms, taxa, ICBN and ICZN rules. Intelligence Age: iNaturalist (Nature AI app used by millions worldwide) uses deep learning to identify species from photos — training on the same taxonomic hierarchy you study (Kingdom→Species). India's Biodiversity Heritage Sites (Western Ghats, Sundarbans) are being catalogued using AI drones that photograph plants and animals — the AI assigns binomial names automatically using your taxonomy. Scientists at ATREE Bengaluru use ML algorithms to predict undiscovered species in the Western Ghats by analysing patterns in known species distributions. Your taxonomy IS the ontology (knowledge structure) of biological AI. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Download iNaturalist app. Photograph 5 plants/animals in your school garden. Let the AI identify them. For each: note the Kingdom, Phylum, Class, Order, Family, Genus, Species. Compare with your textbook taxonomy. How accurate was the AI? What features did it use to classify them?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The basic unit of classification is:",
+          "options": [
+            "Genus",
+            "Family",
+            "Species",
+            "Phylum"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Species is the fundamental unit of taxonomy. Members of a species can interbreed and produce fertile offspring.",
+            "incorrect": "Species is the fundamental (lowest and most specific) taxonomic category. A species is defined as a group of organisms that can interbreed and produce fertile offspring.",
+            "intelligenceAgeHint": "AI biodiversity models like GBIF (Global Biodiversity Information Facility) use species as the fundamental classification unit — same as your textbook, cataloguing 1.8 billion occurrence records."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] A plant's full taxonomic classification is: Kingdom Plantae, Division Angiospermae, Class Dicotyledonae, Order Rosales, Family Rosaceae, Genus Rosa, Species indica. Its binomial name is:",
+          "options": [
+            "Rosaceae indica",
+            "Rosa indica",
+            "Plantae indica",
+            "Rosales indica"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Binomial nomenclature: Genus + species = Rosa indica. Genus is capitalised, species is lowercase, both italicised.",
+            "incorrect": "Binomial nomenclature (Linnaeus): Genus name (capitalised) + species epithet (lowercase) = Rosa indica. Always written in italics or underlined.",
+            "intelligenceAgeHint": "Plant AI systems like PlantNet use your binomial nomenclature database as ground truth labels. When the AI identifies a plant, it outputs the binomial name — the same format your textbook defines."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI is trained on 500,000 labelled insect images across 50,000 species. A new moth photo is entered. The AI outputs: 85% Attacus atlas, 12% Saturnia pyri, 3% others. What biological classification principle does this reflect?",
+          "options": [
+            "Photosynthesis",
+            "Phylogenetic similarity (morphological proximity in taxonomy)",
+            "Chromosome number",
+            "Cell type"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! AI species identification works because organisms with similar morphological features (shapes, patterns, colours) tend to be taxonomically close (same genus or family). Attacus atlas and Saturnia pyri are both in family Saturniidae — the AI's uncertainty reflects genuine phylogenetic similarity.",
+            "incorrect": "The AI's top 2 predictions are both from Saturniidae (Giant Silk Moths family) — organisms in the same family have similar morphology. This is your taxonomy chapter: morphological similarity → taxonomic closeness.",
+            "intelligenceAgeHint": "India's ZSI (Zoological Survey of India) is building an AI taxonomy system for India's 1 lakh+ insect species — using the same family-level morphological similarity principles you study in Class 11 Biology."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET taxonomy questions: memorise the 5-kingdom system (Monera, Protista, Fungi, Plantae, Animalia) and 2-kingdom (Plantae, Animalia — Linnaeus). Know taxonomic rank order: King Philip Came Over For Good Soup (Kingdom, Phylum, Class, Order, Family, Genus, Species).",
+        "mnemonicAgent": "KPCOFGS: Kingdom, Phylum, Class, Order, Family, Genus, Species. 'King Philip Came Over For Good Soup' — never forget the taxonomic hierarchy for NEET.",
+        "calculationHack": "For NEET MCQs on taxonomy: always check if the option follows binomial nomenclature rules (Genus Species, both in italics, Genus capitalised). Wrong capitalization = wrong answer."
+      }
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "title": "Biological Classification",
+      "summary": "Five-kingdom classification, characteristics of Monera, Protista, Fungi, Plantae, Animalia, and viruses.",
+      "topics": [
+        "Five-Kingdom System",
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Kingdom Plantae",
+        "Kingdom Animalia",
+        "Viruses"
+      ],
+      "enhancement": "Viral AI & Microbiome Data Science",
+      "aiEnhancementLesson": {
+        "title": "From Five Kingdoms to COVID-19 AI Diagnostics & Microbiome Medicine",
+        "content": "Board Level: Whittaker's five-kingdom system, characteristics of each kingdom, viruses (not classified in 5 kingdoms). NEET Focus: Classification criteria, structural differences between kingdoms, bacterial cell types, fungal nutrition. Intelligence Age: COVID-19 diagnosis AI (used at AIIMS Delhi and CMC Vellore) analyses CT scans to detect viral lung damage — trained on thousands of images labelled by doctors who applied your 5-kingdom classification to distinguish viral vs bacterial vs fungal lung infections (different treatment required). AI microbiome research: your gut contains 38 trillion bacteria (Kingdom Monera/Bacteria) — AI analysis of microbiome data predicts diabetes, obesity, and depression risk. Bengaluru's Maithri Aquatech uses AI to identify algae (Kingdom Protista) in water samples to detect pollution. Your biological classification IS the foundation of AI-powered diagnostics. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Make classification cards: For each of the 5 kingdoms, create a card with: (1) Defining feature (cell type, nutrition, cell wall), (2) One Indian example organism, (3) One disease caused, (4) One medical/economic importance. Quiz yourself using the cards. Then: which kingdom does COVID-19 virus NOT belong to, and why?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Kingdom Fungi is characterised by:",
+          "options": [
+            "Autotrophic nutrition, eukaryotic cells",
+            "Heterotrophic nutrition (saprotrophic), eukaryotic, chitinous cell wall",
+            "Prokaryotic cells, no cell wall",
+            "Photosynthetic, plant-like cells"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Fungi: eukaryotic, heterotrophic (saprotrophic/parasitic), chitin cell wall (not cellulose like plants), no chlorophyll.",
+            "incorrect": "Fungi characteristics: Eukaryotic cells + heterotrophic (absorptive) nutrition + chitin cell wall. Key distinction from plants: no photosynthesis. From bacteria: eukaryotic (have nucleus).",
+            "intelligenceAgeHint": "AI medical diagnostics distinguishes fungal from bacterial infections using these cell wall differences (chitin vs peptidoglycan) — different antibiotics target different cell wall types."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] Mycoplasmas lack a cell wall and can cause disease. They belong to which kingdom and why?",
+          "options": [
+            "Protista — they are eukaryotes",
+            "Monera — they are prokaryotes without membrane-bound nucleus",
+            "Fungi — they lack cell walls",
+            "Viruses — they are non-cellular"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Mycoplasmas are prokaryotes (no membrane-bound nucleus) → Kingdom Monera. They are the smallest living cells. Unlike other Monera, they lack a cell wall (susceptible to osmotic lysis).",
+            "incorrect": "Classification depends on cell type, not cell wall presence. Mycoplasmas are prokaryotes (no nucleus) → Monera. Cell wall absence is unusual for Monera but doesn't change their kingdom.",
+            "intelligenceAgeHint": "Mycoplasma infections cause atypical pneumonia (walking pneumonia). AI diagnostics identify them from blood tests — the AI's algorithm applies your classification rules to distinguish from viral and fungal pneumonia."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI microbiome analyser processes gut bacteria samples from 10,000 patients. It identifies 2000 species — 1800 Bacteria, 150 Archaea, 50 Eukaryotes. The 1800 Bacteria belong to which kingdom, and how does this relate to probiotic medicine?",
+          "options": [
+            "Protista — bacteria are protists",
+            "Monera (Bacteria + Archaea) — prokaryotes that form the beneficial gut microbiome",
+            "Fungi — beneficial gut microbes are fungi",
+            "Animalia — gut microbes are animals"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Bacteria + Archaea = Kingdom Monera (prokaryotes). The 1800 gut bacteria species (Lactobacillus, Bifidobacterium, etc.) are Monera. AI microbiome research at CCMB Hyderabad uses your 5-kingdom classification to categorise gut residents.",
+            "incorrect": "Bacteria and Archaea are prokaryotes → Kingdom Monera. Probiotics (Lactobacillus acidophilus in your Yakult) are Monera — Kingdom Bacteria. AI microbiome analytics identifies which Monera species indicate health vs disease.",
+            "intelligenceAgeHint": "India's CSIR-CCMB Hyderabad analysed the gut microbiomes of 1000 Indians using AI — identifying that Indian gut microbiomes differ significantly from Western ones. Your kingdom classification is the AI's taxonomic reference."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET crucial: differences between bacteria (prokaryote) and Mycoplasma (prokaryote, no cell wall). Viroids (naked RNA, no protein coat) vs Viruses (RNA/DNA + protein coat). Lichens = Algae + Fungi symbiosis.",
+        "mnemonicAgent": "PPFE: Prokaryotic (Monera), Protist (primitive eukaryote), Fungi (heterotrophic eukaryote), Everything else → Plantae or Animalia. Use PPFE to quickly classify any unfamiliar organism in NEET.",
+        "calculationHack": "NEET shortcut for cell wall material: Bacteria = peptidoglycan (murein), Fungi = chitin, Plants = cellulose, Animals = NO cell wall. These are directly testable MCQ facts."
+      }
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "title": "Cell: The Unit of Life",
+      "summary": "Cell theory, prokaryotic vs eukaryotic cells, cell organelles, cell membrane, nucleus, and cell division.",
+      "topics": [
+        "Cell Theory",
+        "Prokaryotic Cell",
+        "Eukaryotic Cell",
+        "Cell Organelles",
+        "Cell Membrane",
+        "Nucleus",
+        "Mitochondria",
+        "Chloroplast"
+      ],
+      "enhancement": "Synthetic Biology & AI Cell Simulation",
+      "aiEnhancementLesson": {
+        "title": "From Cell Theory to AI-Designed Synthetic Cells & Cancer Detection AI",
+        "content": "Board Level: Cell theory (Schleiden, Schwann, Virchow), prokaryote vs eukaryote (structural differences), organelles (mitochondria, chloroplast, Golgi, ER, ribosome, lysosome), fluid mosaic model (Singer-Nicholson), nucleus structure. NEET Focus: Structure and function of each organelle, differences between plant and animal cells, semi-permeable membrane. Intelligence Age: AI-designed synthetic biology: MIT's AI designed a synthetic cell membrane that can assemble itself from components — using your fluid mosaic model as design reference. Liquid biopsy cancer detection (used at Tata Memorial Hospital Mumbai) AI detects cancer cells by their abnormal organelle structure in microscopy images — it learned what 'normal' mitochondria and nuclei look like from your cell biology diagrams. Google's DeepMind Medical AI detects cancer cells by identifying nuclear atypia (abnormal nucleus shape) — trained on the same nuclear structure you study now. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Prepare temporary mounts of onion cells (plant) and cheek cells (animal). Draw and compare: (1) presence/absence of cell wall, (2) chloroplasts, (3) large central vacuole (plant) vs multiple small vacuoles (animal). Use these observations to explain why plant cells are more rigid than animal cells."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The powerhouse of the cell (ATP synthesis) is the:",
+          "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Golgi apparatus"
+          ],
+          "answer": "C",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Mitochondria synthesise ATP via oxidative phosphorylation (cellular respiration). They have double membranes — outer smooth, inner folded (cristae) which houses ATP synthase.",
+            "incorrect": "Mitochondria = ATP production via cellular respiration. Ribosomes = protein synthesis. Nucleus = genetic control. Golgi = packaging/secretion.",
+            "intelligenceAgeHint": "AI drug targets mitochondrial dysfunction in cancer (Warburg effect — cancer cells use glycolysis instead of mitochondrial respiration). Your mitochondria chapter is anti-cancer drug design."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] Which organelle is responsible for the synthesis of proteins destined for secretion outside the cell? (Correct sequence of events)",
+          "options": [
+            "Mitochondria → Golgi → Plasma membrane",
+            "Rough ER → Golgi → Vesicles → Plasma membrane",
+            "Smooth ER → Nucleus → Golgi",
+            "Lysosome → Golgi → Cell wall"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Secretory pathway: Rough ER (ribosomes synthesise protein) → Golgi (modification, packaging) → Secretory vesicles → Plasma membrane (exocytosis) → extracellular space.",
+            "incorrect": "Secretory protein pathway: Ribosomes on Rough ER synthesise → transfer to Golgi lumen → Golgi modifies (glycosylation) and packages → secretory vesicles → exocytosis at plasma membrane.",
+            "intelligenceAgeHint": "Biocon Bengaluru manufactures insulin (a secreted protein) using this exact pathway — AI bioprocess monitoring checks that Chinese Hamster Ovary cells properly route insulin through RER→Golgi→secretion."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] A cancer detection AI analyses 1000 cell microscopy images. It flags cells with: (1) enlarged nucleus >6 μm diameter, (2) multiple nucleoli, (3) irregular nuclear membrane. These features indicate:",
+          "options": [
+            "Healthy cells with active protein synthesis",
+            "Cancer cells with abnormal nuclear atypia (increased nuclear-cytoplasmic ratio)",
+            "Prokaryotic cells with larger nucleoids",
+            "Plant cells with enlarged chloroplasts"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Cancer cells show nuclear atypia: enlarged nucleus, multiple nucleoli (rapid rRNA synthesis), irregular nuclear membrane — these are the hallmarks the AI learned from pathology textbooks based on your cell biology chapter.",
+            "incorrect": "These are classic signs of cancer cell nuclear atypia: increased nucleus size (N:C ratio), prominent nucleoli (elevated ribosome production), irregular nuclear envelope — exactly the features the AI learns from your nucleus structure chapter.",
+            "intelligenceAgeHint": "AI pathology (PathAI, used in Tata Memorial Hospital Mumbai) detects cancer using these exact nuclear features from your cell biology chapter — your Class 11 Biology directly trains cancer-detecting AI."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET cell organelle questions: double membrane = mitochondria, chloroplast (and nucleus with 2 membranes). Single membrane = ER, Golgi, lysosome, vacuole. No membrane = ribosomes, centrioles.",
+        "mnemonicAgent": "RACE for organelles: Ribosomes (protein synthesis), rER (secretory proteins), Golgi (Packaging), Mitochondria (Energy/ATP), Chloroplast (Photosynthesis). Remember RACE for NEET organelle functions.",
+        "calculationHack": "N:C ratio (Nuclear to Cytoplasmic ratio) is a NEET favourite. Normal cells: low N:C ratio. Cancer cells: HIGH N:C ratio. Simple fact but appears frequently."
+      }
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "title": "Biomolecules",
+      "summary": "Carbohydrates, proteins, lipids, nucleic acids, enzymes, and their structure and functions.",
+      "topics": [
+        "Carbohydrates",
+        "Proteins",
+        "Lipids",
+        "Nucleic Acids",
+        "Enzymes",
+        "Metabolism"
+      ],
+      "enhancement": "AI Proteomics & Drug Discovery",
+      "aiEnhancementLesson": {
+        "title": "From Amino Acids to AlphaFold Protein AI & Drug Design",
+        "content": "Board Level: Carbohydrates (monosaccharides, disaccharides, polysaccharides), proteins (amino acids, peptide bonds, primary/secondary/tertiary/quaternary structure), lipids (saturated/unsaturated fatty acids, phospholipids), DNA/RNA structure, enzyme action (lock-and-key, induced fit). NEET Focus: Types of biomolecules, enzyme mechanisms (competitive/non-competitive inhibition). Intelligence Age: AlphaFold 2 (DeepMind, 2021) predicted the 3D structure of 200+ million proteins — using your Chapter 4 on protein folding as the biological problem it solved. Every protein structure AlphaFold predicted starts with the amino acid sequence (primary structure) and predicts secondary (alpha helix, beta sheet) and tertiary folding — the same hierarchy your chapter describes. The CSIR-CDRI Lucknow uses protein structure AI to design drugs that fit enzyme active sites (your lock-and-key model). Understanding biomolecule structure IS the foundation of 21st-century medicine. (Karnataka (KSEAB) context: This connects directly to Bengaluru's tech ecosystem (IISc, Infosys, Wipro, Flipkart).)",
+        "practicalAddOn": "Test for biomolecules in food: (1) Starch — iodine test (blue-black), (2) Reducing sugars — Fehling's test (brick-red precipitate), (3) Proteins — Biuret test (violet), (4) Lipids — Sudan III stain (red). Test: rice, egg white, butter, milk. Record results and explain the biochemical basis of each test."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Peptide bonds form between the amino acids of a protein by joining the:",
+          "options": [
+            "Amino group of one and amino group of another",
+            "Carboxyl group of one and amino group of another",
+            "Two carboxyl groups",
+            "R-groups of adjacent amino acids"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Peptide bond = condensation reaction between -COOH (carboxyl) of one amino acid and -NH₂ (amino) of the next, releasing water.",
+            "incorrect": "Peptide bond forms between -COOH of one amino acid and -NH₂ of the next (condensation/dehydration reaction with release of H₂O). This is the primary structure of proteins.",
+            "intelligenceAgeHint": "AlphaFold AI predicts how these peptide bonds fold in 3D space — its input is just the amino acid sequence (primary structure) and it outputs the 3D shape that determines the protein's function."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[NEET Level] An enzyme has Km = 10 mM. At [S] = 10 mM, enzyme velocity is:",
+          "options": [
+            "Vmax",
+            "½ Vmax",
+            "¼ Vmax",
+            "2 Vmax"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Km is the substrate concentration at which v = ½Vmax (definition of Km). At [S] = Km: v = Vmax × Km/(Km + Km) = Vmax/2 = ½Vmax.",
+            "incorrect": "By definition: Km = [S] when v = ½Vmax. The Michaelis-Menten equation v = Vmax×[S]/(Km+[S]) confirms: when [S]=Km, v = Vmax×Km/(2Km) = ½Vmax.",
+            "intelligenceAgeHint": "AI drug design uses Km values to calculate drug inhibition effectiveness — a competitive inhibitor increases apparent Km. AI screens thousands of molecules for their inhibitory Km to find the best drug candidate."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] AlphaFold AI predicts protein structures. A drug-discovery AI finds a candidate that fits the active site of a COVID protease with binding energy −8.5 kcal/mol. A second candidate fits with −9.2 kcal/mol. Which should be prioritised for synthesis?",
+          "options": [
+            "First (−8.5 kcal/mol) — less negative is safer",
+            "Second (−9.2 kcal/mol) — more negative binding energy = stronger, more specific binding",
+            "Both are equivalent",
+            "Cannot compare binding energies"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! More negative binding energy = stronger, more favourable interaction. The drug binds tighter to the enzyme active site → better inhibition. This is the basis of structure-based drug design.",
+            "incorrect": "In molecular docking, more negative ΔG_binding = stronger binding = better drug candidate. Second compound (−9.2 kcal/mol) has stronger active-site interaction → better inhibitor of COVID protease.",
+            "intelligenceAgeHint": "COVID antivirals Paxlovid and Molnupiravir were discovered using exactly this AI binding energy analysis — Indian pharma companies (Cipla, Sun Pharma) manufacture these based on enzyme active site chemistry from your biomolecules chapter."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "neetEdge": "NEET biomolecule facts: Glycogen = storage polysaccharide in animals (liver, muscle). Starch = storage in plants. Cellulose = structural in plants. Chitin = structural in fungi and arthropods. DNA in nucleus + mitochondria + chloroplast.",
+        "mnemonicAgent": "CAPS for biomolecules: Carbohydrates (energy), Amino acids/Proteins (structure + enzymes), Phospholipids (membrane), Sugar-Nucleotides (DNA/RNA). 'CAPS protect the cell — CAPS are the four biomolecule categories.'",
+        "calculationHack": "Protein levels: 1° (sequence), 2° (α-helix/β-sheet from H-bonds in backbone), 3° (3D shape from R-group interactions), 4° (multiple polypeptide chains). For NEET: H-bonds stabilise 2° structure, various forces stabilise 3°."
+      }
+    }
+  ]
+}

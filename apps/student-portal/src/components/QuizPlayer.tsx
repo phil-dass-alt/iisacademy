@@ -31,6 +31,16 @@ export function QuizPlayer({ questions }: QuizPlayerProps) {
 
   const currentQuestion = questions[currentIdx];
 
+  if (!questions || questions.length === 0) {
+    return (
+      <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 text-center">
+        <div className="text-3xl mb-2">📝</div>
+        <p className="text-gray-500 text-sm">Quiz coming soon for this chapter.</p>
+      </div>
+    );
+  }
+
+
   const handleStart = () => {
     setState('in-progress');
     setCurrentIdx(0);

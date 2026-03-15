@@ -1,0 +1,89 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy provides supplementary enhancement content only.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "History",
+  "stream": "arts",
+  "competitiveTargets": [
+    "UPSC",
+    "CUET"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Writing and City Life: Mesopotamia",
+      "summary": "The emergence of cities, writing systems, social structures, and economy of ancient Mesopotamia.",
+      "topics": [
+        "Urban Revolution",
+        "Cuneiform Writing",
+        "Trade",
+        "Social Classes",
+        "Ancient Cities"
+      ],
+      "enhancement": "Digital Archaeology & AI Historical Analysis",
+      "aiEnhancementLesson": {
+        "title": "From Cuneiform Tablets to AI Text Analysis & Digital Archaeology",
+        "content": "Board Level: Mesopotamia (modern Iraq) — earliest cities (Ur, Uruk, Babylon), cuneiform writing, economy, trade, social stratification. UPSC Bridge: Significance of urban revolution, comparison with Indus Valley Civilisation. Intelligence Age: Researchers at the MIT Cuneiform Lab are using AI (machine learning image recognition) to read and translate tens of thousands of undeciphered cuneiform clay tablets. The same OCR AI technology that reads your handwriting in Google Docs is being applied to 5000-year-old tablet photographs. Digital archaeology in India: ASI (Archaeological Survey of India) uses LiDAR (laser scanning from aircraft) and AI analysis to discover buried ruins without excavation — finding hidden Harappan sites under farmland. AI 'network analysis' maps ancient trade routes from Mesopotamia to Indus Valley by analysing where Mesopotamian artefacts are found — rebuilding history computationally.",
+        "practicalAddOn": "Research activity: Find 3 artefacts from Mesopotamia and 3 from Harappan civilisation. Create a comparison table: urban planning, writing system, trade goods, governance, decline. Then: search 'Cuneiform digital library' online. How is AI helping archaeologists read ancient texts? What does this mean for historical knowledge in the 21st century?"
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "The earliest known writing system was:",
+          "options": [
+            "Egyptian hieroglyphs",
+            "Cuneiform (Mesopotamia)",
+            "Indus script",
+            "Chinese oracle bones"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Cuneiform (Mesopotamia, ~3200 BCE) is the earliest known writing system, initially used for accounting/trade records. It evolved from pictographs to wedge-shaped marks on clay tablets.",
+            "incorrect": "Cuneiform (Sumer, Mesopotamia, ~3200 BCE) is the oldest known writing. Egyptian hieroglyphs appeared around the same time but slightly later evidence. Indus script (~2600 BCE) is later.",
+            "intelligenceAgeHint": "AI researchers at MIT and Oxford are using machine learning to translate undeciphered cuneiform tablets — potentially unlocking thousands of years of ancient knowledge that humans haven't read for millennia."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[UPSC Level] Which feature of Mesopotamian civilisation was most similar to Harappan civilisation?",
+          "options": [
+            "Pyramid-shaped temples",
+            "Grid-pattern city planning with drainage systems",
+            "Monotheistic religion",
+            "Democratic governance"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Both Mesopotamia (especially Mohenjodaro equivalent in urban design) and Harappan civilisation featured sophisticated planned city layouts with drainage. Harappa (Rakhigarhi, Bengaluru Museum has artefacts) had superior drainage to any contemporary civilisation.",
+            "incorrect": "Grid planning and sophisticated drainage were common to both civilisations. Neither had pyramids (those are Egyptian). Religious systems differed. Governance in both appears centralised but non-democratic.",
+            "intelligenceAgeHint": "ASI's AI analysis of satellite imagery has identified 50+ new Harappan sites with grid-planned roads — the same pattern as Mesopotamian cities. AI is rewriting our understanding of Bronze Age urban planning."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] AI analysis of 50,000 cuneiform tablets reveals 70% are commercial records (debts, sales, contracts). This implies Mesopotamian cities primarily ran on:",
+          "options": [
+            "Religious authority alone",
+            "Complex commercial/credit economy",
+            "Military conquest",
+            "Subsistence agriculture only"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! The predominance of commercial records reveals a sophisticated credit and trade economy — merchants, loans, interest rates, trade contracts. Ancient Mesopotamia had banks, loans, and interest (precursor to modern finance).",
+            "incorrect": "70% commercial records = economy was primarily commercial. Mesopotamian merchants issued loans with interest (ibid = interest in Sumerian), kept accounts — the world's first banking system. Your history chapter describes the origin of modern commerce.",
+            "intelligenceAgeHint": "AI text mining of cuneiform records has revealed that ancient Mesopotamian interest rates (20% annually) were similar to modern microfinance rates in India — history and fintech connected through AI analysis."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "upscEdge": "UPSC Ancient History: Compare Mesopotamia and Harappan civilisation — drainage, writing, trade goods. Mesopotamia had direct trade connections to Harappa (Indus goods found in Ur). Know the 'Urban Revolution' concept for UPSC GS1.",
+        "mnemonicAgent": "CWEST for Mesopotamia: Cities (Ur, Uruk), Writing (cuneiform), Economy (trade, agriculture), Social stratification, Temple (ziggurat). 'CWEST — the five pillars of Mesopotamian civilisation.'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy provides supplementary enhancement content only.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Political Science",
+  "stream": "arts",
+  "competitiveTargets": [
+    "UPSC",
+    "CUET",
+    "Law Entrance"
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "number": 1,
+      "title": "Political Theory: An Introduction",
+      "summary": "What is politics, political theory, its relevance in everyday life, freedom, equality, and rights.",
+      "topics": [
+        "What is Politics",
+        "Political Theory",
+        "Freedom",
+        "Equality",
+        "Rights",
+        "Justice"
+      ],
+      "enhancement": "AI Ethics & Digital Rights",
+      "aiEnhancementLesson": {
+        "title": "Political Theory to AI Ethics, Digital Rights & India's Data Protection Law",
+        "content": "Board Level: Politics = who gets what, when, how (Lasswell). Political theory = systematic study of political ideas (freedom, equality, justice, rights). Relevance in daily life. UPSC Bridge: Theories of justice (Rawls, Nozick, Amartya Sen), fundamental rights and DPSP relationship. Intelligence Age: India's Digital Personal Data Protection Act 2023 (DPDPA) applies your political theory concepts to AI — the right to privacy (freedom from surveillance), right to correction (data accuracy), right to erasure (right to be forgotten). When AI facial recognition is used by police (Delhi, Mumbai), political theory debates arise: Is this freedom-enhancing security or authoritarian surveillance? Amartya Sen's 'capabilities approach' to freedom is now used by UNDP to assess AI's impact on human development in India. Your political theory chapter IS the foundation of digital rights debates.",
+        "practicalAddOn": "Debate activity: CCTV cameras with AI facial recognition are installed in your city. Argue BOTH sides: (1) Security argument: reduces crime, enhances safety (freedom from fear). (2) Liberty argument: chilling effect on free expression, surveillance state (threat to freedom of movement). Which political thinker would support each view? Use Locke, Hobbes, or Rousseau frameworks."
+      },
+      "quiz": [
+        {
+          "id": 1,
+          "question": "According to John Locke, the state exists to protect:",
+          "options": [
+            "Collective good determined by the majority",
+            "Life, liberty, and property of individuals",
+            "Absolute power of the sovereign",
+            "Religious law"
+          ],
+          "answer": "B",
+          "difficulty": "board",
+          "feedback": {
+            "correct": "Correct! Locke's social contract: individuals give up some freedom to the state in exchange for protection of natural rights — life, liberty, and property. The state derives legitimacy from this consent.",
+            "incorrect": "Locke (Second Treatise of Government): Natural rights = life, liberty, property. State's purpose = protect these rights. If state fails, people have right to revolt.",
+            "intelligenceAgeHint": "India's DPDPA (Digital Personal Data Protection Act) protects your 'digital liberty and property' (data rights) — it's Locke's political philosophy applied to the digital age."
+          }
+        },
+        {
+          "id": 2,
+          "question": "[UPSC Level] Rawls' 'veil of ignorance' thought experiment argues for:",
+          "options": [
+            "Meritocracy — rewards based purely on ability",
+            "Principles of justice designed without knowing your position in society",
+            "Absolute equality of outcomes",
+            "Libertarian minimal state"
+          ],
+          "answer": "B",
+          "difficulty": "competitive",
+          "feedback": {
+            "correct": "Correct! Rawls: design justice principles from behind a 'veil of ignorance' (not knowing if you'll be rich/poor, high/low caste). This produces fair principles since you'd choose protections that benefit any position.",
+            "incorrect": "Rawls' veil of ignorance: if you don't know your social position, you'd rationally choose: (1) equal basic liberties, (2) inequalities only if they benefit the least advantaged (difference principle).",
+            "intelligenceAgeHint": "AI ethics researchers use Rawls' veil of ignorance to design fair algorithms — 'if you didn't know whether you'd be in a privileged or marginalised group, what AI rules would you design?' This is Rawlsian justice in algorithm design."
+          }
+        },
+        {
+          "id": 3,
+          "question": "[Intelligence Age] An AI hiring tool is found to reject 30% more applications from lower-caste surnames. Which political theory framework would condemn this most strongly?",
+          "options": [
+            "Nozick's libertarianism (any voluntary exchange is just)",
+            "Rawls' justice as fairness (difference principle violated)",
+            "Hobbes' Leviathan (state decides what's fair)",
+            "Ancient Greek virtue ethics only"
+          ],
+          "answer": "B",
+          "difficulty": "intelligenceAge",
+          "feedback": {
+            "correct": "Correct! Rawls' difference principle: inequalities are just only if they benefit the least advantaged. A biased AI that disadvantages already-marginalised groups violates both the difference principle and equal opportunity.",
+            "incorrect": "Rawls' framework condemns this most directly: the AI creates systematic disadvantage for already vulnerable groups, violating both equal opportunity and the difference principle.",
+            "intelligenceAgeHint": "India's Supreme Court has ruled on algorithmic discrimination cases. The political theory you study — Rawlsian justice, fundamental rights — directly informs Supreme Court judgements on AI discrimination cases."
+          }
+        }
+      ],
+      "competitivePlugin": {
+        "upscEdge": "UPSC GS2: Know key political theorists — Hobbes (Leviathan, social contract for security), Locke (life-liberty-property, consent), Rousseau (general will, direct democracy), Rawls (justice as fairness, difference principle), Amartya Sen (capabilities approach).",
+        "mnemonicAgent": "HLRRS for political thinkers: Hobbes (security), Locke (liberty-property), Rousseau (general will), Rawls (fairness veil), Sen (capabilities). 'HLRRS — Historical Liberal Radical Rawlsian Sen perspectives.'"
+      }
+    }
+  ]
+}
