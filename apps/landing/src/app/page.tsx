@@ -1,11 +1,25 @@
+
+import Hero from "@/components/Hero";
+import NavigationHub from "@/components/NavigationHub";
+import ThreeWings from "@/components/ThreeWings";
+import CurriculumAddons from "@/components/CurriculumAddons";
+import IndustryVoices from "@/components/IndustryVoices";
+import CallToAction from "@/components/CallToAction";
+import Footer from "@/components/Footer";
+
 import { Hero } from '@/components/Hero';
 import { Features } from '@/components/Features';
 import { BoardNav } from '@/components/BoardNav';
 import { Pricing } from '@/components/Pricing';
 import { Testimonials } from '@/components/Testimonials';
 
+
 export default function LandingPage() {
   return (
+
+    <>
+      <main>
+
     <main className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
@@ -43,6 +57,7 @@ export default function LandingPage() {
 
       {/* Main Content */}
       <div className="pt-16">
+
         <Hero />
         <BoardNav />
         <Features />
