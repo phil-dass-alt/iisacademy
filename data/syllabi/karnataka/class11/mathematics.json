@@ -1,0 +1,26 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "karnataka",
+  "class": 11,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce/Arts",
+  "wing": "senior",
+  "chapters": [
+    { "id": "kseab-11-math-01", "number": 1, "name": "Sets", "topics": ["Set Theory", "Set Operations", "Venn Diagrams"], "enhancement": "Set Theory in Databases" },
+    { "id": "kseab-11-math-02", "number": 2, "name": "Relations and Functions", "topics": ["Types of Relations", "Composition of Functions"], "enhancement": "Functional Programming & AI" },
+    { "id": "kseab-11-math-03", "number": 3, "name": "Trigonometric Functions", "topics": ["Radians", "Trigonometric Identities", "Inverse Functions"], "enhancement": "3D Vision & Robotics" },
+    { "id": "kseab-11-math-04", "number": 4, "name": "Principle of Mathematical Induction", "topics": ["Inductive Proofs", "Sum Formulae"], "enhancement": "Formal Verification in CS" },
+    { "id": "kseab-11-math-05", "number": 5, "name": "Complex Numbers and Quadratic Equations", "topics": ["Argand Plane", "De Moivre's Theorem"], "enhancement": "Signal Processing" },
+    { "id": "kseab-11-math-06", "number": 6, "name": "Linear Inequalities", "topics": ["Algebraic & Graphical Solutions"], "enhancement": "Linear Programming & AI Optimization" },
+    { "id": "kseab-11-math-07", "number": 7, "name": "Permutations and Combinations", "topics": ["nPr", "nCr", "Combinations"], "enhancement": "Combinatorial Algorithms" },
+    { "id": "kseab-11-math-08", "number": 8, "name": "Binomial Theorem", "topics": ["Binomial Expansion", "Pascal's Triangle"], "enhancement": "Probability & ML" },
+    { "id": "kseab-11-math-09", "number": 9, "name": "Sequences and Series", "topics": ["AP", "GP", "Special Sums"], "enhancement": "Recurrent Neural Networks" },
+    { "id": "kseab-11-math-10", "number": 10, "name": "Straight Lines", "topics": ["Slope", "Line Equations", "Distance"], "enhancement": "Computer Vision & CAD" },
+    { "id": "kseab-11-math-11", "number": 11, "name": "Conic Sections", "topics": ["Circle", "Parabola", "Ellipse", "Hyperbola"], "enhancement": "Antenna Design & Orbital Mechanics" },
+    { "id": "kseab-11-math-12", "number": 12, "name": "Introduction to 3D Geometry", "topics": ["3D Coordinates", "Distance in 3D"], "enhancement": "3D Printing & Spatial AI" },
+    { "id": "kseab-11-math-13", "number": 13, "name": "Limits and Derivatives", "topics": ["Limits", "Continuity", "Derivatives"], "enhancement": "Gradient Descent & Neural Networks" },
+    { "id": "kseab-11-math-14", "number": 14, "name": "Mathematical Reasoning", "topics": ["Statements", "Logic Connectives", "Validity"], "enhancement": "Boolean Logic & Circuit Design" },
+    { "id": "kseab-11-math-15", "number": 15, "name": "Statistics", "topics": ["Dispersion", "Standard Deviation", "Variance"], "enhancement": "Data Science & Analytics" },
+    { "id": "kseab-11-math-16", "number": 16, "name": "Probability", "topics": ["Sample Space", "Events", "Probability Rules"], "enhancement": "Probabilistic AI" }
+  ]
+}

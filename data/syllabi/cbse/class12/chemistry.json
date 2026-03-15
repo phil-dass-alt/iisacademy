@@ -1,0 +1,24 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Chemistry",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-chem-01", "number": 1, "name": "The Solid State", "topics": ["Crystal Structures", "Defects in Solids", "Properties of Solids"], "enhancement": "New Material Discovery AI", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-02", "number": 2, "name": "Solutions", "topics": ["Types of Solutions", "Colligative Properties", "Van't Hoff Factor"], "enhancement": "Pharmaceutical Formulations", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-03", "number": 3, "name": "Electrochemistry", "topics": ["Galvanic Cells", "Faraday's Laws", "Nernst Equation", "Batteries"], "enhancement": "EV Battery Tech & Energy Storage", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-04", "number": 4, "name": "Chemical Kinetics", "topics": ["Rate of Reaction", "Rate Law", "Activation Energy", "Arrhenius Equation"], "enhancement": "Catalysis & Industrial Chemistry AI", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-05", "number": 5, "name": "Surface Chemistry", "topics": ["Adsorption", "Colloids", "Emulsions", "Catalysis"], "enhancement": "Nanomaterials & Drug Delivery", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "cbse-12-chem-06", "number": 6, "name": "General Principles of Isolation of Elements", "topics": ["Metallurgy", "Reduction Methods", "Refining"], "enhancement": "Sustainable Mining & Recycling AI", "competitivePlugin": { "jee": false, "neet": false } },
+    { "id": "cbse-12-chem-07", "number": 7, "name": "p-Block Elements", "topics": ["Groups 15–18", "Key Compounds", "Interhalogen Compounds"], "enhancement": "Semiconductor & Display Technology", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-08", "number": 8, "name": "d and f Block Elements", "topics": ["Transition Metals", "Lanthanides", "Actinides"], "enhancement": "Rare Earth Elements in Tech", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-09", "number": 9, "name": "Coordination Compounds", "topics": ["Werner's Theory", "Nomenclature", "Bonding", "Isomerism"], "enhancement": "Drug Coordination Chemistry", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-10", "number": 10, "name": "Haloalkanes and Haloarenes", "topics": ["Nomenclature", "Reactions", "Stereochemistry"], "enhancement": "Pharmaceutical Synthesis AI", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-11", "number": 11, "name": "Alcohols, Phenols and Ethers", "topics": ["Properties", "Reactions", "Preparation"], "enhancement": "Green Solvents & Biofuels", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-12", "number": 12, "name": "Aldehydes, Ketones and Carboxylic Acids", "topics": ["Nucleophilic Addition", "Aldol Condensation", "Reactions"], "enhancement": "Flavour & Fragrance Industry", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-13", "number": 13, "name": "Amines", "topics": ["Classification", "Properties", "Reactions", "Diazonium Salts"], "enhancement": "Synthetic Dyes & Textile AI", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-chem-14", "number": 14, "name": "Biomolecules", "topics": ["Carbohydrates", "Proteins", "DNA/RNA", "Vitamins", "Hormones"], "enhancement": "Genomics & Computational Biology", "competitivePlugin": { "jee": false, "neet": true } }
+  ]
+}

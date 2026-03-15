@@ -1,0 +1,20 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "icse",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "icse-11-phy-01", "number": 1, "name": "Physical World and Measurement", "topics": ["Fundamental Quantities", "SI Units", "Dimensional Analysis"], "enhancement": "Precision Instruments & Metrology AI" },
+    { "id": "icse-11-phy-02", "number": 2, "name": "Kinematics", "topics": ["Scalars & Vectors", "Motion in a Plane", "Projectile Motion"], "enhancement": "Drone Navigation & Autonomous Vehicles" },
+    { "id": "icse-11-phy-03", "number": 3, "name": "Laws of Motion", "topics": ["Newton's Laws", "Friction", "Circular Motion Dynamics"], "enhancement": "Robotics & Space Launch Dynamics" },
+    { "id": "icse-11-phy-04", "number": 4, "name": "Work, Energy and Power", "topics": ["Work-Energy Theorem", "Potential Energy", "Elastic Collisions"], "enhancement": "Renewable Energy Systems" },
+    { "id": "icse-11-phy-05", "number": 5, "name": "Motion of System of Particles", "topics": ["Centre of Mass", "Angular Momentum", "Torque", "Moment of Inertia"], "enhancement": "Gyroscopes & Satellite Control" },
+    { "id": "icse-11-phy-06", "number": 6, "name": "Gravitation", "topics": ["Kepler's Laws", "Gravitational Potential", "Satellite Motion"], "enhancement": "GPS Satellites & Space Technology" },
+    { "id": "icse-11-phy-07", "number": 7, "name": "Properties of Bulk Matter", "topics": ["Elasticity", "Fluid Statics", "Bernoulli's Theorem", "Surface Tension"], "enhancement": "Biomechanics & Smart Materials" },
+    { "id": "icse-11-phy-08", "number": 8, "name": "Thermodynamics", "topics": ["Zeroth to Third Laws", "Carnot Engine", "Entropy", "Gibbs Function"], "enhancement": "Sustainable Energy & Thermodynamic AI" },
+    { "id": "icse-11-phy-09", "number": 9, "name": "Behaviour of Perfect Gas and Kinetic Theory", "topics": ["Ideal Gas Equation", "Kinetic Energy", "Degrees of Freedom"], "enhancement": "Molecular Dynamics Simulation" },
+    { "id": "icse-11-phy-10", "number": 10, "name": "Oscillations and Waves", "topics": ["SHM", "Wave Equation", "Standing Waves", "Doppler Effect"], "enhancement": "Medical Ultrasound & Noise Cancellation" }
+  ]
+}

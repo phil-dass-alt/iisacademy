@@ -1,0 +1,22 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Business Studies",
+  "stream": "Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-bs-01", "number": 1, "name": "Nature and Significance of Management", "topics": ["Levels of Management", "Functions of Management", "Effectiveness vs Efficiency"], "enhancement": "AI-Powered Management Tools" },
+    { "id": "cbse-12-bs-02", "number": 2, "name": "Principles of Management", "topics": ["Fayol's Principles", "Taylor's Scientific Management"], "enhancement": "Agile & OKR Management Frameworks" },
+    { "id": "cbse-12-bs-03", "number": 3, "name": "Business Environment", "topics": ["PESTLE Analysis", "Economic Environment", "Policy Environment"], "enhancement": "ESG Investing & Sustainability Reporting" },
+    { "id": "cbse-12-bs-04", "number": 4, "name": "Planning", "topics": ["Types of Plans", "Planning Process", "MBO"], "enhancement": "AI Strategic Planning & Scenario Modeling" },
+    { "id": "cbse-12-bs-05", "number": 5, "name": "Organising", "topics": ["Organisation Structure", "Delegation", "Decentralisation"], "enhancement": "Remote Work & Digital Organisations" },
+    { "id": "cbse-12-bs-06", "number": 6, "name": "Staffing", "topics": ["Recruitment", "Selection", "Training & Development"], "enhancement": "HR Tech & AI Hiring" },
+    { "id": "cbse-12-bs-07", "number": 7, "name": "Directing", "topics": ["Motivation", "Leadership", "Communication", "Supervision"], "enhancement": "People Analytics & Employee Engagement AI" },
+    { "id": "cbse-12-bs-08", "number": 8, "name": "Controlling", "topics": ["Control Process", "Techniques", "Deviations"], "enhancement": "Real-Time Business Intelligence & KPI Dashboards" },
+    { "id": "cbse-12-bs-09", "number": 9, "name": "Financial Management", "topics": ["Financial Planning", "Capital Structure", "Working Capital"], "enhancement": "Corporate FinTech & Treasury AI" },
+    { "id": "cbse-12-bs-10", "number": 10, "name": "Financial Markets", "topics": ["Money Market", "Capital Market", "SEBI", "Stock Exchange"], "enhancement": "Algorithmic Trading & RegTech" },
+    { "id": "cbse-12-bs-11", "number": 11, "name": "Marketing Management", "topics": ["Marketing Mix (4Ps)", "Consumer Behaviour", "Branding"], "enhancement": "Digital Marketing AI & Growth Hacking" },
+    { "id": "cbse-12-bs-12", "number": 12, "name": "Consumer Protection", "topics": ["Consumer Rights", "COPRA", "Redressal Mechanisms"], "enhancement": "Digital Consumer Rights & AI Compliance" }
+  ]
+}

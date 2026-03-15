@@ -1,0 +1,23 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-math-01", "number": 1, "name": "Relations and Functions", "topics": ["Types of Relations", "Composition of Functions", "Inverse Functions"], "enhancement": "Functional Programming & AI", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-02", "number": 2, "name": "Inverse Trigonometric Functions", "topics": ["Inverse Trig Formulae", "Properties", "Principal Values"], "enhancement": "Robotics & 3D Vision", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-03", "number": 3, "name": "Matrices", "topics": ["Types of Matrices", "Matrix Operations", "Transpose", "Symmetric"], "enhancement": "Neural Network Mathematics", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-04", "number": 4, "name": "Determinants", "topics": ["Properties of Determinants", "Cofactors", "Adjoint", "Inverse"], "enhancement": "Computer Graphics Transformations", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-05", "number": 5, "name": "Continuity and Differentiability", "topics": ["Continuity", "Differentiability", "Chain Rule", "Implicit Differentiation"], "enhancement": "Gradient Descent in Machine Learning", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-06", "number": 6, "name": "Application of Derivatives", "topics": ["Tangents & Normals", "Increasing/Decreasing", "Maxima & Minima"], "enhancement": "AI Optimization Algorithms", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-07", "number": 7, "name": "Integrals", "topics": ["Integration by Parts", "Partial Fractions", "Definite Integrals"], "enhancement": "Area Under Curves in Data Science", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-08", "number": 8, "name": "Application of Integrals", "topics": ["Area Between Curves", "Area Under Curve"], "enhancement": "Signal Processing & Fourier Analysis", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-09", "number": 9, "name": "Differential Equations", "topics": ["Order & Degree", "Separation of Variables", "Linear DE"], "enhancement": "Epidemiology & Climate Modeling", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-10", "number": 10, "name": "Vector Algebra", "topics": ["Dot Product", "Cross Product", "Direction Cosines"], "enhancement": "3D Game Engines & Robotics", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-11", "number": 11, "name": "Three Dimensional Geometry", "topics": ["Lines in 3D", "Planes", "Skew Lines", "Distance Formulae"], "enhancement": "CAD & Architectural Design AI", "competitivePlugin": { "jee": true } },
+    { "id": "cbse-12-math-12", "number": 12, "name": "Linear Programming", "topics": ["Feasible Region", "Corner Point Method", "Optimisation"], "enhancement": "Operations Research & Supply Chain AI", "competitivePlugin": { "jee": false } },
+    { "id": "cbse-12-math-13", "number": 13, "name": "Probability", "topics": ["Conditional Probability", "Bayes' Theorem", "Random Variables", "Binomial Distribution"], "enhancement": "Probabilistic AI & Risk Analysis", "competitivePlugin": { "jee": true } }
+  ]
+}

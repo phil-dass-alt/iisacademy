@@ -1,0 +1,18 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "andhra-pradesh",
+  "class": 12,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "ap-12-phy-01", "number": 1, "name": "Electrostatics", "topics": ["Electric Field", "Gauss's Law", "Potential", "Capacitors"], "enhancement": "AI Chip Design & MEMS", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-02", "number": 2, "name": "Current Electricity", "topics": ["Ohm's Law", "Kirchhoff's Laws", "Meters"], "enhancement": "Smart Meters & Power Distribution AI", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-03", "number": 3, "name": "Magnetism", "topics": ["Magnetic Field", "Biot-Savart", "Electromagnetic Induction"], "enhancement": "MRI & Maglev Technology", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "ap-12-phy-04", "number": 4, "name": "AC and Electromagnetic Waves", "topics": ["LCR Circuit", "Transformers", "EM Spectrum"], "enhancement": "5G & Satellite Communication", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-05", "number": 5, "name": "Optics", "topics": ["Ray Optics", "Wave Optics", "Optical Fibres"], "enhancement": "Photonics & LiDAR Systems", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-06", "number": 6, "name": "Dual Nature and Atomic Physics", "topics": ["Photoelectric Effect", "Bohr Model", "X-Rays"], "enhancement": "Quantum Computing & Cancer Radiotherapy", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-07", "number": 7, "name": "Nuclear Physics", "topics": ["Binding Energy", "Radioactivity", "Fission", "Fusion"], "enhancement": "Nuclear Fusion Energy & PET Scans", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "ap-12-phy-08", "number": 8, "name": "Semiconductor Devices and Communication", "topics": ["Diodes", "Transistors", "Modulation", "Satellites"], "enhancement": "Edge AI & Quantum Dots", "competitivePlugin": { "jee": true, "neet": false } }
+  ]
+}

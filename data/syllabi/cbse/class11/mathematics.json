@@ -1,0 +1,24 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce/Arts",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-11-math-01", "number": 1, "name": "Sets", "topics": ["Types of Sets", "Venn Diagrams", "Set Operations"], "enhancement": "Database Theory" },
+    { "id": "cbse-11-math-02", "number": 2, "name": "Relations and Functions", "topics": ["Domain & Range", "Types of Functions", "Composition"], "enhancement": "Functional Programming" },
+    { "id": "cbse-11-math-03", "number": 3, "name": "Trigonometric Functions", "topics": ["Angles", "Trigonometric Ratios", "Identities", "Inverse Trig"], "enhancement": "Computer Graphics & Robotics" },
+    { "id": "cbse-11-math-04", "number": 4, "name": "Complex Numbers and Quadratic Equations", "topics": ["Complex Plane", "Polar Form", "Quadratic Formula"], "enhancement": "Signal Processing & AC Circuits" },
+    { "id": "cbse-11-math-05", "number": 5, "name": "Linear Inequalities", "topics": ["Algebraic Solutions", "Graphical Method"], "enhancement": "Linear Programming & Optimization" },
+    { "id": "cbse-11-math-06", "number": 6, "name": "Permutations and Combinations", "topics": ["Factorial", "nPr", "nCr", "Binomial"], "enhancement": "Cryptography & Probability" },
+    { "id": "cbse-11-math-07", "number": 7, "name": "Binomial Theorem", "topics": ["Binomial Expansion", "General Term", "Middle Term"], "enhancement": "Probability Distributions" },
+    { "id": "cbse-11-math-08", "number": 8, "name": "Sequences and Series", "topics": ["AP", "GP", "HP", "Sum of Sequences"], "enhancement": "Algorithms & Neural Networks" },
+    { "id": "cbse-11-math-09", "number": 9, "name": "Straight Lines", "topics": ["Slope", "Equations of Lines", "Distance Formula"], "enhancement": "Computer Vision" },
+    { "id": "cbse-11-math-10", "number": 10, "name": "Conic Sections", "topics": ["Circle", "Parabola", "Ellipse", "Hyperbola"], "enhancement": "Satellite Orbits & Antennas" },
+    { "id": "cbse-11-math-11", "number": 11, "name": "Introduction to 3D Geometry", "topics": ["Coordinates in 3D", "Distance & Section Formula"], "enhancement": "3D Graphics & Gaming" },
+    { "id": "cbse-11-math-12", "number": 12, "name": "Limits and Derivatives", "topics": ["Limits", "Continuity", "Derivatives", "Chain Rule"], "enhancement": "Machine Learning Gradient Descent" },
+    { "id": "cbse-11-math-13", "number": 13, "name": "Statistics", "topics": ["Mean", "Median", "Mode", "Standard Deviation", "Variance"], "enhancement": "Data Science & AI" },
+    { "id": "cbse-11-math-14", "number": 14, "name": "Probability", "topics": ["Events", "Conditional Probability", "Bayes' Theorem"], "enhancement": "AI Decision Systems" }
+  ]
+}

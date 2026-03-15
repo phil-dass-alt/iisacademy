@@ -1,0 +1,32 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Biology",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-11-bio-01", "number": 1, "name": "The Living World", "topics": ["Characteristics of Life", "Classification", "Nomenclature"], "enhancement": "Bioinformatics & AI Species ID" },
+    { "id": "cbse-11-bio-02", "number": 2, "name": "Biological Classification", "topics": ["Five Kingdom Classification", "Viruses", "Lichens"], "enhancement": "Genomics & AI Diagnostics" },
+    { "id": "cbse-11-bio-03", "number": 3, "name": "Plant Kingdom", "topics": ["Algae", "Bryophytes", "Pteridophytes", "Gymnosperms", "Angiosperms"], "enhancement": "Plant-Based Medicines & Biotech" },
+    { "id": "cbse-11-bio-04", "number": 4, "name": "Animal Kingdom", "topics": ["Classification Criteria", "Phyla", "Chordates vs Non-chordates"], "enhancement": "Biomimicry & Robotics" },
+    { "id": "cbse-11-bio-05", "number": 5, "name": "Morphology of Flowering Plants", "topics": ["Root", "Stem", "Leaf", "Flower", "Fruit"], "enhancement": "Agricultural AI & Precision Farming" },
+    { "id": "cbse-11-bio-06", "number": 6, "name": "Anatomy of Flowering Plants", "topics": ["Tissues", "Tissue Systems", "Secondary Growth"], "enhancement": "Biomaterials Engineering" },
+    { "id": "cbse-11-bio-07", "number": 7, "name": "Structural Organisation in Animals", "topics": ["Epithelial Tissue", "Connective Tissue", "Cockroach Anatomy"], "enhancement": "Medical Imaging & AI Diagnostics" },
+    { "id": "cbse-11-bio-08", "number": 8, "name": "Cell: The Unit of Life", "topics": ["Prokaryotes vs Eukaryotes", "Cell Organelles", "Cell Membrane"], "enhancement": "Nanotechnology & Drug Delivery" },
+    { "id": "cbse-11-bio-09", "number": 9, "name": "Biomolecules", "topics": ["Carbohydrates", "Proteins", "Lipids", "Nucleic Acids", "Enzymes"], "enhancement": "Protein Engineering & CRISPR" },
+    { "id": "cbse-11-bio-10", "number": 10, "name": "Cell Cycle and Cell Division", "topics": ["Mitosis", "Meiosis", "Cell Cycle Regulation"], "enhancement": "Cancer Research & AI Drug Discovery" },
+    { "id": "cbse-11-bio-11", "number": 11, "name": "Transport in Plants", "topics": ["Diffusion", "Osmosis", "Water Potential", "Transpiration"], "enhancement": "Biomimetic Water Harvesting" },
+    { "id": "cbse-11-bio-12", "number": 12, "name": "Mineral Nutrition", "topics": ["Essential Minerals", "Nitrogen Fixation", "Soil Biology"], "enhancement": "Smart Agriculture & Vertical Farming" },
+    { "id": "cbse-11-bio-13", "number": 13, "name": "Photosynthesis in Higher Plants", "topics": ["Light Reactions", "Calvin Cycle", "C4 Plants", "Photorespiration"], "enhancement": "Artificial Photosynthesis & Solar Energy" },
+    { "id": "cbse-11-bio-14", "number": 14, "name": "Respiration in Plants", "topics": ["Glycolysis", "Krebs Cycle", "Electron Transport Chain"], "enhancement": "Bioenergy & Mitochondrial Medicine" },
+    { "id": "cbse-11-bio-15", "number": 15, "name": "Plant Growth and Development", "topics": ["Growth Phases", "Hormones", "Photoperiodism", "Vernalisation"], "enhancement": "AgriTech & Climate-Resilient Crops" },
+    { "id": "cbse-11-bio-16", "number": 16, "name": "Digestion and Absorption", "topics": ["Digestive System", "Enzymes", "Absorption of Nutrients"], "enhancement": "Gut Microbiome & Personalized Nutrition" },
+    { "id": "cbse-11-bio-17", "number": 17, "name": "Breathing and Exchange of Gases", "topics": ["Respiratory Organs", "Mechanism of Breathing", "Gas Exchange"], "enhancement": "Wearable Health Sensors" },
+    { "id": "cbse-11-bio-18", "number": 18, "name": "Body Fluids and Circulation", "topics": ["Blood", "Lymph", "Heart", "ECG", "Circulation"], "enhancement": "Cardiac AI & Biosensors" },
+    { "id": "cbse-11-bio-19", "number": 19, "name": "Excretory Products and Their Elimination", "topics": ["Kidney", "Urine Formation", "Homeostasis"], "enhancement": "Dialysis Tech & Organ-on-Chip" },
+    { "id": "cbse-11-bio-20", "number": 20, "name": "Locomotion and Movement", "topics": ["Muscles", "Skeletal System", "Joints", "Disorders"], "enhancement": "Exoskeleton & Prosthetics AI" },
+    { "id": "cbse-11-bio-21", "number": 21, "name": "Neural Control and Coordination", "topics": ["Nervous System", "Neuron", "Reflex Action", "Sense Organs"], "enhancement": "Brain-Computer Interfaces" },
+    { "id": "cbse-11-bio-22", "number": 22, "name": "Chemical Coordination and Integration", "topics": ["Endocrine Glands", "Hormones", "Feedback Mechanisms"], "enhancement": "Synthetic Biology & Hormone Therapy" }
+  ]
+}

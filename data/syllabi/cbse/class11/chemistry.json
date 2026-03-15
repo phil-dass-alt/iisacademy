@@ -1,0 +1,24 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Chemistry",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-11-chem-01", "number": 1, "name": "Some Basic Concepts of Chemistry", "topics": ["Mole Concept", "Atomic Mass", "Stoichiometry"], "enhancement": "AI Molecular Simulation" },
+    { "id": "cbse-11-chem-02", "number": 2, "name": "Structure of Atom", "topics": ["Bohr Model", "Quantum Numbers", "Orbitals", "Electronic Configuration"], "enhancement": "Quantum Computing Materials" },
+    { "id": "cbse-11-chem-03", "number": 3, "name": "Classification of Elements and Periodicity", "topics": ["Periodic Law", "Trends in Properties", "Blocks"], "enhancement": "New Material Discovery AI" },
+    { "id": "cbse-11-chem-04", "number": 4, "name": "Chemical Bonding and Molecular Structure", "topics": ["Ionic Bond", "Covalent Bond", "VSEPR", "Hybridisation"], "enhancement": "Drug Design & Molecular Docking" },
+    { "id": "cbse-11-chem-05", "number": 5, "name": "States of Matter", "topics": ["Gas Laws", "Kinetic Theory of Gases", "Liquids"], "enhancement": "Industrial Process Optimization" },
+    { "id": "cbse-11-chem-06", "number": 6, "name": "Thermodynamics", "topics": ["Enthalpy", "Entropy", "Gibbs Energy", "Spontaneity"], "enhancement": "Green Chemistry & Sustainability" },
+    { "id": "cbse-11-chem-07", "number": 7, "name": "Equilibrium", "topics": ["Le Chatelier's Principle", "Kp & Kc", "pH", "Buffer Solutions"], "enhancement": "Pharmaceutical Manufacturing" },
+    { "id": "cbse-11-chem-08", "number": 8, "name": "Redox Reactions", "topics": ["Oxidation State", "Balancing Redox", "Electrochemistry Basics"], "enhancement": "Battery Technology & EVs" },
+    { "id": "cbse-11-chem-09", "number": 9, "name": "Hydrogen", "topics": ["Properties of Hydrogen", "Water", "Hydrogen Peroxide"], "enhancement": "Green Hydrogen Energy" },
+    { "id": "cbse-11-chem-10", "number": 10, "name": "s-Block Elements", "topics": ["Alkali Metals", "Alkaline Earth Metals", "Compounds"], "enhancement": "Lithium Batteries & Smart Materials" },
+    { "id": "cbse-11-chem-11", "number": 11, "name": "p-Block Elements", "topics": ["Groups 13–18", "Important Compounds", "Properties"], "enhancement": "Semiconductors & Solar Cells" },
+    { "id": "cbse-11-chem-12", "number": 12, "name": "Organic Chemistry: Basic Principles", "topics": ["IUPAC Nomenclature", "Isomerism", "Reaction Mechanisms"], "enhancement": "Computational Organic Chemistry" },
+    { "id": "cbse-11-chem-13", "number": 13, "name": "Hydrocarbons", "topics": ["Alkanes", "Alkenes", "Alkynes", "Aromatic Compounds"], "enhancement": "Biofuels & Sustainable Plastics" },
+    { "id": "cbse-11-chem-14", "number": 14, "name": "Environmental Chemistry", "topics": ["Air Pollution", "Water Pollution", "Green Chemistry"], "enhancement": "AI Environmental Monitoring" }
+  ]
+}

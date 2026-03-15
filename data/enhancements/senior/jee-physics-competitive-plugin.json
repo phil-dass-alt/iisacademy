@@ -1,0 +1,100 @@
+{
+  "id": "competitive-plugin-jee-physics",
+  "title": "JEE Physics Competitive Plugin",
+  "description": "Targeted competitive preparation modules for JEE Main & Advanced — Physics edge content across all Class 11 & 12 chapters",
+  "targetExam": "JEE",
+  "wing": "senior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "modules": [
+    {
+      "id": "jee-phy-electrostatics-edge",
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "class": 12,
+      "weightageInJEE": "High (6–8% of Physics)",
+      "patternRecognition": [
+        "JEE loves: Electric field due to continuous charge distributions — always set up the integral",
+        "JEE loves: System of charges energy — count ALL pairs, use U = kq₁q₂/r",
+        "JEE loves: Potential and field in conducting/cavity problems",
+        "NEET loves: Field line diagrams, Faraday cage, dielectric intuition"
+      ],
+      "calculationHacks": [
+        "E due to uniformly charged ring at axis: E = kQx/(x²+R²)^(3/2); peaks at x = R/√2",
+        "E due to infinite line charge: E = λ/(2πε₀r) — use λ = charge per unit length",
+        "E due to infinite plane: E = σ/(2ε₀) — independent of distance!",
+        "For two concentric shells, always use superposition"
+      ],
+      "highDifficultyProblems": [
+        {
+          "type": "Integration Problem",
+          "description": "Find E on axis of uniformly charged disc",
+          "solution": "E_disc = σ/(2ε₀) × [1 - x/√(x²+R²)] — derived by integrating ring formula over radius"
+        },
+        {
+          "type": "Energy Problem",
+          "description": "Three charges at corners of equilateral triangle — find total PE",
+          "solution": "U = k[q₁q₂/a + q₂q₃/a + q₁q₃/a] — sum all 3 pairs × Coulomb's constant"
+        }
+      ],
+      "mnemonicAgents": [
+        "CAGE = Coulomb → Applications → Gauss → Energy density",
+        "'Shells shield' — conductor shields interior from external E field",
+        "PLANE stays SAME — E from infinite plane is constant (doesn't depend on distance)"
+      ]
+    },
+    {
+      "id": "jee-phy-mechanics-edge",
+      "subject": "Physics",
+      "chapter": "Laws of Motion",
+      "class": 11,
+      "weightageInJEE": "High (8–10% of Physics)",
+      "patternRecognition": [
+        "JEE loves: Constraint motion — Atwood machine variants with pulleys",
+        "JEE loves: Pseudo force in non-inertial frames (accelerating cars, elevators)",
+        "JEE loves: Friction problems with angled surfaces and multiple blocks",
+        "NEET loves: Conceptual questions on inertia and Newton's laws"
+      ],
+      "calculationHacks": [
+        "For Atwood machine: a = (m₁-m₂)g/(m₁+m₂), T = 2m₁m₂g/(m₁+m₂)",
+        "Apparent weight in lift: N = m(g±a) — add when accelerating up, subtract when down",
+        "Spring scale reads normal force, NOT actual weight",
+        "In inclined plane: resolve along & perpendicular to incline, not horizontal/vertical"
+      ],
+      "mnemonicAgents": [
+        "FAMA = Force = Acceleration × Mass Always",
+        "'Friction first finds static limit, then kinetic kicks in'",
+        "LIFT: Load direction determines apparent weight: Up→N increases, Down→N decreases"
+      ]
+    },
+    {
+      "id": "jee-phy-magnetism-edge",
+      "subject": "Physics",
+      "chapter": "Moving Charges and Magnetism",
+      "class": 12,
+      "weightageInJEE": "High (5–7% of Physics)",
+      "patternRecognition": [
+        "JEE loves: Force on current-carrying conductor in magnetic field",
+        "JEE loves: Motion of charged particle in combined E and B fields",
+        "JEE loves: Biot-Savart Law for circular loop, solenoid, toroid"
+      ],
+      "calculationHacks": [
+        "Radius of circular motion in B field: r = mv/(qB) = p/(qB)",
+        "Time period independent of v: T = 2πm/(qB) — cyclotron frequency",
+        "Force on straight wire: F = BIL sin θ",
+        "B at centre of circular loop: B = μ₀I/(2R)"
+      ],
+      "mnemonicAgents": [
+        "FIBS = Force Is Biot-Savart (for field) and F=qvB (for force on charge)",
+        "Right-hand rule: thumb points current, fingers curl → field direction"
+      ]
+    }
+  ],
+  "mockTestConfig": {
+    "totalTime": 60,
+    "totalQuestions": 20,
+    "marking": { "correct": 4, "incorrect": -1, "unattempted": 0 },
+    "adaptiveRanking": true,
+    "feedbackMode": "immediate"
+  }
+}

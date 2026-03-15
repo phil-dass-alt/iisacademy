@@ -1,0 +1,20 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "andhra-pradesh",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "ap-11-phy-01", "number": 1, "name": "Physical World", "topics": ["Scientific Method", "Units", "Measurement"], "enhancement": "Precision Instrumentation" },
+    { "id": "ap-11-phy-02", "number": 2, "name": "Motion in a Straight Line", "topics": ["Kinematics", "Equations of Motion", "Graphs"], "enhancement": "Autonomous Vehicle Kinematics" },
+    { "id": "ap-11-phy-03", "number": 3, "name": "Motion in a Plane", "topics": ["Vectors", "Projectile Motion", "Relative Motion"], "enhancement": "Missile Guidance Systems" },
+    { "id": "ap-11-phy-04", "number": 4, "name": "Laws of Motion", "topics": ["Newton's Laws", "Friction", "Momentum"], "enhancement": "Launch Vehicle Dynamics" },
+    { "id": "ap-11-phy-05", "number": 5, "name": "Work, Energy and Power", "topics": ["KE & PE", "Conservative Forces", "Collisions"], "enhancement": "Energy Storage & Smart Grids" },
+    { "id": "ap-11-phy-06", "number": 6, "name": "Systems of Particles and Rotational Motion", "topics": ["Centre of Mass", "Moment of Inertia", "Rolling"], "enhancement": "Wind Turbine & Flywheel Tech" },
+    { "id": "ap-11-phy-07", "number": 7, "name": "Gravitation", "topics": ["Universal Law", "Orbital Mechanics", "Tides"], "enhancement": "ISRO Missions & Orbital Mechanics" },
+    { "id": "ap-11-phy-08", "number": 8, "name": "Mechanical Properties of Matter", "topics": ["Elasticity", "Fluid Statics", "Bernoulli's Theorem"], "enhancement": "Biomaterials & Fluid Robotics" },
+    { "id": "ap-11-phy-09", "number": 9, "name": "Thermal Physics", "topics": ["Laws of Thermodynamics", "Entropy", "Kinetic Theory"], "enhancement": "Thermoelectric Generators & Climate Science" },
+    { "id": "ap-11-phy-10", "number": 10, "name": "Waves and Sound", "topics": ["Wave Nature", "Sound Waves", "Doppler Effect"], "enhancement": "SONAR & Medical Imaging" }
+  ]
+}

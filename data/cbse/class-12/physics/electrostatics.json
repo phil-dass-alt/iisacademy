@@ -1,0 +1,233 @@
+{
+  "id": "cbse-12-phy-electrostatics",
+  "title": "Electric Charges and Fields",
+  "subject": "Physics",
+  "chapter": "Electric Charges and Fields",
+  "chapterNumber": 1,
+  "board": "cbse",
+  "class": 12,
+  "wing": "senior",
+  "stream": "Science",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "dualTrack": {
+    "boardLevel": {
+      "tag": "Board Level — What",
+      "description": "Core CBSE theory, derivations and exam-focused knowledge.",
+      "keyConcepts": [
+        "Coulomb's Law: F = k·q₁q₂/r² — the force between two point charges",
+        "Electric Field: E = F/q₀, directed away from +ve and toward –ve charges",
+        "Gauss's Law: ∮E·dA = Q_enc/ε₀ — flux through any closed surface equals enclosed charge/ε₀",
+        "Electric Flux: Φ = E·A·cos θ",
+        "Superposition Principle: Net force/field is vector sum of individual contributions"
+      ],
+      "examTips": [
+        "Always convert charge to coulombs and distance to metres in Coulomb's Law",
+        "Use symmetry to simplify Gauss's Law problems (spherical, cylindrical, planar symmetry)",
+        "Electric field lines never cross; density indicates field strength",
+        "Equipotential surfaces are perpendicular to electric field lines"
+      ]
+    },
+    "bridge": {
+      "tag": "The Bridge — How",
+      "description": "Advanced reasoning, calculus-based derivations, and JEE/NEET-level logic.",
+      "advancedConcepts": [
+        "Continuous charge distributions: E = ∫(dq/4πε₀r²)r̂ — integral form for line/surface/volume charges",
+        "Electric dipole in non-uniform fields experiences both force and torque",
+        "Energy stored in an electric field: u = ε₀E²/2 (energy density)",
+        "Conductor in electrostatic equilibrium: E_inside = 0, surface charge density σ relates to E at surface"
+      ],
+      "problemSolvingEdge": "For JEE, master the integration approach for charge distributions. Know when to use Gauss's Law (high symmetry) vs direct integration (asymmetric). NEET focuses on conceptual clarity and field-line diagrams."
+    },
+    "intelligenceAge": {
+      "tag": "Next — Intelligence Age",
+      "description": "How this chapter connects to modern technology, AI, and future careers.",
+      "applications": [
+        {
+          "title": "MEMS & Nanoscale Sensors",
+          "content": "Micro-Electro-Mechanical Systems (MEMS) used in phone accelerometers, medical devices and automotive sensors exploit electrostatic forces at nanoscale. The same Coulomb force you calculate in Chapter 1 governs the actuation of microscopic moving parts inside your smartphone."
+        },
+        {
+          "title": "Electrostatic Precipitators & Air Purification",
+          "content": "Industrial smoke filtration uses corona discharge to charge particles (Gauss's Law applies) and then collects them on oppositely charged plates. A ₹2,000 crore industry in India depends on Class 12 electrostatics."
+        },
+        {
+          "title": "Inkjet Printers & Electrostatic Painting",
+          "content": "Inkjet print heads deflect charged ink droplets using electric fields — a direct application of q·E = ma. Car body painting plants use electrostatic attraction to coat surfaces uniformly, reducing paint waste by 40%."
+        },
+        {
+          "title": "Quantum Computing — Charge Qubits",
+          "content": "In superconducting quantum computers (Google, IBM), quantum bits are stored as charge states of tiny capacitors operating at millikelvin temperatures. Gauss's Law and capacitor physics underpin the architecture of the world's most powerful computers."
+        }
+      ],
+      "careerConnect": "Roles: Semiconductor Engineer, MEMS Designer, RF/Antenna Engineer, Quantum Hardware Researcher. Requires: Electrostatics → EM Theory → Quantum Mechanics."
+    }
+  },
+  "competitivePlugin": {
+    "activated": true,
+    "streams": ["JEE", "NEET"],
+    "edgeModules": [
+      {
+        "title": "JEE Edge: Electrostatics High-Yield Topics",
+        "topics": [
+          "Electric field due to infinite line charge, plane sheet, solid sphere, spherical shell",
+          "Energy of a system of charges: U = Σ(k·qᵢqⱼ/rᵢⱼ) for all pairs",
+          "Image charge method for grounded conductors",
+          "Dielectric breakdown and its engineering significance"
+        ],
+        "calculationHacks": [
+          "For E due to ring: E_axis = kQx/(x²+R²)^(3/2) — memorise and derive in 30s",
+          "For infinite wire: E = λ/(2πε₀r) — use λ for line charge density",
+          "Energy of capacitor: U = Q²/2C = CV²/2 = QV/2 — all three equivalent"
+        ],
+        "mnemonicAgents": [
+          "CAGE: Coulomb → Applications → Gauss → Energy (chapter flow mnemonic)",
+          "For Gauss's Law symmetry: 'Sheep Can Produce' = Spherical, Cylindrical, Planar"
+        ]
+      },
+      {
+        "title": "NEET Edge: Conceptual Mastery",
+        "topics": [
+          "Electric field lines rules and interpretation",
+          "Shielding effect of conductors — Faraday cage applications",
+          "Charge distribution on conductors of different shapes",
+          "Principle of superposition applied to biological ion channels"
+        ]
+      }
+    ],
+    "voiceFlashcards": [
+      { "front": "State Coulomb's Law", "back": "F = kq₁q₂/r² where k = 9×10⁹ N·m²/C²", "voiceEnabled": true },
+      { "front": "State Gauss's Law", "back": "Total electric flux = Net enclosed charge / ε₀", "voiceEnabled": true },
+      { "front": "Electric field inside a conductor", "back": "Zero in electrostatic equilibrium — charges reside on surface", "voiceEnabled": true },
+      { "front": "Energy density of electric field", "back": "u = ε₀E²/2 joules per cubic metre", "voiceEnabled": true },
+      { "front": "E due to uniformly charged sphere (outside)", "back": "E = kQ/r² — same as point charge at centre", "voiceEnabled": true }
+    ]
+  },
+  "quiz": {
+    "id": "cbse-12-phy-electrostatics-quiz",
+    "title": "Electric Charges and Fields — 3-Stage Quiz",
+    "stages": [
+      {
+        "stage": "board",
+        "label": "Stage 1: Board Level",
+        "passingScore": 60,
+        "questions": [
+          {
+            "id": "b1",
+            "text": "Two charges +4μC and +9μC are placed 1 m apart in vacuum. What is the force between them?",
+            "options": [
+              { "id": "a", "text": "0.324 N (repulsive)" },
+              { "id": "b", "text": "0.324 N (attractive)" },
+              { "id": "c", "text": "36 N (repulsive)" },
+              { "id": "d", "text": "0.036 N (repulsive)" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "F = kq₁q₂/r² = 9×10⁹ × 4×10⁻⁶ × 9×10⁻⁶ / 1² = 9×10⁹ × 36×10⁻¹² = 0.324 N. Both positive → repulsive.",
+            "difficulty": "easy",
+            "enhancementTag": "Board Level"
+          },
+          {
+            "id": "b2",
+            "text": "The electric flux through a closed surface enclosing a charge of 2μC in vacuum is:",
+            "options": [
+              { "id": "a", "text": "2.26 × 10⁵ N·m²/C" },
+              { "id": "b", "text": "1.13 × 10⁵ N·m²/C" },
+              { "id": "c", "text": "4.52 × 10⁵ N·m²/C" },
+              { "id": "d", "text": "18 × 10³ N·m²/C" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "By Gauss's Law: Φ = Q/ε₀ = 2×10⁻⁶ / 8.85×10⁻¹² = 2.26×10⁵ N·m²/C",
+            "difficulty": "easy",
+            "enhancementTag": "Board Level"
+          },
+          {
+            "id": "b3",
+            "text": "A charge of 4C is placed at the centre of a cube of side 2m. The electric flux through one face is:",
+            "options": [
+              { "id": "a", "text": "4/6ε₀" },
+              { "id": "b", "text": "4/ε₀" },
+              { "id": "c", "text": "4/24ε₀" },
+              { "id": "d", "text": "1/ε₀" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Total flux = Q/ε₀ = 4/ε₀. By symmetry, a cube has 6 faces, so flux per face = 4/(6ε₀).",
+            "difficulty": "medium",
+            "enhancementTag": "Board Level"
+          }
+        ]
+      },
+      {
+        "stage": "competitive",
+        "label": "Stage 2: Competitive (JEE/NEET Edge)",
+        "passingScore": 60,
+        "bridgeHint": "You've cleared Board Level! Now apply advanced reasoning and calculation speed for JEE/NEET.",
+        "questions": [
+          {
+            "id": "c1",
+            "text": "An electric dipole of moment p = 2×10⁻⁹ C·m is placed in a uniform electric field E = 5×10⁴ N/C at angle 30° to E. The torque on the dipole is:",
+            "options": [
+              { "id": "a", "text": "5×10⁻⁵ N·m" },
+              { "id": "b", "text": "8.66×10⁻⁵ N·m" },
+              { "id": "c", "text": "1×10⁻⁴ N·m" },
+              { "id": "d", "text": "2.5×10⁻⁵ N·m" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "τ = pE sin θ = 2×10⁻⁹ × 5×10⁴ × sin 30° = 10⁻⁴ × 0.5 = 5×10⁻⁵ N·m",
+            "difficulty": "medium",
+            "enhancementTag": "JEE Competitive"
+          },
+          {
+            "id": "c2",
+            "text": "For a uniformly charged solid sphere of radius R, the electric field at r < R (inside) is:",
+            "options": [
+              { "id": "a", "text": "E = kQ/R³ · r (proportional to r)" },
+              { "id": "b", "text": "E = kQ/r² (same as outside)" },
+              { "id": "c", "text": "E = 0 everywhere inside" },
+              { "id": "d", "text": "E = kQR/r³" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Using Gauss's Law: E × 4πr² = Q_enc/ε₀ where Q_enc = Q(r/R)³ for uniform charge. This gives E = kQ·r/R³ — proportional to r inside.",
+            "difficulty": "hard",
+            "enhancementTag": "JEE Competitive"
+          }
+        ]
+      },
+      {
+        "stage": "intelligence-age",
+        "label": "Stage 3: Intelligence Age",
+        "passingScore": 60,
+        "bridgeHint": "Outstanding! Now see how electrostatics connects to modern technology and future careers.",
+        "questions": [
+          {
+            "id": "ia1",
+            "text": "In a MEMS (Micro-Electro-Mechanical System) accelerometer, tiny capacitor plates deflect under acceleration. If plate separation changes from d to d/2, the capacitance becomes:",
+            "options": [
+              { "id": "a", "text": "Doubles (2C)" },
+              { "id": "b", "text": "Halves (C/2)" },
+              { "id": "c", "text": "Quadruples (4C)" },
+              { "id": "d", "text": "Remains unchanged" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "C = ε₀A/d. If d → d/2, then C → 2C (doubles). This change in capacitance is detected electronically to measure acceleration. Your smartphone's accelerometer uses exactly this principle — CBSE Chapter 1 capacitor formula in a chip measuring gravity.",
+            "difficulty": "medium",
+            "enhancementTag": "Intelligence Age — MEMS Technology"
+          },
+          {
+            "id": "ia2",
+            "text": "In a superconducting quantum computer, a 'charge qubit' stores quantum information as different charge states of a tiny superconducting capacitor. Which property of electrostatics makes this possible?",
+            "options": [
+              { "id": "a", "text": "Quantisation of charge — charge exists only in multiples of electron charge (e)" },
+              { "id": "b", "text": "Gauss's Law — flux through closed surface = Q_enc/ε₀" },
+              { "id": "c", "text": "Superposition principle — fields add vectorially" },
+              { "id": "d", "text": "Coulomb's inverse square law" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Quantum computers exploit the fundamental quantisation of charge (discovered by Millikan) — that charge comes in discrete packets (e = 1.6×10⁻¹⁹ C). At nanoscale, this quantisation becomes computationally useful: a superconducting island with 'N' vs 'N+1' electrons represents qubit states |0⟩ and |1⟩. Your Class 12 Chapter 1 on charge quantisation is the foundation of quantum computing hardware.",
+            "difficulty": "hard",
+            "enhancementTag": "Intelligence Age — Quantum Computing"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "competitive-plugin-ca-foundation",
+  "title": "CA Foundation / Commerce Competitive Plugin",
+  "description": "Targeted modules for CA Foundation, CMA Foundation, and Commerce competitive exams aligned with Class 12 Commerce stream",
+  "targetExam": "CA Foundation",
+  "wing": "senior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "modules": [
+    {
+      "id": "ca-foundation-accounts-edge",
+      "subject": "Accountancy",
+      "chapter": "Financial Statements & Analysis",
+      "class": 12,
+      "weightageInCA": "High (CA Foundation Paper 1 — Accounts: 50% weightage)",
+      "patternRecognition": [
+        "CA loves: Partnership reconstitution — goodwill calculation, new/sacrificing/gaining ratio",
+        "CA loves: Company final accounts — Schedule III format of Balance Sheet",
+        "CA loves: Ratio analysis — current ratio, quick ratio, debt-equity ratio interpretations",
+        "CA loves: Cash flow vs profit reconciliation — depreciation, working capital changes"
+      ],
+      "calculationHacks": [
+        "Goodwill = Super Profit × Years' Purchase; Super Profit = Actual Profit − Normal Profit",
+        "Normal Profit = Capital Employed × Normal Rate of Return / 100",
+        "Current Ratio < 1 → potential liquidity crisis; > 3 → inefficient use of current assets",
+        "Debt-Equity Ratio > 2 → high financial risk (leveraged)"
+      ],
+      "mnemonicAgents": [
+        "DEAR = Debit Expenses Assets Receivables (accounts that increase with Debit)",
+        "CLIP = Credits Liabilities Income Payables (accounts that increase with Credit)",
+        "For Partnership: 'GRAINS' = Goodwill Revaluation Asset-value Income Nominal capital Split"
+      ],
+      "intelligenceAgeApplication": {
+        "title": "Cloud Accounting & AI Bookkeeping",
+        "content": "Modern accounting software (Tally, QuickBooks, Zoho Books) automates journal entries using AI. Startups like ClearTax raised ₹1,000 crore by automating GST filing. CA professionals who understand both traditional accounting AND digital tools command 40% higher salaries. Your Class 12 accountancy is the foundation — but knowing the technology layer is the edge."
+      }
+    },
+    {
+      "id": "ca-foundation-business-law",
+      "subject": "Business Studies",
+      "chapter": "Business Law & Corporate Governance",
+      "class": 12,
+      "weightageInCA": "CA Foundation Paper 2 — Business Law",
+      "patternRecognition": [
+        "CA loves: Indian Contract Act — valid offer, acceptance, consideration, capacity",
+        "CA loves: Sale of Goods Act — implied conditions and warranties",
+        "CA loves: Companies Act — types of companies, Directors' duties, winding up",
+        "CA loves: SEBI regulations — market manipulation, insider trading"
+      ],
+      "mnemonicAgents": [
+        "VALID CONTRACT: VAALCO = Valid offer, Accepted, Agreement, Legal, Consideration, One free will",
+        "SEBI POWERS: 'PASS' = Prohibit, Adjudicate, Suspend, Scrutinise"
+      ]
+    },
+    {
+      "id": "ca-foundation-economics-edge",
+      "subject": "Economics",
+      "chapter": "Business Economics",
+      "class": 12,
+      "weightageInCA": "CA Foundation Paper 4 — Business Economics",
+      "patternRecognition": [
+        "CA Foundation loves: Price elasticity — perfectly elastic, inelastic, unit elastic interpretations",
+        "CA Foundation loves: Cost curves — relationship between TC, MC, AC",
+        "CA Foundation loves: Market structures — perfect competition vs monopoly profit maximisation",
+        "CA Foundation loves: Fiscal and monetary policy tools"
+      ],
+      "calculationHacks": [
+        "Price Elasticity of Demand = (% change in Qd) / (% change in P) — negative value indicates normal good",
+        "MC = ΔTC/ΔQ — slope of TC curve",
+        "Profit maximisation: always at MR = MC",
+        "Money Multiplier = 1/CRR — controls credit creation"
+      ],
+      "mnemonicAgents": [
+        "ELASTIC DEMAND factors: 'SCANT' = Substitutes, Cross-price, Affordability, Necessity vs luxury, Time",
+        "MC = MR = AR = P in Perfect Competition at long-run equilibrium"
+      ]
+    }
+  ],
+  "mockTestConfig": {
+    "totalTime": 120,
+    "totalQuestions": 100,
+    "marking": { "correct": 1, "incorrect": 0, "unattempted": 0 },
+    "adaptiveRanking": true,
+    "feedbackMode": "immediate"
+  }
+}

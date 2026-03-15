@@ -1,0 +1,18 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "tamil-nadu",
+  "class": 12,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "tn-12-phy-01", "number": 1, "name": "Electrostatics", "topics": ["Coulomb's Law", "Electric Field", "Gauss's Law", "Capacitors"], "enhancement": "AI Chip Design & High-Voltage Engineering", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-02", "number": 2, "name": "Current Electricity", "topics": ["Ohm's Law", "Resistivity", "Bridge Circuits"], "enhancement": "Smart Grid Technology & IoT Sensors", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-03", "number": 3, "name": "Magnetism and Magnetic Effects", "topics": ["Magnetic Force", "Biot-Savart Law", "Electromagnetic Induction"], "enhancement": "MRI & Electric Motors", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "tn-12-phy-04", "number": 4, "name": "Electromagnetic Waves and Wave Optics", "topics": ["Maxwell's Equations", "Huygens' Principle", "Interference"], "enhancement": "Photonics & Laser Communication", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-05", "number": 5, "name": "Ray Optics", "topics": ["Reflection", "Refraction", "Optical Instruments"], "enhancement": "Autonomous Vehicle LiDAR & Cameras", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-06", "number": 6, "name": "Dual Nature of Light and Matter", "topics": ["Photoelectric Effect", "Matter Waves"], "enhancement": "Quantum Sensors & Photovoltaics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-07", "number": 7, "name": "Nuclear and Particle Physics", "topics": ["Radioactivity", "Nuclear Reactions", "Elementary Particles"], "enhancement": "Nuclear Medicine & Fusion Reactor", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "tn-12-phy-08", "number": 8, "name": "Semiconductor Devices", "topics": ["Diodes", "Transistors", "Integrated Circuits"], "enhancement": "VLSI Design & Embedded Systems", "competitivePlugin": { "jee": true, "neet": false } }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "karnataka",
+  "class": 12,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "kseab-12-math-01", "number": 1, "name": "Relations and Functions", "topics": ["Relations", "Types of Functions", "Inverse Functions"], "enhancement": "Functional Programming & AI Logic", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-02", "number": 2, "name": "Inverse Trigonometric Functions", "topics": ["Principal Values", "Properties", "Equations"], "enhancement": "Robotics & Control Systems", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-03", "number": 3, "name": "Matrices", "topics": ["Matrix Operations", "Transpose", "Symmetric/Skew-symmetric"], "enhancement": "Neural Networks & Deep Learning", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-04", "number": 4, "name": "Determinants", "topics": ["Properties", "Adjoint", "Inverse Matrix"], "enhancement": "Computer Graphics & Transformations", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-05", "number": 5, "name": "Continuity and Differentiability", "topics": ["Continuity", "Chain Rule", "Implicit Differentiation", "Higher Order Derivatives"], "enhancement": "Backpropagation in Neural Networks", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-06", "number": 6, "name": "Application of Derivatives", "topics": ["Rate of Change", "Tangents", "Maxima & Minima"], "enhancement": "Optimization in ML & Engineering", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-07", "number": 7, "name": "Integrals", "topics": ["Integration Techniques", "Definite Integrals", "Fundamental Theorem"], "enhancement": "Signal Processing & Fourier Series", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-08", "number": 8, "name": "Application of Integrals", "topics": ["Area Between Curves"], "enhancement": "Data Analytics & Probability Density", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-09", "number": 9, "name": "Differential Equations", "topics": ["Formation", "Variable Separable", "Homogeneous", "Linear DE"], "enhancement": "Pandemic Modeling & Climate Science", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-10", "number": 10, "name": "Vector Algebra", "topics": ["Dot Product", "Cross Product", "Projection"], "enhancement": "3D Game Development & Physics Engines", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-11", "number": 11, "name": "Three Dimensional Geometry", "topics": ["Lines", "Planes", "Angles Between Planes"], "enhancement": "CAD Software & Augmented Reality", "competitivePlugin": { "jee": true } },
+    { "id": "kseab-12-math-12", "number": 12, "name": "Linear Programming", "topics": ["Graphical Method", "Objective Function", "Constraints"], "enhancement": "Supply Chain Optimization & AI Planning", "competitivePlugin": { "jee": false } },
+    { "id": "kseab-12-math-13", "number": 13, "name": "Probability", "topics": ["Conditional Probability", "Bayes' Theorem", "Binomial Distribution"], "enhancement": "Bayesian AI & Statistical Decision Making", "competitivePlugin": { "jee": true } }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Economics",
+  "stream": "Commerce/Arts",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-eco-01", "number": 1, "name": "Introduction to Microeconomics", "topics": ["Economic Problem", "PPC", "Microeconomics vs Macroeconomics"], "enhancement": "Behavioral Economics & AI Pricing" },
+    { "id": "cbse-12-eco-02", "number": 2, "name": "Theory of Consumer Behaviour", "topics": ["Utility", "Indifference Curves", "Consumer Equilibrium"], "enhancement": "Recommendation Algorithms & E-commerce" },
+    { "id": "cbse-12-eco-03", "number": 3, "name": "Production and Costs", "topics": ["Production Function", "Cost Curves", "Economies of Scale"], "enhancement": "AI-Driven Manufacturing & Lean Systems" },
+    { "id": "cbse-12-eco-04", "number": 4, "name": "The Theory of the Firm", "topics": ["Revenue", "Profit Maximisation", "Market Structures"], "enhancement": "Platform Economics & Digital Markets" },
+    { "id": "cbse-12-eco-05", "number": 5, "name": "Market Equilibrium", "topics": ["Demand & Supply", "Price Mechanism", "Price Ceiling & Floor"], "enhancement": "Algorithmic Trading & FinTech" },
+    { "id": "cbse-12-eco-06", "number": 6, "name": "Non-Competitive Markets", "topics": ["Monopoly", "Monopolistic Competition", "Oligopoly", "Cartels"], "enhancement": "Tech Giants & Antitrust AI" },
+    { "id": "cbse-12-eco-07", "number": 7, "name": "National Income Accounting", "topics": ["GDP", "GNP", "NNP", "Circular Flow"], "enhancement": "Satellite Accounts & Digital Economy GDP" },
+    { "id": "cbse-12-eco-08", "number": 8, "name": "Money and Banking", "topics": ["Money Supply", "Commercial Banks", "Central Bank", "Credit Creation"], "enhancement": "Cryptocurrency & Digital Banking AI" },
+    { "id": "cbse-12-eco-09", "number": 9, "name": "Determination of Income and Employment", "topics": ["Aggregate Demand", "Multiplier", "Involuntary Unemployment"], "enhancement": "Labour Markets & Automation Economics" },
+    { "id": "cbse-12-eco-10", "number": 10, "name": "Government Budget", "topics": ["Revenue & Capital Budget", "Fiscal Deficit", "Fiscal Policy"], "enhancement": "Public Finance AI & Open Data" },
+    { "id": "cbse-12-eco-11", "number": 11, "name": "Balance of Payments", "topics": ["Current Account", "Capital Account", "Foreign Exchange"], "enhancement": "Global Trade & Currency AI" },
+    { "id": "cbse-12-eco-12", "number": 12, "name": "Foreign Exchange Rate", "topics": ["Determination of Exchange Rate", "Fixed vs Flexible", "Managed Float"], "enhancement": "Forex Bots & Central Bank Digital Currencies" }
+  ]
+}
