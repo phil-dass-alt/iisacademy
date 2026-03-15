@@ -159,3 +159,39 @@ const sampleEvents: UnlockEvent[] = [
 
 generateUnlockReport(sampleEvents);
 
+// Demonstrate generateAccessReport with sample data
+const sampleAccessEvents: ModuleAccessEvent[] = [
+  {
+    userId: "u1",
+    moduleId: "fin-lit-class8",
+    accessedAt: "2024-01-15T10:00:00Z",
+    durationSeconds: 420,
+    board: "cbse",
+    wing: "junior",
+    classLevel: 8,
+    membershipTier: "basic",
+  },
+  {
+    userId: "u2",
+    moduleId: "ai-tech-class8",
+    accessedAt: "2024-01-16T14:30:00Z",
+    durationSeconds: 600,
+    board: "icse",
+    wing: "junior",
+    classLevel: 8,
+    membershipTier: "premium",
+  },
+  {
+    userId: "u1",
+    moduleId: "fin-lit-class9",
+    accessedAt: "2024-01-17T09:00:00Z",
+    durationSeconds: 540,
+    board: "karnataka",
+    wing: "junior",
+    classLevel: 9,
+    membershipTier: "basic",
+  },
+];
+
+generateAccessReport(sampleAccessEvents);
+
