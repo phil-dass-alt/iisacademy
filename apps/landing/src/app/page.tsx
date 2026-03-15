@@ -1,28 +1,8 @@
-
-import Hero from "@/components/Hero";
-import NavigationHub from "@/components/NavigationHub";
-import ThreeWings from "@/components/ThreeWings";
-import CurriculumAddons from "@/components/CurriculumAddons";
-import IndustryVoices from "@/components/IndustryVoices";
-import CallToAction from "@/components/CallToAction";
-import Footer from "@/components/Footer";
-
-import { Hero } from '@/components/Hero';
-import { Features } from '@/components/Features';
-import { BoardNav } from '@/components/BoardNav';
-import { Pricing } from '@/components/Pricing';
-import { Testimonials } from '@/components/Testimonials';
 import { GlobalNavBar } from '@iisacademy/ui';
-
 
 export default function LandingPage() {
   return (
-
-    <>
-      <main>
-
     <main className="min-h-screen bg-white">
-
       {/* Universal Navigation Bar */}
       <GlobalNavBar
         navLinks={[
@@ -40,7 +20,7 @@ export default function LandingPage() {
               Log in
             </a>
             <a
-              href="#pricing"
+              href="/enroll"
               style={{
                 background: '#4f46e5',
                 color: '#fff',
@@ -51,14 +31,11 @@ export default function LandingPage() {
                 textDecoration: 'none',
               }}
             >
-              Join High-5 – ₹499/yr
+              Enrol Now
             </a>
           </>
         }
       />
-
-      {/* Main Content */}
-      <div>
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
@@ -82,25 +59,76 @@ export default function LandingPage() {
                 Log in
               </a>
               <a
-                href="#pricing"
+                href="/enroll"
                 className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
               >
-                Join High-5 – ₹499/yr
+                Enrol Now
               </a>
             </div>
           </div>
         </div>
       </nav>
 
-      {/* Main Content */}
-      <div className="pt-16">
+      {/* Pricing section */}
+      <div className="pt-16" id="pricing">
+        <div className="max-w-5xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
+            Simple, Transparent Pricing
+          </h2>
+          <p className="text-center text-gray-500 mb-10">
+            Choose a plan and start preparing for school exams and national entrance tests together.
+          </p>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-3xl mx-auto">
+            {/* Class-specific plan */}
+            <div className="border border-gray-200 rounded-2xl p-8">
+              <p className="text-sm font-semibold text-indigo-600 mb-2">Class-Specific Access</p>
+              <p className="text-4xl font-extrabold text-gray-900">
+                ₹999
+              </p>
+              <p className="text-sm text-gray-500 mt-1 mb-6">+ 18% GST</p>
+              <ul className="space-y-2 text-sm text-gray-600 mb-8">
+                <li>✓ Full access for your enrolled class</li>
+                <li>✓ Stream &amp; subject selection (Class 11/12)</li>
+                <li>✓ Competitive Plugin &amp; Voice AI</li>
+                <li>✓ Adaptive quizzes &amp; rank predictor</li>
+              </ul>
+              <a
+                href="/enroll"
+                className="block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition-colors"
+              >
+                Pay ₹999 + 18% GST
+              </a>
+            </div>
 
-
-        <Hero />
-        <BoardNav />
-        <Features />
-        <Pricing />
-        <Testimonials />
+            {/* All-classes plan */}
+            <div className="border-2 border-indigo-500 rounded-2xl p-8 relative">
+              <span className="absolute -top-4 left-6 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                Best Value
+              </span>
+              <p className="text-sm font-semibold text-indigo-600 mb-2">All-Classes Access</p>
+              <p className="text-4xl font-extrabold text-gray-900">
+                ₹2999
+              </p>
+              <p className="text-sm text-gray-500 mt-1 mb-6">+ 18% GST</p>
+              <ul className="space-y-2 text-sm text-gray-600 mb-8">
+                <li>✓ All classes (8–12), all streams</li>
+                <li>✓ CBSE, ICSE &amp; 4 State Boards</li>
+                <li>✓ JEE / NEET Competitive Plugins</li>
+                <li>✓ Voice-Active Flashcards &amp; AI Tutor</li>
+                <li>✓ Priority support</li>
+              </ul>
+              <a
+                href="/enroll"
+                className="block text-center bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 rounded-lg transition-colors"
+              >
+                Pay ₹2999 + 18% GST
+              </a>
+              <p className="mt-3 text-xs text-center text-gray-400">
+                Why wait to prepare yourself in advance? Get access to all classes.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Footer */}
@@ -131,7 +159,7 @@ export default function LandingPage() {
               <h3 className="font-semibold text-white mb-4">Product</h3>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li><a href="#features" className="hover:text-white">Features</a></li>
-                <li><a href="#pricing" className="hover:text-white">High-5 Membership</a></li>
+                <li><a href="/enroll" className="hover:text-white">Enrol &amp; Pay</a></li>
                 <li><a href="#" className="hover:text-white">B2B School Plans</a></li>
                 <li><a href="#" className="hover:text-white">AI Tutoring</a></li>
               </ul>
@@ -139,17 +167,10 @@ export default function LandingPage() {
             <div>
               <h3 className="font-semibold text-white mb-4">Legal</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="/terms" className="hover:text-white">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white">Refund Policy</a></li>
-                <li><a href="#" className="hover:text-white">Contact Us</a></li>
-
                 <li><a href="/legal/terms" className="hover:text-white">Privacy Policy</a></li>
                 <li><a href="/legal/terms" className="hover:text-white">Terms of Service</a></li>
                 <li><a href="/legal/terms" className="hover:text-white">Refund Policy</a></li>
                 <li><a href="mailto:support@iisacademy.com" className="hover:text-white">Contact Us</a></li>
-
               </ul>
             </div>
           </div>
@@ -161,3 +182,4 @@ export default function LandingPage() {
     </main>
   );
 }
+

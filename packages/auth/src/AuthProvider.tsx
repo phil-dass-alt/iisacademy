@@ -31,8 +31,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           wing: "junior",
           membershipStatus: "free",
         },
-        token: "mock-token",
-        expiresAt: Date.now() + 86400000,
+        accessToken: "mock-token",
       };
       setSession(mockSession);
     } finally {
