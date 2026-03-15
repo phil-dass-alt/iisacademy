@@ -57,7 +57,8 @@ WORKDIR /app
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
     PORT=${APP_PORT} \
-    HOSTNAME="0.0.0.0"
+    HOSTNAME="0.0.0.0" \
+    APP_NAME=${APP_NAME}
 
 # Create non-root user for security
 RUN addgroup --system --gid 1001 nodejs \
@@ -73,5 +74,5 @@ USER nextjs
 
 EXPOSE ${APP_PORT}
 
-# The standalone server entry point is apps/<app-name>/server.js in the monorepo
-CMD ["node", "apps/${APP_NAME}/server.js"]
+# Use shell form so $APP_NAME is expanded at runtime by /bin/sh
+CMD node apps/$APP_NAME/server.js
