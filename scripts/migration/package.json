@@ -1,0 +1,12 @@
+{
+  "name": "migration-scripts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "migrate": "ts-node src/migrate.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}

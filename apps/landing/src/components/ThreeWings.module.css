@@ -1,0 +1,112 @@
+.section {
+  padding: 4rem 1.5rem;
+  background: var(--color-white);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+.wingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.wingCard {
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.wingCard:hover {
+  transform: translateY(-4px);
+}
+
+.comingSoon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #9c27b0;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.wingIcon {
+  font-size: 2.5rem;
+}
+
+.wingName {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.wingClasses {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.wingDesc {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.featureList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.featureItem {
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.wingCta {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #fff !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  transition: opacity 0.2s;
+}
+
+.wingCta:hover {
+  opacity: 0.85;
+}

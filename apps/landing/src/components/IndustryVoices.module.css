@@ -1,0 +1,76 @@
+.section {
+  padding: 4rem 1.5rem;
+  background: var(--color-white);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+.voiceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.voiceCard {
+  background: var(--color-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 4px solid var(--color-primary);
+}
+
+.voiceIcon {
+  font-size: 2rem;
+}
+
+.quote {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.voiceMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.voiceName {
+  font-weight: 800;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+.voiceRole {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.voiceBoard {
+  font-size: 0.75rem;
+  color: var(--color-accent);
+  font-weight: 600;
+}

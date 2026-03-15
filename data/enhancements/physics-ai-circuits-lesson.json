@@ -1,0 +1,67 @@
+{
+  "id": "cbse-12-phy-current-electricity-ai-circuits",
+  "title": "Current Electricity → AI Circuits & Electronics",
+  "subject": "Physics",
+  "chapter": "Current Electricity",
+  "board": "cbse",
+  "class": 12,
+  "enhancementTopic": "AI Circuits & Electronics",
+  "lesson": {
+    "introduction": "You've studied Ohm's Law, Kirchhoff's Laws, and circuit components. But did you know these same principles power AI hardware, Arduino microcontrollers, and neural network chips? Let's bridge your CBSE Physics to the cutting edge.",
+    "sections": [
+      {
+        "title": "Ohm's Law in Microcontrollers",
+        "content": "Arduino and Raspberry Pi boards use resistors, capacitors, and voltage regulators—all governed by Ohm's Law. When you write digitalWrite(pin, HIGH) in Arduino code, you're controlling a 5V signal. V = IR applies directly!",
+        "keyInsight": "Microcontroller GPIO pins are just controlled voltage sources. Your CBSE formula V = IR is the foundation of every sensor circuit."
+      },
+      {
+        "title": "Kirchhoff's Laws in Neural Network Hardware",
+        "content": "Neural processing units (NPUs) in modern AI chips like the Apple M-series or Google TPU use dense interconnected circuits. Current flow through each node must satisfy KCL (junction rule), and voltage drops must satisfy KVL (loop rule)—exactly as you studied.",
+        "keyInsight": "The 'neurons' in hardware AI are literally circuit nodes following KCL. Your Physics chapter IS the hardware layer of AI."
+      },
+      {
+        "title": "Capacitors as Memory",
+        "content": "DRAM memory in computers stores bits as charge in capacitors. A charged capacitor = 1, discharged = 0. This is the physical basis of all digital memory—from your phone to AI server farms.",
+        "keyInsight": "Every AI model's weights are stored in capacitor-based memory. CBSE Chapter on Capacitors → Computer Memory → AI Storage."
+      }
+    ],
+    "bridgeActivity": "Build a simple LED circuit on a breadboard using a 220Ω resistor and 5V supply. Calculate the current using Ohm's Law. Then modify it to simulate a single 'neuron' that turns on when input voltage exceeds a threshold—a hardware perceptron!",
+    "furtherExploration": [
+      "Arduino Starter Kit – Official Arduino Education",
+      "TensorFlow Lite for Microcontrollers",
+      "MIT OpenCourseWare: Circuits and Electronics (6.002)"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-12-phy-ai-circuits-q1",
+    "title": "Current Electricity + AI Circuits Quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "An Arduino GPIO pin outputs 5V through a 220Ω resistor to an LED. What current flows through the LED? (Use Ohm's Law)",
+        "options": [
+          { "id": "a", "text": "22.7 mA" },
+          { "id": "b", "text": "110 mA" },
+          { "id": "c", "text": "2.27 A" },
+          { "id": "d", "text": "44 mA" }
+        ],
+        "correctOptionId": "a",
+        "explanation": "I = V/R = 5/220 ≈ 0.0227 A = 22.7 mA. Standard safe current for LEDs. This is exactly how you protect LEDs in any circuit!",
+        "difficulty": "easy"
+      },
+      {
+        "id": "q2",
+        "text": "In DRAM memory, a bit '1' is stored as a charged capacitor. If 4 pF capacitor stores charge at 3.3V, what is the stored charge?",
+        "options": [
+          { "id": "a", "text": "13.2 pC" },
+          { "id": "b", "text": "4 pC" },
+          { "id": "c", "text": "3.3 pC" },
+          { "id": "d", "text": "0.8 pC" }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Q = CV = 4 × 10⁻¹² × 3.3 = 13.2 × 10⁻¹² C = 13.2 pC. This tiny charge stores the '1' bit in your computer memory!",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

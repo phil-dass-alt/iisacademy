@@ -1,0 +1,96 @@
+{
+  "id": "cbse-10-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: Simple Interest & Compound Interest",
+  "subject": "Mathematics",
+  "chapter": "Simple Interest and Compound Interest",
+  "board": "cbse",
+  "class": 10,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Riya invests ₹10,000 at 8% per annum for 3 years. What is the Simple Interest earned?",
+      "options": [
+        { "id": "a", "text": "₹2,000" },
+        { "id": "b", "text": "₹2,400" },
+        { "id": "c", "text": "₹3,200" },
+        { "id": "d", "text": "₹1,800" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SI = (P × R × T) / 100 = (10000 × 8 × 3) / 100 = ₹2,400. This is how a savings account works!",
+      "difficulty": "easy",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest and Compound Interest",
+      "board": "cbse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "Aarav invests ₹5,000 at 10% per annum compounded annually for 2 years. What is the Compound Interest?",
+      "options": [
+        { "id": "a", "text": "₹1,000" },
+        { "id": "b", "text": "₹1,050" },
+        { "id": "c", "text": "₹1,100" },
+        { "id": "d", "text": "₹950" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A = P(1+r/100)^t = 5000(1.1)² = 6050. CI = 6050 - 5000 = ₹1,050. This is why compound interest is called 'the eighth wonder of the world'!",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest and Compound Interest",
+      "board": "cbse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q3",
+      "text": "In a Systematic Investment Plan (SIP), Priya invests ₹1,000 monthly for 12 months earning 12% per annum. Roughly, how much more does she earn compared to a lump sum ₹12,000 at 12% for 6 months? (Use approximation)",
+      "options": [
+        { "id": "a", "text": "SIP earns more due to rupee cost averaging" },
+        { "id": "b", "text": "Lump sum always earns more" },
+        { "id": "c", "text": "Both earn exactly the same" },
+        { "id": "d", "text": "SIP earns less always" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SIP invests periodically, buying more units when prices are low (rupee cost averaging). For volatile markets, SIP typically gives better returns than lump sum over the same period.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest and Compound Interest",
+      "board": "cbse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q4",
+      "text": "The 'Rule of 72' says an investment doubles in approximately 72 ÷ interest rate years. At 9% per annum, when does ₹20,000 become ₹40,000?",
+      "options": [
+        { "id": "a", "text": "6 years" },
+        { "id": "b", "text": "8 years" },
+        { "id": "c", "text": "9 years" },
+        { "id": "d", "text": "12 years" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "72 ÷ 9 = 8 years. This is a mental math shortcut used by financial advisors and investors worldwide!",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest and Compound Interest",
+      "board": "cbse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q5",
+      "text": "A bank offers 6% simple interest and a mutual fund offers 6% compound interest (annually). After 5 years, which gives more returns on ₹1,00,000?",
+      "options": [
+        { "id": "a", "text": "Bank (SI) gives more" },
+        { "id": "b", "text": "Mutual Fund (CI) gives more" },
+        { "id": "c", "text": "Both give equal returns" },
+        { "id": "d", "text": "Depends on the year" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SI after 5 years = ₹30,000. CI after 5 years = 1,00,000 × (1.06)⁵ - 1,00,000 ≈ ₹33,823. CI always beats SI at the same rate over time.",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Simple Interest and Compound Interest",
+      "board": "cbse",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}
