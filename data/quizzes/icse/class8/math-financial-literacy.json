@@ -1,0 +1,97 @@
+{
+  "id": "icse-8-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: ICSE Class 8 \u2014 Profit, Loss and Interest",
+  "subject": "Mathematics",
+  "board": "icse",
+  "class": 8,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Ramesh buys a laptop for \u20b935,000 and sells it for \u20b940,250. What is his profit percentage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12%"
+        },
+        {
+          "id": "b",
+          "text": "15%"
+        },
+        {
+          "id": "c",
+          "text": "10%"
+        },
+        {
+          "id": "d",
+          "text": "18%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Profit = 40250 - 35000 = \u20b95,250. Profit% = (5250/35000)\u00d7100 = 15%. Tech product resellers in India typically aim for 10-20% margin.",
+      "difficulty": "easy",
+      "subject": "Mathematics",
+      "chapter": "Profit, Loss and Discount",
+      "board": "icse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "A bank offers compound interest at 10% per annum. If Sita deposits \u20b94,000, what is the amount after 2 years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b94,800"
+        },
+        {
+          "id": "b",
+          "text": "\u20b94,840"
+        },
+        {
+          "id": "c",
+          "text": "\u20b94,900"
+        },
+        {
+          "id": "d",
+          "text": "\u20b95,000"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A = P(1 + r/100)^t = 4000(1.1)^2 = 4000\u00d71.21 = \u20b94,840. Compare to SI: 4000+(4000\u00d710\u00d72/100) = \u20b94,800. CI gives \u20b940 more \u2014 this gap grows enormously over longer periods!",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Simple and Compound Interest",
+      "board": "icse",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q3",
+      "text": "A jacket is marked \u20b92,000 with 20% discount. 18% GST is applied on the discounted price. What is the final price?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b91,888"
+        },
+        {
+          "id": "b",
+          "text": "\u20b91,920"
+        },
+        {
+          "id": "c",
+          "text": "\u20b91,836"
+        },
+        {
+          "id": "d",
+          "text": "\u20b91,960"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Discounted price = 2000 \u00d7 0.8 = \u20b91,600. GST = 18% of 1600 = \u20b9288. Final price = 1600+288 = \u20b91,888. This is exactly how India's GST works \u2014 discount first, then tax on discounted price.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Profit, Loss and Discount",
+      "board": "icse",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "board": "kerala",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "kl-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions",
+      "topics": [
+        "Types of Reactions",
+        "Balancing Equations",
+        "Rate of Reaction"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-10-sci-02",
+      "number": 2,
+      "name": "Periodic Table",
+      "topics": [
+        "Long Form Periodic Table",
+        "Trends",
+        "s, p, d, f Blocks"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-10-sci-03",
+      "number": 3,
+      "name": "Atomic and Nuclear Physics",
+      "topics": [
+        "Photoelectric Effect",
+        "Nuclear Fission/Fusion",
+        "Radioactivity"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "kl-10-sci-04",
+      "number": 4,
+      "name": "Electricity and Magnetism",
+      "topics": [
+        "Electromagnetic Induction",
+        "AC and DC",
+        "Transformers"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-10-sci-05",
+      "number": 5,
+      "name": "Electromagnetic Spectrum",
+      "topics": [
+        "Types of EM Waves",
+        "Radio to Gamma Rays",
+        "Applications"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-10-sci-06",
+      "number": 6,
+      "name": "Semiconductor and Communication",
+      "topics": [
+        "Semiconductors",
+        "Diodes",
+        "Communication Systems Basics"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-10-sci-07",
+      "number": 7,
+      "name": "Carbon Compounds",
+      "topics": [
+        "Organic Compounds",
+        "Functional Groups",
+        "Reactions"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-10-sci-08",
+      "number": 8,
+      "name": "Cell Biology and Genetics",
+      "topics": [
+        "DNA Structure",
+        "Mendelian Genetics",
+        "Mutations"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-10-sci-09",
+      "number": 9,
+      "name": "Reproduction and Development",
+      "topics": [
+        "Sexual Reproduction",
+        "Embryo Development",
+        "Reproductive Health"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-10-sci-10",
+      "number": 10,
+      "name": "Body Functions",
+      "topics": [
+        "Digestion",
+        "Circulation",
+        "Excretion",
+        "Coordination"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-10-sci-11",
+      "number": 11,
+      "name": "Ecology and Environment",
+      "topics": [
+        "Ecosystems",
+        "Climate Change",
+        "Sustainability"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "junior-aitech-class9",
+  "title": "Science → AI & Technology: Class 9",
+  "wing": "junior",
+  "class": 9,
+  "enhancementTag": "AI Technology",
+  "subjects": ["Science"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "Class 9 Science brings Motion, Force, Gravitation, and Sound — the fundamental physics of how AI robots move, satellites orbit, and smart devices communicate. Your chapters are literally the engineering foundation of the modern tech industry.",
+    "sections": [
+      {
+        "title": "Motion and Equations → Autonomous Drones",
+        "content": "A drone stabilising itself uses your three equations of motion continuously: v = u + at (adjusting vertical velocity), s = ut + ½at² (calculating altitude), v² = u² + 2as (emergency landing calculations). The drone's onboard computer runs these equations 400 times per second for each of its 4 motor axes.",
+        "realWorldConnection": "DJI Mini 4 Pro drone controller calculates all three motion equations at 400Hz to maintain stability. The firmware is essentially your Class 9 motion chapter running in C++ code.",
+        "keyInsight": "v = u + at and the other two equations of motion ARE the flight control software of every drone."
+      },
+      {
+        "title": "Newton's Laws → Rocket Science",
+        "content": "ISRO's launch vehicles follow Newton's Three Laws perfectly. Law 1: A rocket at rest stays at rest (inertia). Law 2: F = ma — thrust force = rocket mass × acceleration. Law 3: Hot gas expelled downward → rocket goes upward. SpaceX Falcon 9's first stage reusability uses Law 3 to slow down and land.",
+        "realWorldConnection": "ISRO's Chandrayaan-3 lander used F = ma at every microsecond during the 15-minute lunar descent. Your Chapter 9 IS rocket science.",
+        "keyInsight": "Every rocket launch in history has been Newton's Third Law (F = ma + reaction forces) in action."
+      },
+      {
+        "title": "Gravitation → GPS Satellites",
+        "content": "GPS satellites orbit at 20,200 km altitude. Einstein's relativity (extension of Newton's gravitation) means GPS clocks tick slightly faster in weaker gravity. Engineers must correct for this using gravitational formulas: g = GM/r². Your gravitation chapter is GPS precision engineering.",
+        "realWorldConnection": "If GPS engineers ignored gravitational time dilation (from your gravitational field formula), GPS would drift by 10 km per day. Your Class 9 gravitation is in every navigation app.",
+        "keyInsight": "GPS wouldn't work without relativistic corrections to Newton's gravitational field formula you study in Class 9."
+      },
+      {
+        "title": "Sound → Sonar and AI Echolocation",
+        "content": "SONAR (Sound Navigation and Ranging) used in submarines and ocean mapping uses: Distance = Speed × Time / 2. If an echo returns in 2 seconds in water (sound speed: 1500 m/s), depth = 1500 × 2 / 2 = 1500 m. Tesla's Autopilot uses ultrasound sensors on the same echo principle for parking assistance.",
+        "realWorldConnection": "Tesla's 12 ultrasonic sensors use echo time (your sound chapter) to detect objects within 8 meters. Each sensor fires at 50 times/second.",
+        "keyInsight": "Ultrasonic sensors in every modern car use your sound echo formulas to 'see' the world."
+      },
+      {
+        "title": "Archimedes' Principle → Submarine and Underwater Drones",
+        "content": "Submarines adjust their depth by changing their density. By filling/emptying ballast tanks, they change buoyancy force = ρVg (your fluid pressure chapter). Underwater drones (used for ocean research and pipeline inspection) precisely control their depth using buoyancy calculations.",
+        "realWorldConnection": "ISRO's Samudrayan mission (India's manned deep-sea mission) depends on exact buoyancy calculations from your Class 9 Archimedes' Principle.",
+        "keyInsight": "Buoyancy force = ρVg. Every submarine, underwater drone, and life jacket uses this formula."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "Code a Motion Simulator",
+      "description": "Use Python (or MIT Scratch) to simulate projectile motion using your Class 9 equations of motion. Input: initial velocity (u) and angle (θ). Output: trajectory path, maximum height, and range.",
+      "components": ["Computer with Python or Scratch", "Physics equations: v = u + at, s = ut + ½at²"],
+      "steps": [
+        "In Python: import matplotlib. Write a loop from t=0 to t=flight_time",
+        "Calculate x = u×cos(θ)×t and y = u×sin(θ)×t - 0.5×g×t² at each step",
+        "Plot x vs y to see the parabolic trajectory",
+        "Change u and θ to maximise range — this is the basis of artillery targeting algorithms",
+        "Verify: Maximum range occurs at θ = 45°"
+      ],
+      "scienceConnection": "Equations of motion, Projectile motion, Gravitational acceleration",
+      "realWorldSkill": "Physics Simulation and Programming",
+      "difficulty": "medium"
+    },
+    "agenticChallenge": {
+      "title": "Build a Paper Rocket with Data Logging",
+      "description": "Build a simple water rocket (1.5L PET bottle, bicycle pump, launch pad). Measure: launch angle, approximate height (triangulation using protractor and tape measure), flight time. Calculate actual vs theoretical range using your motion equations. How close were Newton's equations?",
+      "hint": "This is exactly how ISRO engineers validate flight simulations. The gap between simulation and real flight is called 'delta-v error'.",
+      "difficulty": "medium"
+    },
+    "furtherExploration": [
+      "NASA Rocket Science 101: nasa.gov/rocketscience",
+      "ISRO Student Satellite Program: isro.gov.in",
+      "MIT OpenCourseWare: 8.01 Physics I (free)",
+      "Code.org Python Physics simulations"
+    ]
+  }
+}

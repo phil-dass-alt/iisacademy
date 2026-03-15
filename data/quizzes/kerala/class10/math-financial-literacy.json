@@ -1,0 +1,68 @@
+{
+  "id": "kl-10-math-finlit-q1",
+  "title": "Mathematics + Financial Literacy: Kerala Class 10",
+  "subject": "Mathematics",
+  "board": "kerala",
+  "class": 10,
+  "enhancementTag": "Financial Literacy",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In Kerala, a fisherman joins a 'Chit Fund' (chitty) where 20 members pay \u20b92,000/month. The monthly pool of \u20b940,000 is given to one member by lottery. If you win in month 3, how much profit do you make (ignoring any discount at auction)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b934,000 profit"
+        },
+        {
+          "id": "b",
+          "text": "\u20b936,000 profit"
+        },
+        {
+          "id": "c",
+          "text": "\u20b940,000 profit"
+        },
+        {
+          "id": "d",
+          "text": "\u20b96,000 loss after all payments"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "You paid: 3 months \u00d7 \u20b92,000 = \u20b96,000. You receive: \u20b940,000. Net = 40,000 - 6,000 = \u20b934,000 profit (you still pay remaining 17 months but that's the total cost). Chitty funds are regulated by Kerala Chit Fund Act. Arithmetic progressions model the financial outcomes!",
+      "difficulty": "medium",
+      "subject": "Mathematics",
+      "chapter": "Arithmetic Sequences",
+      "board": "kerala",
+      "enhancementTag": "Financial Literacy"
+    },
+    {
+      "id": "q2",
+      "text": "A Kerala NRI sends \u20b91,00,000 home. The money is invested in a business giving 15% profit in year 1, which reduces by 2% each year (AP). What is the total profit over 5 years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\u20b955,000"
+        },
+        {
+          "id": "b",
+          "text": "\u20b965,000"
+        },
+        {
+          "id": "c",
+          "text": "\u20b975,000"
+        },
+        {
+          "id": "d",
+          "text": "\u20b950,000"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Profit rates: 15%, 13%, 11%, 9%, 7% (AP with a=15, d=-2). Sum = 5/2 \u00d7 (2\u00d715 + 4\u00d7(-2)) = 5/2 \u00d7 (30-8) = 5/2 \u00d7 22 = 55%. Total profit = 55% of 1,00,000 = \u20b955,000. NRI remittances to Kerala total $16 billion/year \u2014 managing this money requires exactly these calculations.",
+      "difficulty": "hard",
+      "subject": "Mathematics",
+      "chapter": "Arithmetic Sequences",
+      "board": "kerala",
+      "enhancementTag": "Financial Literacy"
+    }
+  ]
+}

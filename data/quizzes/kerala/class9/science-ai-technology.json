@@ -1,0 +1,39 @@
+{
+  "id": "kl-9-sci-aitech-q1",
+  "title": "Science + AI Technology: Kerala Class 9 \u2014 Gravitation and Motion",
+  "subject": "Science",
+  "board": "kerala",
+  "class": 9,
+  "enhancementTag": "AI Technology",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "ISRO's Chandrayaan-3 orbited the Moon at altitude 100 km. Moon's surface gravity = 1.62 m/s\u00b2. Approximately what orbital speed was needed? (Hint: use orbital mechanics concept that centripetal acceleration = gravity)",
+      "options": [
+        {
+          "id": "a",
+          "text": "1,620 m/s"
+        },
+        {
+          "id": "b",
+          "text": "About 1,633 m/s"
+        },
+        {
+          "id": "c",
+          "text": "3,200 m/s"
+        },
+        {
+          "id": "d",
+          "text": "7,800 m/s"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "At orbit altitude h, centripetal acceleration = g_surface \u00d7 (R/(R+h))\u00b2. Moon R=1737 km. At 100km: g_orbit \u2248 1.62 \u00d7 (1737/1837)\u00b2 \u2248 1.45 m/s\u00b2. v = \u221a(g_orbit \u00d7 (R+h)) = \u221a(1.45 \u00d7 1837000) \u2248 1633 m/s. Your gravitation chapter guided Chandrayaan-3 to the Moon's south pole \u2014 a world first!",
+      "difficulty": "hard",
+      "subject": "Science",
+      "chapter": "Gravitation",
+      "board": "kerala",
+      "enhancementTag": "AI Technology"
+    }
+  ]
+}

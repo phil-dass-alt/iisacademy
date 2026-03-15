@@ -1,0 +1,229 @@
+{
+  "board": "tamil-nadu",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "tn-10-sci-01",
+      "number": 1,
+      "name": "Laws of Motion",
+      "topics": [
+        "Newton's Laws",
+        "Momentum",
+        "Rocket Propulsion"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-sci-02",
+      "number": 2,
+      "name": "Optics",
+      "topics": [
+        "Reflection",
+        "Refraction",
+        "Lenses",
+        "Optical Instruments"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-sci-03",
+      "number": 3,
+      "name": "Thermal Physics",
+      "topics": [
+        "Temperature and Heat",
+        "Calorimetry",
+        "Thermal Expansion"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "tn-10-sci-04",
+      "number": 4,
+      "name": "Electricity",
+      "topics": [
+        "Circuit",
+        "Resistance",
+        "Power",
+        "AC and DC"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-sci-05",
+      "number": 5,
+      "name": "Acoustics",
+      "topics": [
+        "Sound Waves",
+        "Doppler Effect",
+        "Applications"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-sci-06",
+      "number": 6,
+      "name": "Nuclear Physics",
+      "topics": [
+        "Radioactivity",
+        "Nuclear Reactions",
+        "Uses and Hazards"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "tn-10-sci-07",
+      "number": 7,
+      "name": "Atoms and Molecules",
+      "topics": [
+        "Mole Concept",
+        "Chemical Equations",
+        "Balancing"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-10-sci-08",
+      "number": 8,
+      "name": "Periodic Classification of Elements",
+      "topics": [
+        "Periodic Table",
+        "Groups and Periods",
+        "Properties"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-10-sci-09",
+      "number": 9,
+      "name": "Solutions",
+      "topics": [
+        "Concentration",
+        "Solubility",
+        "Osmosis"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-10-sci-10",
+      "number": 10,
+      "name": "Types of Chemical Reactions",
+      "topics": [
+        "Combination",
+        "Decomposition",
+        "Displacement",
+        "Redox"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-10-sci-11",
+      "number": 11,
+      "name": "Carbon and its Compounds",
+      "topics": [
+        "Organic Chemistry Basics",
+        "Functional Groups",
+        "Reactions"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-10-sci-12",
+      "number": 12,
+      "name": "Plant Anatomy and Plant Physiology",
+      "topics": [
+        "Plant Tissues",
+        "Photosynthesis",
+        "Transpiration"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-13",
+      "number": 13,
+      "name": "Structural Organisation of Animals",
+      "topics": [
+        "Animal Tissues",
+        "Organ Systems"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-14",
+      "number": 14,
+      "name": "Transportation in Plants and Circulation in Animals",
+      "topics": [
+        "Xylem and Phloem",
+        "Heart and Blood"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-15",
+      "number": 15,
+      "name": "Nervous System",
+      "topics": [
+        "Neurons",
+        "Brain",
+        "Spinal Cord",
+        "Reflex Actions"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-16",
+      "number": 16,
+      "name": "Reproduction in Plants and Animals",
+      "topics": [
+        "Asexual and Sexual Reproduction",
+        "Fertilization"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-17",
+      "number": 17,
+      "name": "Genetics and Evolution",
+      "topics": [
+        "Heredity",
+        "Mendel's Laws",
+        "Evolution"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-18",
+      "number": 18,
+      "name": "Plant and Animal Hormones",
+      "topics": [
+        "Phytohormones",
+        "Endocrine Glands",
+        "Hormonal Disorders"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-19",
+      "number": 19,
+      "name": "Immune System",
+      "topics": [
+        "Immunity",
+        "Vaccines",
+        "Antibiotics"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-10-sci-20",
+      "number": 20,
+      "name": "Environmental Management",
+      "topics": [
+        "Biodiversity",
+        "Pollution",
+        "Conservation",
+        "Sustainability"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

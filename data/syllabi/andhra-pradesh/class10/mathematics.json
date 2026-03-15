@@ -1,0 +1,152 @@
+{
+  "board": "andhra-pradesh",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "ap-10-math-01",
+      "number": 1,
+      "name": "Real Numbers",
+      "topics": [
+        "Euclid's Division Algorithm",
+        "Fundamental Theorem of Arithmetic"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-10-math-02",
+      "number": 2,
+      "name": "Sets",
+      "topics": [
+        "Set Operations",
+        "Venn Diagrams",
+        "Applications"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-03",
+      "number": 3,
+      "name": "Polynomials",
+      "topics": [
+        "Zeros",
+        "Relationship Between Zeros and Coefficients",
+        "Division Algorithm"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-04",
+      "number": 4,
+      "name": "Pair of Linear Equations in Two Variables",
+      "topics": [
+        "Algebraic and Graphical Methods"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-10-math-05",
+      "number": 5,
+      "name": "Quadratic Equations",
+      "topics": [
+        "Solutions",
+        "Nature of Roots",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-10-math-06",
+      "number": 6,
+      "name": "Progressions",
+      "topics": [
+        "AP",
+        "GP",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-10-math-07",
+      "number": 7,
+      "name": "Coordinate Geometry",
+      "topics": [
+        "Distance",
+        "Section Formula",
+        "Area of Triangle"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-math-08",
+      "number": 8,
+      "name": "Similar Triangles",
+      "topics": [
+        "Similarity Criteria",
+        "Pythagoras Theorem"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-09",
+      "number": 9,
+      "name": "Tangents and Secants to a Circle",
+      "topics": [
+        "Tangent",
+        "Number of Tangents",
+        "Length of Tangent"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-10",
+      "number": 10,
+      "name": "Mensuration",
+      "topics": [
+        "Surface Area and Volume of Combinations of Solids"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-11",
+      "number": 11,
+      "name": "Trigonometry",
+      "topics": [
+        "Ratios",
+        "Identities",
+        "Heights and Distances"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-10-math-12",
+      "number": 12,
+      "name": "Applications of Trigonometry",
+      "topics": [
+        "Heights and Distances Problems"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-10-math-13",
+      "number": 13,
+      "name": "Probability",
+      "topics": [
+        "Classical Probability",
+        "Events",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-10-math-14",
+      "number": 14,
+      "name": "Statistics",
+      "topics": [
+        "Mean, Median, Mode for Grouped Data",
+        "Ogives"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

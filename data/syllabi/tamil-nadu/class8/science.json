@@ -1,0 +1,158 @@
+{
+  "board": "tamil-nadu",
+  "class": 8,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "tn-8-sci-01",
+      "number": 1,
+      "name": "Measuring Quantities",
+      "topics": [
+        "Units and Measurement",
+        "Length, Mass, Time Measurement"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-02",
+      "number": 2,
+      "name": "Force and Pressure",
+      "topics": [
+        "Types of Forces",
+        "Pressure",
+        "Atmospheric Pressure"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-03",
+      "number": 3,
+      "name": "Light",
+      "topics": [
+        "Reflection",
+        "Refraction",
+        "Human Eye"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-04",
+      "number": 4,
+      "name": "Heat",
+      "topics": [
+        "Temperature and Heat",
+        "Thermal Expansion",
+        "Heat Transfer"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "tn-8-sci-05",
+      "number": 5,
+      "name": "Electricity",
+      "topics": [
+        "Electric Circuit",
+        "Resistance",
+        "Heating Effect"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-06",
+      "number": 6,
+      "name": "Sound",
+      "topics": [
+        "Properties",
+        "Propagation",
+        "Musical Instruments"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-07",
+      "number": 7,
+      "name": "Chemistry in Everyday Life",
+      "topics": [
+        "Acids, Bases and Salts",
+        "Soap and Detergents"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "tn-8-sci-08",
+      "number": 8,
+      "name": "Atomic Structure",
+      "topics": [
+        "Atom",
+        "Subatomic Particles",
+        "Electronic Configuration"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-8-sci-09",
+      "number": 9,
+      "name": "Periodic Classification",
+      "topics": [
+        "Mendeleev's Periodic Table",
+        "Modern Periodic Table"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-8-sci-10",
+      "number": 10,
+      "name": "Plant Kingdom",
+      "topics": [
+        "Classification",
+        "Photosynthesis",
+        "Plant Reproduction"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-8-sci-11",
+      "number": 11,
+      "name": "Animal Kingdom",
+      "topics": [
+        "Classification",
+        "Animal Systems"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-8-sci-12",
+      "number": 12,
+      "name": "Micro-organisms",
+      "topics": [
+        "Types",
+        "Uses",
+        "Diseases"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-8-sci-13",
+      "number": 13,
+      "name": "Organisation of Life",
+      "topics": [
+        "Cell",
+        "Tissues",
+        "Organ Systems"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "tn-8-sci-14",
+      "number": 14,
+      "name": "Environment",
+      "topics": [
+        "Ecosystem",
+        "Food Chains",
+        "Pollution",
+        "Conservation"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

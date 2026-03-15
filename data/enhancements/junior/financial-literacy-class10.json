@@ -1,0 +1,67 @@
+{
+  "id": "junior-finlit-class10",
+  "title": "Mathematics → Financial Literacy: Class 10",
+  "wing": "junior",
+  "class": 10,
+  "enhancementTag": "Financial Literacy",
+  "subjects": ["Mathematics"],
+  "applicableBoards": ["cbse", "icse", "karnataka", "tamil-nadu", "kerala", "andhra-pradesh"],
+  "lesson": {
+    "introduction": "Class 10 Mathematics — Arithmetic Progressions, Quadratic Equations, Statistics and Probability — directly map to financial planning, investment analysis, and risk modelling. You're one step away from understanding how money really works.",
+    "sections": [
+      {
+        "title": "Arithmetic Progressions → EMI and Loan Repayments",
+        "content": "An EMI (Equated Monthly Instalment) is essentially a loan repayment designed so equal amounts are paid each month. The total interest paid forms a decreasing AP (more interest early, less later with reducing-balance loans). The formula for sum of AP: Sₙ = n/2 × (2a + (n-1)d) directly applies to amortization schedules.",
+        "realWorldConnection": "Home loans of ₹50 lakh at 8.5% for 20 years have monthly EMI ≈ ₹43,391. The total interest paid = ₹43,391 × 240 - ₹50,00,000 ≈ ₹54,13,840. This is AP analysis.",
+        "keyInsight": "Arithmetic Progressions power the EMI calculations behind every home loan, car loan, and education loan."
+      },
+      {
+        "title": "Quadratic Equations → Investment Returns",
+        "content": "If ₹P invested at rate r doubles in 2 years: P(1+r)² = 2P → (1+r)² = 2 → r = √2 - 1 ≈ 0.414 = 41.4%. This is a quadratic equation in (1+r). The CAGR (Compound Annual Growth Rate) formula is derived by solving quadratic and higher-degree equations.",
+        "realWorldConnection": "Venture capitalists and equity investors use IRR (Internal Rate of Return) — a higher-degree polynomial equation (extension of quadratic). Your Class 10 quadratic equation is the foundation.",
+        "keyInsight": "Quadratic equations are the mathematical backbone of investment return calculations."
+      },
+      {
+        "title": "Statistics → Stock Market Analysis",
+        "content": "Stock prices follow statistical distributions. The mean daily return, standard deviation of returns (volatility), and median price are exactly what your statistics chapter covers. Bollinger Bands — a popular trading tool — use mean ± 2× standard deviation.",
+        "realWorldConnection": "NSE Nifty 50 index average annual return: ~12%. Volatility (standard deviation): ~20%. Professional analysts use Class 10 statistics formulae.",
+        "keyInsight": "Standard deviation measures investment risk. Low SD = stable investment (FDs). High SD = volatile (small-cap stocks)."
+      },
+      {
+        "title": "Probability → Insurance and Risk Management",
+        "content": "Health insurance pricing: If P(hospitalisation/year) = 0.05, average hospital bill = ₹60,000, expected cost = 0.05 × 60,000 = ₹3,000. Premium = ₹3,000 + operating costs + profit margin. Your probability chapter is literally actuarial science.",
+        "realWorldConnection": "IRDAI regulations require all general insurers to price products using actuarial probability models. Your Class 10 probability is the core of the ₹1.5 lakh crore Indian insurance market.",
+        "keyInsight": "Insurance, poker, weather forecasting, and disease control all use your probability formulas."
+      }
+    ],
+    "practicalAddOn": {
+      "title": "EMI Calculator from Scratch",
+      "description": "Build an EMI calculator without any app — just your AP formulas and a spreadsheet. Calculate EMI for: (a) ₹2 lakh laptop loan at 14% for 2 years, (b) ₹5 lakh car loan at 9% for 3 years, (c) ₹30 lakh home loan at 8.5% for 20 years.",
+      "steps": [
+        "EMI Formula: EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ - 1), where r = monthly rate, n = months",
+        "For laptop: P=200000, r=14/12/100=0.01167, n=24",
+        "Build an amortization table showing principal and interest components each month",
+        "Calculate total interest paid and compare to the loan amount",
+        "Observe: How much extra are you paying for the loan?"
+      ],
+      "mathFormulas": [
+        "EMI = P × r(1+r)ⁿ / [(1+r)ⁿ - 1]",
+        "Total Amount Paid = EMI × n",
+        "Total Interest = Total Amount Paid - Principal"
+      ],
+      "realWorldSkill": "Loan Evaluation and Debt Literacy",
+      "difficulty": "hard"
+    },
+    "agenticChallenge": {
+      "title": "Design Your Financial Independence Plan",
+      "description": "Using compound interest, statistics, and probability: Calculate how much you need to save monthly from age 18 to retire at age 45 with ₹5 crore. Assumptions: 12% CAGR equity returns, 6% inflation. Use Excel/Sheets to build the model.",
+      "hint": "The future value of a monthly SIP = P × [(1+r)ⁿ - 1] / r × (1+r). This is the FV of Annuity formula — an extension of AP sum formula with geometric components.",
+      "realWorldConnection": "This is called 'Financial Independence, Retire Early (FIRE)' — a global financial planning movement. You have all the math you need in Class 10."
+    },
+    "furtherExploration": [
+      "Zerodha Varsity: Complete 10-module course (free)",
+      "ET Money: Financial Planning Tools",
+      "freefincal.com: Goal-based financial planning with Indian examples"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "icse-10-sci-01",
+      "number": 1,
+      "name": "Force, Work, Power and Energy",
+      "topics": ["Force", "Turning Forces", "Uniform Circular Motion", "Work, Power, Energy", "Machines"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-sci-02",
+      "number": 2,
+      "name": "Light",
+      "topics": ["Refraction", "Prism and Dispersion", "Lenses", "Optical Instruments"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-sci-03",
+      "number": 3,
+      "name": "Sound",
+      "topics": ["Reflection, Refraction and Diffraction", "Resonance", "Forced Vibrations"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-sci-04",
+      "number": 4,
+      "name": "Electricity and Magnetism",
+      "topics": ["Ohm's Law", "Resistances in Circuits", "Domestic Circuits", "Electromagnetism", "Motors and Generators"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-sci-05",
+      "number": 5,
+      "name": "Heat",
+      "topics": ["Calorimetry", "Latent Heat", "Radiation", "Greenhouse Effect"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "icse-10-sci-06",
+      "number": 6,
+      "name": "Modern Physics",
+      "topics": ["Radioactivity", "Nuclear Energy", "Solar Energy"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "icse-10-sci-07",
+      "number": 7,
+      "name": "Periodic Table",
+      "topics": ["Periodic Properties", "Trends in the Periodic Table", "Metals and Non-Metals Classification"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-08",
+      "number": 8,
+      "name": "Chemical Bonding",
+      "topics": ["Ionic Bonding", "Covalent Bonding", "Electrovalency and Covalency"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-09",
+      "number": 9,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Properties and Reactions", "pH Scale", "Preparation of Salts", "Indicators"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-10",
+      "number": 10,
+      "name": "Analytical Chemistry",
+      "topics": ["Action of Ammonium Hydroxide", "Action of Sodium Hydroxide", "Identification of Gases"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-sci-11",
+      "number": 11,
+      "name": "Mole Concept and Stoichiometry",
+      "topics": ["Mole Concept", "Avogadro's Number", "Calculations from Chemical Equations"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-sci-12",
+      "number": 12,
+      "name": "Electrolysis",
+      "topics": ["Electrolytes", "Electrolytic Cells", "Applications: Electroplating and Electrorefining"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-13",
+      "number": 13,
+      "name": "Metallurgy",
+      "topics": ["Occurrence and Extraction", "Aluminium", "Iron", "Alloys"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-14",
+      "number": 14,
+      "name": "Organic Chemistry",
+      "topics": ["Hydrocarbons", "Alcohols", "Carboxylic Acids", "Esters"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "icse-10-sci-15",
+      "number": 15,
+      "name": "Basic Biology and Genetics",
+      "topics": ["Chromosomes and Genes", "Mendel's Laws", "Sex Determination", "Mutations"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "icse-10-sci-16",
+      "number": 16,
+      "name": "Human Anatomy and Physiology",
+      "topics": ["Circulatory System", "Excretory System", "Nervous System", "Endocrine System"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "icse-10-sci-17",
+      "number": 17,
+      "name": "Environmental Science",
+      "topics": ["Ecosystems", "Biodiversity", "Conservation", "Pollution and Remediation"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

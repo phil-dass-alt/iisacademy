@@ -1,0 +1,144 @@
+{
+  "board": "andhra-pradesh",
+  "class": 9,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "ap-9-math-01",
+      "number": 1,
+      "name": "Real Numbers",
+      "topics": [
+        "Rational and Irrational Numbers",
+        "Real Number Line",
+        "Decimal Expansions"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-9-math-02",
+      "number": 2,
+      "name": "Polynomials and Factorisation",
+      "topics": [
+        "Polynomials",
+        "Remainder Theorem",
+        "Factorisation"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-03",
+      "number": 3,
+      "name": "The Elements of Geometry",
+      "topics": [
+        "Euclid's Axioms",
+        "Postulates",
+        "Theorems"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-04",
+      "number": 4,
+      "name": "Lines and Angles",
+      "topics": [
+        "Parallel Lines",
+        "Transversals",
+        "Angle Theorems"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-05",
+      "number": 5,
+      "name": "Co-ordinate Geometry",
+      "topics": [
+        "Cartesian System",
+        "Plotting Points",
+        "Quadrants"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ap-9-math-06",
+      "number": 6,
+      "name": "Linear Equation in Two Variables",
+      "topics": [
+        "Solutions",
+        "Graph",
+        "Applications"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-9-math-07",
+      "number": 7,
+      "name": "Triangles",
+      "topics": [
+        "Congruence",
+        "Similarity",
+        "Inequalities"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-08",
+      "number": 8,
+      "name": "Quadrilaterals",
+      "topics": [
+        "Properties",
+        "Parallelogram Theorems",
+        "Mid-Point Theorem"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-09",
+      "number": 9,
+      "name": "Statistics",
+      "topics": [
+        "Data Representation",
+        "Mean, Median, Mode"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "ap-9-math-10",
+      "number": 10,
+      "name": "Surface Areas and Volumes",
+      "topics": [
+        "Cube, Cuboid, Cylinder, Cone, Sphere"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-11",
+      "number": 11,
+      "name": "Areas",
+      "topics": [
+        "Triangles and Parallelograms on Same Base"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-12",
+      "number": 12,
+      "name": "Circles",
+      "topics": [
+        "Chord Properties",
+        "Arcs",
+        "Cyclic Quadrilaterals"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "ap-9-math-13",
+      "number": 13,
+      "name": "Probability",
+      "topics": [
+        "Empirical Probability",
+        "Events"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "board": "kerala",
+  "class": 9,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "kl-9-math-01",
+      "number": 1,
+      "name": "Areas",
+      "topics": [
+        "Polygon Areas",
+        "Coordinate Geometry Areas"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-02",
+      "number": 2,
+      "name": "Polynomials and Primes",
+      "topics": [
+        "Polynomial Factorization",
+        "Prime Numbers"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-03",
+      "number": 3,
+      "name": "Circles",
+      "topics": [
+        "Chord Properties",
+        "Angle in Semicircle",
+        "Tangent"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-04",
+      "number": 4,
+      "name": "New Operations",
+      "topics": [
+        "Matrices Basics",
+        "Determinants (2\u00d72)"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-math-05",
+      "number": 5,
+      "name": "Irrational Numbers",
+      "topics": [
+        "Square Root Operations",
+        "Simplification"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-06",
+      "number": 6,
+      "name": "Parallel Lines",
+      "topics": [
+        "Properties",
+        "Triangles and Quadrilaterals",
+        "Mid-Point Theorem"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-07",
+      "number": 7,
+      "name": "Coordinates",
+      "topics": [
+        "Coordinate Geometry",
+        "Slope",
+        "Line Equations"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-math-08",
+      "number": 8,
+      "name": "Solids",
+      "topics": [
+        "Cone, Sphere, Cylinder \u2014 Volume and Surface Area"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-9-math-09",
+      "number": 9,
+      "name": "Statistics",
+      "topics": [
+        "Data Collection",
+        "Mean, Median, Mode",
+        "Ogive"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "kl-9-math-10",
+      "number": 10,
+      "name": "Logarithms",
+      "topics": [
+        "Log Rules",
+        "Common and Natural Logs",
+        "Applications"
+      ],
+      "enhancement": "AI Technology"
+    }
+  ]
+}
