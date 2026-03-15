@@ -1,0 +1,169 @@
+{
+  "board": "kseab",
+  "class": 8,
+  "subject": "Social Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-8-sst-hist-01",
+      "number": 1,
+      "name": "How, When and Where (History)",
+      "topics": ["How Important are Dates?", "How do we Periodise?", "What Official Records Tell Us"],
+      "enhancement": "AI Historical Analysis & Digital Archives",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-02",
+      "number": 2,
+      "name": "From Trade to Territory",
+      "topics": ["East India Company Comes East", "Company Establishes Power", "Expansion of British Power"],
+      "enhancement": "Economic History AI & Trade Network Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-03",
+      "number": 3,
+      "name": "Ruling the Countryside",
+      "topics": ["The Company Becomes the Diwan", "A New System of Revenue", "The Permanent Settlement"],
+      "enhancement": "AgriTech & Land Records Digitization",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-04",
+      "number": 4,
+      "name": "Tribals, Dikus and the Vision of a Golden Age",
+      "topics": ["How did Tribal Groups Live?", "The Situation Changes", "Birsa Munda"],
+      "enhancement": "Digital Preservation of Indigenous Knowledge",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-05",
+      "number": 5,
+      "name": "When People Rebel: 1857 and After",
+      "topics": ["Policies and the People", "The Revolt", "Aftermath of 1857"],
+      "enhancement": "Social Network Analysis & Collective Action",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-06",
+      "number": 6,
+      "name": "Weavers, Iron Smelters and Factory Owners",
+      "topics": ["Indian Textiles and the World Market", "The Decline of Indian Textiles", "The Story of Iron and Steel"],
+      "enhancement": "Industry 4.0 & Smart Manufacturing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-07",
+      "number": 7,
+      "name": "Civilising the 'Native', Educating the Nation",
+      "topics": ["The Tradition of Orientalism", "Orientalists and Their Ideas", "Education Reform"],
+      "enhancement": "EdTech & Personalized AI Learning",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-08",
+      "number": 8,
+      "name": "Women, Caste and Reform",
+      "topics": ["Working Towards Change", "Attitudes to Caste", "Social Reform Movements"],
+      "enhancement": "Social AI & Bias Detection in Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-09",
+      "number": 9,
+      "name": "The Making of the National Movement: 1870s–1947",
+      "topics": ["The Emergence of Nationalism", "The Growth of Mass Nationalism", "Towards Independence"],
+      "enhancement": "Sentiment Analysis & Political AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-hist-10",
+      "number": 10,
+      "name": "India After Independence",
+      "topics": ["A New and Troubled World", "How were States to be Formed?", "The Constitution"],
+      "enhancement": "E-Governance & Digital India",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-geo-01",
+      "number": 11,
+      "name": "Resources (Geography)",
+      "topics": ["Types of Resources", "Utility", "Value", "Biotic and Abiotic Resources", "Natural, Human-Made and Human Resources"],
+      "enhancement": "Resource AI & Satellite Mapping",
+      "enhancementFile": "resources-and-development.json"
+    },
+    {
+      "id": "kseab-8-sst-geo-02",
+      "number": 12,
+      "name": "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
+      "topics": ["Land Resources", "Soil as a Resource", "Water Resources", "Natural Vegetation", "Wildlife"],
+      "enhancement": "GIS & Environmental AI Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-geo-03",
+      "number": 13,
+      "name": "Mineral and Power Resources",
+      "topics": ["What is a Mineral?", "Types of Minerals", "Power Resources", "Non-Conventional Sources of Energy"],
+      "enhancement": "Smart Grid & Renewable Energy AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-geo-04",
+      "number": 14,
+      "name": "Agriculture",
+      "topics": ["Types of Farming", "Agricultural Practices", "Major Crops", "Agricultural Development"],
+      "enhancement": "Precision Farming & AgriTech AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-geo-05",
+      "number": 15,
+      "name": "Industries",
+      "topics": ["Classification of Industries", "Factors Affecting Location", "Industrial Pollution"],
+      "enhancement": "Industry 4.0 & Smart Factories",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-geo-06",
+      "number": 16,
+      "name": "Human Resources",
+      "topics": ["Distribution of Population", "Factors Affecting Distribution", "Population Change"],
+      "enhancement": "Census AI & Population Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-civ-01",
+      "number": 17,
+      "name": "The Indian Constitution (Civics)",
+      "topics": ["Why Does a Country Need a Constitution?", "The Indian Constitution", "Key Features"],
+      "enhancement": "Digital Rights & AI Ethics Governance",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-civ-02",
+      "number": 18,
+      "name": "Understanding Secularism",
+      "topics": ["What is Secularism?", "What is Indian Secularism?", "Why is Secularism Important?"],
+      "enhancement": "AI Fairness & Non-Discrimination Frameworks",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-civ-03",
+      "number": 19,
+      "name": "Why Do We Need a Parliament?",
+      "topics": ["Why Should People Decide?", "The Role of Parliament", "Two Houses of Parliament"],
+      "enhancement": "Digital Democracy & E-Voting Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sst-civ-04",
+      "number": 20,
+      "name": "Understanding Laws",
+      "topics": ["Do Laws Apply to All?", "How Do New Laws Come About?", "People and the Law"],
+      "enhancement": "LegalTech & AI-Assisted Justice Systems",
+      "enhancementFile": null
+    }
+  ]
+}

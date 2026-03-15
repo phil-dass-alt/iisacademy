@@ -1,0 +1,209 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "Social Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-10-sst-hist-01",
+      "number": 1,
+      "name": "The Rise of Nationalism in Europe (History)",
+      "topics": ["The French Revolution and the Idea of the Nation", "The Making of Nationalism in Europe", "The Age of Revolutions: 1830–1848", "The Making of Germany and Italy", "Visualising the Nation", "Nationalism and Imperialism"],
+      "enhancement": "AI & Political Pattern Analysis",
+      "enhancementFile": "rise-of-nationalism.json"
+    },
+    {
+      "id": "cbse-10-sst-hist-02",
+      "number": 2,
+      "name": "Nationalism in India",
+      "topics": ["The First World War, Khilafat and Non-Cooperation", "Differing Strands within the Movement", "Towards Civil Disobedience", "The Sense of Collective Belonging"],
+      "enhancement": "Social Movement AI & Collective Action Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-hist-03",
+      "number": 3,
+      "name": "The Making of a Global World",
+      "topics": ["The Pre-modern World", "The Nineteenth Century (1815–1914)", "The Inter-war Economy", "Rebuilding a World Economy: The Post-war Era"],
+      "enhancement": "Global Trade AI & Supply Chain Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-hist-04",
+      "number": 4,
+      "name": "The Age of Industrialisation",
+      "topics": ["Before the Industrial Revolution", "Hand Labour and Steam Power", "Industrialisation in the Colonies", "Factories Come Up", "The Peculiarities of Industrial Growth in India"],
+      "enhancement": "Industry 4.0 & AI-Driven Smart Factories",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-hist-05",
+      "number": 5,
+      "name": "Print Culture and the Modern World",
+      "topics": ["The First Printed Books", "Print Comes to Europe", "The Print Revolution and its Impact", "Reading Mania", "The Nineteenth Century", "India and the World of Print"],
+      "enhancement": "Digital Media AI & Information Spread Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-01",
+      "number": 6,
+      "name": "Resources and Development (Geography)",
+      "topics": ["Types of Resources", "Development of Resources", "Resource Planning in India", "Land Resources", "Soil as a Resource"],
+      "enhancement": "Satellite Resource Monitoring & GIS AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-02",
+      "number": 7,
+      "name": "Forest and Wildlife Resources",
+      "topics": ["Flora and Fauna in India", "Disappearing Forests", "Conservation of Forest and Wildlife in India", "Types and Distribution of Forests and Wildlife Resources"],
+      "enhancement": "AI Wildlife Monitoring & Anti-Poaching Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-03",
+      "number": 8,
+      "name": "Water Resources",
+      "topics": ["Water Scarcity and the Need for Water Conservation", "Multi-purpose River Projects and Integrated Water Resources Management", "Rainwater Harvesting"],
+      "enhancement": "Smart Water Management AI & IoT Sensors",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-04",
+      "number": 9,
+      "name": "Agriculture",
+      "topics": ["Types of Farming", "Cropping Pattern", "Major Crops", "Technological and Institutional Reforms", "Contribution of Agriculture to the National Economy"],
+      "enhancement": "Precision Agriculture AI & Smart Farming",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-05",
+      "number": 10,
+      "name": "Minerals and Energy Resources",
+      "topics": ["What is a Mineral?", "Mode of Occurrence of Minerals", "Ferrous and Non-ferrous Minerals", "Non-metallic Minerals", "Rock Minerals", "Conservation of Minerals", "Energy Resources"],
+      "enhancement": "Mining AI & Renewable Energy Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-06",
+      "number": 11,
+      "name": "Manufacturing Industries",
+      "topics": ["Importance of Manufacturing", "Contribution of Industry to National Economy", "Industrial Location", "Classification of Industries", "Agro-based Industries", "Mineral-based Industries"],
+      "enhancement": "Smart Manufacturing & Industrial IoT",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-geo-07",
+      "number": 12,
+      "name": "Lifelines of National Economy",
+      "topics": ["Transport", "Roadways", "Railways", "Pipelines", "Waterways", "Airways", "Communication", "International Trade"],
+      "enhancement": "Smart Transport AI & Logistics Optimization",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-econ-01",
+      "number": 13,
+      "name": "Development (Economics)",
+      "topics": ["What Development Promises", "Income and Other Goals", "National Development", "How to Compare Different Countries or States?", "Human Development Index"],
+      "enhancement": "Development Economics AI & HDI Forecasting",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-econ-02",
+      "number": 14,
+      "name": "Sectors of the Indian Economy",
+      "topics": ["Sectors of Economic Activities", "Comparing Three Sectors", "Primary, Secondary and Tertiary Sectors in India", "Division of Sectors as Organised and Unorganised"],
+      "enhancement": "Economic Sector AI Analytics & GDP Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-econ-03",
+      "number": 15,
+      "name": "Money and Credit",
+      "topics": ["Money as a Medium of Exchange", "Modern Forms of Money", "Loan Activities of Banks", "Two Different Credit Situations", "Formal Sector Credit in India", "Self Help Groups for the Poor"],
+      "enhancement": "FinTech AI & Digital Credit Scoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-econ-04",
+      "number": 16,
+      "name": "Globalisation and the Indian Economy",
+      "topics": ["Production Across Countries", "Interlinking Production Across Countries", "Foreign Trade and Integration of Markets", "What is Globalisation?", "Impact of Globalisation on India"],
+      "enhancement": "Global Supply Chain AI & Trade Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-econ-05",
+      "number": 17,
+      "name": "Consumer Rights",
+      "topics": ["The Consumer in the Marketplace", "Consumer Movement", "Consumer Rights", "Taking the Consumer Movement Forward"],
+      "enhancement": "Consumer AI & Digital Rights Protection",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-01",
+      "number": 18,
+      "name": "Power Sharing (Civics)",
+      "topics": ["Case Studies in Power Sharing", "Why Power Sharing is Desirable?", "Forms of Power Sharing"],
+      "enhancement": "Decentralized AI Systems & Distributed Computing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-02",
+      "number": 19,
+      "name": "Federalism",
+      "topics": ["What is Federalism?", "What Makes India a Federal Country?", "How is Federalism Practised?", "Decentralisation in India"],
+      "enhancement": "Blockchain & Decentralized Governance",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-03",
+      "number": 20,
+      "name": "Democracy and Diversity",
+      "topics": ["A Story from Mexico Olympics", "Divisions in Politics", "Politics of Social Divisions"],
+      "enhancement": "AI Diversity Analytics & Inclusive Design",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-04",
+      "number": 21,
+      "name": "Gender, Religion and Caste",
+      "topics": ["Gender and Politics", "Religion, Communalism and Politics", "Caste and Politics"],
+      "enhancement": "Algorithmic Bias & Fairness in AI Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-05",
+      "number": 22,
+      "name": "Popular Struggles and Movements",
+      "topics": ["Popular Struggles in Nepal and Bolivia", "Mobilisation and Organisations", "Pressure Groups and Movements"],
+      "enhancement": "Digital Activism & Social Media Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-06",
+      "number": 23,
+      "name": "Political Parties",
+      "topics": ["Why Do We Need Political Parties?", "How Many Parties Should We Have?", "National Parties", "State Parties", "Challenges to Political Parties"],
+      "enhancement": "Political AI & Election Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-07",
+      "number": 24,
+      "name": "Outcomes of Democracy",
+      "topics": ["How Do We Assess Democracy's Outcomes?", "Accountable, Responsive and Legitimate Government", "Economic Growth and Development", "Reduction of Inequality and Poverty", "Social Differences, Division and Conflicts", "Dignity and Freedom of the Citizens"],
+      "enhancement": "Democratic Accountability AI & Transparency Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sst-civ-08",
+      "number": 25,
+      "name": "Challenges to Democracy",
+      "topics": ["Thinking About Challenges to Democracy", "Foundational Challenge", "Challenge of Expansion", "Challenge of Deepening of Democracy"],
+      "enhancement": "AI & Digital Threats to Democracy",
+      "enhancementFile": null
+    }
+  ]
+}

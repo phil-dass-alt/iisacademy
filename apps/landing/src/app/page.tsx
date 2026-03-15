@@ -12,6 +12,7 @@ import { Features } from '@/components/Features';
 import { BoardNav } from '@/components/BoardNav';
 import { Pricing } from '@/components/Pricing';
 import { Testimonials } from '@/components/Testimonials';
+import { GlobalNavBar } from '@iisacademy/ui';
 
 
 export default function LandingPage() {
@@ -21,6 +22,44 @@ export default function LandingPage() {
       <main>
 
     <main className="min-h-screen bg-white">
+
+      {/* Universal Navigation Bar */}
+      <GlobalNavBar
+        navLinks={[
+          { label: 'Features', href: '#features' },
+          { label: 'Boards', href: '#boards' },
+          { label: 'Pricing', href: '#pricing' },
+          { label: 'Reviews', href: '#testimonials' },
+        ]}
+        actions={
+          <>
+            <a
+              href={process.env.NEXT_PUBLIC_STUDENT_PORTAL_URL ?? '/login'}
+              style={{ fontSize: '0.875rem', color: '#4b5563', textDecoration: 'none', fontWeight: 500 }}
+            >
+              Log in
+            </a>
+            <a
+              href="#pricing"
+              style={{
+                background: '#4f46e5',
+                color: '#fff',
+                fontSize: '0.875rem',
+                fontWeight: 500,
+                padding: '0.45rem 1rem',
+                borderRadius: 8,
+                textDecoration: 'none',
+              }}
+            >
+              Join High-5 – ₹499/yr
+            </a>
+          </>
+        }
+      />
+
+      {/* Main Content */}
+      <div>
+
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,6 +94,7 @@ export default function LandingPage() {
 
       {/* Main Content */}
       <div className="pt-16">
+
 
         <Hero />
         <BoardNav />
@@ -99,10 +139,17 @@ export default function LandingPage() {
             <div>
               <h3 className="font-semibold text-white mb-4">Legal</h3>
               <ul className="space-y-2 text-sm text-gray-400">
+
+                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-white">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white">Refund Policy</a></li>
+                <li><a href="#" className="hover:text-white">Contact Us</a></li>
+
                 <li><a href="/legal/terms" className="hover:text-white">Privacy Policy</a></li>
                 <li><a href="/legal/terms" className="hover:text-white">Terms of Service</a></li>
                 <li><a href="/legal/terms" className="hover:text-white">Refund Policy</a></li>
                 <li><a href="mailto:support@iisacademy.com" className="hover:text-white">Contact Us</a></li>
+
               </ul>
             </div>
           </div>

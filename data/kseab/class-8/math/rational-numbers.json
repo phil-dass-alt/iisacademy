@@ -1,0 +1,151 @@
+{
+  "id": "kseab-8-math-rational-numbers",
+  "title": "Rational Numbers",
+  "subject": "Math",
+  "chapter": "Rational Numbers",
+  "chapterNumber": 1,
+  "board": "kseab",
+  "class": 8,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Number Theory & Cryptography",
+    "tagline": "From fractions on a number line to secrets that protect Karnataka's digital payments"
+  },
+  "lesson": {
+    "officialFocus": "Properties of rational numbers (closure, commutativity, associativity, distributivity), representation on the number line, and finding rational numbers between two given rational numbers.",
+    "introduction": "Every UPI payment you make on PhonePe or GPay, every KSRTC e-ticket purchase, and every online application to Karnataka government services is secured by mathematics built on rational number properties. The same concepts you study in KSEAB Class 8 Math—inverses, closure, and number density—power the cryptographic systems protecting Karnataka's digital economy. Let's explore how.",
+    "sections": [
+      {
+        "title": "Properties of Rational Numbers → Modular Arithmetic in UPI Security",
+        "officialConcept": "Rational numbers follow closure, commutativity, associativity, and distributivity. Every rational number p/q has a multiplicative inverse q/p (when p is non-zero) and an additive inverse -p/q.",
+        "aiEnhancement": "When you scan a QR code to pay at a Bengaluru store, your phone and the payment server perform RSA encryption in milliseconds. The private key is computed using the modular multiplicative inverse—a direct extension of the rational number inverse concept. In modular arithmetic (mod n), the inverse of a number e is another number d such that e × d ≡ 1 (mod n). This mirrors the rational number multiplicative inverse: e × (1/e) = 1. The National Payments Corporation of India (NPCI) processes over 12 billion UPI transactions per month, each secured by this mathematics.",
+        "keyInsight": "The multiplicative inverse you practise for rational numbers (a/b × b/a = 1) is the direct mathematical ancestor of the modular inverse that secures every digital payment in India."
+      },
+      {
+        "title": "Number Line Representation → Digital Signal Encoding",
+        "officialConcept": "Every rational number p/q has a precise location on the number line. Between any two rational numbers, infinitely many rational numbers exist (density property).",
+        "aiEnhancement": "Karnataka's Bengaluru has one of India's densest optical fibre networks. Data transmitted through fibre optic cables is encoded as light pulses representing binary numbers (0s and 1s). However, the signal processing uses Quadrature Amplitude Modulation (QAM), which maps data points onto a two-dimensional grid of rational-number coordinates. Each constellation point has precise rational coordinates, and the 'density' of points determines data transmission speed—256-QAM uses a 16×16 grid of points and is used in modern Bengaluru 5G networks.",
+        "keyInsight": "The number line density that allows infinitely many rational numbers between two points has a direct analogue in QAM signal encoding: more constellation points = denser data encoding = faster internet speeds."
+      },
+      {
+        "title": "Closure Property → Complete Number Systems in Computer Architecture",
+        "officialConcept": "Rational numbers are closed under addition, subtraction, multiplication, and division (except by zero)—meaning the result of any operation on rational numbers is always a rational number.",
+        "aiEnhancement": "The closure property is fundamental to how computer arithmetic works. Processor designers at Intel, AMD, and ARM (whose chips power most of India's smartphones) ensure their floating-point units are 'closed' under arithmetic operations—any result of adding two floating-point numbers is a valid floating-point number. When closure breaks down (overflow, underflow, NaN—Not a Number), software crashes result. The infamous Ariane 5 rocket explosion in 1996 was caused by a floating-point overflow—a closure violation where a 64-bit number was forced into a 16-bit space. Proper understanding of number system properties is critical for reliable software.",
+        "keyInsight": "The closure property you verify for rational numbers is one of the first properties computer architects must guarantee in processor design—its violation causes real software failures in everything from rockets to banking apps."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Compute Modular Inverses Using the Extended Euclidean Algorithm",
+      "difficulty": "beginner",
+      "materials": ["Paper and pencil", "Optional: Python on any free online interpreter like repl.it"],
+      "steps": [
+        "We want to find the modular inverse of 3 mod 7 (i.e., find x such that 3 × x ≡ 1 mod 7).",
+        "Try each value: 3×1=3, 3×2=6, 3×3=9≡2, 3×4=12≡5, 3×5=15≡1. So the inverse of 3 mod 7 is 5.",
+        "Verify: 3 × 5 = 15 = 2×7 + 1, so 15 ≡ 1 (mod 7). Correct!",
+        "Notice this is like the rational inverse: 3 × (1/3) = 1 in regular arithmetic; 3 × 5 ≡ 1 (mod 7) in modular arithmetic.",
+        "Try finding the inverse of 7 mod 26 (used in Caesar cipher for key 7). Hint: 7 × x ≡ 1 (mod 26). Answer: 7 × 15 = 105 = 4×26 + 1, so x = 15."
+      ],
+      "learningOutcome": "You will have computed a modular inverse manually, connected it to the rational number multiplicative inverse property, and understood the mathematical core of cryptographic key generation used in real digital payment systems."
+    },
+    "furtherExploration": [
+      "NPCI UPI: npci.org.in – learn how India's digital payment system works",
+      "Khan Academy: Cryptography (free) – modular arithmetic and RSA explained",
+      "Digital India: digitalindia.gov.in – Karnataka's digital infrastructure programmes"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-8-math-rational-quiz",
+    "title": "Rational Numbers & Cryptography Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the multiplicative inverse of -3/7?",
+        "options": [
+          {"id": "a", "text": "7/3"},
+          {"id": "b", "text": "-7/3"},
+          {"id": "c", "text": "3/7"},
+          {"id": "d", "text": "-3/7"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The multiplicative inverse of p/q is q/p. For -3/7, the inverse is 7/(-3) = -7/3. Verify: (-3/7) × (-7/3) = 21/21 = 1. Correct!",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Rational Numbers",
+        "board": "kseab",
+        "enhancementTag": "Number Theory & Cryptography"
+      },
+      {
+        "id": "q2",
+        "text": "The density property of rational numbers states that between any two rational numbers, there are infinitely many rational numbers. What is one rational number between 2/5 and 3/5?",
+        "options": [
+          {"id": "a", "text": "5/10"},
+          {"id": "b", "text": "1/5"},
+          {"id": "c", "text": "4/5"},
+          {"id": "d", "text": "1/2"}
+        ],
+        "correctOptionId": "d",
+        "explanation": "The mean of 2/5 and 3/5 is (2/5 + 3/5)/2 = (5/5)/2 = 1/2 = 5/10. Is 2/5 < 1/2 < 3/5? Converting: 4/10 < 5/10 < 6/10. Yes! Also note 5/10 = 1/2 is equivalent.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Rational Numbers",
+        "board": "kseab",
+        "enhancementTag": "Number Theory & Cryptography"
+      },
+      {
+        "id": "q3",
+        "text": "When you make a UPI payment in Bengaluru, your phone computes a modular inverse to encrypt the transaction. What property of rational numbers is this directly based on?",
+        "options": [
+          {"id": "a", "text": "Commutative property of addition"},
+          {"id": "b", "text": "Multiplicative inverse property—where every non-zero number has a unique inverse such that their product equals 1 (or 1 mod n in modular arithmetic)"},
+          {"id": "c", "text": "Density property of rational numbers"},
+          {"id": "d", "text": "Associative property of multiplication"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "RSA encryption's key generation uses the modular multiplicative inverse: finding d such that e × d ≡ 1 (mod phi(n)). This is the direct modular-arithmetic equivalent of the rational number multiplicative inverse: a × (1/a) = 1. The mathematical structure is identical—only the number system (modular vs. rational) differs.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Rational Numbers",
+        "board": "kseab",
+        "enhancementTag": "Number Theory & Cryptography"
+      },
+      {
+        "id": "q4",
+        "text": "Rational numbers are closed under addition. What does 'closed' mean in this context?",
+        "options": [
+          {"id": "a", "text": "The set of rational numbers is finite and bounded"},
+          {"id": "b", "text": "Adding two rational numbers always gives a rational number—the result stays within the same number system"},
+          {"id": "c", "text": "Rational numbers cannot be added to irrational numbers"},
+          {"id": "d", "text": "The sum of two rational numbers is always positive"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Closure means the result of an operation on elements of a set always belongs to the same set. For rational numbers under addition: p/q + r/s = (ps + qr)/(qs), which is rational (integers divided by integer). This property is fundamental to designing reliable arithmetic in computer processors.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Rational Numbers",
+        "board": "kseab",
+        "enhancementTag": "Number Theory & Cryptography"
+      },
+      {
+        "id": "q5",
+        "text": "The Ariane 5 rocket explosion in 1996 was caused by a 64-bit floating-point number being forced into a 16-bit space. Which mathematical property violation directly caused this disaster?",
+        "options": [
+          {"id": "a", "text": "Violation of the commutative property—the calculation was performed in the wrong order"},
+          {"id": "b", "text": "Violation of the closure property—the result of the arithmetic operation was a number too large to exist in the 16-bit number system, causing an overflow error"},
+          {"id": "c", "text": "Violation of the associative property—brackets were placed incorrectly in the code"},
+          {"id": "d", "text": "Violation of the distributive property—multiplication was applied incorrectly"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The Ariane 5 disaster was an integer overflow: the horizontal velocity value (a 64-bit float, ~32,768) exceeded the maximum value of a 16-bit signed integer (32,767). The 16-bit number system was not closed under storing this value—it could not represent the result, causing an exception that shut down the inertial reference system and destroyed the rocket. Estimated cost: $370 million. Proper closure properties in number system design are critical for safety-critical software.",
+        "difficulty": "hard",
+        "subject": "Math",
+        "chapter": "Rational Numbers",
+        "board": "kseab",
+        "enhancementTag": "Number Theory & Cryptography"
+      }
+    ]
+  }
+}

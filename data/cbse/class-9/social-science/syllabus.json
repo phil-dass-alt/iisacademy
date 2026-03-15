@@ -1,0 +1,169 @@
+{
+  "board": "cbse",
+  "class": 9,
+  "subject": "Social Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-9-sst-hist-01",
+      "number": 1,
+      "name": "The French Revolution (History)",
+      "topics": ["French Society During the Late Eighteenth Century", "The Struggle to Survive", "A Society of Estates", "The Outbreak of the Revolution", "France Abolishes Monarchy and Becomes a Republic", "Did Women have a Revolution?", "The Abolition of Slavery", "The Revolution and Everyday Life"],
+      "enhancement": "AI Historical Analysis & Pattern Recognition",
+      "enhancementFile": "french-revolution.json"
+    },
+    {
+      "id": "cbse-9-sst-hist-02",
+      "number": 2,
+      "name": "Socialism in Europe and the Russian Revolution",
+      "topics": ["The Age of Social Change", "The Russian Revolution", "The February Revolution in Petrograd", "What Changed After October?", "The Global Influence of the Russian Revolution"],
+      "enhancement": "Economic Simulation AI & Social Systems Modelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-hist-03",
+      "number": 3,
+      "name": "Nazism and the Rise of Hitler",
+      "topics": ["Birth of the Weimar Republic", "Hitler's Rise to Power", "The Nazi Worldview", "Youth in Nazi Germany", "Ordinary People and the Crimes Against Humanity"],
+      "enhancement": "AI Misinformation Detection & Propaganda Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-hist-04",
+      "number": 4,
+      "name": "Forest Society and Colonialism",
+      "topics": ["Why Deforestation?", "The Rise of Commercial Forestry", "Rebellion in the Forest", "Forest Transformations in Java"],
+      "enhancement": "AI Forest Monitoring & Deforestation Alerts",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-hist-05",
+      "number": 5,
+      "name": "Pastoralists in the Modern World",
+      "topics": ["Pastoral Nomads and their Movements", "Colonial Rule and Pastoral Life", "Pastoralism in Africa"],
+      "enhancement": "GPS Tracking of Livestock & Herder Apps",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-01",
+      "number": 6,
+      "name": "India – Size and Location (Geography)",
+      "topics": ["India's Size", "India and the World", "India's Neighbours", "Location", "Extent"],
+      "enhancement": "GIS Mapping & Geospatial AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-02",
+      "number": 7,
+      "name": "Physical Features of India",
+      "topics": ["The Himalayan Mountains", "The Northern Plains", "The Peninsular Plateau", "The Indian Desert", "The Coastal Plains", "The Islands"],
+      "enhancement": "Topographic AI & Digital Elevation Models",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-03",
+      "number": 8,
+      "name": "Drainage",
+      "topics": ["The Drainage System", "The Himalayan Rivers", "The Peninsular Rivers", "Lakes", "Role of Rivers in the Economy"],
+      "enhancement": "Hydrological AI & Flood Prediction Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-04",
+      "number": 9,
+      "name": "Climate",
+      "topics": ["Climatic Controls", "Factors Affecting India's Climate", "The Indian Monsoon", "Distribution of Rainfall"],
+      "enhancement": "Climate Modelling AI & Monsoon Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-05",
+      "number": 10,
+      "name": "Natural Vegetation and Wild Life",
+      "topics": ["Types of Vegetation", "Forest and Wild Life", "Endangered and Endemic Species"],
+      "enhancement": "Wildlife AI & Biodiversity Monitoring Drones",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-geo-06",
+      "number": 11,
+      "name": "Population",
+      "topics": ["Population Size and Distribution", "Population Growth and Processes", "Age-sex Composition", "Literacy Rates", "Occupational Structure", "Health"],
+      "enhancement": "Demographic AI & Census Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-econ-01",
+      "number": 12,
+      "name": "The Story of Village Palampur (Economics)",
+      "topics": ["Organisation of Production", "Farming in Palampur", "Non-farming Activities"],
+      "enhancement": "Rural FinTech & Digital Village Economy",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-econ-02",
+      "number": 13,
+      "name": "People as Resource",
+      "topics": ["Economic Activities by Men and Women", "Quality of Population", "Unemployment"],
+      "enhancement": "Human Capital Analytics & EdTech AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-econ-03",
+      "number": 14,
+      "name": "Poverty as a Challenge",
+      "topics": ["Two Typical Cases of Poverty", "Poverty as Seen by Social Scientists", "Poverty Estimates", "Vulnerable Groups", "Interstate Disparities", "Global Poverty Scenario", "Causes of Poverty", "Anti-Poverty Measures"],
+      "enhancement": "Poverty Mapping AI & Social Welfare Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-econ-04",
+      "number": 15,
+      "name": "Food Security in India",
+      "topics": ["What is Food Security?", "Who are Food Insecure?", "Food Security in India", "Buffer Stock", "Public Distribution System"],
+      "enhancement": "Food Supply Chain AI & Smart Rationing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-civ-01",
+      "number": 16,
+      "name": "What is Democracy? Why Democracy? (Civics)",
+      "topics": ["What is Democracy?", "Features of Democracy", "Why Democracy?", "Broader Meanings of Democracy"],
+      "enhancement": "Digital Democracy & E-Governance AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-civ-02",
+      "number": 17,
+      "name": "Constitutional Design",
+      "topics": ["Democratic Constitution in South Africa", "Why Do We Need a Constitution?", "Making of the Indian Constitution", "Guiding Values of the Indian Constitution"],
+      "enhancement": "Digital Constitutionalism & Rights in the AI Age",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-civ-03",
+      "number": 18,
+      "name": "Electoral Politics",
+      "topics": ["Why Elections?", "What Makes an Election Democratic?", "Our Electoral System", "What Makes Elections in India Democratic?"],
+      "enhancement": "Election AI Analytics & Voter Behaviour Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-civ-04",
+      "number": 19,
+      "name": "Working of Institutions",
+      "topics": ["How is a Major Policy Decision Taken?", "Parliament", "The Executive", "The Judiciary"],
+      "enhancement": "E-Parliament & Digital Governance Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-sst-civ-05",
+      "number": 20,
+      "name": "Democratic Rights",
+      "topics": ["In a Prison without Rights", "Rights in a Democracy", "Rights in the Indian Constitution", "Expanding Scope of Rights"],
+      "enhancement": "Digital Rights & AI Ethics Policy",
+      "enhancementFile": null
+    }
+  ]
+}

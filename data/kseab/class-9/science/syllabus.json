@@ -1,4 +1,123 @@
 {
+
+  "board": "kseab",
+  "class": 9,
+  "subject": "Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-9-sci-01",
+      "number": 1,
+      "name": "Matter Around Us",
+      "topics": ["Physical Nature of Matter", "Characteristics of Particles of Matter", "States of Matter", "Change of State", "Evaporation"],
+      "enhancement": "Smart Materials & Phase-Change AI",
+      "enhancementFile": "matter-around-us.json"
+    },
+    {
+      "id": "kseab-9-sci-02",
+      "number": 2,
+      "name": "Is Matter Around Us Pure?",
+      "topics": ["Mixture", "Solution", "Separating the Components of a Mixture", "Physical and Chemical Changes", "Types of Pure Substances"],
+      "enhancement": "AI-Driven Separation & Purification Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-03",
+      "number": 3,
+      "name": "Atoms and Molecules",
+      "topics": ["Laws of Chemical Combination", "Dalton's Atomic Theory", "Atomic Mass", "Molecules", "Mole Concept"],
+      "enhancement": "Molecular Simulation & Drug Discovery AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-04",
+      "number": 4,
+      "name": "Structure of the Atom",
+      "topics": ["Thomson's Model", "Rutherford's Model", "Bohr's Model", "Neutrons", "Valency", "Atomic Mass and Isotopes"],
+      "enhancement": "Quantum Computing & Atomic-Scale Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-05",
+      "number": 5,
+      "name": "The Fundamental Unit of Life",
+      "topics": ["Cell Theory", "What Does a Cell Look Like?", "Cell Organelles"],
+      "enhancement": "BioTech AI & Single-Cell Genomics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-06",
+      "number": 6,
+      "name": "Tissues",
+      "topics": ["Plant Tissues", "Animal Tissues"],
+      "enhancement": "Bio-Printing & Tissue Engineering AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-07",
+      "number": 7,
+      "name": "Motion",
+      "topics": ["Describing Motion", "Rate of Motion", "Rate of Change of Velocity", "Graphical Representation", "Equations of Motion"],
+      "enhancement": "Autonomous Vehicles & Motion AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-08",
+      "number": 8,
+      "name": "Force and Laws of Motion",
+      "topics": ["Balanced and Unbalanced Forces", "Newton's Laws of Motion", "Conservation of Momentum"],
+      "enhancement": "Robotics Locomotion & Space Propulsion AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-09",
+      "number": 9,
+      "name": "Gravitation",
+      "topics": ["Gravitation", "Free Fall", "Mass", "Weight", "Thrust and Pressure", "Archimedes' Principle"],
+      "enhancement": "Satellite AI & Space Mission Planning",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-10",
+      "number": 10,
+      "name": "Work and Energy",
+      "topics": ["Work", "Energy", "Kinetic Energy", "Potential Energy", "Law of Conservation of Energy", "Power"],
+      "enhancement": "Energy Harvesting & Smart Grid AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-11",
+      "number": 11,
+      "name": "Sound",
+      "topics": ["Production of Sound", "Propagation of Sound", "Reflection of Sound", "Applications of Ultrasound", "SONAR"],
+      "enhancement": "Voice AI & Acoustic Sensing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-12",
+      "number": 12,
+      "name": "Why Do We Fall Ill?",
+      "topics": ["Health and its Failure", "Disease and its Causes", "Infectious Diseases", "Principles of Treatment and Prevention"],
+      "enhancement": "AI Diagnostics & Epidemic Prediction Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-13",
+      "number": 13,
+      "name": "Natural Resources",
+      "topics": ["The Breath of Life: Air", "Water: A Wonder Liquid", "Mineral Riches in the Soil", "Biogeochemical Cycles", "Ozone Layer"],
+      "enhancement": "Environmental AI & Climate Systems Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sci-14",
+      "number": 14,
+      "name": "Improvement in Food Resources",
+      "topics": ["Improvement in Crop Yields", "Animal Husbandry", "Capture Fishery"],
+      "enhancement": "Precision Agriculture & Aquaculture AI",
+      "enhancementFile": null
+
   "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
   "id": "kseab-9-sci-syllabus",
   "board": "kseab",
@@ -102,6 +221,7 @@
       "name": "Improvement in Food Resources",
       "topics": ["Crop Improvement", "Animal Husbandry", "Manures and Fertilisers"],
       "enhancement": "BioTech"
+
     }
   ]
 }

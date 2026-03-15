@@ -1,0 +1,169 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-10-eng-ff-01",
+      "number": 1,
+      "name": "A Letter to God (First Flight)",
+      "topics": ["Narrative Comprehension", "Faith and Perseverance", "Irony in Literature", "Character Study"],
+      "enhancement": "Natural Language Processing & Sentiment Analysis",
+      "enhancementFile": "a-letter-to-god.json"
+    },
+    {
+      "id": "cbse-10-eng-ff-02",
+      "number": 2,
+      "name": "Nelson Mandela: Long Walk to Freedom (First Flight)",
+      "topics": ["Biographical Writing", "Apartheid and Resistance", "Leadership", "Formal Letter Writing"],
+      "enhancement": "AI & Civil Rights Pattern Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-03",
+      "number": 3,
+      "name": "Two Stories about Flying (First Flight)",
+      "topics": ["Descriptive Writing", "Man vs Nature", "Courage and Fear", "First Person Narrative"],
+      "enhancement": "Drone AI & Autonomous Flight Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-04",
+      "number": 4,
+      "name": "From the Diary of Anne Frank (First Flight)",
+      "topics": ["Diary Writing", "World War II Context", "Adolescent Psychology", "Historical Literature"],
+      "enhancement": "AI Historical Document Analysis & Digital Preservation",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-05",
+      "number": 5,
+      "name": "The Hundred Dresses Part 1 (First Flight)",
+      "topics": ["School Bullying", "Social Exclusion", "Empathy", "Short Story Analysis"],
+      "enhancement": "AI Anti-Bullying Systems & Digital Wellbeing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-06",
+      "number": 6,
+      "name": "The Hundred Dresses Part 2 (First Flight)",
+      "topics": ["Guilt and Remorse", "Art as Expression", "Class and Dignity", "Resolution and Reflection"],
+      "enhancement": "AI Art Generation & Digital Creativity",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-07",
+      "number": 7,
+      "name": "Glimpses of India (First Flight)",
+      "topics": ["Travel and Culture Writing", "Descriptive Language", "Oral Tradition", "Regional Diversity"],
+      "enhancement": "Cultural AI & Heritage Preservation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-08",
+      "number": 8,
+      "name": "Mijbil the Otter (First Flight)",
+      "topics": ["Autobiographical Writing", "Human-Animal Bond", "Observation and Detail", "Gavin Maxwell's Style"],
+      "enhancement": "Animal Behaviour AI & Conservation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-09",
+      "number": 9,
+      "name": "Madam Rides the Bus (First Flight)",
+      "topics": ["Coming-of-Age Story", "Fear and Curiosity", "Village Life", "Imagery"],
+      "enhancement": "Smart Transport AI & Urban Planning",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-10",
+      "number": 10,
+      "name": "The Sermon at Benares (First Flight)",
+      "topics": ["Buddha's Teachings", "Grief and Acceptance", "Moral Story", "Philosophical Writing"],
+      "enhancement": "AI Mindfulness Apps & Mental Health Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ff-11",
+      "number": 11,
+      "name": "The Proposal (First Flight)",
+      "topics": ["One-Act Play", "Dramatic Irony", "Comic Misunderstanding", "Chekhov's Style"],
+      "enhancement": "Conversational AI & Chatbot Design",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-01",
+      "number": 12,
+      "name": "A Triumph of Surgery (Footprints without Feet)",
+      "topics": ["Pet Stories", "Humour", "Veterinary Care", "Narrative Writing"],
+      "enhancement": "Veterinary AI & Animal Health Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-02",
+      "number": 13,
+      "name": "The Thief's Story (Footprints without Feet)",
+      "topics": ["Trust and Transformation", "Character Development", "Crime Fiction Elements", "First Person Narrative"],
+      "enhancement": "AI Security Systems & Behavioural Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-03",
+      "number": 14,
+      "name": "The Midnight Visitor (Footprints without Feet)",
+      "topics": ["Spy Genre", "Suspense and Wit", "Dialogue Writing", "Plot Twist"],
+      "enhancement": "Cybersecurity AI & Digital Espionage",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-04",
+      "number": 15,
+      "name": "A Question of Trust (Footprints without Feet)",
+      "topics": ["Detective Genre", "Clever Plot", "Trust and Deception", "Reading for Surprise"],
+      "enhancement": "Fraud Detection AI & Trust Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-05",
+      "number": 16,
+      "name": "Footprints without Feet (Footprints without Feet)",
+      "topics": ["H.G. Wells' Science Fiction", "Invisibility Science", "Moral Consequences of Technology", "Narrative Writing"],
+      "enhancement": "Camouflage AI & Stealth Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-06",
+      "number": 17,
+      "name": "The Making of a Scientist (Footprints without Feet)",
+      "topics": ["Biographical Account of Richard Ebright", "Scientific Process", "Curiosity and Discovery", "Research Writing"],
+      "enhancement": "AI in Scientific Discovery & Research Automation",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-07",
+      "number": 18,
+      "name": "The Necklace (Footprints without Feet)",
+      "topics": ["Guy de Maupassant's Style", "Irony", "Social Status and Vanity", "Plot Twist"],
+      "enhancement": "Social Media & AI Perception Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-08",
+      "number": 19,
+      "name": "Bholi (Footprints without Feet)",
+      "topics": ["Education and Empowerment", "Social Reform", "Character Transformation", "Indian Village Setting"],
+      "enhancement": "EdTech AI & Inclusive Education Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-eng-ffl-09",
+      "number": 20,
+      "name": "The Book That Saved the Earth (Footprints without Feet)",
+      "topics": ["Science Fiction Comedy", "The Power of Books", "Alien Contact Theme", "Drama Script"],
+      "enhancement": "AI Knowledge Systems & Digital Libraries",
+      "enhancementFile": null
+    }
+  ]
+}

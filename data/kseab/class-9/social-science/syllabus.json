@@ -1,0 +1,161 @@
+{
+  "board": "kseab",
+  "class": 9,
+  "subject": "Social Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-9-sst-geo-01",
+      "number": 1,
+      "name": "India – Size and Location (Geography)",
+      "topics": ["India's Size", "India and the World", "India's Neighbours", "Location", "Extent", "Standard Meridian"],
+      "enhancement": "GIS Mapping & Geospatial AI",
+      "enhancementFile": "india-size-and-location.json"
+    },
+    {
+      "id": "kseab-9-sst-geo-02",
+      "number": 2,
+      "name": "Physical Features of India",
+      "topics": ["The Himalayan Mountains", "The Northern Plains", "The Peninsular Plateau", "The Indian Desert", "The Coastal Plains", "The Islands"],
+      "enhancement": "Topographic AI & Digital Elevation Models",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-geo-03",
+      "number": 3,
+      "name": "Drainage",
+      "topics": ["The Drainage System", "The Himalayan Rivers", "The Peninsular Rivers", "Lakes"],
+      "enhancement": "Hydrological AI & Flood Prediction Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-geo-04",
+      "number": 4,
+      "name": "Climate",
+      "topics": ["Climatic Controls", "Factors Affecting India's Climate", "The Indian Monsoon", "Distribution of Rainfall"],
+      "enhancement": "Climate Modelling AI & Monsoon Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-geo-05",
+      "number": 5,
+      "name": "Natural Vegetation and Wild Life",
+      "topics": ["Types of Vegetation", "Forest and Wild Life", "Endangered Species"],
+      "enhancement": "Wildlife AI & Biodiversity Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-geo-06",
+      "number": 6,
+      "name": "Population",
+      "topics": ["Population Size and Distribution", "Population Growth", "Age-sex Composition", "Literacy Rates"],
+      "enhancement": "Demographic AI & Census Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-hist-01",
+      "number": 7,
+      "name": "The French Revolution (History)",
+      "topics": ["French Society and the Revolution", "The Outbreak of the Revolution", "France Abolishes Monarchy", "The Revolution and Everyday Life"],
+      "enhancement": "AI Historical Analysis & Pattern Recognition",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-hist-02",
+      "number": 8,
+      "name": "Socialism in Europe and the Russian Revolution",
+      "topics": ["The Age of Social Change", "The Russian Revolution", "Global Influence"],
+      "enhancement": "Economic Simulation AI & Social Systems Modelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-hist-03",
+      "number": 9,
+      "name": "Nazism and the Rise of Hitler",
+      "topics": ["Birth of the Weimar Republic", "Hitler's Rise to Power", "The Nazi Worldview"],
+      "enhancement": "AI Misinformation Detection & Propaganda Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-hist-04",
+      "number": 10,
+      "name": "Forest Society and Colonialism",
+      "topics": ["Why Deforestation?", "The Rise of Commercial Forestry", "Rebellion in the Forest"],
+      "enhancement": "AI Forest Monitoring & Deforestation Alerts",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-econ-01",
+      "number": 11,
+      "name": "The Story of Village Palampur (Economics)",
+      "topics": ["Organisation of Production", "Farming in Palampur", "Non-farming Activities"],
+      "enhancement": "Rural FinTech & Digital Village Economy",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-econ-02",
+      "number": 12,
+      "name": "People as Resource",
+      "topics": ["Economic Activities by Men and Women", "Quality of Population", "Unemployment"],
+      "enhancement": "Human Capital Analytics & EdTech AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-econ-03",
+      "number": 13,
+      "name": "Poverty as a Challenge",
+      "topics": ["Poverty as Seen by Social Scientists", "Poverty Estimates", "Anti-Poverty Measures"],
+      "enhancement": "Poverty Mapping AI & Social Welfare Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-econ-04",
+      "number": 14,
+      "name": "Food Security in India",
+      "topics": ["What is Food Security?", "Food Security in India", "Buffer Stock", "Public Distribution System"],
+      "enhancement": "Food Supply Chain AI & Smart Rationing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-civ-01",
+      "number": 15,
+      "name": "What is Democracy? Why Democracy? (Civics)",
+      "topics": ["What is Democracy?", "Features of Democracy", "Why Democracy?"],
+      "enhancement": "Digital Democracy & E-Governance AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-civ-02",
+      "number": 16,
+      "name": "Constitutional Design",
+      "topics": ["Why Do We Need a Constitution?", "Making of the Indian Constitution", "Guiding Values"],
+      "enhancement": "Digital Constitutionalism & Rights in the AI Age",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-civ-03",
+      "number": 17,
+      "name": "Electoral Politics",
+      "topics": ["Why Elections?", "What Makes an Election Democratic?", "Our Electoral System"],
+      "enhancement": "Election AI Analytics & Voter Behaviour Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-civ-04",
+      "number": 18,
+      "name": "Working of Institutions",
+      "topics": ["Parliament", "The Executive", "The Judiciary"],
+      "enhancement": "E-Parliament & Digital Governance Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-sst-civ-05",
+      "number": 19,
+      "name": "Democratic Rights",
+      "topics": ["Rights in a Democracy", "Rights in the Indian Constitution", "Expanding Scope of Rights"],
+      "enhancement": "Digital Rights & AI Ethics Policy",
+      "enhancementFile": null
+    }
+  ]
+}

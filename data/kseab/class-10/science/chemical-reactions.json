@@ -1,0 +1,151 @@
+{
+  "id": "kseab-10-sci-chemical-reactions",
+  "title": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "chapter": "Chemical Reactions and Equations",
+  "chapterNumber": 1,
+  "board": "kseab",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "AI-Driven Chemical Synthesis",
+    "tagline": "From balancing equations on paper to AI robots designing new molecules"
+  },
+  "lesson": {
+    "officialFocus": "Chemical equations, balancing equations using the law of conservation of mass, types of chemical reactions (combination, decomposition, displacement, double displacement, oxidation-reduction), corrosion, and rancidity.",
+    "introduction": "Every balanced equation you write enforces the law of conservation of mass—no atom is created or destroyed. Now imagine an AI that reads millions of such equations, learns the patterns, and predicts entirely new chemical reactions never attempted by humans. This is happening at Bengaluru's Chemical Technology labs and in global pharmaceutical firms. Understanding what makes a reaction proceed—and how to represent it precisely—is the foundation on which AI chemistry is being built.",
+    "sections": [
+      {
+        "title": "Balancing Equations → Machine Learning in Reaction Prediction",
+        "officialConcept": "Chemical equations must be balanced to obey the law of conservation of mass—atoms of each element must be equal on both sides. Skeletal equations are balanced by adjusting stoichiometric coefficients.",
+        "aiEnhancement": "A balanced chemical equation is essentially a constraint satisfaction problem: given reactants, find coefficients so atom counts balance. This is exactly the type of problem that AI solvers handle. Google DeepMind's AlphaFold and related tools (like Reaction.ai and IBM RXN for Chemistry) use neural networks trained on databases of millions of balanced reactions to predict: (1) whether a proposed reaction will proceed, (2) what byproducts will form, and (3) the optimal reaction conditions (temperature, pressure, catalyst). Indian pharmaceutical companies in Hyderabad and Bengaluru (like Biocon) are beginning to use these tools to design synthesis pathways for new drug molecules—replacing months of lab trial-and-error with hours of AI computation.",
+        "keyInsight": "Every balanced equation in your textbook is a data point. When billions of such data points are fed to a neural network, it learns the grammar of chemistry—and can then write new chemical sentences (reactions) that humans have never tried."
+      },
+      {
+        "title": "Oxidation-Reduction → Fuel Cells and Battery Technology in Karnataka",
+        "officialConcept": "Oxidation is loss of electrons (or gain of oxygen/loss of hydrogen). Reduction is gain of electrons (or loss of oxygen/gain of hydrogen). Redox reactions always occur together. Corrosion is an example of oxidation affecting metals.",
+        "aiEnhancement": "Every rechargeable battery and fuel cell is a controlled redox reaction. When you charge a lithium-ion battery (used in every EV and smartphone), lithium ions undergo reduction at the anode and oxidation at the cathode—the reverse happens during discharge. Bengaluru is a major EV hub: Ola Electric's factory in Hosur (near Bengaluru) produces lithium-ion battery packs for electric scooters. Battery Management Systems (BMS)—AI controllers inside every EV—monitor thousands of redox reactions per second, predicting battery degradation, preventing thermal runaway, and optimising charge cycles. Understanding oxidation-reduction is literally understanding how your electric vehicle stores and releases energy.",
+        "keyInsight": "The corrosion of iron (oxidation) that your textbook warns against, and the lithium-ion battery that powers Ola Electric scooters, are both redox reactions—one destructive, one harnessed by AI-managed systems for clean transport."
+      },
+      {
+        "title": "Decomposition Reactions → Green Hydrogen and Solar Chemistry",
+        "officialConcept": "Decomposition reactions break a single reactant into two or more products. Thermal decomposition uses heat; photodecomposition uses light (e.g., silver chloride decomposes in sunlight); electrolytic decomposition uses electricity (electrolysis of water into H₂ and O₂).",
+        "aiEnhancement": "The electrolytic decomposition of water (2H₂O → 2H₂ + O₂) is the foundation of the green hydrogen economy—one of India's biggest energy bets. India's National Green Hydrogen Mission (launched 2023) targets 5 million tonnes of green hydrogen annually by 2030. Karnataka has committed green hydrogen projects near the Karnataka Power Corporation. In electrolysers, AI control systems continuously adjust current, temperature, and membrane pressure to maximise hydrogen yield while minimising electricity use. The AI must understand which conditions favour complete water decomposition—exactly the decomposition reaction principles in your chapter.",
+        "keyInsight": "The simple water electrolysis experiment in your lab (electrolysis of water) is the same reaction that India's green hydrogen factories run at industrial scale, managed by AI systems to power a carbon-neutral future."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Observe Oxidation-Reduction: The Iron Nail Corrosion Experiment",
+      "difficulty": "beginner",
+      "materials": ["3 iron nails", "3 test tubes or glass jars", "Boiled cooled water (to remove dissolved oxygen)", "Cooking oil (to seal)", "Plain tap water", "Calcium chloride (drying agent) or silica gel", "Cotton wool"],
+      "steps": [
+        "Test Tube 1 (Moisture + Air): Place a nail in tap water covering half the nail. Leave open to air.",
+        "Test Tube 2 (No Moisture): Place a nail in a dry tube with calcium chloride/silica gel and cotton plug. No water.",
+        "Test Tube 3 (No Air): Place a nail in boiled water (de-oxygenated), pour a thin layer of cooking oil on top to seal out air.",
+        "Leave all three setups for 3-4 days and observe which nail rusts.",
+        "Record observations: Nail 1 should rust most; Nails 2 and 3 should show little/no rust. Conclude: both moisture AND oxygen are needed for corrosion (iron oxidation)."
+      ],
+      "learningOutcome": "You will experimentally verify that corrosion (oxidation of iron) requires both oxygen and water—explaining why cars in humid coastal Karnataka rust faster than in dry Rajasthan, and why AI-managed battery systems must keep electrodes dry and sealed."
+    },
+    "furtherExploration": [
+      "IBM RXN for Chemistry – Free AI reaction prediction tool: rxn.app.accelerate.science",
+      "India's National Green Hydrogen Mission – mnre.gov.in",
+      "Ola Electric – Bengaluru EV battery technology: olaelectric.com"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-10-sci-chemical-reactions-quiz",
+    "title": "Chemical Reactions & AI-Driven Chemistry Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "When iron nails are left in a moist environment, they turn reddish-brown. This is an example of which type of chemical reaction?",
+        "options": [
+          {"id": "a", "text": "Decomposition reaction"},
+          {"id": "b", "text": "Displacement reaction"},
+          {"id": "c", "text": "Oxidation (corrosion)"},
+          {"id": "d", "text": "Double displacement reaction"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "Corrosion of iron is an oxidation reaction where iron reacts with oxygen and moisture to form iron oxide (rust). Fe + O₂ + H₂O → Fe₂O₃·xH₂O. It is specifically an oxidation process.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "kseab",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q2",
+        "text": "The electrolysis of water (2H₂O → 2H₂ + O₂) is used in India's Green Hydrogen Mission. What type of chemical reaction is this?",
+        "options": [
+          {"id": "a", "text": "Combination reaction"},
+          {"id": "b", "text": "Electrolytic decomposition"},
+          {"id": "c", "text": "Double displacement"},
+          {"id": "d", "text": "Oxidation reaction"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Electrolysis of water is an electrolytic decomposition reaction—a single compound (water) breaks into two elements (hydrogen and oxygen) using electrical energy. This is the foundation of green hydrogen production.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "kseab",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q3",
+        "text": "A lithium-ion battery in an Ola Electric scooter releases energy during discharge. What type of reaction occurs at the electrodes during this process?",
+        "options": [
+          {"id": "a", "text": "Only oxidation at both electrodes"},
+          {"id": "b", "text": "Oxidation at the anode and reduction at the cathode (redox reaction)"},
+          {"id": "c", "text": "Decomposition at both electrodes"},
+          {"id": "d", "text": "Combination reaction at the cathode only"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "All batteries operate on redox reactions. During discharge, oxidation (loss of electrons) occurs at the anode and reduction (gain of electrons) occurs at the cathode. This is a redox (oxidation-reduction) reaction.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "kseab",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q4",
+        "text": "An AI chemistry tool like IBM RXN is trained on millions of balanced chemical equations to predict new reactions. Why must every equation in this training data be balanced?",
+        "options": [
+          {"id": "a", "text": "To make equations look symmetrical"},
+          {"id": "b", "text": "Because unbalanced equations are harder to type"},
+          {"id": "c", "text": "Because balanced equations reflect the law of conservation of mass—atoms cannot be created or destroyed in a chemical reaction"},
+          {"id": "d", "text": "Because only balanced equations produce gases"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "The law of conservation of mass (Lavoisier's law) states that atoms are neither created nor destroyed in a chemical reaction. A balanced equation faithfully represents this—the AI learns the actual physics and chemistry, not just arbitrary patterns.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "kseab",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q5",
+        "text": "In your corrosion experiment, the nail in boiled water sealed with oil shows no rust, while the nail in open tap water rusts. A ship designer wants to protect steel hull plates in seawater. Using this principle, which combination of factors must be prevented to stop corrosion, and name ONE industrial method that achieves this?",
+        "options": [
+          {"id": "a", "text": "Prevent light only; use dark paint"},
+          {"id": "b", "text": "Prevent contact with both oxygen and moisture; galvanisation (zinc coating) acts as a sacrificial anode that oxidises preferentially, protecting steel"},
+          {"id": "c", "text": "Prevent heat only; use cooling systems"},
+          {"id": "d", "text": "Prevent electricity only; use rubber insulation"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Corrosion requires both oxygen AND moisture. Galvanisation coats steel with zinc; zinc oxidises preferentially (sacrificial anode) protecting the steel even if the coating is scratched. This is used in ship hulls, bridges, and pipelines—and AI monitoring systems now track coating degradation in real-time using ultrasonic sensors.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "kseab",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "cbse-10-sci-chemical-reactions",
+  "title": "Chemical Reactions and Equations",
+  "subject": "Science",
+  "chapter": "Chemical Reactions and Equations",
+  "chapterNumber": 1,
+  "board": "cbse",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "AI-Driven Chemical Synthesis",
+    "tagline": "From balancing equations on paper to AI robots that discover new medicines"
+  },
+  "lesson": {
+    "officialFocus": "Chemical equations, types of chemical reactions (combination, decomposition, displacement, double displacement, oxidation-reduction), corrosion, and rancidity.",
+    "introduction": "In this chapter you learn to write chemical equations and classify reactions. In 2023, AI systems discovered a new antibiotic (Halicin) by analysing millions of chemical reactions—something that would have taken human chemists decades. The same logic you use to balance equations is at the heart of AI systems that are now designing new drugs, materials, and fuels faster than ever before in history.",
+    "sections": [
+      {
+        "title": "Types of Chemical Reactions → Reaction Prediction AI",
+        "officialConcept": "Chemical reactions are classified as combination (A+B→AB), decomposition (AB→A+B), displacement (A+BC→AC+B), double displacement (AB+CD→AD+CB), and redox reactions. Each follows specific patterns.",
+        "aiEnhancement": "AI reaction prediction tools (like IBM's RXN for Chemistry and MIT's ASKCOS) are trained on millions of known chemical reactions. These systems learn the patterns of which reactants produce which products—essentially learning the 'rules' of chemical reactions without being explicitly programmed with them. A chemist can type in a target molecule (like a new drug candidate) and the AI suggests a synthesis pathway—a sequence of reactions to make it from available starting materials. In 2019, Pfizer used AI to cut drug synthesis planning time from weeks to hours.",
+        "keyInsight": "The reaction type classification you memorize (combination, decomposition, etc.) is the human-readable label for patterns that AI systems learn statistically from millions of examples—both approaches ultimately describe the same underlying chemistry."
+      },
+      {
+        "title": "Balancing Chemical Equations → Graph Theory & Stoichiometry AI",
+        "officialConcept": "Chemical equations must be balanced (same number of each atom on both sides, conservation of mass). Balancing uses systematic coefficient adjustment.",
+        "aiEnhancement": "Modern AI treats chemical balancing as a graph theory problem: atoms are nodes, chemical bonds are edges, and balancing is finding the correct coefficients in the system of linear equations formed by atom conservation. ChemDraw and similar tools balance complex equations instantly. More powerfully, quantum chemistry AI (like Google's AlphaFold's chemistry sibling, GNoME) uses deep learning to predict stable crystal structures for thousands of new materials, effectively predicting the 'products' of hypothetical reactions that no chemist has ever tried. In 2023, GNoME discovered 2.2 million new stable crystal structures—more than all previously known structures combined.",
+        "keyInsight": "Balancing equations (linear algebra of atom conservation) is the foundation of computational chemistry—the same mathematics runs in AI systems discovering millions of new materials."
+      },
+      {
+        "title": "Corrosion & Rancidity → AI Material Degradation Prediction",
+        "officialConcept": "Corrosion is the slow destruction of metals by reaction with oxygen/moisture (e.g., rusting of iron). Rancidity is the deterioration of fats/oils by oxidation or microbial action. Both involve unwanted chemical reactions that cause material degradation.",
+        "aiEnhancement": "Material degradation AI is a major field in aerospace, construction, and food industries. For metals: AI systems analyse sensor data from bridges, pipelines, and aircraft to predict exactly where and when corrosion will cause structural failure—allowing targeted maintenance before catastrophic failure. For food: AI-powered 'electronic nose' systems use chemical sensors to detect the volatile compounds produced by rancidity, predicting food spoilage days before humans can smell it. These systems are used in food packaging factories to extend shelf life and reduce waste.",
+        "keyInsight": "The corrosion and rancidity reactions you study as problems to prevent are the exact chemical changes that AI sensor systems are trained to detect and predict in critical infrastructure and food safety applications."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Simulate Chemical Reaction Prediction Using a Free AI Tool",
+      "difficulty": "beginner",
+      "materials": ["A computer or smartphone with internet", "Free access to IBM's RXN for Chemistry (rxn.app.accelerate.science)", "Your CBSE textbook reaction examples"],
+      "steps": [
+        "Go to rxn.app.accelerate.science and create a free account (no payment required for basic use).",
+        "Click 'Predict Reaction' and type in a simple reaction from your textbook: e.g., 'Mg + O2' (magnesium and oxygen).",
+        "Observe the AI's predicted product (MgO) and confidence score.",
+        "Try a slightly more complex reaction: 'Fe + CuSO4' (displacement reaction). Does the AI predict the correct product?",
+        "Reflection: Note where the AI gives high vs. low confidence. What does a low confidence score tell you about the limits of AI reaction prediction?"
+      ],
+      "learningOutcome": "You will have directly used a professional chemistry AI tool used by pharmaceutical researchers, tested its accuracy against your CBSE knowledge, and understood how reaction type patterns you learn manually are learned statistically by AI."
+    },
+    "furtherExploration": [
+      "IBM RXN for Chemistry: rxn.app.accelerate.science – free reaction prediction AI",
+      "Google DeepMind GNoME: search 'GNoME 2.2 million crystal structures' for the 2023 discovery",
+      "Nature article: 'A Deep Learning Approach to Antibiotic Discovery' – MIT's Halicin discovery (2020)"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-10-sci-chem-reactions-quiz",
+    "title": "Chemical Reactions & AI-Driven Chemistry Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "In the reaction: Fe + CuSO4 → FeSO4 + Cu, what type of reaction is this?",
+        "options": [
+          {"id": "a", "text": "Combination reaction"},
+          {"id": "b", "text": "Decomposition reaction"},
+          {"id": "c", "text": "Displacement reaction"},
+          {"id": "d", "text": "Double displacement reaction"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "This is a displacement reaction where iron (more reactive) displaces copper from copper sulphate solution. The more reactive metal (Fe) displaces the less reactive metal (Cu) from its salt solution—following the reactivity series.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "cbse",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q2",
+        "text": "Which of the following best describes why balancing a chemical equation is mandatory?",
+        "options": [
+          {"id": "a", "text": "To make the equation look symmetrical"},
+          {"id": "b", "text": "To satisfy the Law of Conservation of Mass—atoms cannot be created or destroyed in a chemical reaction"},
+          {"id": "c", "text": "To ensure both sides have the same number of molecules"},
+          {"id": "d", "text": "To make calculations easier for teachers"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The Law of Conservation of Mass states that matter cannot be created or destroyed. In a chemical reaction, the same atoms rearrange—so the total mass and number of each type of atom must be identical on both sides of the equation.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "cbse",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q3",
+        "text": "IBM's RXN for Chemistry AI can predict the products of chemical reactions. What has it been trained on?",
+        "options": [
+          {"id": "a", "text": "The complete set of rules from CBSE and NCERT textbooks"},
+          {"id": "b", "text": "Millions of known chemical reactions, learning statistical patterns between reactants and products"},
+          {"id": "c", "text": "Only the 5 types of chemical reactions from Class 10 syllabus"},
+          {"id": "d", "text": "Computer simulations of atomic collisions only"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "IBM's RXN uses a neural network trained on millions of published chemical reactions from scientific literature. It learns which reactant combinations tend to produce which products—a statistical pattern-learning approach rather than rule-based programming.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "cbse",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q4",
+        "text": "Google's GNoME AI discovered 2.2 million new stable crystal structures. What type of chemical prediction does this represent?",
+        "options": [
+          {"id": "a", "text": "Predicting the products of simple combination reactions"},
+          {"id": "b", "text": "Predicting which combinations of elements form stable solid-state structures—essentially predicting the outcome of solid-state synthesis reactions before they are attempted"},
+          {"id": "c", "text": "Predicting the rate of corrosion in metals"},
+          {"id": "d", "text": "Predicting food rancidity timelines"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "GNoME predicts stable crystal structures by learning from the quantum mechanical properties of known materials. This is equivalent to predicting which new combination reactions will produce stable, useful solid products—potentially discovering new superconductors, battery materials, and semiconductors without any laboratory work first.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "cbse",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      },
+      {
+        "id": "q5",
+        "text": "An AI 'electronic nose' detects rancidity by measuring volatile compounds. This is functionally similar to which human sense, and why is an AI system superior for industrial food safety?",
+        "options": [
+          {"id": "a", "text": "Vision, because rancid food changes colour—AI cameras are faster than human eyes"},
+          {"id": "b", "text": "Smell, because rancidity produces specific volatile chemicals—AI sensors detect these at concentrations 1,000 times lower than human smell, days before humans can detect spoilage, enabling earlier intervention in food production lines"},
+          {"id": "c", "text": "Touch, because rancid food changes texture—AI is better at measuring physical properties"},
+          {"id": "d", "text": "Taste, because AI computers can chemically taste food samples"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Rancidity produces specific volatile organic compounds (aldehydes, ketones, carboxylic acids) as fats oxidize. Electronic noses use arrays of chemical sensors combined with AI pattern recognition to detect these compounds at ppb (parts per billion) concentrations—far beyond human olfactory sensitivity. Industrial food lines use these to reject batches that will become rancid within days, reducing food waste and preventing health hazards.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Chemical Reactions and Equations",
+        "board": "cbse",
+        "enhancementTag": "AI-Driven Chemical Synthesis"
+      }
+    ]
+  }
+}

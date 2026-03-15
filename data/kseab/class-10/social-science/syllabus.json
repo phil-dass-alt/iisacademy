@@ -1,0 +1,209 @@
+{
+  "board": "kseab",
+  "class": 10,
+  "subject": "Social Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-10-sst-01",
+      "number": 1,
+      "name": "India and the Contemporary World — The Rise of Nationalism in Europe",
+      "topics": ["The French Revolution and the Idea of the Nation", "The Making of Nationalism in Europe", "The Age of Revolutions: 1830–1848", "The Making of Germany and Italy", "Visualising the Nation", "Nationalism and Imperialism"],
+      "enhancement": "AI & Political Pattern Analysis",
+      "enhancementFile": "india-and-the-contemporary-world.json"
+    },
+    {
+      "id": "kseab-10-sst-02",
+      "number": 2,
+      "name": "Nationalism in India",
+      "topics": ["The First World War, Khilafat and Non-Cooperation", "Differing Strands within the Movement", "Towards Civil Disobedience", "The Sense of Collective Belonging"],
+      "enhancement": "Social Media AI & Mass Mobilisation Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-03",
+      "number": 3,
+      "name": "The Making of a Global World",
+      "topics": ["The Pre-modern World", "The Nineteenth Century (1815–1914)", "The Inter-war Economy", "Rebuilding a World Economy: The Post-war Era"],
+      "enhancement": "Global Trade AI & Supply Chain Optimisation",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-04",
+      "number": 4,
+      "name": "The Age of Industrialisation",
+      "topics": ["Before the Industrial Revolution", "Hand Labour and Steam Power", "Industrialisation in the Colonies", "Factories Come Up", "The Peculiarities of Industrial Growth"],
+      "enhancement": "Industry 4.0 & Smart Manufacturing AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-05",
+      "number": 5,
+      "name": "Print Culture and the Modern World",
+      "topics": ["The First Printed Books", "Print Comes to Europe", "The Print Revolution and Its Impact", "The Reading Mania", "Print and Dissent", "Print and the National Movement in India"],
+      "enhancement": "Digital Media AI & Information Ecosystems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-06",
+      "number": 6,
+      "name": "Resources and Development",
+      "topics": ["Types of Resources", "Development of Resources", "Resource Planning in India", "Land Resources", "Soil as a Resource", "Soil Erosion and Soil Conservation"],
+      "enhancement": "Resource Mapping AI & Satellite Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-07",
+      "number": 7,
+      "name": "Forest and Wildlife Resources",
+      "topics": ["Biodiversity and Its Importance", "Depletion of Flora and Fauna", "Conservation of Forest and Wildlife in India", "Types and Distribution of Forest and Wildlife Resources"],
+      "enhancement": "AI Biodiversity Monitoring & Conservation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-08",
+      "number": 8,
+      "name": "Water Resources",
+      "topics": ["Water Scarcity and the Need for Water Conservation", "Multi-Purpose River Projects", "Rainwater Harvesting"],
+      "enhancement": "Smart Water Management & IoT Hydrology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-09",
+      "number": 9,
+      "name": "Agriculture",
+      "topics": ["Types of Farming", "Cropping Pattern", "Major Crops", "Technological and Institutional Reforms", "Food Security"],
+      "enhancement": "Precision Agriculture & AI Crop Yield Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-10",
+      "number": 10,
+      "name": "Minerals and Energy Resources",
+      "topics": ["What is a Mineral?", "Ferrous Minerals", "Non-Ferrous Minerals", "Non-Metallic Minerals", "Rock Minerals", "Conventional Sources of Energy", "Non-Conventional Sources of Energy"],
+      "enhancement": "Critical Minerals AI & Renewable Energy Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-11",
+      "number": 11,
+      "name": "Manufacturing Industries",
+      "topics": ["Importance of Manufacturing", "Industrial Location", "Classification of Industries", "Agro-based Industries", "Mineral-based Industries", "Industrial Pollution and Degradation of Environment"],
+      "enhancement": "Industrial AI & Smart Factory Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-12",
+      "number": 12,
+      "name": "Lifelines of National Economy",
+      "topics": ["Transport", "Roadways", "Railways", "Waterways", "Airways", "Pipelines", "Communication", "International Trade", "Tourism as a Trade"],
+      "enhancement": "Smart Mobility AI & Logistics Optimisation",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-13",
+      "number": 13,
+      "name": "Power Sharing",
+      "topics": ["Belgium and Sri Lanka", "Majoritarian Rule", "Accommodation in Belgium", "Why Power Sharing is Desirable"],
+      "enhancement": "AI in Democratic Decision-Making & Governance Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-14",
+      "number": 14,
+      "name": "Federalism",
+      "topics": ["What is Federalism?", "What makes India a Federal Country?", "How is Federalism Practised?", "Decentralisation in India"],
+      "enhancement": "E-Governance AI & Digital Public Infrastructure",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-15",
+      "number": 15,
+      "name": "Democracy and Diversity",
+      "topics": ["A Story from Mexico Olympics", "Social Divisions and Social Inequalities in Democratic Politics"],
+      "enhancement": "AI Fairness & Algorithmic Bias Awareness",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-16",
+      "number": 16,
+      "name": "Gender, Religion and Caste",
+      "topics": ["Gender and Politics", "Religion, Communalism and Politics", "Caste and Politics"],
+      "enhancement": "AI Bias Detection & Inclusive Tech Design",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-17",
+      "number": 17,
+      "name": "Popular Struggles and Movements",
+      "topics": ["Democratic Politics and Its Relation to Popular Struggles", "Mobilisation and Organisations", "Pressure Groups and Movements"],
+      "enhancement": "Social Network Analysis & Collective Action AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-18",
+      "number": 18,
+      "name": "Political Parties",
+      "topics": ["Why Do We Need Political Parties?", "How Many Parties Should We Have?", "National Parties", "State Parties", "Challenges to Political Parties", "How Can Parties be Reformed?"],
+      "enhancement": "Electoral AI & Political Data Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-19",
+      "number": 19,
+      "name": "Outcomes of Democracy",
+      "topics": ["How Do We Assess Democracy's Outcomes?", "Accountable, Responsive and Legitimate Government", "Economic Growth and Development"],
+      "enhancement": "AI Governance Metrics & Democracy Index Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-20",
+      "number": 20,
+      "name": "Challenges to Democracy",
+      "topics": ["Foundational Challenge", "Challenge of Expansion", "Challenge of Deepening of Democracy"],
+      "enhancement": "Disinformation AI Detection & Digital Democracy",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-21",
+      "number": 21,
+      "name": "Development",
+      "topics": ["What Development Promises", "Income and Other Goals", "National Development", "Human Development Report"],
+      "enhancement": "AI Development Index & Socioeconomic Prediction",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-22",
+      "number": 22,
+      "name": "Sectors of the Indian Economy",
+      "topics": ["Sectors of Economic Activities", "Comparing the Three Sectors", "Primary, Secondary and Tertiary Sectors in India", "Division of Sectors as Organised and Unorganised"],
+      "enhancement": "Economic AI Modelling & Labour Market Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-23",
+      "number": 23,
+      "name": "Money and Credit",
+      "topics": ["Money as a Medium of Exchange", "Modern Forms of Money", "Loan Activities of Banks", "Terms of Credit", "Formal and Informal Sector Credit in India"],
+      "enhancement": "FinTech AI & Digital Banking Innovation",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-24",
+      "number": 24,
+      "name": "Globalisation and the Indian Economy",
+      "topics": ["Production Across Countries", "Interlinking Production Across Countries", "Foreign Trade and Integration of Markets", "What is Globalisation?", "Liberalisation of Foreign Trade"],
+      "enhancement": "Global Supply Chain AI & Trade Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-10-sst-25",
+      "number": 25,
+      "name": "Consumer Rights",
+      "topics": ["The Consumer in the Marketplace", "Consumer Movement", "Consumer Rights", "Consumer Redressal"],
+      "enhancement": "E-Commerce AI, Review Analysis & Consumer Protection Tech",
+      "enhancementFile": null
+    }
+  ]
+}
