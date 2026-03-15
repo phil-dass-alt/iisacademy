@@ -1,39 +1,50 @@
-export type DifficultyLevel = "easy" | "medium" | "hard";
+export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
-export interface QuestionOption {
-  id: string;
-  text: string;
+export interface QuestionFeedback {
+  correct: string;
+  incorrect: string;
+  intelligenceAgeHint: string;
 }
 
 export interface Question {
-  id: string;
-  text: string;
-  options: QuestionOption[];
-  correctOptionId: string;
-  explanation: string;
-  difficulty: DifficultyLevel;
-  subject: string;
-  chapter: string;
-  board?: "cbse" | "icse" | "state";
-  enhancementTag?: string;
+  id: number;
+  question: string;
+  options: string[];
+  answer: string;
+  difficulty?: DifficultyLevel;
+  feedback: QuestionFeedback;
+  tags?: string[];
 }
 
 export interface Quiz {
-  id: string;
-  title: string;
-  subject: string;
-  chapter: string;
-  board?: "cbse" | "icse" | "state";
+  chapterId: number;
+  chapterTitle: string;
   questions: Question[];
-  metadata?: Record<string, unknown>;
+}
+
+export interface QuizAttempt {
+  questionId: number;
+  selected: string;
+  correct: boolean;
+  timeSpent: number;
 }
 
 export interface QuizResult {
   quizId: string;
-  score: number;
   totalQuestions: number;
-  correctAnswers: number;
-  answers: Record<string, string>;
-  completedAt: Date;
+  correct: number;
+  incorrect: number;
+  score: number;
+  percentage: number;
+  attempts: QuizAttempt[];
+  completedAt: string;
+  masteryLevel: 'beginner' | 'developing' | 'proficient' | 'mastered';
   nextDifficulty: DifficultyLevel;
+}
+
+export interface AdaptiveState {
+  currentDifficulty: DifficultyLevel;
+  consecutiveCorrect: number;
+  consecutiveIncorrect: number;
+  questionsAttempted: number;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "auth",
+  "name": "@iisacademy/auth",
   "version": "0.0.1",
   "private": true,
   "main": "./src/index.ts",
@@ -9,12 +9,18 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
+    "type-check": "tsc --noEmit",
     "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3",
+    "next-auth": "^4.24.5"
   },
   "devDependencies": {
     "@types/react": "^18.3.1",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "next": "15.2.9"
   },
   "peerDependencies": {
     "react": "^18.3.1"
