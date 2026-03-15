@@ -1,0 +1,193 @@
+{
+  "id": "cbse-11-phy-laws-of-motion",
+  "title": "Laws of Motion",
+  "subject": "Physics",
+  "chapter": "Laws of Motion",
+  "chapterNumber": 5,
+  "board": "cbse",
+  "class": 11,
+  "wing": "senior",
+  "stream": "Science",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "dualTrack": {
+    "boardLevel": {
+      "tag": "Board Level — What",
+      "description": "Core CBSE Class 11 theory on Newton's Laws of Motion, friction, and circular dynamics.",
+      "keyConcepts": [
+        "Newton's First Law (Inertia): A body continues in its state of rest or uniform motion unless acted upon by an unbalanced external force",
+        "Newton's Second Law: F = ma — Net force equals mass × acceleration; impulse J = Δp = FΔt",
+        "Newton's Third Law: Every action has an equal and opposite reaction — forces always occur in pairs on different bodies",
+        "Linear Momentum: p = mv; Conservation of momentum: Σp_initial = Σp_final (when net external force = 0)",
+        "Static Friction: f_s ≤ μ_s N — maximum value before sliding begins",
+        "Kinetic Friction: f_k = μ_k N — constant during motion; always μ_k < μ_s",
+        "Circular Motion: Centripetal acceleration a_c = v²/r = ω²r directed toward centre"
+      ],
+      "examTips": [
+        "Newton's First Law defines the inertial frame of reference — always check whether your frame is inertial",
+        "F = ma uses NET force; always draw free body diagrams first",
+        "Third Law pairs act on DIFFERENT bodies — common mistake is applying both on same body",
+        "For Atwood machine: a = (m₁-m₂)g/(m₁+m₂), T = 2m₁m₂g/(m₁+m₂)",
+        "Banking angle: tan θ = v²/rg (for frictionless banked road)"
+      ]
+    },
+    "bridge": {
+      "tag": "The Bridge — How",
+      "description": "Advanced reasoning, constraint motion, non-inertial frames, and JEE-level applications.",
+      "advancedConcepts": [
+        "Pseudo force: In non-inertial frame (accelerating reference), introduce pseudo force F_pseudo = -ma₀ to apply Newton's laws",
+        "Constraint motion: If two blocks connected by inextensible string, |a₁| = |a₂|; differentiate position equations to find constraints",
+        "Apparent weight in elevator: going up → N = m(g+a), going down → N = m(g-a), free fall → N = 0 (weightlessness)",
+        "Rolling without slipping: a_cm = αR where α is angular acceleration — friction acts but does no work",
+        "Rocket propulsion: Thrust = v_rel × (dm/dt); Newton's third law applied to exhaust gas + rocket system"
+      ],
+      "problemSolvingEdge": "JEE loves Atwood machine variations, wedge problems, and inclined plane with friction. Key: always identify all forces in free body diagram before writing equations. For wedge problems, use separate FBDs for each body and apply constraint that normal forces are equal and opposite."
+    },
+    "intelligenceAge": {
+      "tag": "Next — Intelligence Age",
+      "description": "How Newton's Laws power space missions, autonomous vehicles, humanoid robots, and the future of engineering.",
+      "applications": [
+        {
+          "title": "Autonomous Vehicles — Newton's Laws at 100 km/h",
+          "content": "Every autonomous vehicle uses Newton's Laws in real-time: F = ma governs braking distance calculations (if μ = 0.7, a = μg ≈ 7 m/s²; from 100 km/h braking distance = v²/2a ≈ 55 m). Tesla's Autopilot system runs these calculations 1000 times per second. The Waymo self-driving car predicts pedestrian movement using Newton's Second Law applied to every detected object."
+        },
+        {
+          "title": "Space Launch — ISRO and Newton's Third Law",
+          "content": "ISRO's GSLV Mk III (launched Chandrayaan-3) generates 200 kN thrust using Newton's Third Law: hot exhaust gases pushed DOWN at high velocity → rocket pushed UP with equal force. Rocket equation: v_f = v_exhaust × ln(m_initial/m_final) — derived directly from momentum conservation (Newton's Laws). Chandrayaan-3's successful lunar landing on August 23, 2023 is Newton's Laws in action."
+        },
+        {
+          "title": "Humanoid Robots — Balance and Friction",
+          "content": "Boston Dynamics' Atlas robot and Tesla Optimus use real-time Newton's Law calculations to maintain balance. The center of pressure must remain within the foot's base of support — this is Newton's First Law (static equilibrium condition: ΣF = 0, Στ = 0). Friction between robot foot and ground (Newton's Third Law reaction) is what prevents slipping. AI control systems solve F = ma equations 500 times per second."
+        },
+        {
+          "title": "Crash Safety — Airbags and Impulse",
+          "content": "Airbag deployment time ≈ 20 ms. Without airbag: face hits steering wheel in 0.001 s → F = Δp/Δt = 70×30/0.001 = 2,100,000 N (fatal). With airbag: deceleration extended to 0.02 s → F = 70×30/0.02 = 105,000 N (survivable). Your CBSE impulse formula J = Δp = FΔt directly explains why airbags save lives — and engineers use it to design crash safety systems for every car sold in India."
+        }
+      ],
+      "careerConnect": "Roles: Aerospace Engineer, Robotics Engineer, Automotive Safety Engineer, Biomechanics Researcher. Requires: Newton's Laws → Rigid Body Dynamics → Control Systems → Robotics."
+    }
+  },
+  "competitivePlugin": {
+    "activated": true,
+    "streams": ["JEE", "NEET"],
+    "edgeModules": [
+      {
+        "title": "JEE Edge: Laws of Motion High-Yield Topics",
+        "topics": [
+          "Atwood machine and modified Atwood machine (inclined plane variants)",
+          "Wedge-block problems with and without friction",
+          "Spring force problems — spring constant and Hooke's Law",
+          "Non-inertial frames and pseudo forces (rotating Earth, accelerating car)",
+          "Circular motion: vertical circle (minimum speed at top = √(gR))"
+        ],
+        "calculationHacks": [
+          "Atwood: a = (m₁-m₂)g/(m₁+m₂); T = 2m₁m₂g/(m₁+m₂) — memorise both",
+          "Min speed at top of vertical circle: v_min = √(gR), T = 0 at this point",
+          "For inclined plane (angle θ): component along incline = mg sin θ, normal = mg cos θ",
+          "Apparent weight: N = m(g + a) upward, N = m(g - a) downward, N = 0 in free fall"
+        ],
+        "mnemonicAgents": [
+          "3 NEWTON: 1=Inertia stays, 2=F-equals-MA, 3=Action-Reaction-Always-Equal",
+          "FRICTION: Static ≥ Kinetic; 'Static Stays, Kinetic Keeps Going'",
+          "ATWOOD: 'Lighter goes up, Heavier comes down; tension in the middle'"
+        ]
+      },
+      {
+        "title": "NEET Edge: Conceptual Newton's Laws",
+        "topics": [
+          "Inertia types: inertia of rest, motion, direction — with real-world examples",
+          "Action-reaction pairs — identification in biological systems (walking, jumping)",
+          "Free body diagrams for humans in motion (running, jumping, swimming)"
+        ]
+      }
+    ],
+    "voiceFlashcards": [
+      { "front": "State Newton's Second Law", "back": "F = ma: Net force equals mass times acceleration. Also F = dp/dt: Rate of change of momentum.", "voiceEnabled": true },
+      { "front": "What is Impulse?", "back": "Impulse = Force × Time = Change in Momentum. J = FΔt = Δp", "voiceEnabled": true },
+      { "front": "Minimum speed at top of vertical circle", "back": "v_min = √(gR), where T (tension) = 0 at the top", "voiceEnabled": true },
+      { "front": "Apparent weight in downward-accelerating lift", "back": "N = m(g - a). If a = g, apparent weight = 0 (weightlessness)", "voiceEnabled": true },
+      { "front": "Condition for body on incline to remain stationary", "back": "mg sin θ ≤ μ_s × mg cos θ, i.e., tan θ ≤ μ_s", "voiceEnabled": true }
+    ]
+  },
+  "quiz": {
+    "id": "cbse-11-phy-laws-of-motion-quiz",
+    "title": "Laws of Motion — 3-Stage Quiz",
+    "stages": [
+      {
+        "stage": "board",
+        "label": "Stage 1: Board Level",
+        "passingScore": 60,
+        "questions": [
+          {
+            "id": "b1",
+            "text": "A 10 kg block is pushed with a force of 50 N on a surface with μ_k = 0.3 (g = 10 m/s²). What is the acceleration?",
+            "options": [
+              { "id": "a", "text": "2 m/s²" },
+              { "id": "b", "text": "5 m/s²" },
+              { "id": "c", "text": "3 m/s²" },
+              { "id": "d", "text": "8 m/s²" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Friction = μ_k × N = 0.3 × 10 × 10 = 30 N. Net force = 50 − 30 = 20 N. a = F/m = 20/10 = 2 m/s².",
+            "difficulty": "easy"
+          },
+          {
+            "id": "b2",
+            "text": "An Atwood machine has masses m₁ = 6 kg and m₂ = 4 kg. What is the acceleration (g = 10 m/s²)?",
+            "options": [
+              { "id": "a", "text": "2 m/s²" },
+              { "id": "b", "text": "1 m/s²" },
+              { "id": "c", "text": "5 m/s²" },
+              { "id": "d", "text": "3 m/s²" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "a = (m₁ − m₂)g/(m₁ + m₂) = (6−4)×10/(6+4) = 20/10 = 2 m/s².",
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "stage": "competitive",
+        "label": "Stage 2: Competitive (JEE)",
+        "passingScore": 60,
+        "bridgeHint": "Board Level cleared! Now tackle JEE-style motion problems.",
+        "questions": [
+          {
+            "id": "c1",
+            "text": "A ball is moving in a vertical circle of radius 1 m. What is the minimum speed at the top of the circle? (g = 10 m/s²)",
+            "options": [
+              { "id": "a", "text": "√10 ≈ 3.16 m/s" },
+              { "id": "b", "text": "10 m/s" },
+              { "id": "c", "text": "5 m/s" },
+              { "id": "d", "text": "1 m/s" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "At minimum speed at top: centripetal force = mg (tension T = 0). mv²/R = mg → v = √(gR) = √(10×1) = √10 ≈ 3.16 m/s.",
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "stage": "intelligence-age",
+        "label": "Stage 3: Intelligence Age",
+        "passingScore": 60,
+        "bridgeHint": "Outstanding! See how Newton's Laws power ISRO and Tesla.",
+        "questions": [
+          {
+            "id": "ia1",
+            "text": "ISRO's Chandrayaan-3 lander reduced its velocity from 1.68 km/s to 0 during lunar touchdown. If the lander had mass 1500 kg and the deceleration phase lasted 700 s, approximately what average thrust force was required?",
+            "options": [
+              { "id": "a", "text": "≈ 3600 N" },
+              { "id": "b", "text": "≈ 36,000 N" },
+              { "id": "c", "text": "≈ 360 N" },
+              { "id": "d", "text": "≈ 360,000 N" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Δv = 1680 m/s, t = 700 s. Deceleration a = Δv/t = 1680/700 ≈ 2.4 m/s². Force F = ma = 1500 × 2.4 = 3600 N. This is Newton's Second Law applied to India's historic lunar mission — the same formula you solved in Stage 1.",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

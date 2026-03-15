@@ -1,0 +1,18 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "tamil-nadu",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "tn-11-phy-01", "number": 1, "name": "Nature of Physical World and Measurement", "topics": ["Physical Quantities", "SI Units", "Significant Figures"], "enhancement": "Precision Metrology & Nanotechnology" },
+    { "id": "tn-11-phy-02", "number": 2, "name": "Kinematics", "topics": ["Scalars & Vectors", "Equations of Motion", "Projectile Motion"], "enhancement": "Drone Systems & Sports Analytics" },
+    { "id": "tn-11-phy-03", "number": 3, "name": "Laws of Motion and Work Energy Power", "topics": ["Newton's Laws", "Work-Energy Theorem", "Friction"], "enhancement": "Biomechanics & Exoskeleton Tech" },
+    { "id": "tn-11-phy-04", "number": 4, "name": "Motion of System of Particles", "topics": ["Centre of Mass", "Rotational Motion", "Angular Momentum"], "enhancement": "Satellite Attitude Control" },
+    { "id": "tn-11-phy-05", "number": 5, "name": "Gravitation", "topics": ["Newton's Law of Gravitation", "Satellite Motion", "Escape Velocity"], "enhancement": "ISRO Space Missions" },
+    { "id": "tn-11-phy-06", "number": 6, "name": "Properties of Matter", "topics": ["Elasticity", "Viscosity", "Surface Tension", "Fluid Flow"], "enhancement": "Smart Materials & Microfluidics" },
+    { "id": "tn-11-phy-07", "number": 7, "name": "Heat and Thermodynamics", "topics": ["Laws of Thermodynamics", "Entropy", "Carnot Engine"], "enhancement": "Thermal Management in Electronics" },
+    { "id": "tn-11-phy-08", "number": 8, "name": "Oscillations and Waves", "topics": ["SHM", "Wave Properties", "Resonance", "Doppler Effect"], "enhancement": "Sonar & Acoustic Engineering" }
+  ]
+}

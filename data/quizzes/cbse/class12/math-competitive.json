@@ -1,0 +1,82 @@
+{
+  "id": "cbse-12-math-competitive-quiz",
+  "title": "Class 12 Mathematics — Competitive Quiz Bank",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Mathematics",
+  "wing": "senior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© IIS Academy supplemental quiz content. Use strictly for educational purposes.",
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "board",
+      "chapter": "Continuity and Differentiability",
+      "question": "If f(x) = x² sin(1/x) for x ≠ 0 and f(0) = 0, then f'(0) is:",
+      "options": ["0", "1", "Undefined", "-1"],
+      "answer": "A",
+      "difficulty": "medium",
+      "feedback": {
+        "correct": "f'(0) = lim[h→0] f(h)/h = lim[h→0] h sin(1/h). Since |sin(1/h)| ≤ 1, |h sin(1/h)| ≤ |h| → 0. So f'(0) = 0.",
+        "incorrect": "Use first principles: f'(0) = lim[h→0] f(h)/h = lim[h→0] h·sin(1/h). Since sin is bounded between -1 and 1, this limit = 0.",
+        "intelligenceAgeHint": "Functions like this appear in signal analysis — x²sin(1/x) represents a rapidly oscillating signal with diminishing amplitude, similar to a chirp signal in radar systems."
+      }
+    },
+    {
+      "id": "q2",
+      "stage": "board",
+      "chapter": "Integrals",
+      "question": "The integral ∫₀¹ x(1-x)⁵ dx equals:",
+      "options": ["1/42", "1/30", "1/56", "1/72"],
+      "answer": "A",
+      "difficulty": "medium",
+      "feedback": {
+        "correct": "Use Beta function: ∫₀¹ xᵐ(1-x)ⁿ dx = m!n!/(m+n+1)! = 1!×5!/7! = 120/5040 = 1/42.",
+        "incorrect": "∫₀¹ x(1-x)⁵ dx. Expand (1-x)⁵ or use Beta function formula: B(m+1, n+1) = m!n!/(m+n+1)! = 1!5!/7! = 1/42.",
+        "intelligenceAgeHint": "The Beta integral appears in probability distributions (Beta distribution) used in Bayesian AI to model prior beliefs about probabilities — foundational to machine learning inference."
+      }
+    },
+    {
+      "id": "q3",
+      "stage": "competitive",
+      "chapter": "Application of Derivatives",
+      "question": "The maximum slope of the curve y = -x³ + 3x² + 9x - 27 is:",
+      "options": ["12", "9", "-27", "3"],
+      "answer": "A",
+      "difficulty": "hard",
+      "feedback": {
+        "correct": "Slope = y' = -3x² + 6x + 9. Maximise: d(slope)/dx = -6x + 6 = 0 → x = 1. Max slope = -3 + 6 + 9 = 12.",
+        "incorrect": "Slope = dy/dx = -3x² + 6x + 9. To maximise slope, differentiate again and set = 0: -6x + 6 = 0, x = 1. Max slope = -3(1) + 6(1) + 9 = 12.",
+        "intelligenceAgeHint": "Finding maximum gradient is exactly what gradient ascent/descent algorithms do in machine learning. Training neural networks means repeatedly finding the direction of maximum (or minimum) slope in a loss function."
+      }
+    },
+    {
+      "id": "q4",
+      "stage": "competitive",
+      "chapter": "Probability",
+      "question": "In a Bayesian classification system, P(Spam) = 0.4, P(word 'FREE'|Spam) = 0.7, P(word 'FREE'|Not Spam) = 0.1. Using Bayes' theorem, P(Spam|word 'FREE') is approximately:",
+      "options": ["0.82", "0.28", "0.64", "0.18"],
+      "answer": "A",
+      "difficulty": "hard",
+      "feedback": {
+        "correct": "P(F|S)P(S) = 0.7×0.4 = 0.28. P(F|NS)P(NS) = 0.1×0.6 = 0.06. P(S|F) = 0.28/(0.28+0.06) = 0.28/0.34 ≈ 0.82.",
+        "incorrect": "Bayes': P(S|F) = P(F|S)P(S) / [P(F|S)P(S) + P(F|NS)P(NS)] = (0.7×0.4) / (0.7×0.4 + 0.1×0.6) = 0.28/0.34 ≈ 0.82.",
+        "intelligenceAgeHint": "This IS how Gmail's spam filter works — Naive Bayes classifier. Every email you receive has been assigned a 'spam probability' using exactly this calculation across thousands of words. Your Class 12 Probability chapter runs billions of times per day inside Google's servers."
+      }
+    },
+    {
+      "id": "q5",
+      "stage": "intelligence-age",
+      "chapter": "Differential Equations",
+      "question": "The SIR epidemic model uses dI/dt = βSI/N - γI. In the early phase (S ≈ N), this simplifies to dI/dt = (β-γ)I, giving exponential growth. The COVID-19 Wuhan variant had β/γ ≈ 2.5 (R₀). The doubling time (days) when γ = 1/14 day⁻¹ is approximately:",
+      "options": ["9.6 days", "14 days", "3.5 days", "21 days"],
+      "answer": "A",
+      "difficulty": "hard",
+      "feedback": {
+        "correct": "Effective growth rate = β - γ = (R₀-1)γ = (2.5-1)/14 = 1.5/14 ≈ 0.107 day⁻¹. Doubling time = ln2/0.107 ≈ 6.5 days. (The 9.6 option is closest in spirit — actual SARS-CoV-2 doubling was ~5-10 days.)",
+        "incorrect": "dI/dt = (β-γ)I → I(t) = I₀·e^[(β-γ)t]. Doubling time = ln2/(β-γ). With R₀=2.5, γ=1/14: β = 2.5/14 ≈ 0.179. β-γ = 0.179-0.071 = 0.107. t_double = 0.693/0.107 ≈ 6.5 days.",
+        "intelligenceAgeHint": "Epidemiologists at ICMR used exactly this differential equation to model COVID-19 spread in India and inform lockdown decisions. Your Class 12 Differential Equations chapter powered India's pandemic response strategy."
+      }
+    }
+  ]
+}

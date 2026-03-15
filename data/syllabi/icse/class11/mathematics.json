@@ -1,0 +1,20 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "icse",
+  "class": 11,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "icse-11-math-01", "number": 1, "name": "Sets, Relations and Functions", "topics": ["Set Operations", "Venn Diagrams", "Types of Functions", "Composition"], "enhancement": "Database Theory & Functional Programming" },
+    { "id": "icse-11-math-02", "number": 2, "name": "Complex Numbers", "topics": ["Argand Plane", "Polar Form", "de Moivre's Theorem"], "enhancement": "Signal Processing & Quantum Computing" },
+    { "id": "icse-11-math-03", "number": 3, "name": "Quadratic Equations", "topics": ["Nature of Roots", "Sum & Product of Roots", "Inequalities"], "enhancement": "Optimization in ML" },
+    { "id": "icse-11-math-04", "number": 4, "name": "Sequences and Series", "topics": ["AP", "GP", "HP", "Special Sums"], "enhancement": "Recursive Algorithms & Neural Architectures" },
+    { "id": "icse-11-math-05", "number": 5, "name": "Permutations and Combinations", "topics": ["Factorial", "nPr", "nCr", "Pascal's Triangle"], "enhancement": "Cryptography & Combinatorial Optimization" },
+    { "id": "icse-11-math-06", "number": 6, "name": "Binomial Theorem", "topics": ["Binomial Expansion", "General Term", "Approximations"], "enhancement": "Probability in ML" },
+    { "id": "icse-11-math-07", "number": 7, "name": "Trigonometry", "topics": ["Compound Angles", "Multiple Angles", "Inverse Functions", "Heights & Distances"], "enhancement": "Robotics Kinematics & Computer Graphics" },
+    { "id": "icse-11-math-08", "number": 8, "name": "Coordinate Geometry", "topics": ["Straight Lines", "Circles", "Conics"], "enhancement": "Computer Vision & GPS" },
+    { "id": "icse-11-math-09", "number": 9, "name": "Calculus: Limits and Derivatives", "topics": ["Limits", "Continuity", "Differentiation Rules"], "enhancement": "Gradient Descent & Backpropagation" },
+    { "id": "icse-11-math-10", "number": 10, "name": "Statistics and Probability", "topics": ["Dispersion", "Correlation", "Conditional Probability", "Bayes' Theorem"], "enhancement": "Data Science & AI Decision Systems" }
+  ]
+}

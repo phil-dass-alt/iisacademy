@@ -1,0 +1,25 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "karnataka",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "kseab-11-phy-01", "number": 1, "name": "Physical World", "topics": ["Scope of Physics", "Fundamental Forces"], "enhancement": "Physics & Modern Technology" },
+    { "id": "kseab-11-phy-02", "number": 2, "name": "Units and Measurements", "topics": ["SI Units", "Significant Figures", "Errors"], "enhancement": "Precision Engineering" },
+    { "id": "kseab-11-phy-03", "number": 3, "name": "Motion in a Straight Line", "topics": ["Kinematics", "Graphs of Motion"], "enhancement": "Autonomous Vehicles & Robotics" },
+    { "id": "kseab-11-phy-04", "number": 4, "name": "Motion in a Plane", "topics": ["Projectile Motion", "Circular Motion", "Relative Velocity"], "enhancement": "Drone Navigation & Satellite Orbits" },
+    { "id": "kseab-11-phy-05", "number": 5, "name": "Laws of Motion", "topics": ["Newton's Laws", "Friction", "Applications"], "enhancement": "Space Launch & Aerospace" },
+    { "id": "kseab-11-phy-06", "number": 6, "name": "Work, Energy, and Power", "topics": ["Work-Energy Theorem", "Power", "Collisions"], "enhancement": "Renewable Energy & EV Technology" },
+    { "id": "kseab-11-phy-07", "number": 7, "name": "System of Particles and Rotational Motion", "topics": ["Centre of Mass", "Torque", "Angular Momentum"], "enhancement": "Gyroscopic Navigation & Robotics" },
+    { "id": "kseab-11-phy-08", "number": 8, "name": "Gravitation", "topics": ["Gravitational Law", "Potential Energy", "Escape Velocity"], "enhancement": "Space Missions & GPS" },
+    { "id": "kseab-11-phy-09", "number": 9, "name": "Mechanical Properties of Solids", "topics": ["Stress", "Strain", "Moduli of Elasticity"], "enhancement": "Smart Materials & Civil Engineering AI" },
+    { "id": "kseab-11-phy-10", "number": 10, "name": "Mechanical Properties of Fluids", "topics": ["Pascal's Law", "Viscosity", "Bernoulli's Theorem"], "enhancement": "Aerodynamics & Hydraulic AI" },
+    { "id": "kseab-11-phy-11", "number": 11, "name": "Thermal Properties of Matter", "topics": ["Specific Heat", "Thermal Expansion", "Heat Transfer"], "enhancement": "Thermal Imaging & Climate Sensors" },
+    { "id": "kseab-11-phy-12", "number": 12, "name": "Thermodynamics", "topics": ["Laws of Thermodynamics", "Carnot Engine", "Entropy"], "enhancement": "Green Energy & Sustainable Systems" },
+    { "id": "kseab-11-phy-13", "number": 13, "name": "Kinetic Theory", "topics": ["Ideal Gas Law", "Molecular Motion"], "enhancement": "Plasma Physics & Fusion Energy" },
+    { "id": "kseab-11-phy-14", "number": 14, "name": "Oscillations", "topics": ["SHM", "Damped Oscillations", "Resonance"], "enhancement": "Signal Processing & Medical Imaging" },
+    { "id": "kseab-11-phy-15", "number": 15, "name": "Waves", "topics": ["Wave Propagation", "Superposition", "Doppler Effect"], "enhancement": "Sonar & Wireless Communications" }
+  ]
+}

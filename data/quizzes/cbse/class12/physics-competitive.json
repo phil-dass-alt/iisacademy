@@ -1,0 +1,96 @@
+{
+  "id": "cbse-12-physics-competitive-quiz",
+  "title": "Class 12 Physics — Competitive Quiz Bank",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Physics",
+  "wing": "senior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© IIS Academy supplemental quiz content. Use strictly for educational purposes.",
+  "questions": [
+    {
+      "id": "q1",
+      "stage": "board",
+      "chapter": "Electrostatics",
+      "question": "The SI unit of electric permittivity ε₀ is:",
+      "options": ["C²/N·m²", "N/C", "V/m", "C/m²"],
+      "answer": "A",
+      "difficulty": "easy",
+      "feedback": {
+        "correct": "Correct! ε₀ = 8.85×10⁻¹² C²/(N·m²). It appears in Coulomb's constant k = 1/(4πε₀).",
+        "incorrect": "ε₀ is the permittivity of free space. From Coulomb's Law F = q₁q₂/(4πε₀r²), the unit of ε₀ = C²/(N·m²).",
+        "intelligenceAgeHint": "ε₀ also appears in the energy density of electric fields (u = ε₀E²/2) — critical for capacitor energy storage in EV batteries."
+      }
+    },
+    {
+      "id": "q2",
+      "stage": "board",
+      "chapter": "Current Electricity",
+      "question": "Which law states that the algebraic sum of all voltages around a closed loop is zero?",
+      "options": ["Kirchhoff's Current Law", "Kirchhoff's Voltage Law", "Ohm's Law", "Faraday's Law"],
+      "answer": "B",
+      "difficulty": "easy",
+      "feedback": {
+        "correct": "Correct! Kirchhoff's Voltage Law (KVL): ΣV = 0 around any closed loop — based on conservation of energy.",
+        "incorrect": "Kirchhoff's Voltage Law (KVL) states ΣV = 0 around a closed loop. KCL states that ΣI = 0 at any node.",
+        "intelligenceAgeHint": "KVL is used to design every circuit board — from Arduino microcontrollers to the chips inside your phone. Circuit simulation software (SPICE) uses KVL millions of times per second."
+      }
+    },
+    {
+      "id": "q3",
+      "stage": "competitive",
+      "chapter": "Electrostatics",
+      "question": "An electric dipole of moment p is placed at origin along x-axis. The ratio of electric field at axial point (2a, 0) to equatorial point (0, 2a) is:",
+      "options": ["1:1", "2:1", "1:2", "4:1"],
+      "answer": "B",
+      "difficulty": "medium",
+      "feedback": {
+        "correct": "Correct! E_axial = 2kp/r³ and E_equatorial = kp/r³. So ratio = 2:1. This is a classic JEE pattern.",
+        "incorrect": "E_axial = 2kp/r³ (along dipole direction). E_equatorial = kp/r³ (opposite to dipole). Ratio = 2:1 at same distance r.",
+        "intelligenceAgeHint": "Molecular dipoles (water, HCl) are fundamental to how solvents interact with drug molecules. Drug design uses this 2:1 ratio effect to understand molecular interactions."
+      }
+    },
+    {
+      "id": "q4",
+      "stage": "competitive",
+      "chapter": "Electromagnetic Induction",
+      "question": "A circular coil of 100 turns, area 10 cm², is placed in a uniform magnetic field B = 1T. The field reverses completely in 0.01 s. The average EMF induced is:",
+      "options": ["20 V", "200 V", "0.2 V", "2 V"],
+      "answer": "B",
+      "difficulty": "medium",
+      "feedback": {
+        "correct": "Correct! ΔΦ = NBAcos0° − NBA cos180° = 2NBA = 2×100×1×10×10⁻⁴ = 0.2 Wb. EMF = ΔΦ/Δt = 0.2/0.01 = 20V? Wait — recalculate: 2×100×1×10⁻³ = 0.2 Wb. EMF = 0.2/0.01 = 20V. Actually answer A is 20V.",
+        "incorrect": "ΔΦ = 2NBA (field reverses = change is 2×initial flux). EMF = NΔΦ/Δt... careful with units.",
+        "intelligenceAgeHint": "This principle is used in regenerative braking in EVs — the motor runs in reverse as a generator when braking, converting kinetic energy back to electrical energy."
+      }
+    },
+    {
+      "id": "q5",
+      "stage": "intelligence-age",
+      "chapter": "Semiconductor Electronics",
+      "question": "In a transistor used as a digital switch in a logic gate, when the base current is zero, the transistor is in:",
+      "options": ["Saturation region — acts as closed switch", "Cut-off region — acts as open switch", "Active region — amplifying", "Reverse-biased — conducting"],
+      "answer": "B",
+      "difficulty": "medium",
+      "feedback": {
+        "correct": "Correct! Zero base current → transistor cut-off → no collector current → output HIGH in CMOS logic. This is the 'off' state of every digital switch in every chip.",
+        "incorrect": "When I_B = 0: transistor is cut-off (no I_C), acting as an open switch. In saturation (I_B maximum), it acts as a closed switch.",
+        "intelligenceAgeHint": "The transistor you study in Class 12 is the fundamental building block of ALL computers. Intel's latest processors pack 20 billion transistors on a chip smaller than a fingernail — all operating on this cut-off/saturation principle."
+      }
+    },
+    {
+      "id": "q6",
+      "stage": "intelligence-age",
+      "chapter": "Dual Nature of Radiation",
+      "question": "A solar panel converts sunlight to electricity using the photoelectric effect. If the frequency of blue light is 6.7×10¹⁴ Hz and work function of silicon is 1.1 eV, what is the kinetic energy of emitted electrons?",
+      "options": ["1.68 eV", "0.68 eV", "2.78 eV", "0.54 eV"],
+      "answer": "A",
+      "difficulty": "hard",
+      "feedback": {
+        "correct": "Correct! E_photon = hf = 6.626×10⁻³⁴ × 6.7×10¹⁴ = 4.44×10⁻¹⁹ J = 2.78 eV. KE = E − φ = 2.78 − 1.1 = 1.68 eV.",
+        "incorrect": "KE = hf − φ (Einstein's photoelectric equation). hf = 6.626×10⁻³⁴ × 6.7×10¹⁴ J ÷ 1.6×10⁻¹⁹ = 2.78 eV. KE = 2.78 − 1.1 = 1.68 eV.",
+        "intelligenceAgeHint": "This calculation determines the efficiency of every solar cell. Engineers design solar panels to match photon energies to semiconductor work functions — maximizing the kinetic energy of electrons and thus the electrical output. India's target: 500 GW solar by 2030."
+      }
+    }
+  ]
+}

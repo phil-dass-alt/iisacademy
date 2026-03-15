@@ -1,170 +1,24 @@
 {
-  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
   "board": "cbse",
   "class": 12,
   "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
   "chapters": [
-    {
-      "id": "cbse-12-phy-01",
-      "number": 1,
-      "name": "Electric Charges and Fields",
-      "topics": [
-        "Coulomb's Law",
-        "Electric Field",
-        "Gauss's Law",
-        "Electric Flux"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-02",
-      "number": 2,
-      "name": "Electrostatic Potential and Capacitance",
-      "topics": [
-        "Electric Potential",
-        "Potential Energy",
-        "Capacitors",
-        "Dielectrics"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-03",
-      "number": 3,
-      "name": "Current Electricity",
-      "topics": [
-        "Ohm's Law",
-        "Kirchhoff's Laws",
-        "Wheatstone Bridge",
-        "Potentiometer"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-04",
-      "number": 4,
-      "name": "Moving Charges and Magnetism",
-      "topics": [
-        "Biot–Savart Law",
-        "Ampere's Law",
-        "Solenoid",
-        "Lorentz Force"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-05",
-      "number": 5,
-      "name": "Magnetism and Matter",
-      "topics": [
-        "Bar Magnet",
-        "Earth's Magnetism",
-        "Para/Dia/Ferromagnetism"
-      ],
-      "enhancement": null
-    },
-    {
-      "id": "cbse-12-phy-06",
-      "number": 6,
-      "name": "Electromagnetic Induction",
-      "topics": [
-        "Faraday's Laws",
-        "Lenz's Law",
-        "Eddy Currents",
-        "Self-Inductance"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-07",
-      "number": 7,
-      "name": "Alternating Current",
-      "topics": [
-        "AC Generator",
-        "Transformers",
-        "LC Oscillations",
-        "RLC Circuits"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-08",
-      "number": 8,
-      "name": "Electromagnetic Waves",
-      "topics": [
-        "Maxwell's Equations",
-        "EM Spectrum",
-        "Properties of EM Waves"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-09",
-      "number": 9,
-      "name": "Ray Optics",
-      "topics": [
-        "Reflection",
-        "Refraction",
-        "Lenses",
-        "Optical Instruments"
-      ],
-      "enhancement": null
-    },
-    {
-      "id": "cbse-12-phy-10",
-      "number": 10,
-      "name": "Wave Optics",
-      "topics": [
-        "Huygens' Principle",
-        "Interference",
-        "Diffraction",
-        "Polarisation"
-      ],
-      "enhancement": null
-    },
-    {
-      "id": "cbse-12-phy-11",
-      "number": 11,
-      "name": "Dual Nature of Radiation and Matter",
-      "topics": [
-        "Photoelectric Effect",
-        "de Broglie Wavelength"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    },
-    {
-      "id": "cbse-12-phy-12",
-      "number": 12,
-      "name": "Atoms",
-      "topics": [
-        "Rutherford Model",
-        "Bohr Model",
-        "Hydrogen Spectrum"
-      ],
-      "enhancement": null
-    },
-    {
-      "id": "cbse-12-phy-13",
-      "number": 13,
-      "name": "Nuclei",
-      "topics": [
-        "Nuclear Size",
-        "Radioactivity",
-        "Nuclear Fission & Fusion"
-      ],
-      "enhancement": null
-    },
-    {
-      "id": "cbse-12-phy-14",
-      "number": 14,
-      "name": "Semiconductor Electronics",
-      "topics": [
-        "Semiconductors",
-        "p-n Junction",
-        "Transistors",
-        "Logic Gates"
-      ],
-      "enhancement": "AI Circuits & Electronics"
-    }
+    { "id": "cbse-12-phy-01", "number": 1, "name": "Electric Charges and Fields", "topics": ["Coulomb's Law", "Electric Field", "Gauss's Law", "Electric Flux"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-02", "number": 2, "name": "Electrostatic Potential and Capacitance", "topics": ["Electric Potential", "Potential Energy", "Capacitors", "Dielectrics"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-03", "number": 3, "name": "Current Electricity", "topics": ["Ohm's Law", "Kirchhoff's Laws", "Wheatstone Bridge", "Potentiometer"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-04", "number": 4, "name": "Moving Charges and Magnetism", "topics": ["Biot–Savart Law", "Ampere's Law", "Solenoid", "Lorentz Force"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "cbse-12-phy-05", "number": 5, "name": "Magnetism and Matter", "topics": ["Bar Magnet", "Earth's Magnetism", "Para/Dia/Ferromagnetism"], "enhancement": null, "competitivePlugin": { "jee": false, "neet": false } },
+    { "id": "cbse-12-phy-06", "number": 6, "name": "Electromagnetic Induction", "topics": ["Faraday's Laws", "Lenz's Law", "Eddy Currents", "Self-Inductance"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "cbse-12-phy-07", "number": 7, "name": "Alternating Current", "topics": ["AC Generator", "Transformers", "LC Oscillations", "RLC Circuits"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "cbse-12-phy-08", "number": 8, "name": "Electromagnetic Waves", "topics": ["Maxwell's Equations", "EM Spectrum", "Properties of EM Waves"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-09", "number": 9, "name": "Ray Optics", "topics": ["Reflection", "Refraction", "Lenses", "Optical Instruments"], "enhancement": null, "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-10", "number": 10, "name": "Wave Optics", "topics": ["Huygens' Principle", "Interference", "Diffraction", "Polarisation"], "enhancement": null, "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "cbse-12-phy-11", "number": 11, "name": "Dual Nature of Radiation and Matter", "topics": ["Photoelectric Effect", "de Broglie Wavelength"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-12", "number": 12, "name": "Atoms", "topics": ["Rutherford Model", "Bohr Model", "Hydrogen Spectrum"], "enhancement": null, "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-13", "number": 13, "name": "Nuclei", "topics": ["Nuclear Size", "Radioactivity", "Nuclear Fission & Fusion"], "enhancement": null, "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "cbse-12-phy-14", "number": 14, "name": "Semiconductor Electronics", "topics": ["Semiconductors", "p-n Junction", "Transistors", "Logic Gates"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": false } }
   ]
 }

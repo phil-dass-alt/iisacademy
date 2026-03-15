@@ -1,0 +1,25 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-11-phy-01", "number": 1, "name": "Physical World", "topics": ["Scope of Physics", "Fundamental Forces", "Nature of Physical Laws"], "enhancement": "Physics & Technology" },
+    { "id": "cbse-11-phy-02", "number": 2, "name": "Units and Measurements", "topics": ["SI Units", "Significant Figures", "Dimensional Analysis", "Errors"], "enhancement": "Precision Engineering" },
+    { "id": "cbse-11-phy-03", "number": 3, "name": "Motion in a Straight Line", "topics": ["Kinematics", "Uniform Motion", "Non-uniform Motion", "Relative Velocity"], "enhancement": "Autonomous Vehicles" },
+    { "id": "cbse-11-phy-04", "number": 4, "name": "Motion in a Plane", "topics": ["Vectors", "Projectile Motion", "Circular Motion"], "enhancement": "Drone Navigation" },
+    { "id": "cbse-11-phy-05", "number": 5, "name": "Laws of Motion", "topics": ["Newton's Laws", "Friction", "Circular Motion Dynamics"], "enhancement": "Robotics & Automation" },
+    { "id": "cbse-11-phy-06", "number": 6, "name": "Work, Energy and Power", "topics": ["Work-Energy Theorem", "Conservative Forces", "Collisions"], "enhancement": "Renewable Energy" },
+    { "id": "cbse-11-phy-07", "number": 7, "name": "System of Particles and Rotational Motion", "topics": ["Centre of Mass", "Torque", "Angular Momentum", "Moment of Inertia"], "enhancement": "Gyroscopes & Satellites" },
+    { "id": "cbse-11-phy-08", "number": 8, "name": "Gravitation", "topics": ["Kepler's Laws", "Universal Gravitation", "Escape Velocity", "Satellites"], "enhancement": "Space Technology" },
+    { "id": "cbse-11-phy-09", "number": 9, "name": "Mechanical Properties of Solids", "topics": ["Elasticity", "Stress & Strain", "Young's Modulus"], "enhancement": "Materials Science" },
+    { "id": "cbse-11-phy-10", "number": 10, "name": "Mechanical Properties of Fluids", "topics": ["Pascal's Law", "Bernoulli's Theorem", "Viscosity"], "enhancement": "Fluid Dynamics in AI" },
+    { "id": "cbse-11-phy-11", "number": 11, "name": "Thermal Properties of Matter", "topics": ["Temperature", "Thermal Expansion", "Calorimetry", "Heat Transfer"], "enhancement": "Smart Thermal Systems" },
+    { "id": "cbse-11-phy-12", "number": 12, "name": "Thermodynamics", "topics": ["Laws of Thermodynamics", "Carnot Engine", "Entropy"], "enhancement": "Sustainable Energy" },
+    { "id": "cbse-11-phy-13", "number": 13, "name": "Kinetic Theory", "topics": ["Ideal Gas Law", "Kinetic Energy", "Degrees of Freedom"], "enhancement": "Molecular Simulation" },
+    { "id": "cbse-11-phy-14", "number": 14, "name": "Oscillations", "topics": ["SHM", "Spring-Mass System", "Pendulum", "Resonance"], "enhancement": "Signal Processing" },
+    { "id": "cbse-11-phy-15", "number": 15, "name": "Waves", "topics": ["Wave Motion", "Speed of Sound", "Doppler Effect", "Standing Waves"], "enhancement": "Acoustics & Sonar" }
+  ]
+}

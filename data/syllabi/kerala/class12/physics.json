@@ -1,0 +1,17 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "kerala",
+  "class": 12,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "kerala-12-phy-01", "number": 1, "name": "Electric Fields and Potential", "topics": ["Coulomb's Law", "Gauss Theorem", "Capacitors"], "enhancement": "AI Circuit Design", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "kerala-12-phy-02", "number": 2, "name": "Current Electricity", "topics": ["Drift Velocity", "Kirchhoff's Laws", "Potentiometer"], "enhancement": "Smart Grid & Renewable Energy Integration", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "kerala-12-phy-03", "number": 3, "name": "Electromagnetic Induction and Alternating Currents", "topics": ["Faraday's Law", "LCR", "AC Generator"], "enhancement": "Wireless Power & Smart Transformers", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "kerala-12-phy-04", "number": 4, "name": "Optics", "topics": ["Geometrical Optics", "Wave Optics", "Optical Instruments"], "enhancement": "Fibre Optics & Photonic Computing", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "kerala-12-phy-05", "number": 5, "name": "Atoms and Nuclei", "topics": ["Atomic Models", "Radioactivity", "Nuclear Fission/Fusion"], "enhancement": "Nuclear Energy & Radiation Medicine", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "kerala-12-phy-06", "number": 6, "name": "Semiconductor Electronics", "topics": ["Junction Diode", "Transistors", "Digital Electronics"], "enhancement": "Microprocessors & Edge AI", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "kerala-12-phy-07", "number": 7, "name": "Communication Systems", "topics": ["Modulation", "Demodulation", "Satellites", "Optical Fibres"], "enhancement": "5G Networks & Space Internet", "competitivePlugin": { "jee": false, "neet": false } }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "cbse-12-math-matrices",
+  "title": "Matrices",
+  "subject": "Mathematics",
+  "chapter": "Matrices",
+  "chapterNumber": 3,
+  "board": "cbse",
+  "class": 12,
+  "wing": "senior",
+  "stream": "Science/Commerce",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "dualTrack": {
+    "boardLevel": {
+      "tag": "Board Level — What",
+      "description": "Core CBSE matrix theory, operations and exam-focused knowledge.",
+      "keyConcepts": [
+        "Matrix: A rectangular array of numbers arranged in rows and columns, denoted by capital letters (A, B, C)",
+        "Order of matrix: m×n where m = rows, n = columns",
+        "Types: Row matrix, Column matrix, Square matrix, Diagonal, Identity (I), Zero matrix, Symmetric, Skew-symmetric",
+        "Matrix Addition: A + B — only possible if both matrices have same order; add corresponding elements",
+        "Scalar Multiplication: kA — multiply each element by scalar k",
+        "Matrix Multiplication: A×B — possible if columns of A = rows of B; C_ij = Σ A_ik × B_kj",
+        "Transpose: A^T — interchange rows and columns; (A^T)^T = A, (AB)^T = B^T A^T",
+        "Symmetric Matrix: A^T = A; Skew-symmetric: A^T = -A"
+      ],
+      "examTips": [
+        "Matrix multiplication is NOT commutative: AB ≠ BA in general",
+        "Identity matrix: AI = IA = A",
+        "For symmetric matrix: all diagonal elements of skew-symmetric matrix must be zero",
+        "Common board question: Express any square matrix as sum of symmetric and skew-symmetric",
+        "A = (A + A^T)/2 + (A - A^T)/2 — always works for any square matrix"
+      ]
+    },
+    "bridge": {
+      "tag": "The Bridge — How",
+      "description": "Advanced matrix reasoning, transformations, and JEE-level applications.",
+      "advancedConcepts": [
+        "Matrix as a linear transformation: A 2×2 matrix transforms 2D vectors — rotation, scaling, shearing",
+        "Eigenvalues and eigenvectors: Av = λv — critical for understanding transformations",
+        "Rank of a matrix: maximum number of linearly independent rows or columns",
+        "Special matrices in JEE: Nilpotent (A^n = 0), Idempotent (A² = A), Involutory (A² = I)",
+        "Matrix equations: AX = B has unique solution X = A⁻¹B if A is non-singular (det A ≠ 0)"
+      ],
+      "problemSolvingEdge": "JEE frequently asks about properties of special matrices and matrix equations. Key: if A is idempotent (A²=A), then trace(A) = rank(A). If A is involutory (A²=I), eigenvalues are ±1."
+    },
+    "intelligenceAge": {
+      "tag": "Next — Intelligence Age",
+      "description": "Matrices are the mathematical backbone of Artificial Intelligence and Computer Graphics.",
+      "applications": [
+        {
+          "title": "Neural Networks — Matrices Are the Core",
+          "content": "Every neural network computation is matrix multiplication: output = activation(W·x + b) where W is a weight matrix and x is an input vector. Training GPT-4 involved multiplying matrices with trillions of parameters. Your CBSE Chapter 3 matrix multiplication is literally what happens inside ChatGPT billions of times per second."
+        },
+        {
+          "title": "Computer Graphics — 3D Transformations",
+          "content": "Every rotation, scaling, translation, and projection in 3D graphics (games, CGI, VR) is represented as 4×4 matrix multiplication. When you see a character rotate in a game, that is Rx × Ry × Rz — product of rotation matrices. OpenGL and DirectX are matrix multiplication engines."
+        },
+        {
+          "title": "Google PageRank — The Matrix That Built Google",
+          "content": "Larry Page's original PageRank algorithm represents the entire internet as an adjacency matrix and uses eigenvector computation to rank pages. A ₹12 lakh crore company (Alphabet/Google) was founded on the eigenvalue of a matrix — the same concept in your Class 12 chapter."
+        },
+        {
+          "title": "Image Compression — JPEG & SVD",
+          "content": "Singular Value Decomposition (SVD) decomposes an image matrix into smaller matrices, keeping only the dominant ones. This is how JPEG compression works — your photos are compressed by discarding low-importance matrix components."
+        }
+      ],
+      "careerConnect": "Roles: Machine Learning Engineer, Computer Vision Researcher, Game Developer, Quantitative Analyst (Finance). Requires: Matrices → Linear Algebra → ML/AI Frameworks."
+    }
+  },
+  "competitivePlugin": {
+    "activated": true,
+    "streams": ["JEE"],
+    "edgeModules": [
+      {
+        "title": "JEE Edge: Matrix High-Yield Topics",
+        "topics": [
+          "Special matrices: Idempotent (A²=A), Involutory (A²=I), Nilpotent (A³=0 etc.)",
+          "Trace of matrix: sum of diagonal elements; trace(AB) = trace(BA)",
+          "Orthogonal matrix: A^T A = I → columns are orthonormal vectors",
+          "Cayley-Hamilton theorem: every matrix satisfies its own characteristic equation"
+        ],
+        "calculationHacks": [
+          "For 2×2 inverse: [a b; c d]⁻¹ = (1/det)[d -b; -c a] — swap diagonal, negate off-diagonal, divide by det",
+          "det(kA) = k^n det(A) for n×n matrix — don't forget the power!",
+          "If AB = 0, it does NOT mean A=0 or B=0 — always check in MCQ"
+        ],
+        "mnemonicAgents": [
+          "SIDE: Symmetric (A^T=A), Identity (AI=A), Diagonal (non-diag=0), Equal orders for addition",
+          "For matrix multiplication order: 'Rows × Columns', result is 'first-rows × last-cols'"
+        ]
+      }
+    ],
+    "voiceFlashcards": [
+      { "front": "When can two matrices be multiplied?", "back": "When number of columns of first = number of rows of second", "voiceEnabled": true },
+      { "front": "What is a symmetric matrix?", "back": "A matrix where A-transpose equals A — A^T = A", "voiceEnabled": true },
+      { "front": "How do you express any square matrix as sum of symmetric and skew-symmetric?", "back": "A = (A + A^T)/2 + (A - A^T)/2", "voiceEnabled": true },
+      { "front": "What is the identity matrix's role?", "back": "AI = IA = A — it acts as the number 1 for matrix multiplication", "voiceEnabled": true },
+      { "front": "What is an idempotent matrix?", "back": "A matrix where A-squared equals A — A² = A", "voiceEnabled": true }
+    ]
+  },
+  "quiz": {
+    "id": "cbse-12-math-matrices-quiz",
+    "title": "Matrices — 3-Stage Quiz",
+    "stages": [
+      {
+        "stage": "board",
+        "label": "Stage 1: Board Level",
+        "passingScore": 60,
+        "questions": [
+          {
+            "id": "b1",
+            "text": "If A is a 3×2 matrix and B is a 2×4 matrix, what is the order of the product AB?",
+            "options": [
+              { "id": "a", "text": "3×4" },
+              { "id": "b", "text": "2×2" },
+              { "id": "c", "text": "3×2" },
+              { "id": "d", "text": "AB is not defined" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "For AB to be defined, columns of A must equal rows of B: A is 3×2, B is 2×4. Columns of A (2) = rows of B (2) ✓. Result AB has order: rows of A × columns of B = 3×4.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "b2",
+            "text": "For a 3×3 matrix A, what is (A^T)^T equal to?",
+            "options": [
+              { "id": "a", "text": "A" },
+              { "id": "b", "text": "-A" },
+              { "id": "c", "text": "A⁻¹" },
+              { "id": "d", "text": "Identity matrix" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Transposing twice returns the original matrix. (A^T)^T = A. This is a fundamental property of transpose operations.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "b3",
+            "text": "Express the matrix A = [[1, 2], [3, 4]] as the sum of a symmetric and a skew-symmetric matrix. What is the symmetric part?",
+            "options": [
+              { "id": "a", "text": "[[1, 2.5], [2.5, 4]]" },
+              { "id": "b", "text": "[[0, -0.5], [0.5, 0]]" },
+              { "id": "c", "text": "[[1, 2], [2, 4]]" },
+              { "id": "d", "text": "[[0.5, 1], [1.5, 2]]" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Symmetric part = (A + A^T)/2. A^T = [[1,3],[2,4]]. A + A^T = [[2,5],[5,8]]. Divide by 2: [[1, 2.5],[2.5, 4]]. Verify: this equals its own transpose ✓.",
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "stage": "competitive",
+        "label": "Stage 2: Competitive (JEE Edge)",
+        "passingScore": 60,
+        "bridgeHint": "Board Level cleared! Now apply JEE-level matrix reasoning.",
+        "questions": [
+          {
+            "id": "c1",
+            "text": "If A is an idempotent matrix (A² = A) and B = I − A, then B is:",
+            "options": [
+              { "id": "a", "text": "Also idempotent" },
+              { "id": "b", "text": "Symmetric" },
+              { "id": "c", "text": "Nilpotent" },
+              { "id": "d", "text": "Equal to A" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "B² = (I−A)² = I − 2A + A² = I − 2A + A = I − A = B. So B² = B, meaning B is idempotent. Also note: AB = A(I−A) = A − A² = A − A = 0.",
+            "difficulty": "hard"
+          },
+          {
+            "id": "c2",
+            "text": "For matrix A = [[1, 0, 0], [1, 1, 0], [1, 1, 1]], find A³ − 3A² + 3A − I:",
+            "options": [
+              { "id": "a", "text": "Zero matrix" },
+              { "id": "b", "text": "Identity matrix I" },
+              { "id": "c", "text": "3A" },
+              { "id": "d", "text": "A" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "This is (A−I)³ = 0 because N = A−I = [[0,0,0],[1,0,0],[1,1,0]] is nilpotent: N³ = 0 (lower triangular with zeros on diagonal). This is an application of the Cayley-Hamilton theorem concept.",
+            "difficulty": "hard"
+          }
+        ]
+      },
+      {
+        "stage": "intelligence-age",
+        "label": "Stage 3: Intelligence Age",
+        "passingScore": 60,
+        "bridgeHint": "Excellent! Now see how matrices power the AI revolution.",
+        "questions": [
+          {
+            "id": "ia1",
+            "text": "In a neural network layer, the operation is y = W·x + b where W is a 512×256 matrix, x is a 256×1 vector. How many multiplications does this single layer operation require?",
+            "options": [
+              { "id": "a", "text": "512 × 256 = 131,072 multiplications" },
+              { "id": "b", "text": "512 + 256 = 768 multiplications" },
+              { "id": "c", "text": "512 multiplications" },
+              { "id": "d", "text": "256 multiplications" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "W·x is a 512×256 matrix × 256×1 vector. Each element of the 512×1 result requires 256 multiplications. Total: 512 × 256 = 131,072. A large language model like GPT-4 has thousands of such layers with much larger matrices — billions of matrix multiplications per inference. Your Class 12 matrix multiplication IS modern AI.",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

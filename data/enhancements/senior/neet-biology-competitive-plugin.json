@@ -1,0 +1,94 @@
+{
+  "id": "competitive-plugin-neet-biology",
+  "title": "NEET Biology Competitive Plugin",
+  "description": "Targeted competitive preparation modules for NEET UG — Biology edge content across all Class 11 & 12 chapters",
+  "targetExam": "NEET",
+  "wing": "senior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "modules": [
+    {
+      "id": "neet-bio-genetics-edge",
+      "subject": "Biology",
+      "chapter": "Principles of Inheritance and Variation",
+      "class": 12,
+      "weightageInNEET": "High (10–12% of Biology)",
+      "patternRecognition": [
+        "NEET loves: Dihybrid cross ratio variations (9:3:3:1 modifications — incomplete dominance, epistasis, etc.)",
+        "NEET loves: Sex-linked inheritance — haemophilia, colour blindness pedigree charts",
+        "NEET loves: Chromosomal disorders — Down syndrome (trisomy 21), Turner's (45,XO), Klinefelter's (47,XXY)",
+        "NEET loves: Mutation types — point vs chromosomal, induced vs spontaneous"
+      ],
+      "calculationHacks": [
+        "Punnett square shortcut: for dihybrid, use FOIL method on gametes",
+        "Hardy-Weinberg: p² + 2pq + q² = 1 and p + q = 1 — always verify both equations",
+        "For linked genes: recombination frequency = (recombinants/total offspring) × 100"
+      ],
+      "mnemonicAgents": [
+        "LAWS: Law of Segregation, Law of Independent Assortment, Walther Sutton (chromosomal theory)",
+        "DIHYBRID ratio: 9:3:3:1 → remember 'Nine Three Three One' for normal inheritance",
+        "DOWN SYNDROME: Extra chromosome 21 → 'Down is 21 Down'"
+      ],
+      "intelligenceAgeApplication": {
+        "title": "CRISPR & Genetic Engineering",
+        "content": "CRISPR-Cas9, the gene-editing tool that won the 2020 Nobel Prize in Chemistry, works by exploiting the same Mendelian inheritance principles. When CRISPR edits a gene, the inheritance of that edited gene across generations follows Mendel's laws exactly. Understanding Punnett squares helps predict whether an edited trait will be dominant or recessive in the next generation."
+      }
+    },
+    {
+      "id": "neet-bio-molecular-edge",
+      "subject": "Biology",
+      "chapter": "Molecular Basis of Inheritance",
+      "class": 12,
+      "weightageInNEET": "Very High (12–15% of Biology)",
+      "patternRecognition": [
+        "NEET loves: DNA vs RNA structural differences — deoxy vs ribose, thymine vs uracil",
+        "NEET loves: Replication — semi-conservative proof (Meselson-Stahl experiment)",
+        "NEET loves: Transcription in prokaryotes vs eukaryotes — promoters, RNA polymerases",
+        "NEET loves: Translation — start codon AUG, stop codons UAA/UAG/UGA, ribosome structure"
+      ],
+      "calculationHacks": [
+        "% adenine = % thymine, % guanine = % cytosine (Chargaff's rule) in ds-DNA",
+        "mRNA length = DNA template strand length = polypeptide codons × 3",
+        "If DNA has 20% A, then A=T=20%, G=C=30% → %G = 30%"
+      ],
+      "mnemonicAgents": [
+        "SUGAR CODES: Deoxyribose for DNA, Ribose for RNA — 'De-Oxy means missing oxygen at 2' position",
+        "STOP CODONS: UAA = 'You Are Absent', UAG = 'You Are Gone', UGA = 'You Go Away'",
+        "3 Rs of Transcription: RNA polymerase Reads template, Replicates nucleotides, Releases mRNA"
+      ],
+      "intelligenceAgeApplication": {
+        "title": "mRNA Vaccines — The COVID-19 Revolution",
+        "content": "The Pfizer-BioNTech and Moderna COVID-19 vaccines are mRNA vaccines. They contain synthetic mRNA encoding the spike protein of SARS-CoV-2. This mRNA is taken up by cells, translated by ribosomes (exactly as in NEET Chapter), producing spike protein which triggers immunity. The 2023 Nobel Prize in Physiology was awarded for the mRNA vaccine technology. Your NEET molecular biology chapter is the scientific foundation of the vaccine that saved millions of lives."
+      }
+    },
+    {
+      "id": "neet-bio-human-physiology-edge",
+      "subject": "Biology",
+      "chapter": "Neural Control and Human Health",
+      "class": 11,
+      "weightageInNEET": "High (8–10% of Biology)",
+      "patternRecognition": [
+        "NEET loves: Neuron structure — dendrites, axon, myelin sheath, nodes of Ranvier",
+        "NEET loves: Impulse transmission — resting potential, action potential, synaptic transmission",
+        "NEET loves: Human diseases — causative agents, transmission, symptoms (malaria, typhoid, AIDS, cancer)"
+      ],
+      "calculationHacks": [
+        "Resting potential: -70 mV (inside more negative than outside)",
+        "Action potential threshold: approx -55 mV",
+        "Myelinated fibres conduct faster: saltatory conduction at nodes of Ranvier"
+      ],
+      "mnemonicAgents": [
+        "BRAIN PARTS: 'Carefully Medulla Patiently Plans' = Cerebrum, Medulla, Pons, Pituitary (hypothalamus connection)",
+        "IMMUNITY INNATE: skin, mucus, fever, inflammation — 'SMFI Stops Most Filthy Invaders'",
+        "CANCER TYPES: COBRA = Carcinoma, Osteosarcoma, Blood (leukaemia), Retinoblastoma, Adenocarcinoma"
+      ]
+    }
+  ],
+  "mockTestConfig": {
+    "totalTime": 90,
+    "totalQuestions": 45,
+    "marking": { "correct": 4, "incorrect": -1, "unattempted": 0 },
+    "adaptiveRanking": true,
+    "feedbackMode": "immediate"
+  }
+}

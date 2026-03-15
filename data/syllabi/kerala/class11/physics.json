@@ -1,0 +1,19 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "kerala",
+  "class": 11,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "kerala-11-phy-01", "number": 1, "name": "Physical World", "topics": ["Scope of Physics", "Fundamental Forces", "Scientific Methods"], "enhancement": "Physics-Driven Technology" },
+    { "id": "kerala-11-phy-02", "number": 2, "name": "Kinematics", "topics": ["Displacement", "Velocity", "Acceleration", "Projectile"], "enhancement": "Sports Biomechanics & Drones" },
+    { "id": "kerala-11-phy-03", "number": 3, "name": "Laws of Motion", "topics": ["Newton's Laws", "Friction", "Circular Motion"], "enhancement": "Space Exploration & Robotics" },
+    { "id": "kerala-11-phy-04", "number": 4, "name": "Work, Energy and Power", "topics": ["Work-Energy Theorem", "Conservation of Energy"], "enhancement": "Hydroelectric & Wind Energy" },
+    { "id": "kerala-11-phy-05", "number": 5, "name": "Motion of Rigid Bodies", "topics": ["Torque", "Angular Momentum", "Rolling Motion"], "enhancement": "Flywheel Energy Storage" },
+    { "id": "kerala-11-phy-06", "number": 6, "name": "Gravitation", "topics": ["Law of Gravitation", "Satellites", "Tides"], "enhancement": "ISRO & Space Technology" },
+    { "id": "kerala-11-phy-07", "number": 7, "name": "Properties of Matter", "topics": ["Elasticity", "Fluids", "Surface Tension"], "enhancement": "Smart Materials & Microfluidics" },
+    { "id": "kerala-11-phy-08", "number": 8, "name": "Thermodynamics and Kinetic Theory", "topics": ["Gas Laws", "Laws of Thermodynamics", "Entropy"], "enhancement": "Climate Engineering & Heat Pumps" },
+    { "id": "kerala-11-phy-09", "number": 9, "name": "Waves and Oscillations", "topics": ["SHM", "Wave Equations", "Standing Waves", "Doppler Effect"], "enhancement": "Medical Ultrasound & Seismology" }
+  ]
+}

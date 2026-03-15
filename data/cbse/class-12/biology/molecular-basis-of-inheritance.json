@@ -1,0 +1,210 @@
+{
+  "id": "cbse-12-bio-molecular-basis-of-inheritance",
+  "title": "Molecular Basis of Inheritance",
+  "subject": "Biology",
+  "chapter": "Molecular Basis of Inheritance",
+  "chapterNumber": 6,
+  "board": "cbse",
+  "class": 12,
+  "wing": "senior",
+  "stream": "Science",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "dualTrack": {
+    "boardLevel": {
+      "tag": "Board Level — What",
+      "description": "Core CBSE Class 12 Biology — DNA structure, replication, transcription, and translation.",
+      "keyConcepts": [
+        "DNA double helix: Anti-parallel strands, complementary base pairing (A-T via 2 H-bonds, G-C via 3 H-bonds)",
+        "Chargaff's Rule: %A = %T, %G = %C in any double-stranded DNA",
+        "Semi-conservative replication: Meselson-Stahl experiment (1958) proved each daughter DNA has one old + one new strand",
+        "Transcription: DNA → mRNA using RNA polymerase; template strand (3'→5') → mRNA (5'→3')",
+        "Translation: mRNA → Protein; ribosome reads codons (triplets); tRNA carries amino acids",
+        "Start codon: AUG (methionine); Stop codons: UAA, UAG, UGA",
+        "Lac operon (E. coli): Inducible operon — lactose induces expression by removing repressor"
+      ],
+      "examTips": [
+        "NEET frequently asks: if DNA has 20% A, find % of G (answer: G = C = 30%)",
+        "Know the Meselson-Stahl experiment design — N15 vs N14 density gradient centrifugation",
+        "Template strand = antisense strand = 3'→5'; coding strand = sense strand = 5'→3'",
+        "RNA polymerase does NOT need a primer (unlike DNA polymerase)",
+        "mRNA in eukaryotes: 5' cap + poly-A tail + splicing of introns → mature mRNA"
+      ]
+    },
+    "bridge": {
+      "tag": "The Bridge — How",
+      "description": "Advanced molecular biology concepts for NEET high scorers and future biotech careers.",
+      "advancedConcepts": [
+        "DNA replication enzymes: Helicase (unwinds), Primase (RNA primer), DNA Pol III (synthesis 5'→3'), DNA Pol I (removes primer), Ligase (seals Okazaki fragments)",
+        "Okazaki fragments on lagging strand — why DNA polymerase can only go 5'→3'",
+        "Post-transcriptional modifications in eukaryotes: 5'-capping, 3'-polyadenylation, RNA splicing (introns out, exons in)",
+        "Translation: Initiation (30S ribosome + mRNA + fMet-tRNA), Elongation (peptidyl transfer), Termination (release factors)",
+        "Regulation of gene expression: Lac operon (inducible), Trp operon (repressible) — prokaryotic models"
+      ],
+      "problemSolvingEdge": "NEET dedicates 12-15% of Biology to this chapter. Master: (1) calculation questions using Chargaff's Rule, (2) Meselson-Stahl experimental design, (3) enzyme names and their roles in replication. These appear in every NEET paper."
+    },
+    "intelligenceAge": {
+      "tag": "Next — Intelligence Age",
+      "description": "How DNA science is transforming medicine, agriculture, and the future of humanity.",
+      "applications": [
+        {
+          "title": "CRISPR-Cas9 — Editing the Book of Life",
+          "content": "Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9. The Cas9 enzyme cuts DNA at a specific location (guided by a RNA sequence that base-pairs with the target — using the same A-T, G-C pairing rules in your CBSE chapter). Scientists can then insert, delete, or correct genes. CRISPR is being used to cure sickle cell disease, develop cancer treatments, and create disease-resistant crops. Your Chapter 6 base pairing rules are the molecular foundation of the biggest medical revolution of the 21st century."
+        },
+        {
+          "title": "mRNA Vaccines — COVID-19's Game-Changer",
+          "content": "Pfizer-BioNTech and Moderna COVID-19 vaccines contain synthetic mRNA encoding the spike protein. When injected, your cells' ribosomes (exactly as in your Translation section) translate this mRNA into spike protein, triggering immunity. The 2023 Nobel Prize in Physiology or Medicine was awarded for this mRNA vaccine technology. 5.5 billion doses were administered globally — your NCERT Chapter 6 translation mechanism explains exactly how."
+        },
+        {
+          "title": "DNA Forensics & Criminal Justice",
+          "content": "DNA fingerprinting (first used in 1984 by Alec Jeffreys) uses restriction enzymes (cut DNA at specific sequences) and gel electrophoresis to create unique DNA profiles. India's forensic labs use DNA profiling in criminal investigations. The CBI uses VNTR (Variable Number Tandem Repeat) analysis — which exploits the same double-helix and replication principles you study. DNA evidence has overturned wrongful convictions and solved cold cases worldwide."
+        },
+        {
+          "title": "Genome Sequencing — Reading Life's Code",
+          "content": "The Human Genome Project (2003) sequenced all 3 billion base pairs of human DNA. Modern sequencing (Illumina Next-Gen Sequencing) reads millions of DNA fragments simultaneously using fluorescent nucleotides — a direct application of your base-pairing chapter. India's Genome India Project is sequencing 10,000 Indian genomes to understand genetic diseases prevalent in our population. A bioinformatics scientist salary starts at ₹8-15 lakhs per annum in India."
+        }
+      ],
+      "careerConnect": "Roles: Molecular Biologist, Genetic Counsellor, Bioinformatics Scientist, Vaccine Researcher, Forensic Scientist. Requires: Molecular Biology → Genomics → Bioinformatics/Computational Biology."
+    }
+  },
+  "competitivePlugin": {
+    "activated": true,
+    "streams": ["NEET"],
+    "edgeModules": [
+      {
+        "title": "NEET Edge: Molecular Biology High-Yield Topics",
+        "topics": [
+          "DNA structure: B-DNA (right-handed), Z-DNA (left-handed), A-DNA — NEET asks about B-DNA Chargaff ratios",
+          "Meselson-Stahl experiment: After 1 generation in N14, ALL molecules are hybrid (N15/N14); after 2 generations, 50% hybrid + 50% N14",
+          "Aminoacyl-tRNA synthetases: charge tRNA with correct amino acid — 'second genetic code'",
+          "Wobble hypothesis: Third base of codon has flexible pairing with anticodon",
+          "Regulatory sequences: Promoter (TATA box, -10 and -35 in prokaryotes), Enhancers (in eukaryotes)"
+        ],
+        "calculationHacks": [
+          "Chargaff's Rule: A+T+G+C = 100%; if A=30%, then T=30%, G=C=(100-60)/2=20%",
+          "mRNA length = No. of amino acids × 3 (for protein coding region)",
+          "After n generations of replication: 2ⁿ total molecules; 2 hybrid + (2ⁿ-2) light in Meselson-Stahl"
+        ],
+        "mnemonicAgents": [
+          "DNA REPLICATION ENZYMES: 'Happy People Love Deep Sleep' = Helicase, Primase, Ligase, DNA Pol I, SSBP",
+          "STOP CODONS: 'UAA = You Are Away, UAG = You Are Gone, UGA = You Go Away'",
+          "TRANSCRIPTION vs TRANSLATION: 'Transcription = DNA reads RNA; Translation = RNA speaks Protein'"
+        ]
+      }
+    ],
+    "voiceFlashcards": [
+      { "front": "What does Chargaff's Rule state?", "back": "In any ds-DNA: %Adenine = %Thymine, and %Guanine = %Cytosine", "voiceEnabled": true },
+      { "front": "What was proved by Meselson-Stahl experiment?", "back": "DNA replication is semi-conservative — each daughter molecule has one old and one new strand", "voiceEnabled": true },
+      { "front": "What are the three stop codons?", "back": "UAA, UAG, UGA — they signal the ribosome to terminate translation", "voiceEnabled": true },
+      { "front": "What enzyme removes RNA primer during replication?", "back": "DNA Polymerase I removes the RNA primer and fills the gap with DNA nucleotides", "voiceEnabled": true },
+      { "front": "What modification is done to mRNA in eukaryotes?", "back": "5'-methylguanosine cap is added, 3'-poly-A tail is added, and introns are spliced out", "voiceEnabled": true }
+    ]
+  },
+  "quiz": {
+    "id": "cbse-12-bio-mol-inheritance-quiz",
+    "title": "Molecular Basis of Inheritance — 3-Stage Quiz",
+    "stages": [
+      {
+        "stage": "board",
+        "label": "Stage 1: Board Level",
+        "passingScore": 60,
+        "questions": [
+          {
+            "id": "b1",
+            "text": "A double-stranded DNA molecule has 30% adenine. What is the percentage of guanine?",
+            "options": [
+              { "id": "a", "text": "20%" },
+              { "id": "b", "text": "30%" },
+              { "id": "c", "text": "15%" },
+              { "id": "d", "text": "40%" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Chargaff's rule: A = T = 30%. Therefore G + C = 100 - 60 = 40%, so G = C = 20%.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "b2",
+            "text": "Which experiment proved that DNA replication is semi-conservative?",
+            "options": [
+              { "id": "a", "text": "Meselson-Stahl experiment using nitrogen isotopes" },
+              { "id": "b", "text": "Hershey-Chase experiment using radioactive sulphur" },
+              { "id": "c", "text": "Griffith's transformation experiment" },
+              { "id": "d", "text": "Watson-Crick X-ray crystallography" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "Meselson and Stahl (1958) grew bacteria on heavy nitrogen (N15), then switched to N14. After one generation, ALL DNA was hybrid (N15/N14 — intermediate density), proving semi-conservative replication.",
+            "difficulty": "easy"
+          },
+          {
+            "id": "b3",
+            "text": "The start codon in mRNA is:",
+            "options": [
+              { "id": "a", "text": "AUG (codes for Methionine)" },
+              { "id": "b", "text": "UAA" },
+              { "id": "c", "text": "ATG (codes for Methionine in DNA)" },
+              { "id": "d", "text": "GUA" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "AUG is the universal start codon in mRNA that codes for methionine (fMet in prokaryotes). It signals the ribosome to begin translation.",
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "stage": "competitive",
+        "label": "Stage 2: Competitive (NEET Edge)",
+        "passingScore": 60,
+        "bridgeHint": "Board Level cleared! Now master NEET-level molecular biology reasoning.",
+        "questions": [
+          {
+            "id": "c1",
+            "text": "In Meselson-Stahl experiment, after TWO generations in N14 medium, what fraction of DNA molecules contain ONLY N14 (light) DNA?",
+            "options": [
+              { "id": "a", "text": "1/2" },
+              { "id": "b", "text": "All (1)" },
+              { "id": "c", "text": "None (0)" },
+              { "id": "d", "text": "1/4" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "After 1 generation: 2 hybrid (N15/N14) molecules. After 2 generations: 4 molecules total — 2 hybrid + 2 light (N14/N14). So fraction with only N14 = 2/4 = 1/2.",
+            "difficulty": "medium"
+          },
+          {
+            "id": "c2",
+            "text": "If a gene has 300 nucleotide pairs, the polypeptide coded by it will have how many amino acids? (Assuming all codons are sense codons except one stop codon)",
+            "options": [
+              { "id": "a", "text": "99" },
+              { "id": "b", "text": "100" },
+              { "id": "c", "text": "300" },
+              { "id": "d", "text": "150" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "300 nucleotide pairs → 300 nucleotides in mRNA → 100 codons. But one is a stop codon (no amino acid). So polypeptide = 99 amino acids.",
+            "difficulty": "medium"
+          }
+        ]
+      },
+      {
+        "stage": "intelligence-age",
+        "label": "Stage 3: Intelligence Age",
+        "passingScore": 60,
+        "bridgeHint": "Excellent! Now see how CRISPR and mRNA vaccines use your biology chapter.",
+        "questions": [
+          {
+            "id": "ia1",
+            "text": "CRISPR-Cas9 uses a 'guide RNA' (gRNA) to direct the Cas9 enzyme to a specific DNA sequence. The gRNA works by:",
+            "options": [
+              { "id": "a", "text": "Forming complementary base pairs (A-T, G-C) with the target DNA strand — same rules as your CBSE Chapter 6" },
+              { "id": "b", "text": "Recognizing specific protein sequences in the DNA" },
+              { "id": "c", "text": "Using restriction enzyme recognition sites" },
+              { "id": "d", "text": "Detecting mutations through fluorescence" }
+            ],
+            "correctOptionId": "a",
+            "explanation": "The guide RNA in CRISPR uses Watson-Crick base pairing (A pairs with T/U, G pairs with C) to find its complementary target in the genome. Once the gRNA-DNA match is made, Cas9 cuts both strands. This is your CBSE molecular biology chapter — the same rules that govern DNA structure now edit the human genome for medical treatments.",
+            "difficulty": "medium"
+          }
+        ]
+      }
+    ]
+  }
+}

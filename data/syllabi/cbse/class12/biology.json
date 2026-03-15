@@ -1,0 +1,26 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Biology",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-bio-01", "number": 1, "name": "Reproduction in Organisms", "topics": ["Asexual Reproduction", "Sexual Reproduction", "Life Spans"], "enhancement": "Stem Cell Research", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-02", "number": 2, "name": "Sexual Reproduction in Flowering Plants", "topics": ["Flower Structure", "Pollen", "Fertilisation", "Seed Formation"], "enhancement": "AgriGenomics & Crop Science", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-03", "number": 3, "name": "Human Reproduction", "topics": ["Male/Female Reproductive Systems", "Fertilisation", "Pregnancy", "Parturition"], "enhancement": "Reproductive Medicine & IVF Tech", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-04", "number": 4, "name": "Reproductive Health", "topics": ["Population Growth", "Contraception", "STDs", "Infertility"], "enhancement": "Digital Health & Telemedicine", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-05", "number": 5, "name": "Principles of Inheritance and Variation", "topics": ["Mendel's Laws", "Chromosomal Theory", "Mutations", "Genetic Disorders"], "enhancement": "Genetic Counselling AI", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-06", "number": 6, "name": "Molecular Basis of Inheritance", "topics": ["DNA Structure", "Replication", "Transcription", "Translation", "Genetic Code"], "enhancement": "CRISPR & Gene Therapy", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-07", "number": 7, "name": "Evolution", "topics": ["Origin of Life", "Darwinism", "Natural Selection", "Human Evolution"], "enhancement": "Computational Phylogenetics", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-08", "number": 8, "name": "Human Health and Disease", "topics": ["Pathogens", "Immunity", "Cancer", "Drug & Alcohol Abuse"], "enhancement": "AI Diagnostics & Vaccine Development", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-09", "number": 9, "name": "Strategies for Enhancement in Food Production", "topics": ["Plant Breeding", "Tissue Culture", "Animal Husbandry"], "enhancement": "Vertical Farming & Precision Agriculture AI", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-10", "number": 10, "name": "Microbes in Human Welfare", "topics": ["Fermentation", "Antibiotics", "Biogas", "Bioremediation"], "enhancement": "Synthetic Biology & Biofactories", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-11", "number": 11, "name": "Biotechnology: Principles and Processes", "topics": ["Recombinant DNA", "PCR", "Gel Electrophoresis", "Cloning Vectors"], "enhancement": "Gene Sequencing & Genomics Industry", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-12", "number": 12, "name": "Biotechnology and Its Applications", "topics": ["Transgenic Organisms", "Gene Therapy", "Bioethics"], "enhancement": "mRNA Vaccines & Personalised Medicine", "competitivePlugin": { "neet": true } },
+    { "id": "cbse-12-bio-13", "number": 13, "name": "Organisms and Populations", "topics": ["Ecological Adaptations", "Population Interactions", "Growth Models"], "enhancement": "Ecological Modelling AI", "competitivePlugin": { "neet": false } },
+    { "id": "cbse-12-bio-14", "number": 14, "name": "Ecosystem", "topics": ["Energy Flow", "Nutrient Cycling", "Ecological Succession"], "enhancement": "Climate Simulation & Carbon AI", "competitivePlugin": { "neet": false } },
+    { "id": "cbse-12-bio-15", "number": 15, "name": "Biodiversity and Conservation", "topics": ["Species Diversity", "Threats to Biodiversity", "Conservation Strategies"], "enhancement": "AI Species Monitoring & Rewilding", "competitivePlugin": { "neet": false } },
+    { "id": "cbse-12-bio-16", "number": 16, "name": "Environmental Issues", "topics": ["Pollution", "Solid Waste Management", "Greenhouse Effect", "Ozone Depletion"], "enhancement": "Environmental AI & Smart Cities", "competitivePlugin": { "neet": false } }
+  ]
+}

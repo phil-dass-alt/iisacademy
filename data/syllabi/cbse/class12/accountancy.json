@@ -1,0 +1,18 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "cbse",
+  "class": 12,
+  "subject": "Accountancy",
+  "stream": "Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "cbse-12-acc-01", "number": 1, "name": "Accounting for Partnership", "topics": ["Partnership Deed", "Fixed & Fluctuating Capital", "P&L Appropriation"], "enhancement": "Cloud Accounting & ERP Systems" },
+    { "id": "cbse-12-acc-02", "number": 2, "name": "Reconstitution of a Partnership", "topics": ["Admission", "Retirement", "Death of a Partner", "Goodwill"], "enhancement": "Startup Valuation & Equity Management" },
+    { "id": "cbse-12-acc-03", "number": 3, "name": "Dissolution of a Partnership Firm", "topics": ["Modes of Dissolution", "Realisation Account"], "enhancement": "Corporate Restructuring & M&A Analytics" },
+    { "id": "cbse-12-acc-04", "number": 4, "name": "Share Capital", "topics": ["Issue of Shares", "Forfeiture", "Pro-Rata Allotment"], "enhancement": "IPO Analytics & Digital Stock Markets" },
+    { "id": "cbse-12-acc-05", "number": 5, "name": "Debentures", "topics": ["Issue of Debentures", "Redemption", "Sinking Fund"], "enhancement": "Bond Markets & Fintech" },
+    { "id": "cbse-12-acc-06", "number": 6, "name": "Financial Statements of Companies", "topics": ["Balance Sheet", "P&L Account", "Notes to Accounts"], "enhancement": "AI Financial Analysis & XBRL Reporting" },
+    { "id": "cbse-12-acc-07", "number": 7, "name": "Analysis of Financial Statements", "topics": ["Ratio Analysis", "Trend Analysis", "Common-Size Statements"], "enhancement": "Credit Scoring AI & Due Diligence" },
+    { "id": "cbse-12-acc-08", "number": 8, "name": "Cash Flow Statement", "topics": ["Operating Activities", "Investing Activities", "Financing Activities"], "enhancement": "Automated Cash Flow Forecasting" }
+  ]
+}

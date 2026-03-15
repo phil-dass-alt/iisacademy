@@ -1,0 +1,18 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "icse",
+  "class": 12,
+  "subject": "Physics",
+  "stream": "Science",
+  "wing": "senior",
+  "chapters": [
+    { "id": "icse-12-phy-01", "number": 1, "name": "Electrostatics", "topics": ["Coulomb's Law", "Electric Field", "Gauss's Law", "Capacitors"], "enhancement": "AI Circuits & Electronics", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "icse-12-phy-02", "number": 2, "name": "Current Electricity", "topics": ["Ohm's Law", "Kirchhoff's Laws", "Meter Bridge"], "enhancement": "Smart Grids & IoT", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "icse-12-phy-03", "number": 3, "name": "Magnetic Effects of Current", "topics": ["Biot-Savart Law", "Ampere's Law", "Galvanometer"], "enhancement": "MRI Technology & Maglev", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "icse-12-phy-04", "number": 4, "name": "Magnetism", "topics": ["Magnetic Dipole", "Earth's Magnetism", "Hysteresis"], "enhancement": "Data Storage & Magnetic Sensors", "competitivePlugin": { "jee": false, "neet": false } },
+    { "id": "icse-12-phy-05", "number": 5, "name": "Electromagnetic Induction and AC", "topics": ["Faraday's Law", "Lenz's Law", "Transformers", "LCR Circuits"], "enhancement": "Wireless Charging & Power Electronics", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "icse-12-phy-06", "number": 6, "name": "EM Waves and Ray Optics", "topics": ["EM Spectrum", "Mirrors", "Lenses", "Optical Fibres"], "enhancement": "Fibre Optics & LiDAR", "competitivePlugin": { "jee": true, "neet": true } },
+    { "id": "icse-12-phy-07", "number": 7, "name": "Wave Optics", "topics": ["Interference", "Diffraction", "Polarization"], "enhancement": "Holography & Quantum Optics", "competitivePlugin": { "jee": true, "neet": false } },
+    { "id": "icse-12-phy-08", "number": 8, "name": "Modern Physics", "topics": ["Photoelectric Effect", "Bohr Model", "Radioactivity", "Nuclear Reactions", "Semiconductors"], "enhancement": "Quantum Computing & Nuclear Energy", "competitivePlugin": { "jee": true, "neet": true } }
+  ]
+}

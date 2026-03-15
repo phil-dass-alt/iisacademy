@@ -1,0 +1,16 @@
+{
+  "copyright": "© Textbook content belongs exclusively to its respective authors and authorities. IIS Academy content offers enhancement, supplemental insights, and technology-powered add-ons. Use strictly for educational purposes.",
+  "board": "icse",
+  "class": 12,
+  "subject": "Mathematics",
+  "stream": "Science/Commerce",
+  "wing": "senior",
+  "chapters": [
+    { "id": "icse-12-math-01", "number": 1, "name": "Relations and Functions", "topics": ["Equivalence Relations", "Injective/Surjective/Bijective", "Inverse Functions"], "enhancement": "Type Theory & Functional Programming", "competitivePlugin": { "jee": true } },
+    { "id": "icse-12-math-02", "number": 2, "name": "Algebra", "topics": ["Matrices", "Determinants", "Boolean Algebra"], "enhancement": "Deep Learning Mathematics", "competitivePlugin": { "jee": true } },
+    { "id": "icse-12-math-03", "number": 3, "name": "Calculus", "topics": ["Differentiation", "Applications of Derivatives", "Integration", "Differential Equations"], "enhancement": "Physics Simulations & Economic Modelling", "competitivePlugin": { "jee": true } },
+    { "id": "icse-12-math-04", "number": 4, "name": "Vectors and 3D Geometry", "topics": ["Vector Operations", "Lines & Planes in 3D", "Shortest Distance"], "enhancement": "3D Game Development & Robotics", "competitivePlugin": { "jee": true } },
+    { "id": "icse-12-math-05", "number": 5, "name": "Linear Programming", "topics": ["Formulation", "Graphical Method", "Corner Points"], "enhancement": "Supply Chain Optimization & ML Regularization", "competitivePlugin": { "jee": false } },
+    { "id": "icse-12-math-06", "number": 6, "name": "Probability", "topics": ["Bayes' Theorem", "Random Variables", "Distribution Functions"], "enhancement": "Probabilistic AI & Risk Modeling", "competitivePlugin": { "jee": true } }
+  ]
+}
