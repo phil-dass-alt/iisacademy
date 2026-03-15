@@ -1,0 +1,151 @@
+{
+  "id": "cbse-8-sci-microorganisms",
+  "title": "Microorganisms: Friend and Foe",
+  "subject": "Science",
+  "chapter": "Microorganisms: Friend and Foe",
+  "chapterNumber": 2,
+  "board": "cbse",
+  "class": 8,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "Micro-Robotics & Synthetic Biology",
+    "tagline": "Reprogramming life itself: AI-designed microbes for medicine and the environment"
+  },
+  "lesson": {
+    "officialFocus": "Classification of microorganisms (Bacteria, Fungi, Protozoa, Algae, Viruses), friendly microbes (curd, bread, nitrogen fixation), harmful microbes (pathogens, food poisoning), food preservation, and antibiotics.",
+    "introduction": "Your textbook introduces microorganisms as helpers and villains. In the Intelligence Age, scientists are going further—using Agentic AI to design entirely new synthetic microbes that can eat plastic, deliver medicine directly to cancer cells, or alert farmers about soil health. This is the frontier of Synthetic Biology.",
+    "sections": [
+      {
+        "title": "Synthetic Microbes: AI-Designed Life",
+        "officialConcept": "Microorganisms like Rhizobium fix nitrogen from the air into the soil, helping plants grow without chemical fertilizers.",
+        "aiEnhancement": "Scientists now use AI platforms (like AlphaFold by DeepMind) to design entirely new proteins and 'program' bacteria with synthetic DNA. Instead of relying on natural Rhizobium, we can create custom microorganisms that not only fix nitrogen but also act as tiny soil sensors—transmitting data about mineral deficiencies to a farmer's smartphone via the iisacademy portal.",
+        "keyInsight": "Natural Rhizobium = the original biological AI agent in soil. Synthetic Biology = upgrading that agent with new code (DNA sequences designed by AI)."
+      },
+      {
+        "title": "Bioremediation: Microbes That Eat Plastic",
+        "officialConcept": "Harmful microorganisms cause diseases and food spoilage. Some microbes produce toxins that are dangerous.",
+        "aiEnhancement": "Scientists discovered a bacterium (Ideonella sakaiensis) that breaks down PET plastic. AI tools are now being used to evolve faster versions of this enzyme (PETase) in computer simulations, reducing the time to design better plastic-eating microbes from years to days. This is 'Computational Enzyme Engineering'—using AI to solve environmental problems at the molecular level.",
+        "keyInsight": "The same microbes your textbook calls 'harmful' (because they decompose food) are being re-engineered to decompose plastic waste in landfills and oceans."
+      },
+      {
+        "title": "AI-Accelerated Vaccine Design",
+        "officialConcept": "Vaccines are made from weakened or killed pathogens to trigger the body's immune response, providing immunity without causing the disease.",
+        "aiEnhancement": "Traditionally, vaccine development took 10–15 years. Generative AI (like the models used for COVID-19 mRNA vaccines) can analyze a pathogen's protein structure and simulate millions of vaccine candidates in days. This is 'Computational Vaccinology'—AI-assisted immune response prediction. The COVID-19 vaccine reached trials in under 1 year, partly because of this AI acceleration.",
+        "keyInsight": "Understanding how pathogens trigger immunity (your CBSE chapter) + AI protein simulation = vaccines at Intelligence Age speed."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Observe Fermentation at Home (Yeast Lab)",
+      "difficulty": "beginner",
+      "materials": ["1 packet active dry yeast (5g)", "1 teaspoon sugar", "Warm water (about 40°C)", "A clear glass bottle", "A balloon"],
+      "steps": [
+        "Add warm water (about 250 ml) to the bottle.",
+        "Add the yeast and sugar. Stir gently.",
+        "Stretch the balloon over the mouth of the bottle.",
+        "Wait 15–20 minutes and observe the balloon inflating.",
+        "Explanation: Yeast (a microorganism) ferments the sugar and releases CO₂ gas—the same process used in bread making and biofuel production.",
+        "Intelligence Age connection: Industrial fermenters use AI to monitor yeast activity, pH, and temperature in real time for optimal ethanol or CO₂ yield."
+      ],
+      "learningOutcome": "Directly observe the fermentation process described in your textbook, and connect it to industrial AI-controlled bioreactors."
+    },
+    "furtherExploration": [
+      "DeepMind AlphaFold – AI protein structure prediction: alphafold.ebi.ac.uk",
+      "iGEM – International Genetically Engineered Machine Foundation: igem.org",
+      "National Centre for Biological Sciences, Bangalore: ncbs.res.in"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-8-sci-microorganisms-quiz",
+    "title": "Microorganisms: Friend and Foe + Synthetic Biology Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which microorganism is responsible for converting milk into curd?",
+        "options": [
+          { "id": "a", "text": "Yeast" },
+          { "id": "b", "text": "Lactobacillus" },
+          { "id": "c", "text": "Amoeba" },
+          { "id": "d", "text": "Penicillium" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Lactobacillus bacteria ferment lactose (milk sugar) into lactic acid, curdling the milk proteins and giving curd its characteristic tangy taste.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Friend and Foe",
+        "board": "cbse",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q2",
+        "text": "In the 'Intelligence Age,' how can AI-modified bacteria help the environment?",
+        "options": [
+          { "id": "a", "text": "By producing more plastic" },
+          { "id": "b", "text": "By breaking down non-biodegradable waste" },
+          { "id": "c", "text": "By stopping photosynthesis" },
+          { "id": "d", "text": "By increasing global warming" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "AI-designed enzymes (like enhanced PETase) can reprogram bacteria to break down plastics and other non-biodegradable pollutants—turning a major environmental problem into a biological solution.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Friend and Foe",
+        "board": "cbse",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q3",
+        "text": "Which of these is a 'vector' for the Malaria parasite Plasmodium?",
+        "options": [
+          { "id": "a", "text": "Housefly" },
+          { "id": "b", "text": "Female Anopheles mosquito" },
+          { "id": "c", "text": "Cockroach" },
+          { "id": "d", "text": "Butterfly" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The female Anopheles mosquito carries Plasmodium (the malaria-causing protozoan) and transmits it when it bites a human. The male mosquito feeds only on plant nectar.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Friend and Foe",
+        "board": "cbse",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q4",
+        "text": "Alexander Fleming discovered the first antibiotic (Penicillin) from which organism?",
+        "options": [
+          { "id": "a", "text": "Virus" },
+          { "id": "b", "text": "Protozoa" },
+          { "id": "c", "text": "Fungus (Mould)" },
+          { "id": "d", "text": "Algae" }
+        ],
+        "correctOptionId": "c",
+        "explanation": "In 1928, Alexander Fleming observed that the mould Penicillium notatum was killing the bacteria in his petri dish. This accidental discovery led to Penicillin—the first antibiotic, saving millions of lives.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Microorganisms: Friend and Foe",
+        "board": "cbse",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q5",
+        "text": "What is the process of converting sugar into alcohol (and CO₂) by yeast called?",
+        "options": [
+          { "id": "a", "text": "Nitrogen Fixation" },
+          { "id": "b", "text": "Pasteurization" },
+          { "id": "c", "text": "Fermentation" },
+          { "id": "d", "text": "Infection" }
+        ],
+        "correctOptionId": "c",
+        "explanation": "Fermentation is the anaerobic breakdown of sugar by yeast, producing ethanol (alcohol) and CO₂. It is used in bread making (CO₂ makes dough rise), brewing, and biofuel production.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Friend and Foe",
+        "board": "cbse",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      }
+    ]
+  }
+}

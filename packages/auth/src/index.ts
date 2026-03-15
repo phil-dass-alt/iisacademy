@@ -1,4 +1,8 @@
 export { getAuthConfig } from "./config";
+
+export { AuthProvider, useAuth } from "./AuthProvider";
+export { hasPaidAccess, checkContentAccess, HIGH5_MEMBERSHIP_PLAN } from "./accessControl";
+
 export { AuthProvider } from "./AuthProvider";
 export {
   getMembershipAccess,
@@ -10,10 +14,16 @@ export {
   isMembershipExpired,
   getRequiredTierForFeature,
 } from "./accessControl";
+
 export type {
   AuthUser,
   AuthSession,
   AuthConfig,
+
+  MembershipPlan,
+  AccessControlResult,
+} from "./types";
+
   MembershipTier,
   MembershipAccess,
   BoardCode,
@@ -23,4 +33,5 @@ export { getSupabaseClient, getSupabaseAdminClient, getUserSubscription, checkAc
 export { authOptions } from './authOptions';
 export { requireAuth, requireSubscription } from './middleware';
 export type { UserProfile, Subscription, StudentProfile, SchoolProfile, AuthSession, SubscriptionStatus, UserRole } from './types';
+
 

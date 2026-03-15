@@ -1,0 +1,290 @@
+{
+  "board": "cbse",
+  "class": 8,
+  "subject": "Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-8-sci-01",
+      "number": 1,
+      "name": "Crop Production and Management",
+      "topics": [
+        "Agricultural Practices",
+        "Soil Preparation",
+        "Sowing",
+        "Adding Manure and Fertilizers",
+        "Irrigation",
+        "Protection from Weeds",
+        "Harvesting",
+        "Storage"
+      ],
+      "enhancement": "Precision Agriculture & AI",
+      "enhancementFile": "crop-production.json"
+    },
+    {
+      "id": "cbse-8-sci-02",
+      "number": 2,
+      "name": "Microorganisms: Friend and Foe",
+      "topics": [
+        "Types of Microorganisms",
+        "Where Do Microorganisms Live",
+        "Microorganisms and Us (Friendly)",
+        "Harmful Microorganisms",
+        "Food Preservation",
+        "Nitrogen Fixation",
+        "Nitrogen Cycle"
+      ],
+      "enhancement": "Micro-Robotics & Synthetic Biology",
+      "enhancementFile": "microorganisms.json"
+    },
+    {
+      "id": "cbse-8-sci-03",
+      "number": 3,
+      "name": "Synthetic Fibres and Plastics",
+      "topics": [
+        "Types of Fibres",
+        "Types of Synthetic Fibres",
+        "Characteristics of Synthetic Fibres",
+        "Plastics",
+        "Plastics and the Environment"
+      ],
+      "enhancement": "Green Materials & Biomimetics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-04",
+      "number": 4,
+      "name": "Materials: Metals and Non-Metals",
+      "topics": [
+        "Physical Properties of Metals and Non-Metals",
+        "Chemical Properties of Metals and Non-Metals",
+        "Uses of Metals and Non-Metals"
+      ],
+      "enhancement": "Smart Materials & Nanotechnology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-05",
+      "number": 5,
+      "name": "Coal and Petroleum",
+      "topics": [
+        "Coal",
+        "Petroleum",
+        "Natural Gas",
+        "Some Natural Resources are Limited"
+      ],
+      "enhancement": "Renewable Energy & Climate AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-06",
+      "number": 6,
+      "name": "Combustion and Flame",
+      "topics": [
+        "What is Combustion",
+        "How Do We Control Fire",
+        "Types of Combustion",
+        "Flame",
+        "Structure of a Flame",
+        "Fuel Efficiency"
+      ],
+      "enhancement": "Hydrogen Fuel & Clean Energy",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-07",
+      "number": 7,
+      "name": "Conservation of Plants and Animals",
+      "topics": [
+        "Deforestation",
+        "Consequences of Deforestation",
+        "Conservation of Forest and Wildlife",
+        "Biosphere Reserve",
+        "Flora and Fauna",
+        "Endemic Species",
+        "Wildlife Sanctuary",
+        "National Park",
+        "Red Data Book",
+        "Migration",
+        "Recycling of Paper"
+      ],
+      "enhancement": "AI Biodiversity Monitoring & Drones",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-08",
+      "number": 8,
+      "name": "Cell — Structure and Functions",
+      "topics": [
+        "Discovery of the Cell",
+        "The Cell",
+        "Organisms Show Variety in Cell Number",
+        "Shape and Size of Cells",
+        "Cell Structure and Function",
+        "Parts of the Cell"
+      ],
+      "enhancement": "BioTech & Synthetic Biology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-09",
+      "number": 9,
+      "name": "Reproduction in Animals",
+      "topics": [
+        "Modes of Reproduction",
+        "Sexual Reproduction",
+        "Asexual Reproduction"
+      ],
+      "enhancement": "Genetic Engineering & AI Genomics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-10",
+      "number": 10,
+      "name": "Reaching the Age of Adolescence",
+      "topics": [
+        "Adolescence and Puberty",
+        "Changes at Puberty",
+        "Secondary Sexual Characters",
+        "Role of Hormones in Initiating Reproductive Function",
+        "Reproductive Phase of Life in Humans",
+        "How is the Sex of the Baby Determined",
+        "Hormones other than Sex Hormones",
+        "Role of Hormones in Completing the Life History of Insects and Frogs",
+        "Reproductive Health"
+      ],
+      "enhancement": "Health AI & Wearable Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-11",
+      "number": 11,
+      "name": "Force and Pressure",
+      "topics": [
+        "Force: A Push or a Pull",
+        "Forces are Due to an Interaction",
+        "Exploring Forces",
+        "A Force can Change the State of Motion",
+        "Force can Change the Shape of an Object",
+        "Contact Forces",
+        "Non-contact Forces",
+        "Pressure",
+        "Pressure Exerted by Liquids and Gases",
+        "Atmospheric Pressure"
+      ],
+      "enhancement": "Robotics & Agentic AI Hardware",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-12",
+      "number": 12,
+      "name": "Friction",
+      "topics": [
+        "Force of Friction",
+        "Factors Affecting Friction",
+        "Friction: A Necessary Evil",
+        "Increasing and Reducing Friction",
+        "Wheels Reduce Friction",
+        "Fluid Friction"
+      ],
+      "enhancement": "Tribology in Machines & AI Wear Detection",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-13",
+      "number": 13,
+      "name": "Sound",
+      "topics": [
+        "Sound is Produced by a Vibrating Body",
+        "Sound Produced by Humans",
+        "Sound Needs a Medium for Propagation",
+        "We Hear Sound Through Our Ears",
+        "Amplitude, Time Period and Frequency of a Vibration",
+        "Audible and Inaudible Sounds",
+        "Noise and Music",
+        "Noise Pollution"
+      ],
+      "enhancement": "Voice-AI & Natural Language Processing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-14",
+      "number": 14,
+      "name": "Chemical Effects of Electric Current",
+      "topics": [
+        "Do Liquids Conduct Electricity",
+        "Chemical Effects of Electric Current",
+        "Electroplating"
+      ],
+      "enhancement": "Electrochemical AI Sensors & IoT",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-15",
+      "number": 15,
+      "name": "Some Natural Phenomena",
+      "topics": [
+        "Lightning",
+        "Charging by Rubbing",
+        "Types of Charges and Their Interaction",
+        "Transfer of Charge",
+        "The Story of Lightning",
+        "Lightning Safety",
+        "Earthquakes"
+      ],
+      "enhancement": "Early Warning AI Systems & Disaster Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-16",
+      "number": 16,
+      "name": "Light",
+      "topics": [
+        "What Makes Things Visible",
+        "Laws of Reflection",
+        "Regular and Diffused Reflection",
+        "Reflected Light can be Reflected Again",
+        "Multiple Images",
+        "Sunlight — White or Coloured",
+        "What is inside our Eyes",
+        "Care of the Eyes",
+        "Visually Impaired Persons",
+        "What is the Braille System"
+      ],
+      "enhancement": "LiDAR, AR/VR & Optical AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-17",
+      "number": 17,
+      "name": "Stars and the Solar System",
+      "topics": [
+        "The Moon",
+        "The Stars",
+        "Constellations",
+        "The Solar System",
+        "Some Other Members of the Solar System"
+      ],
+      "enhancement": "Space AI & Satellite Data Analytics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-sci-18",
+      "number": 18,
+      "name": "Pollution of Air and Water",
+      "topics": [
+        "Air Pollution",
+        "How Does Air Get Polluted",
+        "Case Study: The Taj Mahal",
+        "Greenhouse Effect",
+        "What Can Be Done",
+        "Water Pollution",
+        "What is Potable Water and How is Water Purified",
+        "What Can Be Done"
+      ],
+      "enhancement": "Environmental AI & Smart Monitoring",
+      "enhancementFile": null
+    }
+  ]
+}

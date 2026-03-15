@@ -1,0 +1,151 @@
+{
+  "id": "kseab-8-sci-microorganisms",
+  "title": "Microorganisms: Our Friends and Enemies",
+  "subject": "Science",
+  "chapter": "Microorganisms: Our Friends and Enemies",
+  "chapterNumber": 7,
+  "board": "kseab",
+  "class": 8,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "Micro-Robotics & Synthetic Biology",
+    "tagline": "AI-engineered microbes: from soil sensors to cancer fighters"
+  },
+  "lesson": {
+    "officialFocus": "Types of microorganisms (bacteria, fungi, protozoa, algae, viruses), useful microorganisms (curd, antibiotics, nitrogen fixation, decomposition), harmful microorganisms (diseases, food spoilage), and food preservation methods.",
+    "introduction": "Karnataka is India's biotech capital—Bengaluru hosts hundreds of biotech firms that are using AI to design the next generation of microbes. From the farmland where Rhizobium fixes nitrogen to the Bengaluru laboratory where AI designs synthetic bacteria to fight cancer, this chapter connects to Karnataka's biggest industry.",
+    "sections": [
+      {
+        "title": "Synthetic Microbes: Bengaluru's AI Biology Labs",
+        "officialConcept": "Microorganisms like Rhizobium fix nitrogen from the air into the soil, helping plants grow. This is called Nitrogen Fixation.",
+        "aiEnhancement": "Biotech companies in Bengaluru's Electronic City and Whitefield are using AI (specifically AlphaFold by DeepMind) to design synthetic versions of nitrogen-fixing bacteria that work 3x faster than natural Rhizobium. These AI-designed microbes are being tested on Karnataka's coffee and sugarcane farms to reduce chemical fertilizer use by up to 50%, directly helping Karnataka farmers.",
+        "keyInsight": "Your KSEAB chapter's Rhizobium + AI protein design = a new agricultural revolution happening right in Karnataka."
+      },
+      {
+        "title": "Microbe-Powered Biosensors for Kannada Farmers",
+        "officialConcept": "Bacteria decompose dead organic matter, returning nutrients to the soil. Some bacteria are harmful and cause diseases.",
+        "aiEnhancement": "Scientists are engineering bacteria to act as 'biosensors'—microbes that glow (using bioluminescence genes from fireflies) when heavy metals like arsenic or cadmium are present in soil or water above safe limits. The iisacademy.in portal can receive this data via IoT: a small vial of biosensor bacteria placed in the soil sends a signal to a smartphone app when contamination is detected. This is called 'Whole Cell Biosensing.'",
+        "keyInsight": "The decomposer bacteria in your KSEAB textbook → engineered as pollution detectors → connected to smartphones via IoT. One concept, three levels of intelligence."
+      },
+      {
+        "title": "Fighting Cancer with AI-Guided Bacteria",
+        "officialConcept": "Viruses are parasitic microorganisms that cannot replicate outside a host cell. They cause diseases like common cold, influenza, and COVID-19. Vaccines help prevent viral diseases.",
+        "aiEnhancement": "Researchers at the Indian Institute of Science (IISc), Bengaluru, are exploring 'Bacteriotherapy': programming bacteria to seek out and destroy cancer tumors. The bacteria carry anti-cancer drug molecules and are programmed (using synthetic DNA) to activate only when they sense the acidic environment inside a tumor. An AI model predicts which genetic sequences will make the bacteria most effective—analyzing billions of DNA combinations in minutes.",
+        "keyInsight": "From 'bacteria cause disease' (KSEAB Chapter 7) to 'bacteria cure cancer' (IISc Bengaluru research)—the Intelligence Age closes this gap."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Yeast Fermentation: Build a Mini-Bioreactor",
+      "difficulty": "beginner",
+      "materials": ["5g active dry yeast", "1 tsp sugar", "250 ml warm water (40°C)", "Clear bottle", "Balloon", "Thermometer"],
+      "steps": [
+        "Dissolve the yeast and sugar in warm water (about 40°C—check with thermometer).",
+        "Pour into the bottle and stretch the balloon over the mouth.",
+        "Place one bottle in a warm spot (sunlight) and one in a cool, shaded spot.",
+        "After 20 minutes, compare balloon sizes.",
+        "Observation: Warmer bottle has a more inflated balloon—higher temperature accelerates yeast fermentation.",
+        "Intelligence Age connection: Industrial bioreactors use AI to maintain optimal temperature, pH, and oxygen levels for maximum fermentation yield in bioethanol and antibiotic production."
+      ],
+      "learningOutcome": "Observe how temperature affects microbial activity—the same variable that AI monitors in industrial bioreactors for optimal microbe performance."
+    },
+    "furtherExploration": [
+      "IISc Bangalore – Centre for BioSystems Science and Engineering: bsse.iisc.ac.in",
+      "NCBS Bangalore – National Centre for Biological Sciences: ncbs.res.in",
+      "Biocon Bangalore – India's biotech pioneer: biocon.com"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-8-sci-microorganisms-quiz",
+    "title": "Microorganisms: Our Friends and Enemies + Synthetic Biology Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which microorganism found in soil nodules of leguminous plants (like beans and peas) helps in nitrogen fixation?",
+        "options": [
+          { "id": "a", "text": "Yeast" },
+          { "id": "b", "text": "Rhizobium" },
+          { "id": "c", "text": "Plasmodium" },
+          { "id": "d", "text": "Penicillium" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Rhizobium bacteria live in root nodules of leguminous plants and convert atmospheric nitrogen (N₂) into ammonium compounds that plants can absorb. Bengaluru biotech labs are now engineering faster-acting synthetic versions of Rhizobium using AI.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Our Friends and Enemies",
+        "board": "kseab",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q2",
+        "text": "AI-designed bacteria that glow when toxic heavy metals exceed safe levels in soil are called:",
+        "options": [
+          { "id": "a", "text": "Pathogenic bacteria" },
+          { "id": "b", "text": "Whole Cell Biosensors" },
+          { "id": "c", "text": "Denitrifying bacteria" },
+          { "id": "d", "text": "Symbiotic bacteria" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Whole Cell Biosensors are microbes engineered with genes that produce a measurable signal (like light/bioluminescence) when they detect specific chemicals. They are used in Karnataka for soil and water quality monitoring.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Microorganisms: Our Friends and Enemies",
+        "board": "kseab",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q3",
+        "text": "Louis Pasteur's experiment disproving spontaneous generation led to what key food safety technique still used today?",
+        "options": [
+          { "id": "a", "text": "Fermentation" },
+          { "id": "b", "text": "Pasteurization" },
+          { "id": "c", "text": "Nitrogen Fixation" },
+          { "id": "d", "text": "Bioluminescence" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Pasteurization (heating food to 72°C for 15 seconds, then rapid cooling) kills most harmful microorganisms without destroying nutrients. Named after Louis Pasteur, it is used in Nandini milk (Karnataka Co-op Dairy) today.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Microorganisms: Our Friends and Enemies",
+        "board": "kseab",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q4",
+        "text": "IISc Bengaluru researchers are engineering bacteria that seek out and destroy cancer tumors. What feature of a tumor do these bacteria sense to 'activate'?",
+        "options": [
+          { "id": "a", "text": "The tumor's blue colour" },
+          { "id": "b", "text": "The acidic (low pH) environment inside the tumor" },
+          { "id": "c", "text": "The tumor's large size" },
+          { "id": "d", "text": "The high oxygen levels in the tumor" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Cancer tumors have a characteristic low pH (acidic environment) due to high metabolic activity and poor oxygen supply. Engineered bacteria (Bacteriotherapy) are programmed to activate their anti-cancer drug release only in this acidic environment, minimizing harm to healthy cells.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Microorganisms: Our Friends and Enemies",
+        "board": "kseab",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      },
+      {
+        "id": "q5",
+        "text": "AI tool 'AlphaFold' (by DeepMind/Google) is used in synthetic biology. What does AlphaFold predict?",
+        "options": [
+          { "id": "a", "text": "The weather forecast for agricultural fields" },
+          { "id": "b", "text": "The 3D structure of proteins from their amino acid sequence" },
+          { "id": "c", "text": "The number of bacteria in a petri dish" },
+          { "id": "d", "text": "The colour of colonies on an agar plate" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "AlphaFold solved one of biology's greatest challenges: predicting how a protein folds into its 3D shape from its sequence of amino acids. This is crucial for designing new enzymes, vaccines, and drug-targeting molecules—making it the most important AI tool in modern biology.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Microorganisms: Our Friends and Enemies",
+        "board": "kseab",
+        "enhancementTag": "Micro-Robotics & Synthetic Biology"
+      }
+    ]
+  }
+}

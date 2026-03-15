@@ -1,10 +1,12 @@
 "use client";
 import React, { createContext, useContext, useState } from "react";
 import type { AuthUser, AuthSession } from "./types";
+import { hasPaidAccess } from "./accessControl";
 
 interface AuthContextValue {
   session: AuthSession | null;
   user: AuthUser | null;
+  isPaidMember: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signOut: () => Promise<void>;
   isLoading: boolean;
@@ -26,7 +28,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           email,
           role: "student",
           board: "cbse",
-          wing: "senior",
+          wing: "junior",
+          membershipStatus: "free",
         },
         token: "mock-token",
         expiresAt: Date.now() + 86400000,
@@ -46,9 +49,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }
 
+  const user = session?.user ?? null;
+  const isPaidMember = user !== null && hasPaidAccess(user);
+
   return (
     <AuthContext.Provider
-      value={{ session, user: session?.user ?? null, signIn, signOut, isLoading }}
+      value={{ session, user, isPaidMember, signIn, signOut, isLoading }}
     >
       {children}
     </AuthContext.Provider>
