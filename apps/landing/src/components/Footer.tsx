@@ -61,6 +61,9 @@ export default function Footer() {
             <a href="/login" className={styles.colLink}>
               Unified Login
             </a>
+            <a href="/terms" className={styles.colLink}>
+              Terms &amp; Conditions
+            </a>
           </div>
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Legal</h4>
@@ -78,6 +81,14 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        <div className={styles.disclaimer}>
+          <strong>Copyright Notice:</strong> © Textbook content belongs
+          exclusively to its respective authors and authorities. Lessons here
+          are provided solely as enhancement. It is assumed that students have
+          purchased the official textbooks and have a legitimate right to study
+          from them. IIS Academy only delivers supplementary content and does
+          not reproduce copyrighted material without license.
+        </div>
         <div className={styles.bottom}>
           <span>© {new Date().getFullYear()} IIS Academy. All rights reserved.</span>
           <span className={styles.taglineSmall}>
@@ -88,3 +99,4 @@ export default function Footer() {
     </footer>
   );
 }
+
