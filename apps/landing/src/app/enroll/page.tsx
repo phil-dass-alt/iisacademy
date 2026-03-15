@@ -64,6 +64,7 @@ export default function EnrollPage() {
   const [selectedStream, setSelectedStream] = useState("");
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  const [errors, setErrors] = useState<Record<string, string>>({});
 
   // Try to autofill details from Supabase session.
   useEffect(() => {
@@ -120,8 +121,8 @@ export default function EnrollPage() {
   function buildRedirectUrl(baseUrl: string): string {
     const params = new URLSearchParams();
     if (userId) params.set("userId", userId);
-    if (name) params.set("name", encodeURIComponent(name));
-    if (email) params.set("email", encodeURIComponent(email));
+    if (name) params.set("name", name);
+    if (email) params.set("email", email);
     if (selectedClass) params.set("class", String(selectedClass));
     if (isSenior && selectedStream) params.set("stream", selectedStream);
     if (isSenior && selectedSubjects.length) {
@@ -133,15 +134,16 @@ export default function EnrollPage() {
   function handleSubmit(e: FormEvent, planUrl: string) {
     e.preventDefault();
 
-    if (!name.trim()) { alert("Please enter your name."); return; }
-    if (!email.trim()) { alert("Please enter your email."); return; }
-    if (!selectedClass) { alert("Please select a class."); return; }
-    if (isSenior && !selectedStream) {
-      alert("Please select a stream for Class 11 / 12."); return;
-    }
-    if (isSenior && selectedSubjects.length === 0) {
-      alert("Please select at least one subject."); return;
-    }
+    const newErrors: Record<string, string> = {};
+    if (!name.trim()) newErrors.name = "Please enter your full name.";
+    if (!email.trim()) newErrors.email = "Please enter your email address.";
+    if (!selectedClass) newErrors.class = "Please select a class.";
+    if (isSenior && !selectedStream) newErrors.stream = "Please select a stream.";
+    if (isSenior && selectedSubjects.length === 0)
+      newErrors.subjects = "Please select at least one subject.";
+
+    setErrors(newErrors);
+    if (Object.keys(newErrors).length > 0) return;
 
     window.location.href = buildRedirectUrl(planUrl);
   }
@@ -194,10 +196,13 @@ export default function EnrollPage() {
                   type="text"
                   required
                   value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={(e) => { setName(e.target.value); setErrors((prev) => ({ ...prev, name: "" })); }}
                   placeholder="Your full name"
-                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className={`w-full rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.name ? "border-red-400" : "border-gray-300"}`}
                 />
+                {errors.name && (
+                  <p className="mt-1 text-xs text-red-500">{errors.name}</p>
+                )}
               </div>
               <div>
                 <label
@@ -211,10 +216,13 @@ export default function EnrollPage() {
                   type="email"
                   required
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => { setEmail(e.target.value); setErrors((prev) => ({ ...prev, email: "" })); }}
                   placeholder="you@example.com"
-                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className={`w-full rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 ${errors.email ? "border-red-400" : "border-gray-300"}`}
                 />
+                {errors.email && (
+                  <p className="mt-1 text-xs text-red-500">{errors.email}</p>
+                )}
               </div>
             </div>
           </section>
@@ -235,12 +243,13 @@ export default function EnrollPage() {
                 id="class"
                 required
                 value={selectedClass}
-                onChange={(e) =>
+                onChange={(e) => {
                   setSelectedClass(
                     e.target.value === "" ? "" : (Number(e.target.value) as ClassNum)
-                  )
-                }
-                className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                  );
+                  setErrors((prev) => ({ ...prev, class: "" }));
+                }}
+                className={`w-full rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white ${errors.class ? "border-red-400" : "border-gray-300"}`}
               >
                 <option value="">Select your class</option>
                 {CLASSES.map((cls) => (
@@ -249,6 +258,9 @@ export default function EnrollPage() {
                   </option>
                 ))}
               </select>
+              {errors.class && (
+                <p className="mt-1 text-xs text-red-500">{errors.class}</p>
+              )}
             </div>
 
             {/* Stream – only for Classes 11 & 12 */}
@@ -264,8 +276,8 @@ export default function EnrollPage() {
                   id="stream"
                   required
                   value={selectedStream}
-                  onChange={(e) => setSelectedStream(e.target.value)}
-                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                  onChange={(e) => { setSelectedStream(e.target.value); setErrors((prev) => ({ ...prev, stream: "" })); }}
+                  className={`w-full rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white ${errors.stream ? "border-red-400" : "border-gray-300"}`}
                 >
                   <option value="">Select a stream</option>
                   {STREAMS.map((s) => (
@@ -274,6 +286,9 @@ export default function EnrollPage() {
                     </option>
                   ))}
                 </select>
+                {errors.stream && (
+                  <p className="mt-1 text-xs text-red-500">{errors.stream}</p>
+                )}
               </div>
             )}
           </section>
@@ -296,7 +311,7 @@ export default function EnrollPage() {
                     <button
                       key={subject}
                       type="button"
-                      onClick={() => toggleSubject(subject)}
+                      onClick={() => { toggleSubject(subject); setErrors((prev) => ({ ...prev, subjects: "" })); }}
                       className={`text-sm px-3 py-2 rounded-lg border text-left transition-colors ${
                         checked
                           ? "bg-indigo-50 border-indigo-400 text-indigo-700 font-medium"
@@ -309,6 +324,9 @@ export default function EnrollPage() {
                   );
                 })}
               </div>
+              {errors.subjects && (
+                <p className="mt-2 text-xs text-red-500">{errors.subjects}</p>
+              )}
             </section>
           )}
 

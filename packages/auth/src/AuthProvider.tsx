@@ -26,7 +26,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         user: {
           id: "mock-user-id",
           email,
-          name: email,
           role: "student",
           board: "cbse",
           wing: "junior",
