@@ -1,0 +1,177 @@
+{
+  "board": "cbse",
+  "class": 9,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-9-eng-bl-01",
+      "number": 1,
+      "name": "The Fun They Had (Beehive)",
+      "topics": ["Science Fiction Genre", "Future Technology in Literature", "Comprehension", "Character Analysis", "Diary Entry Writing"],
+      "enhancement": "Future of EdTech & AI Classrooms",
+      "enhancementFile": "the-fun-they-had.json"
+    },
+    {
+      "id": "cbse-9-eng-bl-02",
+      "number": 2,
+      "name": "The Sound of Music (Beehive)",
+      "topics": ["Biographical Writing", "Disability and Achievement", "Music as Expression", "Reading for Detail"],
+      "enhancement": "AI Music Composition & Audio AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-03",
+      "number": 3,
+      "name": "The Little Girl (Beehive)",
+      "topics": ["Family Relationships", "Character Transformation", "Emotional Intelligence", "Descriptive Writing"],
+      "enhancement": "Affective Computing & Emotion AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-04",
+      "number": 4,
+      "name": "A Truly Beautiful Mind (Beehive)",
+      "topics": ["Biographical Account of Einstein", "Scientific Curiosity", "Peace Activism", "Comprehension Skills"],
+      "enhancement": "AI in Physics Research & Scientific Discovery",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-05",
+      "number": 5,
+      "name": "The Snake and the Mirror (Beehive)",
+      "topics": ["Humour in Literature", "First Person Narrative", "Plot Suspense", "Vocabulary Development"],
+      "enhancement": "AI Storytelling & Interactive Narratives",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-06",
+      "number": 6,
+      "name": "My Childhood (Beehive)",
+      "topics": ["Autobiography", "Secularism and Friendship", "APJ Abdul Kalam's Early Life", "Reading for Inference"],
+      "enhancement": "AI Space Research & ISRO Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-07",
+      "number": 7,
+      "name": "Packing (Beehive)",
+      "topics": ["Humorous Writing", "Satire", "Jerome K. Jerome's Style", "Reading for Humour"],
+      "enhancement": "Robotic Automation & AI Task Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-08",
+      "number": 8,
+      "name": "Reach for the Top (Beehive)",
+      "topics": ["Biographical Sketch", "Mountaineering", "Perseverance and Determination", "Factual Writing"],
+      "enhancement": "Wearable Tech & Extreme Environment Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-09",
+      "number": 9,
+      "name": "The Bond of Love (Beehive)",
+      "topics": ["Narrative Non-fiction", "Human-Animal Bond", "Emotional Writing", "Reading for Empathy"],
+      "enhancement": "Animal Behaviour AI & Wildlife Conservation",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-10",
+      "number": 10,
+      "name": "Kathmandu (Beehive)",
+      "topics": ["Travel Writing", "Descriptive Language", "Cultural Observation", "Ruskin Bond's Style"],
+      "enhancement": "Smart Tourism AI & Cultural Heritage Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-bl-11",
+      "number": 11,
+      "name": "If I Were You (Beehive)",
+      "topics": ["Drama Script", "Suspense", "Dialogue Writing", "Character Analysis"],
+      "enhancement": "AI Role Play & Conversational Agents",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-01",
+      "number": 12,
+      "name": "The Lost Child (Moments)",
+      "topics": ["A Child's Point of View", "Emotional Writing", "Descriptive Language", "Inference Skills"],
+      "enhancement": "Child Safety AI & Smart Crowd Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-02",
+      "number": 13,
+      "name": "The Adventures of Toto (Moments)",
+      "topics": ["Ruskin Bond's Humour", "Animal Stories", "Narrative Sequence", "Vocabulary in Context"],
+      "enhancement": "Animal Recognition AI & Wildlife ID Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-03",
+      "number": 14,
+      "name": "Iswaran the Storyteller (Moments)",
+      "topics": ["Oral Storytelling Tradition", "Suspense and Climax", "Characterisation", "Reading for Enjoyment"],
+      "enhancement": "AI Storytelling & Generative Narrative Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-04",
+      "number": 15,
+      "name": "In the Kingdom of Fools (Moments)",
+      "topics": ["Folk Tale Genre", "Irony and Satire", "Justice Theme", "Plot Analysis"],
+      "enhancement": "Algorithmic Decision-Making & AI Justice",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-05",
+      "number": 16,
+      "name": "The Happy Prince (Moments)",
+      "topics": ["Moral Allegory", "Sacrifice", "Oscar Wilde's Style", "Comprehension and Inference"],
+      "enhancement": "AI Altruism & Cooperative Agent Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-06",
+      "number": 17,
+      "name": "Weathering the Storm in Ersama (Moments)",
+      "topics": ["Disaster Survival", "Community Resilience", "Factual Account", "Social Values"],
+      "enhancement": "Disaster Response AI & Relief Coordination Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-07",
+      "number": 18,
+      "name": "The Last Leaf (Moments)",
+      "topics": ["Short Story Analysis", "Symbolism", "O. Henry's Style", "Theme of Hope"],
+      "enhancement": "Generative Art AI & Digital Canvas",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-08",
+      "number": 19,
+      "name": "A House is Not a Home (Moments)",
+      "topics": ["Personal Narrative", "Loss and Recovery", "Emotional Resilience", "Reading for Empathy"],
+      "enhancement": "Smart Home AI & IoT Home Security",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-09",
+      "number": 20,
+      "name": "The Accidental Tourist (Moments)",
+      "topics": ["Humorous Autobiographical Writing", "Travel Anecdotes", "Self-deprecating Humour", "Reading for Enjoyment"],
+      "enhancement": "AI Travel Assistants & Smart Itinerary Planning",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-9-eng-ms-10",
+      "number": 21,
+      "name": "The Beggar (Moments)",
+      "topics": ["Chekhov's Short Story", "Human Redemption", "Moral Theme", "Character Development"],
+      "enhancement": "Social Welfare AI & Poverty Alleviation Tech",
+      "enhancementFile": null
+    }
+  ]
+}

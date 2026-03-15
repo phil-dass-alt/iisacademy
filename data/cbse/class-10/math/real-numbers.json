@@ -1,0 +1,153 @@
+{
+  "id": "cbse-10-math-real-numbers",
+  "title": "Real Numbers",
+  "subject": "Math",
+  "chapter": "Real Numbers",
+  "chapterNumber": 1,
+  "board": "cbse",
+  "class": 10,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Euclidean Algorithms in Computer Science",
+    "tagline": "From the GCD of two numbers to the algorithm that secures every internet transaction"
+  },
+  "lesson": {
+    "officialFocus": "Euclid's Division Lemma, the Fundamental Theorem of Arithmetic, proving irrationality of numbers like √2, and understanding decimal expansions of rational numbers.",
+    "introduction": "Euclid wrote his division lemma around 300 BC. Today, that same algorithm runs billions of times per second inside every HTTPS website, every UPI payment, and every cryptocurrency transaction. The mathematics you study in CBSE Class 10 Chapter 1 is not ancient history—it is the live backbone of the internet's security infrastructure.",
+    "sections": [
+      {
+        "title": "Euclid's Division Lemma → The Extended Euclidean Algorithm in Cryptography",
+        "officialConcept": "Euclid's Division Lemma: For positive integers a and b, there exist unique integers q (quotient) and r (remainder) such that a = b×q + r, where 0 ≤ r < b. This is used to compute the HCF (Highest Common Factor) of two numbers.",
+        "aiEnhancement": "The Extended Euclidean Algorithm—a direct extension of Euclid's Division Lemma—is used to compute the modular multiplicative inverse, which is the mathematical core of RSA encryption. Every time you see a padlock icon in your browser (HTTPS), your computer and the server have exchanged keys using calculations based on the Extended Euclidean Algorithm. The Python standard library function pow(e, -1, phi) that computes RSA private keys uses exactly this algorithm. Google processes billions of such RSA handshakes daily.",
+        "keyInsight": "Euclid's 2,300-year-old division lemma runs inside every secure internet connection you have ever made—your CBSE Chapter 1 is the mathematical foundation of internet security."
+      },
+      {
+        "title": "Fundamental Theorem of Arithmetic → Prime Factorization in Cryptography",
+        "officialConcept": "Every composite number can be expressed as a product of primes in exactly one way (unique factorization). This theorem is used to find LCM and HCF and to prove the irrationality of numbers like √2.",
+        "aiEnhancement": "The Fundamental Theorem of Arithmetic is also called the 'unique prime factorization theorem,' and it is the reason RSA encryption works. RSA encryption is based on the fact that multiplying two large primes (p × q = n) is computationally easy, but factoring n back into p and q is computationally infeasible. The uniqueness of prime factorization (from your theorem) guarantees that there is only ONE correct factorization—so the private key cannot be derived by any other path. When quantum computers become powerful enough to factor large numbers quickly, RSA will be broken—and the world is already preparing post-quantum encryption algorithms.",
+        "keyInsight": "The Fundamental Theorem of Arithmetic guarantees that prime factorization is unique—this mathematical uniqueness is the exact property that makes RSA encryption secure and theoretically breakable only with quantum computers."
+      },
+      {
+        "title": "Rational and Irrational Numbers → Floating Point Standards in Computing",
+        "officialConcept": "Rational numbers have terminating or repeating decimal expansions (e.g., 1/4 = 0.25, 1/3 = 0.333...). Irrational numbers (like √2, π) have non-terminating non-repeating decimal expansions. Rational numbers can be expressed as p/q; irrational numbers cannot.",
+        "aiEnhancement": "The IEEE 754 floating-point standard (used in every computer and phone) stores rational approximations of real numbers using a fixed number of bits. This creates systematic rounding issues: 0.1 + 0.2 ≠ 0.3 exactly in most computers because 1/10 has an infinitely repeating binary expansion (like 1/3 has an infinite decimal expansion). In financial software, using IEEE 754 for money calculations can accumulate errors—this is why banks use arbitrary-precision decimal libraries instead. The distinction between rational (exact, terminating) and irrational (inexact) numbers from your CBSE chapter explains real bugs in software that have cost companies millions.",
+        "keyInsight": "The rational vs. irrational distinction you prove in Chapter 1 explains why financial software uses special decimal arithmetic instead of standard computer floating-point—a direct industrial application of pure mathematics."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Implement Euclid's Algorithm in Python and Compute HCF",
+      "difficulty": "beginner",
+      "materials": ["A computer with Python installed (free: python.org)", "Alternatively: any free online Python interpreter like repl.it or google.com/colab"],
+      "steps": [
+        "Open Python and type the following function: def euclid_hcf(a, b):",
+        "    while b != 0:",
+        "        a, b = b, a % b",
+        "    return a",
+        "Test it: print(euclid_hcf(48, 18)) — the answer should be 6.",
+        "Verify by prime factorization: 48 = 2^4 × 3, 18 = 2 × 3^2, HCF = 2 × 3 = 6. They match!",
+        "Extension: count how many iterations (while loops) the algorithm takes for large numbers like euclid_hcf(1000000, 999983). This is a prime number—the HCF will be 1 but watch how fast the algorithm runs even for very large inputs."
+      ],
+      "learningOutcome": "You will have implemented Euclid's 2,300-year-old algorithm in Python, verified it against prime factorization from the Fundamental Theorem of Arithmetic, and understood why this algorithm's efficiency is critical for cryptographic applications."
+    },
+    "furtherExploration": [
+      "Khan Academy: Euclid's Algorithm – interactive visual demonstration (free)",
+      "Numberphile: 'Euclid's Division Algorithm' on YouTube – accessible 5-minute video",
+      "How HTTPS works: search 'howHTTPS.works' for a cartoon explanation of RSA in internet security"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-10-math-real-numbers-quiz",
+    "title": "Real Numbers & Euclidean Algorithms Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Using Euclid's Division Lemma, find the HCF of 135 and 225.",
+        "options": [
+          {"id": "a", "text": "15"},
+          {"id": "b", "text": "45"},
+          {"id": "c", "text": "9"},
+          {"id": "d", "text": "75"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "225 = 135 × 1 + 90; 135 = 90 × 1 + 45; 90 = 45 × 2 + 0. When remainder = 0, the last divisor (45) is the HCF. Verify: 135 = 3 × 45, 225 = 5 × 45. Correct!",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "cbse",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q2",
+        "text": "The Fundamental Theorem of Arithmetic states that every composite number has a unique prime factorization. Why does this uniqueness matter for RSA encryption?",
+        "options": [
+          {"id": "a", "text": "It ensures the encryption key is always a prime number"},
+          {"id": "b", "text": "It guarantees there is only one way to factor n = p × q back into its primes, so the private key cannot be derived by alternative factorization paths"},
+          {"id": "c", "text": "It means prime numbers cannot be used in encryption"},
+          {"id": "d", "text": "It makes all composite numbers equal to their prime factors"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "RSA security rests on the computational difficulty of factoring large numbers. The Fundamental Theorem guarantees the factorization is unique—there is exactly ONE correct pair (p, q) for a given n. This uniqueness means the private key is derivable only by factoring n, which is computationally infeasible for large primes.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "cbse",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q3",
+        "text": "Prove that √3 is irrational. Which step is the key logical step?",
+        "options": [
+          {"id": "a", "text": "Assuming √3 is rational and showing it terminates"},
+          {"id": "b", "text": "Assuming √3 = p/q in lowest terms, then showing 3 divides both p and q, contradicting the assumption that p/q is in lowest terms"},
+          {"id": "c", "text": "Computing √3 = 1.732... and noting it does not terminate"},
+          {"id": "d", "text": "Using the Pythagorean theorem to measure √3 on a number line"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The proof by contradiction assumes √3 = p/q (lowest terms, so HCF(p,q)=1). Then 3 = p²/q², so p² = 3q², meaning 3 divides p², so 3 divides p. Let p=3m: then 9m²=3q², so q²=3m², meaning 3 divides q. But then 3 divides both p and q—contradicting HCF(p,q)=1. Therefore √3 is irrational.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "cbse",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q4",
+        "text": "Why do banks and financial software use special 'decimal arithmetic' libraries instead of standard computer floating-point (IEEE 754)?",
+        "options": [
+          {"id": "a", "text": "Floating-point is too slow for financial calculations"},
+          {"id": "b", "text": "IEEE 754 cannot store numbers larger than one million"},
+          {"id": "c", "text": "Binary floating-point cannot represent fractions like 1/10 exactly (since 0.1 has an infinitely repeating binary expansion), leading to accumulated rounding errors in money calculations"},
+          {"id": "d", "text": "Banks require all calculations to use irrational numbers"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "In binary, 0.1 = 0.0001100110011... (repeating). IEEE 754 stores a finite-precision approximation. Adding millions of such approximations accumulates rounding errors. For money: even errors of 0.001 rupee per transaction × 10 billion daily transactions = enormous discrepancies. Decimal arithmetic libraries (like Python's 'decimal' module) store numbers in base 10, exactly representing 0.1 without approximation.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "cbse",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      },
+      {
+        "id": "q5",
+        "text": "Post-quantum cryptography is being developed because quantum computers could break RSA. What specific mathematical operation would a quantum computer be able to perform that classical computers cannot do efficiently?",
+        "options": [
+          {"id": "a", "text": "Adding very large numbers faster than classical computers"},
+          {"id": "b", "text": "Running Euclid's Algorithm billions of times simultaneously"},
+          {"id": "c", "text": "Factor very large numbers (n = p × q) exponentially faster using Shor's Algorithm, breaking the computational asymmetry that RSA security depends on"},
+          {"id": "d", "text": "Prove that all numbers have unique prime factorizations faster than classical computers"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "Shor's Algorithm (1994) allows a quantum computer to factor large integers in polynomial time—versus the exponential time required by classical computers. Since RSA security assumes factoring is computationally infeasible, a sufficiently powerful quantum computer would break all current RSA encryption. This is why governments and companies are developing post-quantum cryptographic standards based on different mathematical problems that quantum computers cannot solve efficiently.",
+        "difficulty": "hard",
+        "subject": "Math",
+        "chapter": "Real Numbers",
+        "board": "cbse",
+        "enhancementTag": "Euclidean Algorithms in Computer Science"
+      }
+    ]
+  }
+}

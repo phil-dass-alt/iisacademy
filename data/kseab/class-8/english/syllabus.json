@@ -1,0 +1,89 @@
+{
+  "board": "kseab",
+  "class": 8,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-8-eng-01",
+      "number": 1,
+      "name": "The Enchanted Pool",
+      "topics": ["Mahabharata Story Adaptation", "Moral Dilemmas", "Comprehension of Classical Literature", "Values in Literature"],
+      "enhancement": "AI Ethics & Decision-Making Algorithms",
+      "enhancementFile": "the-enchanted-pool.json"
+    },
+    {
+      "id": "kseab-8-eng-02",
+      "number": 2,
+      "name": "The Raspberry Jam",
+      "topics": ["Friendship and Trust", "Short Story Analysis", "Character Study", "Vocabulary Development"],
+      "enhancement": "AI Social Networks & Trust Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-03",
+      "number": 3,
+      "name": "Gopal and the Hilsa Fish",
+      "topics": ["Humour and Wit", "Solving Problems Creatively", "Bengali Folk Story", "Character Analysis"],
+      "enhancement": "Creative Problem Solving AI & Lateral Thinking Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-04",
+      "number": 4,
+      "name": "Bepin Choudhury's Lapse of Memory",
+      "topics": ["Narrative Humour", "Memory and Identity", "Plot Twist", "Character Analysis"],
+      "enhancement": "AI Memory Systems & Cognitive Computing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-05",
+      "number": 5,
+      "name": "The Summit Within",
+      "topics": ["Mountaineering", "Personal Achievement", "Metaphor and Symbolism", "Descriptive Writing"],
+      "enhancement": "AI Assistive Technology & Extreme Environment Robotics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-06",
+      "number": 6,
+      "name": "This is Jody's Fawn",
+      "topics": ["Animal Care", "Family Relationships", "Narrative Writing", "Empathy in Literature"],
+      "enhancement": "Animal AI & Wildlife Conservation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-07",
+      "number": 7,
+      "name": "The Open Window",
+      "topics": ["Saki's Short Story", "Psychological Thriller", "Unreliable Narrator", "Plot Twist"],
+      "enhancement": "AI Deception Detection & Fake News Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-08",
+      "number": 8,
+      "name": "Jalebis",
+      "topics": ["Childhood Temptation", "Moral Dilemma", "Humour", "First Person Narrative"],
+      "enhancement": "Behavioural AI & Nudge Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-09",
+      "number": 9,
+      "name": "The Comet",
+      "topics": ["Science Fiction", "Global Cooperation", "Climate Change Theme", "Narrative Structure"],
+      "enhancement": "Asteroid Detection AI & Planetary Defense Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-eng-10",
+      "number": 10,
+      "name": "Ancient Education System of India",
+      "topics": ["Gurukul System", "Nalanda and Takshashila", "Knowledge Traditions", "Educational Heritage"],
+      "enhancement": "Modern EdTech vs Ancient Wisdom",
+      "enhancementFile": null
+    }
+  ]
+}

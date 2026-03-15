@@ -1,0 +1,113 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": ["Chemical Equations", "Types of Chemical Reactions", "Corrosion", "Rancidity"],
+      "enhancement": "AI-Driven Chemical Synthesis",
+      "enhancementFile": "chemical-reactions-and-equations.json"
+    },
+    {
+      "id": "cbse-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Understanding the Chemical Properties of Acids and Bases", "What do All Acids and Bases have in Common?", "The pH Scale", "Salts"],
+      "enhancement": "pH Sensors & Smart Chemistry AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-metals",
+      "topics": ["Physical Properties", "Chemical Properties of Metals", "How Do Metals and Non-metals React?", "Occurrence of Metals", "Corrosion"],
+      "enhancement": "Materials AI & Smart Alloy Design",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-04",
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "topics": ["Bonding in Carbon", "Versatile Nature of Carbon", "Homologous Series", "Nomenclature", "Chemical Properties", "Important Carbon Compounds"],
+      "enhancement": "Carbon Nanotechnology & Organic Electronics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-05",
+      "number": 5,
+      "name": "Life Processes",
+      "topics": ["What are Life Processes?", "Nutrition", "Respiration", "Transportation", "Excretion"],
+      "enhancement": "BioMedical AI & Wearable Health Monitors",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-06",
+      "number": 6,
+      "name": "Control and Coordination",
+      "topics": ["Animals – Nervous System", "Coordination in Plants", "Hormones in Animals"],
+      "enhancement": "Brain-Computer Interfaces & Neural AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-07",
+      "number": 7,
+      "name": "How Do Organisms Reproduce?",
+      "topics": ["Do Organisms Create Exact Copies of Themselves?", "Modes of Reproduction Used by Single Organisms", "Sexual Reproduction"],
+      "enhancement": "Genetic Engineering & CRISPR Gene Editing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-08",
+      "number": 8,
+      "name": "Heredity",
+      "topics": ["Accumulation of Variation During Reproduction", "Heredity", "Evolution"],
+      "enhancement": "AI Genomics & Personalized Medicine",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-09",
+      "number": 9,
+      "name": "Light – Reflection and Refraction",
+      "topics": ["Reflection of Light", "Spherical Mirrors", "Refraction of Light", "Refraction by Spherical Lenses", "Power of a Lens"],
+      "enhancement": "Optical AI & LiDAR Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-10",
+      "number": 10,
+      "name": "The Human Eye and the Colourful World",
+      "topics": ["The Human Eye", "Defects of Vision and their Correction", "Refraction of Light Through a Prism", "Scattering of Light"],
+      "enhancement": "Computer Vision & Augmented Reality",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-11",
+      "number": 11,
+      "name": "Electricity",
+      "topics": ["Electric Current and Circuit", "Electric Potential and Potential Difference", "Ohm's Law", "Factors on which Resistance Depends", "Heating Effect of Electric Current"],
+      "enhancement": "Smart Grid AI & IoT Energy Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-12",
+      "number": 12,
+      "name": "Magnetic Effects of Electric Current",
+      "topics": ["Magnetic Field and Field Lines", "Magnetic Field due to a Current-Carrying Conductor", "Force on a Current-Carrying Conductor", "Electric Motor", "Electromagnetic Induction", "Electric Generator"],
+      "enhancement": "Electric Vehicle Motors & Wireless Charging AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-sci-13",
+      "number": 13,
+      "name": "Our Environment",
+      "topics": ["What Happens When We Add Our Waste to the Environment?", "Ecosystem – What are its Components?", "How Do Our Activities Affect the Environment?"],
+      "enhancement": "Environmental AI & Circular Economy Tech",
+      "enhancementFile": null
+    }
+  ]
+}

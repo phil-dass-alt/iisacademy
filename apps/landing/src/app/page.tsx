@@ -3,46 +3,47 @@ import { Features } from '@/components/Features';
 import { BoardNav } from '@/components/BoardNav';
 import { Pricing } from '@/components/Pricing';
 import { Testimonials } from '@/components/Testimonials';
+import { GlobalNavBar } from '@iisacademy/ui';
 
 export default function LandingPage() {
   return (
     <main className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">IIS</span>
-              </div>
-              <span className="font-bold text-gray-900">IIS Academy</span>
-            </div>
-            <div className="hidden md:flex items-center gap-6">
-              <a href="#features" className="text-sm text-gray-600 hover:text-gray-900">Features</a>
-              <a href="#boards" className="text-sm text-gray-600 hover:text-gray-900">Boards</a>
-              <a href="#pricing" className="text-sm text-gray-600 hover:text-gray-900">Pricing</a>
-              <a href="#testimonials" className="text-sm text-gray-600 hover:text-gray-900">Reviews</a>
-            </div>
-            <div className="flex items-center gap-3">
-              <a
-                href={process.env.NEXT_PUBLIC_STUDENT_PORTAL_URL ?? '/login'}
-                className="text-sm text-gray-600 hover:text-gray-900 font-medium"
-              >
-                Log in
-              </a>
-              <a
-                href="#pricing"
-                className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-              >
-                Join High-5 – ₹499/yr
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      {/* Universal Navigation Bar */}
+      <GlobalNavBar
+        navLinks={[
+          { label: 'Features', href: '#features' },
+          { label: 'Boards', href: '#boards' },
+          { label: 'Pricing', href: '#pricing' },
+          { label: 'Reviews', href: '#testimonials' },
+        ]}
+        actions={
+          <>
+            <a
+              href={process.env.NEXT_PUBLIC_STUDENT_PORTAL_URL ?? '/login'}
+              style={{ fontSize: '0.875rem', color: '#4b5563', textDecoration: 'none', fontWeight: 500 }}
+            >
+              Log in
+            </a>
+            <a
+              href="#pricing"
+              style={{
+                background: '#4f46e5',
+                color: '#fff',
+                fontSize: '0.875rem',
+                fontWeight: 500,
+                padding: '0.45rem 1rem',
+                borderRadius: 8,
+                textDecoration: 'none',
+              }}
+            >
+              Join High-5 – ₹499/yr
+            </a>
+          </>
+        }
+      />
 
       {/* Main Content */}
-      <div className="pt-16">
+      <div>
         <Hero />
         <BoardNav />
         <Features />
@@ -89,7 +90,7 @@ export default function LandingPage() {
               <h3 className="font-semibold text-white mb-4">Legal</h3>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
+                <li><a href="/terms" className="hover:text-white">Terms of Service</a></li>
                 <li><a href="#" className="hover:text-white">Refund Policy</a></li>
                 <li><a href="#" className="hover:text-white">Contact Us</a></li>
               </ul>

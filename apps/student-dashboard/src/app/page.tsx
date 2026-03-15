@@ -43,26 +43,27 @@ export default function StudentDashboardPage() {
           🏫 Junior Wing — Classes 8–10
         </h2>
         <p style={{ color: "#546e7a", marginBottom: "1.2rem", fontSize: "0.95rem" }}>
-          Pilot content live for Class 8 Science. Select your board to explore Intelligence Age
-          enhanced chapters and adaptive quizzes.
+          Full content live for Classes 8–10 across CBSE and Karnataka State Board (KSEAB).
+          AI Enhancement lessons, adaptive quizzes, and practical add-ons for Science, Math,
+          Social Science, and English.
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1rem" }}>
           {[
             {
               icon: "🇮🇳",
-              board: "CBSE",
-              badge: "Pilot Live",
-              desc: "Class 8 Science — Crop Production (AI Farming) & Microorganisms (Synthetic Biology)",
-              href: "/junior/cbse/class-8/science",
+              board: "CBSE – Classes 8, 9 & 10",
+              badge: "Full Content Live",
+              desc: "Science · Math · Social Science · English — AI Enhancement lessons + adaptive quizzes for all 3 classes.",
+              href: "/junior/cbse",
               color: "#e8f5e9",
               badgeColor: "#2e7d32",
             },
             {
               icon: "🌺",
-              board: "Karnataka (KSEAB)",
-              badge: "Pilot Live",
-              desc: "Class 8 Science — World of Sounds (Voice AI) & Microorganisms (Synthetic Biology)",
-              href: "/junior/kseab/class-8/science",
+              board: "Karnataka (KSEAB) – Classes 8, 9 & 10",
+              badge: "Full Content Live",
+              desc: "Science · Math · Social Science · English — Intelligence Age enhancements for all 3 classes.",
+              href: "/junior/kseab",
               color: "#fff3e0",
               badgeColor: "#e65100",
             },
@@ -133,6 +134,25 @@ export default function StudentDashboardPage() {
             </a>
           ))}
         </div>
+      </section>
+
+      {/* Copyright disclaimer */}
+      <section
+        style={{
+          marginTop: "2rem",
+          background: "#fff8e1",
+          borderRadius: 8,
+          padding: "1rem 1.2rem",
+          borderLeft: "4px solid #f59e0b",
+        }}
+      >
+        <p style={{ fontSize: "0.78rem", color: "#78350f", margin: 0, lineHeight: 1.6 }}>
+          © Textbook content belongs exclusively to its respective authors and authorities.
+          Lessons here are provided solely as enhancement. It is assumed that students have
+          purchased the official textbooks and have a legitimate right to study from them. IIS
+          Academy only delivers supplementary content and does not reproduce copyrighted material
+          without license.
+        </p>
       </section>
 
       <section

@@ -1,0 +1,137 @@
+{
+  "board": "cbse",
+  "class": 8,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-8-eng-hd-01",
+      "number": 1,
+      "name": "The Best Christmas Present in the World (Honeydew)",
+      "topics": ["Comprehension of Narrative Text", "Understanding Historical Context", "Letter Writing", "Character Study"],
+      "enhancement": "NLP & Machine Translation",
+      "enhancementFile": "the-best-christmas-present.json"
+    },
+    {
+      "id": "cbse-8-eng-hd-02",
+      "number": 2,
+      "name": "The Tsunami (Honeydew)",
+      "topics": ["Factual Report Writing", "Natural Disasters", "Human Responses to Crisis", "Vocabulary Development"],
+      "enhancement": "AI Disaster Prediction & Early Warning Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-03",
+      "number": 3,
+      "name": "Glimpses of the Past (Honeydew)",
+      "topics": ["Comic Strip Narrative", "Historical Chronology", "Comprehension of Visual Text", "Social Movements"],
+      "enhancement": "Digital Storytelling & AI Comics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-04",
+      "number": 4,
+      "name": "Bepin Choudhury's Lapse of Memory (Honeydew)",
+      "topics": ["Narrative Humour", "Character Analysis", "Plot Twist", "First Person Narrative"],
+      "enhancement": "AI Memory Systems & Cognitive Computing",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-05",
+      "number": 5,
+      "name": "The Summit Within (Honeydew)",
+      "topics": ["Descriptive Writing", "Mountaineering", "Personal Achievement", "Metaphor and Symbolism"],
+      "enhancement": "AI Assistive Technology & Exploration Robotics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-06",
+      "number": 6,
+      "name": "This is Jody's Fawn (Honeydew)",
+      "topics": ["Animal Care", "Family Relationships", "Narrative Writing", "Empathy in Literature"],
+      "enhancement": "Animal AI & Wildlife Conservation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-07",
+      "number": 7,
+      "name": "A Visit to Cambridge (Honeydew)",
+      "topics": ["Biographical Account", "Physical Disability", "Achievements Against Odds", "Interview Technique"],
+      "enhancement": "Accessibility Tech & AI for Disabled Users",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-hd-08",
+      "number": 8,
+      "name": "A Short Monsoon Diary (Honeydew)",
+      "topics": ["Diary Writing", "Nature Observation", "Descriptive Language", "Seasons and Weather"],
+      "enhancement": "Climate AI & Weather Prediction Models",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-01",
+      "number": 9,
+      "name": "How the Camel Got his Hump (It So Happened)",
+      "topics": ["Fable Genre", "Moral of the Story", "Cause and Effect", "Character Motivation"],
+      "enhancement": "AI Fables & Generative Storytelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-02",
+      "number": 10,
+      "name": "Children at Work (It So Happened)",
+      "topics": ["Child Labour", "Social Issues", "Persuasive Writing", "Comprehension"],
+      "enhancement": "Child Safety AI & Social Protection Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-03",
+      "number": 11,
+      "name": "The Selfish Giant (It So Happened)",
+      "topics": ["Allegory", "Moral Story", "Seasonal Metaphor", "Kindness Theme"],
+      "enhancement": "Sharing Economy & Open Source AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-04",
+      "number": 12,
+      "name": "The Treasure Within (It So Happened)",
+      "topics": ["Interview Format", "Learning Disabilities", "Alternative Intelligence", "Education Reform"],
+      "enhancement": "Neurodiversity & AI Personalized Education",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-05",
+      "number": 13,
+      "name": "Princess September (It So Happened)",
+      "topics": ["Freedom and Captivity", "Allegory", "Creative Expression", "Metaphor"],
+      "enhancement": "AI Creativity & Generative Art",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-06",
+      "number": 14,
+      "name": "The Fight (It So Happened)",
+      "topics": ["Conflict and Resolution", "Cross-cultural Friendship", "Coming-of-Age", "Narrative Structure"],
+      "enhancement": "AI Conflict Resolution & Mediation Tech",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-07",
+      "number": 15,
+      "name": "Jalebis (It So Happened)",
+      "topics": ["Childhood Temptation", "Moral Dilemma", "Humour", "First Person Narrative"],
+      "enhancement": "Behavioural AI & Nudge Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-8-eng-ish-08",
+      "number": 16,
+      "name": "Ancient Education System of India (It So Happened)",
+      "topics": ["Gurukul System", "Nalanda and Takshashila", "Knowledge Traditions", "Educational Heritage"],
+      "enhancement": "Modern EdTech vs Ancient Wisdom",
+      "enhancementFile": null
+    }
+  ]
+}

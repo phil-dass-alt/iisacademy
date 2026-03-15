@@ -1,0 +1,137 @@
+{
+  "board": "kseab",
+  "class": 8,
+  "subject": "Math",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-8-math-01",
+      "number": 1,
+      "name": "Rational Numbers",
+      "topics": ["Properties of Rational Numbers", "Representation on Number Line", "Rational Numbers between Two Rational Numbers"],
+      "enhancement": "Number Theory & Cryptography",
+      "enhancementFile": "rational-numbers.json"
+    },
+    {
+      "id": "kseab-8-math-02",
+      "number": 2,
+      "name": "Linear Equations in One Variable",
+      "topics": ["Equations with Linear Expressions", "Reducing Equations to Simpler Form", "Equations Reducible to Linear Form"],
+      "enhancement": "AI Optimization & Linear Programming",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-03",
+      "number": 3,
+      "name": "Understanding Quadrilaterals",
+      "topics": ["Polygons", "Kinds of Quadrilaterals", "Properties of Parallelogram", "Rectangle, Rhombus, Square"],
+      "enhancement": "Computational Geometry & Computer Graphics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-04",
+      "number": 4,
+      "name": "Practical Geometry",
+      "topics": ["Constructing a Quadrilateral", "Special Cases", "Constructing Squares and Rhombuses"],
+      "enhancement": "CAD Software & 3D Modelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-05",
+      "number": 5,
+      "name": "Data Handling",
+      "topics": ["Looking for Information", "Organising Data", "Grouping Data", "Circle Graph or Pie Chart", "Chance and Probability"],
+      "enhancement": "Data Science & Probability in AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-06",
+      "number": 6,
+      "name": "Squares and Square Roots",
+      "topics": ["Properties of Square Numbers", "Finding the Square Root", "Square Roots of Decimals"],
+      "enhancement": "Cryptographic Hash Functions",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-07",
+      "number": 7,
+      "name": "Cubes and Cube Roots",
+      "topics": ["Cubes", "Cube Roots", "Cube Root Through Prime Factorisation"],
+      "enhancement": "3D Graphics & Voxel Computing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-08",
+      "number": 8,
+      "name": "Comparing Quantities",
+      "topics": ["Recalling Ratios and Percentages", "Finding Discounts", "Sales Tax/VAT/GST", "Compound Interest"],
+      "enhancement": "FinTech & Interest Rate Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-09",
+      "number": 9,
+      "name": "Algebraic Expressions and Identities",
+      "topics": ["Algebraic Expressions", "Monomials, Binomials and Polynomials", "Multiplication of Algebraic Expressions", "Standard Identities"],
+      "enhancement": "Symbolic AI & Computer Algebra Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-10",
+      "number": 10,
+      "name": "Visualising Solid Shapes",
+      "topics": ["Views of 3D Shapes", "Mapping Space around Us", "Faces, Edges and Vertices"],
+      "enhancement": "3D Rendering & AR/VR Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-11",
+      "number": 11,
+      "name": "Mensuration",
+      "topics": ["Area of Polygon", "Surface Area of Cube/Cuboid/Cylinder", "Volume of Cube/Cuboid/Cylinder"],
+      "enhancement": "Digital Fabrication & 3D Printing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-12",
+      "number": 12,
+      "name": "Exponents and Powers",
+      "topics": ["Powers with Negative Exponents", "Laws of Exponents", "Use of Exponents to Express Small Numbers"],
+      "enhancement": "Scientific Computing & Floating Point",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-13",
+      "number": 13,
+      "name": "Direct and Inverse Proportions",
+      "topics": ["Direct Proportion", "Inverse Proportion"],
+      "enhancement": "Scaling Laws in AI & Neural Networks",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-14",
+      "number": 14,
+      "name": "Factorisation",
+      "topics": ["Factors of Natural Numbers", "Factorisation by Common Factors", "Factorisation Using Identities"],
+      "enhancement": "Polynomial Factoring in Computer Algebra",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-15",
+      "number": 15,
+      "name": "Introduction to Graphs",
+      "topics": ["A Bar Graph", "A Pie Graph", "A Histogram", "A Line Graph", "Linear Graphs"],
+      "enhancement": "Data Visualisation & Dashboard AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-math-16",
+      "number": 16,
+      "name": "Playing with Numbers",
+      "topics": ["Numbers in General Form", "Games with Numbers", "Letters for Digits", "Tests of Divisibility"],
+      "enhancement": "Modular Arithmetic & Blockchain Basics",
+      "enhancementFile": null
+    }
+  ]
+}

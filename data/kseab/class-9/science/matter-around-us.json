@@ -1,0 +1,151 @@
+{
+  "id": "kseab-9-sci-matter-around-us",
+  "title": "Matter Around Us",
+  "subject": "Science",
+  "chapter": "Matter Around Us",
+  "chapterNumber": 1,
+  "board": "kseab",
+  "class": 9,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Smart Materials & Phase-Change AI",
+    "tagline": "From ice melting in Bengaluru summers to shape-shifting materials building tomorrow's technology"
+  },
+  "lesson": {
+    "officialFocus": "Physical nature of matter, particle characteristics (intermolecular space, motion, force of attraction), states of matter (solid/liquid/gas), change of state (melting, freezing, evaporation, condensation, sublimation), and evaporation with its factors.",
+    "introduction": "Karnataka's climate ranges from the cool Coorg hills to the hot Bellary plains—you experience matter changing states every day. But scientists and engineers in Bengaluru's research institutions are developing Smart Materials that change properties on command, using the exact principles in this chapter. Let's connect the states of matter you study to the next generation of materials being developed at ISRO, IISc Bengaluru, and tech companies worldwide.",
+    "sections": [
+      {
+        "title": "States of Matter → Phase-Change Materials in Karnataka's Buildings",
+        "officialConcept": "Matter transitions between solid, liquid, and gas through phase changes. During melting and boiling, temperature remains constant as energy overcomes intermolecular forces (latent heat). Factors affecting evaporation: temperature, surface area, humidity, wind speed.",
+        "aiEnhancement": "Indian Institute of Science (IISc) in Bengaluru has active research programmes on Phase-Change Materials (PCMs) for building energy efficiency. PCMs like salt hydrates and paraffin wax absorb latent heat during melting, storing thermal energy without temperature rise. In Bengaluru's hot climate, PCM panels embedded in building walls absorb daytime heat (during melting), then release it at night (during solidification), reducing air conditioning load by 20-30%. ISRO uses PCMs in spacecraft thermal management—the extreme temperature swings of space (from +120°C in sunlight to -180°C in shadow) are managed using PCM heat storage, built on exactly the latent heat concept in your chapter.",
+        "keyInsight": "The latent heat principle you study—where energy causes phase change without temperature rise—is the exact working principle of energy-saving building materials and spacecraft thermal control systems being developed in Bengaluru."
+      },
+      {
+        "title": "Intermolecular Forces → Shape Memory Alloys at ISRO",
+        "officialConcept": "Solids have strong intermolecular forces keeping particles in fixed positions. When heated, kinetic energy increases, intermolecular forces weaken, and solids transition to liquids or gases. The arrangement of particles determines properties.",
+        "aiEnhancement": "ISRO uses Shape Memory Alloys (SMAs)—materials that exploit a solid-state crystal rearrangement (no melting required). Nitinol (Ni-Ti alloy) changes crystal structure at a precise temperature, allowing components to change shape on demand. ISRO uses SMA actuators in satellite mechanisms: deployable antennas that unfold at the precise temperature of low Earth orbit, and release mechanisms that activate at specific temperatures without motors or electrical actuators. These are more reliable than mechanical systems in the vacuum of space—and they work entirely on the intermolecular force concepts from your KSEAB Class 9 chapter.",
+        "keyInsight": "Shape Memory Alloys operate via a solid-state phase transition at the crystal level—the same intermolecular force concepts from your chapter, but applied at the atomic scale to build actuators that ISRO uses in spacecraft."
+      },
+      {
+        "title": "Evaporation and Cooling → Data Centre Cooling in Bengaluru",
+        "officialConcept": "Evaporation causes cooling because faster-moving particles escape, reducing the average kinetic energy of remaining liquid. Rate increases with temperature, surface area, wind speed; decreases with high humidity.",
+        "aiEnhancement": "Bengaluru is India's largest data centre hub, with facilities run by Amazon Web Services, Microsoft Azure, Google Cloud, and dozens of Indian providers. A single large data centre can consume 50-100 MW of power, half for cooling. Data centres in Bengaluru use evaporative cooling (direct evaporation of water into air to cool servers) and vapour-compression cooling cycles (phase-change refrigerants in sealed circuits). Bengaluru's relatively moderate climate (compared to Chennai or Mumbai) makes evaporative cooling more efficient—lower humidity means faster evaporation and better cooling—a direct application of the KSEAB chapter's humidity-evaporation relationship.",
+        "keyInsight": "Bengaluru's choice as India's data centre capital is partly due to its climate enabling efficient evaporative cooling—the humidity and temperature factors you study in this chapter affect the economics of India's digital infrastructure."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Compare Evaporation Rates of Different Liquids",
+      "difficulty": "beginner",
+      "materials": ["Three identical small bowls or plates", "Water", "Coconut oil (common in Karnataka homes)", "Rubbing alcohol or spirit (from a pharmacy)", "A thermometer (optional)", "A timer"],
+      "steps": [
+        "Pour equal amounts (5 ml) of water, coconut oil, and alcohol into three identical plates.",
+        "Leave them in the same location (same temperature, same air flow) and check every 10 minutes.",
+        "Record which liquid evaporates fastest—observe the order: alcohol evaporates fastest, water next, coconut oil slowest.",
+        "Explain the result using intermolecular forces: alcohol has weak intermolecular forces (evaporates fast and cools the most); water has moderate hydrogen bonds; coconut oil has strong Van der Waals forces (evaporates very slowly).",
+        "Connection: The alcohol in rubbing spirit is the same principle used in medical swabs—it evaporates quickly, cooling the skin and carrying away heat efficiently. Data centre cooling uses similar principles with refrigerants that have even lower intermolecular forces than alcohol."
+      ],
+      "learningOutcome": "You will have experimentally demonstrated that intermolecular force strength determines evaporation rate, understood how this principle is used in medical and industrial cooling applications, and directly connected your KSEAB chapter to real-world technology."
+    },
+    "furtherExploration": [
+      "IISc Bengaluru research on Phase-Change Materials: iisc.ac.in – search 'thermal energy storage PCM'",
+      "ISRO Shape Memory Alloys in satellites: search 'ISRO SMA actuators space mechanisms'",
+      "AWS data centre Bengaluru: search 'Amazon data centre Bengaluru sustainability cooling'"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-9-sci-matter-quiz",
+    "title": "Matter Around Us & Smart Materials Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "During the boiling of water at 100°C, you continue to supply heat but the temperature remains at 100°C. Where is the heat going?",
+        "options": [
+          {"id": "a", "text": "The heat is escaping into the surroundings immediately"},
+          {"id": "b", "text": "The heat (latent heat of vaporisation) is being used to overcome intermolecular forces, converting liquid water to vapour without temperature rise"},
+          {"id": "c", "text": "Water absorbs heat but cannot increase in temperature above 100°C"},
+          {"id": "d", "text": "The thermometer is reading incorrectly"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Latent heat is the heat absorbed during a phase change at constant temperature. At 100°C, the heat supplied breaks hydrogen bonds between water molecules, converting liquid to gas. The energy increases potential energy of molecules (not kinetic), so temperature does not rise.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Matter Around Us",
+        "board": "kseab",
+        "enhancementTag": "Smart Materials & Phase-Change AI"
+      },
+      {
+        "id": "q2",
+        "text": "In Bengaluru, why does sweat cool your body more effectively on dry days than on humid monsoon days?",
+        "options": [
+          {"id": "a", "text": "Humid air is heavier and weighs down on the body"},
+          {"id": "b", "text": "High humidity means air is already saturated with water vapour, reducing the rate of evaporation of sweat and therefore reducing cooling"},
+          {"id": "c", "text": "Rain water cancels out the cooling effect of sweat"},
+          {"id": "d", "text": "Dry days have higher temperatures, so cooling is more effective"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Evaporation rate decreases as humidity increases—air already saturated with water vapour cannot absorb as much additional vapour from the skin surface. On dry days, sweat evaporates quickly, removing latent heat efficiently and cooling you. On humid monsoon days, slow evaporation means less cooling—which is why 'feels like' temperature is higher on humid days even at the same actual temperature.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Matter Around Us",
+        "board": "kseab",
+        "enhancementTag": "Smart Materials & Phase-Change AI"
+      },
+      {
+        "id": "q3",
+        "text": "IISc Bengaluru's Phase-Change Material research aims to use PCMs in building walls to reduce air conditioning. What property of phase change makes PCMs suitable for this?",
+        "options": [
+          {"id": "a", "text": "PCMs change colour during phase change, blocking sunlight"},
+          {"id": "b", "text": "PCMs absorb large amounts of latent heat during melting (solid to liquid) without temperature rise, storing thermal energy and releasing it when the environment cools"},
+          {"id": "c", "text": "PCMs evaporate quickly, creating a cooling breeze"},
+          {"id": "d", "text": "PCMs increase intermolecular forces when heated, making walls stronger"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "PCMs act as thermal buffers using their high latent heat capacity. During the hot Bengaluru afternoon, PCMs in walls absorb heat by melting (absorbing latent heat without temperature rise), preventing heat from entering the room. At night, they solidify (releasing stored latent heat outward), resetting for the next day's cycle.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Matter Around Us",
+        "board": "kseab",
+        "enhancementTag": "Smart Materials & Phase-Change AI"
+      },
+      {
+        "id": "q4",
+        "text": "ISRO uses Shape Memory Alloys in satellite mechanisms that must deploy in the temperature of low Earth orbit. What fundamental property from your chapter enables SMAs to work as actuators?",
+        "options": [
+          {"id": "a", "text": "SMAs melt and re-solidify in the desired shape"},
+          {"id": "b", "text": "SMAs undergo a solid-state phase transition (crystal structure rearrangement) at a specific temperature, changing shape—enabled by temperature-dependent intermolecular forces at the atomic level"},
+          {"id": "c", "text": "SMAs evaporate and re-condense in zero gravity"},
+          {"id": "d", "text": "SMAs sublimate and then deposit in a new crystalline form"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "SMAs undergo a martensitic transformation—a solid-state crystal phase change where atomic arrangements shift at a specific temperature (without melting). Below the transition temperature, the martensite crystal structure allows deformation; above it, the austenite structure reverses the deformation. This is a phase change at the crystal level, directly extending your chapter's concept of phase transitions to atomic-scale engineering.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Matter Around Us",
+        "board": "kseab",
+        "enhancementTag": "Smart Materials & Phase-Change AI"
+      },
+      {
+        "id": "q5",
+        "text": "Bengaluru's moderate climate (lower humidity, moderate temperature) makes it more efficient for data centre cooling than Chennai. Using the factors affecting evaporation from your chapter, explain why lower humidity enables more efficient evaporative cooling.",
+        "options": [
+          {"id": "a", "text": "Lower humidity means higher temperature, which speeds up cooling fans"},
+          {"id": "b", "text": "Lower humidity means less water vapour in the air, so cooling water can evaporate faster from cooling towers—removing more heat per unit time and per unit of water used, making the system more energy-efficient"},
+          {"id": "c", "text": "Lower humidity means servers generate less heat"},
+          {"id": "d", "text": "Lower humidity reduces the density of air, making fans more effective"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Evaporative cooling efficiency depends on evaporation rate, which depends on the humidity gradient (difference between water vapour pressure at the water surface and in the surrounding air). Low humidity = large gradient = fast evaporation = more heat removed per unit time. In high-humidity Chennai, slower evaporation makes cooling towers less effective, requiring more mechanical refrigeration (higher energy cost). Bengaluru's lower monsoon humidity reduces this cost—a direct economic consequence of Chapter 1 physics.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Matter Around Us",
+        "board": "kseab",
+        "enhancementTag": "Smart Materials & Phase-Change AI"
+      }
+    ]
+  }
+}

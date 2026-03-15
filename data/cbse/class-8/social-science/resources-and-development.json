@@ -1,0 +1,151 @@
+{
+  "id": "cbse-8-sst-resources",
+  "title": "Resources and Development",
+  "subject": "Social Science",
+  "chapter": "Resources",
+  "chapterNumber": 11,
+  "board": "cbse",
+  "class": 8,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Resource AI & Satellite Mapping",
+    "tagline": "From coal mines to satellite eyes that watch the Earth in real time"
+  },
+  "lesson": {
+    "officialFocus": "Types of resources (natural, human-made, human), utility, value, biotic vs abiotic, and sustainable development of resources.",
+    "introduction": "Your textbook explains that resources are things from nature or human effort that satisfy our needs. But in the Intelligence Age, we've developed an extraordinary new tool: AI-powered satellite systems that track every resource on Earth in real time—forests shrinking in the Amazon, glaciers retreating in Himalayas, and fish populations in oceans. Let's see how your CBSE chapter on Resources connects to the most powerful environmental monitoring systems ever built.",
+    "sections": [
+      {
+        "title": "Natural Resources → Remote Sensing & Satellite Analytics",
+        "officialConcept": "Natural resources include air, water, soil, minerals, and vegetation. They are classified as renewable (replenished naturally) and non-renewable (formed over millions of years and exhaustible).",
+        "aiEnhancement": "ESA Sentinel satellites and NASA Landsat take multi-spectral photos of the entire Earth every 5-16 days. AI models trained on petabytes of this data can calculate NDVI (Normalized Difference Vegetation Index) to measure forest health pixel by pixel, detect illegal mining by comparing before-and-after images, and predict droughts months in advance by tracking soil moisture. India's ISRO uses the Resourcesat-2 satellite specifically for this—monitoring 142 types of crops across the country.",
+        "keyInsight": "The renewable vs non-renewable classification in your textbook maps directly to sustainability metrics that AI satellite systems track continuously in real time."
+      },
+      {
+        "title": "Human-Made Resources → Digital Infrastructure as a Resource",
+        "officialConcept": "Human-made resources are things converted from natural resources to add utility—roads, buildings, machinery, technology. Technology transforms natural materials into usable resources.",
+        "aiEnhancement": "In the Intelligence Age, data itself has become a resource—often called the new oil. Cloud computing infrastructure (AWS, Google Cloud, Azure data centres) converts electricity and silicon into computational power. India's National Data Centre policy recognizes digital infrastructure as critical national resource. AI models that process satellite imagery, predict weather, or diagnose diseases run on these data-centre resources. The utility concept from your textbook applies perfectly: raw satellite data has low utility until AI adds value by turning it into actionable insights.",
+        "keyInsight": "Technology converts raw materials into resources (textbook concept) AND converts raw data into intelligence (Intelligence Age concept)—both are forms of resource creation."
+      },
+      {
+        "title": "Sustainable Development → AI for Conservation",
+        "officialConcept": "Sustainable development means using resources in a way that meets present needs without compromising the ability of future generations to meet their needs (Brundtland Commission, 1987).",
+        "aiEnhancement": "AI is now central to sustainable resource management: Microsoft's AI for Earth programme funds projects using AI to protect biodiversity; Global Forest Watch uses ML to detect deforestation within 2 days of satellite pass; ocean health is monitored by AI systems tracking coral bleaching via underwater drones. India's Forest Survey of India uses AI to classify forest cover from satellite data, publishing the India State of Forest Report every two years. These tools make the 1987 Brundtland definition measurable and enforceable in real time.",
+        "keyInsight": "Sustainable development was an idea in 1987; AI satellite monitoring in 2024 makes it measurable, trackable, and enforceable at scale—connecting geography to the Intelligence Age."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Explore Real Satellite Data with Google Earth Timelapse",
+      "difficulty": "beginner",
+      "materials": ["A computer or smartphone with internet", "Google account (free)", "Browser: Chrome recommended"],
+      "steps": [
+        "Go to timelapse.google.com (no login required) in your browser.",
+        "Search for your city or a famous forest like Western Ghats in the search bar.",
+        "Use the Timelapse slider to see how land cover has changed from 1984 to 2023.",
+        "Find an area showing deforestation or urban expansion—observe how the satellite images document resource change over decades.",
+        "Take a screenshot and write 3 observations: (1) What resource changed? (2) Was it renewable or non-renewable? (3) Is the change sustainable according to Brundtland's definition?"
+      ],
+      "learningOutcome": "You will have directly interacted with real satellite data, connected the CBSE classification of resources to observable real-world change, and understood how AI-powered tools monitor sustainable development."
+    },
+    "furtherExploration": [
+      "Global Forest Watch: globalforestwatch.org – real-time deforestation alerts powered by AI",
+      "ISRO Bhuvan Portal: bhuvan.nrsc.gov.in – India's own satellite data portal",
+      "NASA Worldview: worldview.earthdata.nasa.gov – live satellite imagery of Earth"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-8-sst-resources-quiz",
+    "title": "Resources & Satellite Mapping Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following is an example of a renewable resource?",
+        "options": [
+          {"id": "a", "text": "Coal"},
+          {"id": "b", "text": "Petroleum"},
+          {"id": "c", "text": "Solar energy"},
+          {"id": "d", "text": "Iron ore"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "Solar energy is renewable because it is replenished naturally and continuously by the sun, unlike coal, petroleum, and iron ore which take millions of years to form and are exhaustible.",
+        "difficulty": "easy",
+        "subject": "Social Science",
+        "chapter": "Resources",
+        "board": "cbse",
+        "enhancementTag": "Resource AI & Satellite Mapping"
+      },
+      {
+        "id": "q2",
+        "text": "What does NDVI (Normalized Difference Vegetation Index) measure in satellite imagery?",
+        "options": [
+          {"id": "a", "text": "The depth of rivers"},
+          {"id": "b", "text": "The health and density of vegetation from space"},
+          {"id": "c", "text": "The temperature of city buildings"},
+          {"id": "d", "text": "The speed of ocean currents"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "NDVI uses the difference between near-infrared and red light reflectance to measure plant health and density. Values close to 1.0 indicate dense healthy vegetation, while values near 0 indicate bare soil or urban areas.",
+        "difficulty": "easy",
+        "subject": "Social Science",
+        "chapter": "Resources",
+        "board": "cbse",
+        "enhancementTag": "Resource AI & Satellite Mapping"
+      },
+      {
+        "id": "q3",
+        "text": "According to the Brundtland Commission (1987), what is sustainable development?",
+        "options": [
+          {"id": "a", "text": "Using all available resources as fast as possible for economic growth"},
+          {"id": "b", "text": "Development that meets present needs without compromising future generations' ability to meet their needs"},
+          {"id": "c", "text": "Using only human-made resources and avoiding natural ones"},
+          {"id": "d", "text": "Stopping all industrial development to protect the environment"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The Brundtland Commission defined sustainable development as meeting the needs of the present without compromising the ability of future generations to meet their own needs—balancing economic development with environmental protection.",
+        "difficulty": "medium",
+        "subject": "Social Science",
+        "chapter": "Resources",
+        "board": "cbse",
+        "enhancementTag": "Resource AI & Satellite Mapping"
+      },
+      {
+        "id": "q4",
+        "text": "India's ISRO monitors 142 types of crops using which satellite?",
+        "options": [
+          {"id": "a", "text": "NASA Landsat 9"},
+          {"id": "b", "text": "ESA Sentinel-2"},
+          {"id": "c", "text": "ISRO Resourcesat-2"},
+          {"id": "d", "text": "Google Earth satellite"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "ISRO's Resourcesat-2 satellite is specifically designed for land and resource monitoring, including crop classification across India. It provides multi-spectral data used for agricultural planning and forest cover assessment.",
+        "difficulty": "medium",
+        "subject": "Social Science",
+        "chapter": "Resources",
+        "board": "cbse",
+        "enhancementTag": "Resource AI & Satellite Mapping"
+      },
+      {
+        "id": "q5",
+        "text": "Why is data increasingly called 'the new oil' in the context of human-made resources?",
+        "options": [
+          {"id": "a", "text": "Data is found underground like oil"},
+          {"id": "b", "text": "Data is flammable and used for energy"},
+          {"id": "c", "text": "Like oil, raw data has low utility until processed—AI converts it into high-value insights that drive economic activity"},
+          {"id": "d", "text": "Data and oil are both non-renewable resources that will run out soon"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "The 'new oil' metaphor captures how data follows the textbook concept of resource creation: raw data (like crude oil) has limited utility until transformed by AI and analysis tools into actionable intelligence (like refined fuel). Unlike oil, data can be copied infinitely—making it an unusual but powerful new kind of resource.",
+        "difficulty": "hard",
+        "subject": "Social Science",
+        "chapter": "Resources",
+        "board": "cbse",
+        "enhancementTag": "Resource AI & Satellite Mapping"
+      }
+    ]
+  }
+}

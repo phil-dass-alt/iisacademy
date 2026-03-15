@@ -1,0 +1,89 @@
+{
+  "board": "kseab",
+  "class": 9,
+  "subject": "English",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-9-eng-01",
+      "number": 1,
+      "name": "The Road Not Taken",
+      "topics": ["Robert Frost's Poetry", "Symbolism and Metaphor", "Life Choices", "Poetry Appreciation"],
+      "enhancement": "AI Decision Trees & Choice Architecture",
+      "enhancementFile": "the-road-not-taken.json"
+    },
+    {
+      "id": "kseab-9-eng-02",
+      "number": 2,
+      "name": "The Fun They Had",
+      "topics": ["Science Fiction Genre", "Future Technology in Literature", "Comprehension", "Character Analysis"],
+      "enhancement": "Future of EdTech & AI Classrooms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-03",
+      "number": 3,
+      "name": "The Sound of Music",
+      "topics": ["Biographical Writing", "Disability and Achievement", "Music as Expression"],
+      "enhancement": "AI Music Composition & Audio Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-04",
+      "number": 4,
+      "name": "The Little Girl",
+      "topics": ["Family Relationships", "Character Transformation", "Emotional Intelligence"],
+      "enhancement": "Affective Computing & Emotion AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-05",
+      "number": 5,
+      "name": "A Truly Beautiful Mind",
+      "topics": ["Biographical Account of Einstein", "Scientific Curiosity", "Peace Activism"],
+      "enhancement": "AI in Physics Research & Scientific Discovery",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-06",
+      "number": 6,
+      "name": "My Childhood",
+      "topics": ["Autobiography of APJ Abdul Kalam", "Secularism and Friendship", "Early Life"],
+      "enhancement": "AI Space Research & ISRO Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-07",
+      "number": 7,
+      "name": "Reach for the Top",
+      "topics": ["Biographical Sketch", "Mountaineering", "Perseverance and Determination"],
+      "enhancement": "Wearable Tech & Extreme Environment Monitoring",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-08",
+      "number": 8,
+      "name": "On Killing a Tree",
+      "topics": ["Environmental Poetry", "Symbolism", "Nature and Resilience"],
+      "enhancement": "AI Tree Monitoring & Urban Forest Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-09",
+      "number": 9,
+      "name": "The Bond of Love",
+      "topics": ["Narrative Non-fiction", "Human-Animal Bond", "Emotional Writing"],
+      "enhancement": "Animal Behaviour AI & Wildlife Conservation",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-eng-10",
+      "number": 10,
+      "name": "If I Were You",
+      "topics": ["Drama Script", "Suspense", "Dialogue Writing", "Character Analysis"],
+      "enhancement": "AI Role Play & Conversational Agents",
+      "enhancementFile": null
+    }
+  ]
+}

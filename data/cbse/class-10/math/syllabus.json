@@ -1,0 +1,121 @@
+{
+  "board": "cbse",
+  "class": 10,
+  "subject": "Math",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "cbse-10-math-01",
+      "number": 1,
+      "name": "Real Numbers",
+      "topics": ["Euclid's Division Lemma", "The Fundamental Theorem of Arithmetic", "Revisiting Irrational Numbers", "Revisiting Rational Numbers and their Decimal Expansions"],
+      "enhancement": "Euclidean Algorithms in Computer Science",
+      "enhancementFile": "real-numbers.json"
+    },
+    {
+      "id": "cbse-10-math-02",
+      "number": 2,
+      "name": "Polynomials",
+      "topics": ["Geometrical Meaning of the Zeroes of a Polynomial", "Relationship between Zeroes and Coefficients", "Division Algorithm for Polynomials"],
+      "enhancement": "Polynomial Cryptography & Error Correction Codes",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-03",
+      "number": 3,
+      "name": "Pair of Linear Equations in Two Variables",
+      "topics": ["Pair of Linear Equations in Two Variables", "Graphical Method of Solution", "Algebraic Methods", "Substitution Method", "Elimination Method", "Cross-multiplication Method"],
+      "enhancement": "Linear Systems in Machine Learning & Robotics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-04",
+      "number": 4,
+      "name": "Quadratic Equations",
+      "topics": ["Quadratic Equations", "Solution of a Quadratic Equation by Factorisation", "Solution by Completing the Square", "Nature of Roots"],
+      "enhancement": "Optimization in AI & Parabolic Antennas",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-05",
+      "number": 5,
+      "name": "Arithmetic Progressions",
+      "topics": ["Arithmetic Progressions", "nth Term of an AP", "Sum of First n Terms of an AP"],
+      "enhancement": "Sequence Learning in AI & Time Series Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-06",
+      "number": 6,
+      "name": "Triangles",
+      "topics": ["Similar Figures", "Similarity of Triangles", "Criteria for Similarity of Triangles", "Areas of Similar Triangles", "Pythagoras Theorem"],
+      "enhancement": "Computer Vision & Perspective Transform",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-07",
+      "number": 7,
+      "name": "Coordinate Geometry",
+      "topics": ["Distance Formula", "Section Formula", "Area of a Triangle"],
+      "enhancement": "GPS Algorithms & Location AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-08",
+      "number": 8,
+      "name": "Introduction to Trigonometry",
+      "topics": ["Trigonometric Ratios", "Trigonometric Ratios of Some Specific Angles", "Trigonometric Ratios of Complementary Angles", "Trigonometric Identities"],
+      "enhancement": "Signal Processing & Fourier Analysis",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-09",
+      "number": 9,
+      "name": "Some Applications of Trigonometry",
+      "topics": ["Heights and Distances"],
+      "enhancement": "LiDAR, Sonar & Computer Vision Depth Estimation",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-10",
+      "number": 10,
+      "name": "Circles",
+      "topics": ["Tangent to a Circle", "Number of Tangents from a Point on a Circle"],
+      "enhancement": "Elliptic Curve Cryptography",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-11",
+      "number": 11,
+      "name": "Areas Related to Circles",
+      "topics": ["Perimeter and Area of a Circle", "Areas of Sectors and Segments of a Circle", "Areas of Combinations of Plane Figures"],
+      "enhancement": "Computational Geometry & Game Physics Engines",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-12",
+      "number": 12,
+      "name": "Surface Areas and Volumes",
+      "topics": ["Surface Area of a Combination of Solids", "Volume of a Combination of Solids", "Conversion of Solid from One Shape to Another", "Frustum of a Cone"],
+      "enhancement": "3D Printing & Computational Fluid Dynamics",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-13",
+      "number": 13,
+      "name": "Statistics",
+      "topics": ["Mean of Grouped Data", "Mode of Grouped Data", "Median of Grouped Data", "Graphical Representation of Cumulative Frequency Distribution"],
+      "enhancement": "Big Data Analytics & Business Intelligence",
+      "enhancementFile": null
+    },
+    {
+      "id": "cbse-10-math-14",
+      "number": 14,
+      "name": "Probability",
+      "topics": ["Probability – A Theoretical Approach"],
+      "enhancement": "Bayesian AI & Machine Learning Probability",
+      "enhancementFile": null
+    }
+  ]
+}

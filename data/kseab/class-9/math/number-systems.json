@@ -1,0 +1,151 @@
+{
+  "id": "kseab-9-math-number-systems",
+  "title": "Number Systems",
+  "subject": "Math",
+  "chapter": "Number Systems",
+  "chapterNumber": 1,
+  "board": "kseab",
+  "class": 9,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Real Numbers & Digital Signal Processing",
+    "tagline": "From irrational numbers on the number line to the math inside every Bengaluru startup's audio and video app"
+  },
+  "lesson": {
+    "officialFocus": "Irrational numbers, real numbers and their decimal expansions, representation of real numbers on the number line, operations on real numbers, and laws of exponents for real numbers.",
+    "introduction": "Bengaluru is home to hundreds of audio and video technology startups—Dolby, Qualcomm, and countless Indian companies process audio and video signals using mathematics rooted in real numbers and irrational constants. The irrational number π appears in the Fourier Transform algorithm that powers every digital audio file, every video stream, and every mobile network. Your KSEAB Class 9 Chapter 1 is not abstract mathematics—it is the foundation of Karnataka's tech industry.",
+    "sections": [
+      {
+        "title": "Irrational Numbers → π and e in the Fourier Transform",
+        "officialConcept": "Irrational numbers cannot be expressed as p/q where p and q are integers. Their decimal expansions are non-terminating and non-repeating. Examples include √2, √3, π, and e.",
+        "aiEnhancement": "The Fourier Transform—used in every mp3, mp4, and 5G signal in Bengaluru's tech corridor—uses the mathematical constant e^(2πi) where both π (pi ≈ 3.14159...) and e (Euler's number ≈ 2.71828...) are irrational. When Qualcomm Bengaluru designs mobile audio processors, or when startups like Wynk Music or JioSaavn compress audio files, they use FFT (Fast Fourier Transform) algorithms that compute with these irrational constants billions of times per second. The fact that π is irrational means computers must use approximations—but highly precise ones—and understanding the error bounds of these approximations is an active area of numerical mathematics.",
+        "keyInsight": "Every audio file compressed in Bengaluru's tech startups and every 5G signal processed by Qualcomm Bengaluru uses FFT algorithms whose mathematical constants (π, e) are the irrational numbers you plot on your number line in Chapter 1."
+      },
+      {
+        "title": "Real Numbers and Decimal Expansions → Floating Point in Karnataka's Software",
+        "officialConcept": "Every real number has a unique decimal expansion. Rational numbers have terminating or repeating expansions. Irrational numbers have non-terminating, non-repeating expansions. All of these together form the complete real number line.",
+        "aiEnhancement": "Every software application written in Bengaluru's 4,000+ IT companies uses IEEE 754 floating-point to store real numbers. This standard stores: a sign bit (+ or -), an exponent (range), and a mantissa (the significant digits)—essentially a decimal expansion with limited precision. The systematic rounding of decimal expansions causes issues: 0.1 in decimal = 0.000110011... in binary (repeating, like 1/3 in decimal). Financial applications at companies like Razorpay, PhonePe, and Zepto use Python's 'Decimal' module or Java's 'BigDecimal' class instead of standard floating-point to avoid the rounding errors that come from cutting off these infinite decimal expansions.",
+        "keyInsight": "The distinction between terminating, repeating, and non-terminating decimal expansions in your chapter directly explains why Bengaluru's FinTech companies must use special precision arithmetic libraries rather than standard computer floating-point."
+      },
+      {
+        "title": "Laws of Exponents → Complexity Analysis in Bengaluru's Algorithms",
+        "officialConcept": "Laws of exponents: a^m × a^n = a^(m+n), (a^m)^n = a^(mn), a^0 = 1, a^(-n) = 1/a^n. These hold for real number bases and rational/real exponents.",
+        "aiEnhancement": "Software engineers at Bengaluru companies use exponent laws daily in algorithm complexity analysis. An algorithm processing n items runs in O(n^2) time (quadratic) or O(2^n) time (exponential). The difference is critical: for n=1000, n^2 = 1,000,000 operations (fast); 2^1000 ≈ 10^301 operations (effectively impossible). Infosys, Wipro, and TCS engineers in Bengaluru use exponent laws to estimate whether their algorithms will run in seconds or centuries. The law a^m × a^n = a^(m+n) is used when combining complexity bounds; (a^m)^n = a^(mn) is used when analyzing nested loops.",
+        "keyInsight": "The laws of exponents you practise in Chapter 1 are the daily working tools of software engineers at Bengaluru's IT companies—used to calculate whether algorithms are fast enough to run on production systems."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Visualise Sound as Real Numbers Using a Free App",
+      "difficulty": "beginner",
+      "materials": ["Android phone with Spectroid app (free, Google Play)", "or iOS phone with SpectrumView app (free, App Store)", "Any sound source: your voice, music, instruments"],
+      "steps": [
+        "Install Spectroid (Android) or SpectrumView (iOS)—free apps showing real-time sound frequency spectrums.",
+        "Open the app and speak normally. The x-axis shows frequency in Hz (real numbers!) and the y-axis shows amplitude.",
+        "Notice that the display shows real numbers continuously across the frequency axis—this represents the full real number line of possible sound frequencies.",
+        "Tap a musical note (hum a single pitch). Observe a single peak at the fundamental frequency.",
+        "Play a chord or musical scale and observe multiple peaks at frequencies with irrational ratios. The interval of a perfect fifth has a frequency ratio of 3/2 (rational), but the equal temperament chromatic scale uses 2^(1/12) (irrational) as its frequency ratio—the irrational number from your chapter is built into every musical scale on your phone!"
+      ],
+      "learningOutcome": "You will have visualised real numbers (frequencies) in a real-time physical demonstration, discovered that the musical scale uses irrational exponents (2^(1/12)) from your chapter, and connected pure mathematics to the audio technology used in Karnataka's tech industry."
+    },
+    "furtherExploration": [
+      "Qualcomm Bengaluru: qualcomm.com/company/locations/india – audio/video processing research",
+      "3Blue1Brown: 'But what is the Fourier Transform?' – youtube.com (visual, no calculus needed)",
+      "Wynk Music technology blog – search 'Wynk Music engineering audio streaming'"
+    ]
+  },
+  "quiz": {
+    "id": "kseab-9-math-numbers-quiz",
+    "title": "Number Systems & DSP Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following is irrational?",
+        "options": [
+          {"id": "a", "text": "0.625"},
+          {"id": "b", "text": "√4"},
+          {"id": "c", "text": "√7"},
+          {"id": "d", "text": "22/7"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "√7 is irrational because 7 is not a perfect square. √4 = 2 (rational). 0.625 = 5/8 (rational, terminating). 22/7 is a rational approximation of π but is itself rational.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "kseab",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q2",
+        "text": "The decimal expansion of 1/7 = 0.142857142857... What type is this?",
+        "options": [
+          {"id": "a", "text": "Terminating decimal"},
+          {"id": "b", "text": "Non-terminating repeating decimal"},
+          {"id": "c", "text": "Non-terminating non-repeating decimal"},
+          {"id": "d", "text": "Terminating repeating decimal"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "1/7 is a rational number (p/q form). Its decimal expansion is non-terminating (goes on forever) but repeating (142857 repeats). All rational numbers have either terminating or non-terminating repeating decimal expansions.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "kseab",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q3",
+        "text": "Simplify: (3^4 × 3^(-2))^(1/2)",
+        "options": [
+          {"id": "a", "text": "3"},
+          {"id": "b", "text": "9"},
+          {"id": "c", "text": "27"},
+          {"id": "d", "text": "1/3"}
+        ],
+        "correctOptionId": "a",
+        "explanation": "Step 1: 3^4 × 3^(-2) = 3^(4+(-2)) = 3^2 = 9. Step 2: 9^(1/2) = √9 = 3. So the answer is 3. Using (a^m)^n = a^(mn): (3^2)^(1/2) = 3^(2×1/2) = 3^1 = 3.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "kseab",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q4",
+        "text": "Bengaluru's Razorpay processes payment calculations. Why would it use Python's 'Decimal' module rather than standard float arithmetic?",
+        "options": [
+          {"id": "a", "text": "Standard floats are too slow for payment processing"},
+          {"id": "b", "text": "Standard IEEE 754 float stores numbers in binary, so fractions like 0.1 have infinite binary expansions that get truncated, causing tiny but unacceptable rounding errors in financial calculations"},
+          {"id": "c", "text": "Python's Decimal module uses irrational numbers more accurately"},
+          {"id": "d", "text": "RBI regulations require Decimal module usage"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "In binary, 0.1 = 0.0001100110011... (infinitely repeating). IEEE 754 truncates this, causing errors like 0.1 + 0.2 = 0.30000000000000004. For financial applications, even errors of 0.001 paise per transaction × billions of daily transactions = significant discrepancies. Python's Decimal module stores numbers in base-10, representing 0.1 exactly without approximation.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "kseab",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q5",
+        "text": "The equal-tempered chromatic musical scale uses 2^(1/12) as the frequency ratio between adjacent notes. This number is irrational. What does this mean for audio software that plays music on your phone?",
+        "options": [
+          {"id": "a", "text": "Phones cannot play music using exact musical pitches"},
+          {"id": "b", "text": "Audio software must store rational approximations of 2^(1/12) with sufficient precision that the resulting frequency deviation is below the threshold of human hearing (about 1 cent = 2^(1/1200))"},
+          {"id": "c", "text": "The irrational ratio means equal temperament cannot be computed digitally"},
+          {"id": "d", "text": "Music apps use 22/7 instead of 2^(1/12) for efficiency"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "2^(1/12) ≈ 1.059463... is irrational (non-terminating, non-repeating). Audio software stores this as a 64-bit floating-point approximation accurate to 15 significant figures. The resulting frequency error (about 0.0001 Hz) is far below human pitch discrimination threshold (~3 Hz). This is a practical application of the chapter's core insight: irrational numbers require approximation in finite computational systems, and the quality of the approximation must exceed the precision of the measurement—in this case, human hearing.",
+        "difficulty": "hard",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "kseab",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "cbse-9-math-number-systems",
+  "title": "Number Systems",
+  "subject": "Math",
+  "chapter": "Number Systems",
+  "chapterNumber": 1,
+  "board": "cbse",
+  "class": 9,
+  "wing": "junior",
+  "accessTier": "paid",
+  "copyrightDisclaimer": "© Textbook content belongs exclusively to its respective authors and authorities. Lessons here are provided solely as enhancement. It is assumed that students have purchased the official textbooks and have a legitimate right to study from them. IIS Academy only delivers supplementary content and does not reproduce copyrighted material without license.",
+  "enhancement": {
+    "topic": "Real Numbers & Digital Signal Processing",
+    "tagline": "From irrational numbers on a number line to the math that powers every audio, image, and video"
+  },
+  "lesson": {
+    "officialFocus": "Irrational numbers, real numbers and their decimal expansions, representation of real numbers on the number line, operations on real numbers, and laws of exponents.",
+    "introduction": "Every mp3 song, JPEG photo, and YouTube video on your phone is created, compressed, and transmitted using the mathematics of real numbers—especially irrational numbers and exponents. Digital Signal Processing (DSP) is the field that converts sounds and images into streams of numbers that computers can process. And the CBSE Class 9 Number Systems chapter is exactly where this math begins.",
+    "sections": [
+      {
+        "title": "Irrational Numbers → The Fourier Transform",
+        "officialConcept": "Irrational numbers cannot be expressed as p/q. They include square roots of non-perfect squares (like √2, √3) and transcendental numbers like π and e. Their decimal expansions are non-terminating and non-repeating.",
+        "aiEnhancement": "The Fourier Transform—the mathematical engine of all digital audio—is built entirely on irrational numbers. It decomposes any sound wave into a sum of sine and cosine functions, where the frequencies are multiples of π/T. The Discrete Fourier Transform (DFT) used in mp3 compression works with complex exponentials e^(2πi·k/N)—where π and e are both irrational. When your phone plays music, it is computing millions of operations involving these irrational constants every second through the Fast Fourier Transform (FFT) algorithm.",
+        "keyInsight": "The irrational numbers you plot on the number line in Class 9 are the exact constants embedded in every digital audio codec and image compression algorithm."
+      },
+      {
+        "title": "Real Numbers on the Number Line → Sampling and Quantization",
+        "officialConcept": "Every point on the number line corresponds to a unique real number. There are no gaps on the number line—between any two real numbers, there are infinitely many others.",
+        "aiEnhancement": "Sound waves in nature are continuous—they exist at every real number point in time. To digitize audio, we sample the wave at discrete intervals (e.g., 44,100 times per second for CD quality) and round each sample to the nearest discrete value (quantization). The Nyquist-Shannon sampling theorem proves that to accurately reconstruct a sound with frequency f, you must sample at more than 2f times per second. This connects directly to the dense real number line: the continuous sound wave lives on the real number line, but we can only store a finite subset of points.",
+        "keyInsight": "The density of the real number line (no gaps) represents continuous physical reality; sampling is the process of converting that continuous reality into computable discrete numbers—bridging pure math and digital technology."
+      },
+      {
+        "title": "Laws of Exponents → Data Compression & Big O Notation",
+        "officialConcept": "Laws of exponents: a^m × a^n = a^(m+n), (a^m)^n = a^(mn), a^0 = 1, a^(-n) = 1/a^n. These apply to real number bases and rational exponents.",
+        "aiEnhancement": "Exponent laws are used everywhere in computer science. (1) Data compression ratios are often expressed exponentially: a 10:1 compression means 10^1 times smaller file size. JPEG images use Discrete Cosine Transform where coefficients decay as powers of frequency. (2) Algorithm efficiency is measured in Big O notation: O(n^2) means the time grows with the square of input size; O(2^n) means exponential time—the kind that makes problems unsolvable for large inputs. Understanding why 2^100 is astronomically large (a number with 30 digits) versus n^2 being manageable is critical for any programmer.",
+        "keyInsight": "The laws of exponents you practise in Chapter 1 are the notational language of computer science: every algorithm's speed and every compression ratio is expressed using these laws."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Visualise the Fourier Transform of Sound Using Your Phone",
+      "difficulty": "beginner",
+      "materials": ["A smartphone (Android or iOS)", "Free app: Spectroid (Android) or SpectrumView (iOS)", "A musical instrument, a whistle, or your voice"],
+      "steps": [
+        "Install Spectroid (Android) or SpectrumView (iOS)—both are free apps that show the real-time frequency spectrum of sounds.",
+        "Open the app and speak normally—observe the coloured frequency bars light up with your voice.",
+        "Whistle a steady note and observe how a single narrow bar appears at that frequency.",
+        "Play a musical chord on any instrument (or play one on YouTube) and observe multiple bars—each representing a harmonic frequency (multiples of the fundamental).",
+        "Notice that the x-axis shows frequency in Hz—these are real numbers! The app is computing a Fast Fourier Transform in real time to convert your sound wave into frequency components. Take a screenshot of an interesting sound spectrum."
+      ],
+      "learningOutcome": "You will have seen the Fourier Transform working in real time—the algorithm that converts continuous real-number sound waves into discrete frequency data, directly connecting your Chapter 1 number system concepts to modern audio technology."
+    },
+    "furtherExploration": [
+      "3Blue1Brown: 'But what is the Fourier Transform?' – youtube.com/3blue1brown (highly visual, no calculus needed)",
+      "Audacity (free software): record and view waveforms and spectrograms of any sound",
+      "Khan Academy: Imaginary and complex numbers – how irrational numbers connect to DSP"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-9-math-numbers-quiz",
+    "title": "Number Systems & Digital Signal Processing Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following is an irrational number?",
+        "options": [
+          {"id": "a", "text": "22/7"},
+          {"id": "b", "text": "0.333..."},
+          {"id": "c", "text": "√5"},
+          {"id": "d", "text": "1.25"}
+        ],
+        "correctOptionId": "c",
+        "explanation": "√5 is irrational because 5 is not a perfect square, so its square root cannot be expressed as p/q. Note: 22/7 is a rational approximation of π, but π itself is irrational. 0.333... = 1/3 is rational.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "cbse",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q2",
+        "text": "CD audio samples sound 44,100 times per second. If the highest human-audible frequency is 20,000 Hz, why is this sampling rate sufficient?",
+        "options": [
+          {"id": "a", "text": "44,100 is the maximum number any computer can process"},
+          {"id": "b", "text": "The Nyquist theorem states you must sample at more than twice the highest frequency (2 × 20,000 = 40,000 < 44,100), ensuring complete reconstruction"},
+          {"id": "c", "text": "44,100 is a round number that is easy to compute"},
+          {"id": "d", "text": "Human ears cannot detect frequencies above 44,100 Hz"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "The Nyquist-Shannon sampling theorem states that a signal must be sampled at more than twice its highest frequency to be perfectly reconstructed. Since the highest audible frequency is ~20,000 Hz, sampling at 44,100 Hz (more than 2×20,000) ensures perfect digital reconstruction of all audible sound.",
+        "difficulty": "easy",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "cbse",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q3",
+        "text": "Using laws of exponents, simplify: (2^3 × 2^5) / 2^4",
+        "options": [
+          {"id": "a", "text": "2^2 = 4"},
+          {"id": "b", "text": "2^4 = 16"},
+          {"id": "c", "text": "2^12"},
+          {"id": "d", "text": "2^(15/4)"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Using a^m × a^n = a^(m+n): 2^3 × 2^5 = 2^8. Then 2^8 / 2^4 = 2^(8-4) = 2^4 = 16. This law is used in Big O notation to calculate algorithm complexity.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "cbse",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q4",
+        "text": "An algorithm with O(2^n) complexity takes 1 second for n=10 inputs. Approximately how long would it take for n=30 inputs?",
+        "options": [
+          {"id": "a", "text": "3 seconds (linear scaling)"},
+          {"id": "b", "text": "About 17 minutes (2^30 / 2^10 = 2^20 ≈ 1 million times longer)"},
+          {"id": "c", "text": "30 seconds"},
+          {"id": "d", "text": "The same 1 second—algorithms do not scale with input size"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "For n=10: takes 2^10 = 1,024 operations in 1 second. For n=30: requires 2^30 ≈ 1,073,741,824 operations. Time = 2^30/2^10 = 2^20 ≈ 1 million seconds ≈ 11.5 days. This demonstrates why exponential algorithms are practically unusable for large inputs—directly connecting exponent laws to computer science.",
+        "difficulty": "medium",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "cbse",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      },
+      {
+        "id": "q5",
+        "text": "The Fourier Transform decomposes sound waves using the irrational number π (in e^(2πi·k/N)). Why can't computers compute with the exact value of π and what do they do instead?",
+        "options": [
+          {"id": "a", "text": "Computers avoid π entirely by using different mathematics"},
+          {"id": "b", "text": "Computers store a rational approximation of π with enough decimal places (e.g., 3.14159265358979...) that the resulting error is smaller than the measurement precision of audio hardware"},
+          {"id": "c", "text": "π is replaced by 22/7 in all digital audio calculations"},
+          {"id": "d", "text": "Modern computers can store infinite decimal places and compute exact values of π"}
+        ],
+        "correctOptionId": "b",
+        "explanation": "Since π is irrational (non-terminating, non-repeating), computers store a 64-bit floating point approximation accurate to about 15 decimal digits. For audio processing, the resulting approximation error is far smaller than the noise floor of any microphone or speaker—making the approximation perfectly adequate in practice. This illustrates how mathematically irrational numbers become computationally rational approximations in digital systems.",
+        "difficulty": "hard",
+        "subject": "Math",
+        "chapter": "Number Systems",
+        "board": "cbse",
+        "enhancementTag": "Real Numbers & Digital Signal Processing"
+      }
+    ]
+  }
+}

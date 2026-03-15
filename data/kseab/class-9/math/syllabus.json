@@ -1,0 +1,129 @@
+{
+  "board": "kseab",
+  "class": 9,
+  "subject": "Math",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-9-math-01",
+      "number": 1,
+      "name": "Number Systems",
+      "topics": ["Irrational Numbers", "Real Numbers and their Decimal Expansions", "Representing Real Numbers on the Number Line", "Operations on Real Numbers", "Laws of Exponents for Real Numbers"],
+      "enhancement": "Real Numbers & Digital Signal Processing",
+      "enhancementFile": "number-systems.json"
+    },
+    {
+      "id": "kseab-9-math-02",
+      "number": 2,
+      "name": "Polynomials",
+      "topics": ["Polynomials in One Variable", "Zeroes of a Polynomial", "Remainder Theorem", "Factorisation of Polynomials", "Algebraic Identities"],
+      "enhancement": "Signal Processing & Polynomial Filters",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-03",
+      "number": 3,
+      "name": "Coordinate Geometry",
+      "topics": ["Cartesian System", "Plotting a Point in the Plane"],
+      "enhancement": "GPS & Mapping Algorithms",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-04",
+      "number": 4,
+      "name": "Linear Equations in Two Variables",
+      "topics": ["Linear Equations", "Solution of a Linear Equation", "Graph of a Linear Equation"],
+      "enhancement": "Linear Algebra & Machine Learning",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-05",
+      "number": 5,
+      "name": "Introduction to Euclid's Geometry",
+      "topics": ["Euclid's Definitions, Axioms and Postulates", "Euclid's Fifth Postulate"],
+      "enhancement": "Formal Verification & AI Proof Systems",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-06",
+      "number": 6,
+      "name": "Lines and Angles",
+      "topics": ["Basic Terms and Definitions", "Pairs of Angles", "Parallel Lines and a Transversal", "Angle Sum Property of a Triangle"],
+      "enhancement": "Computer Vision & Geometric AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-07",
+      "number": 7,
+      "name": "Triangles",
+      "topics": ["Congruence of Triangles", "Criteria for Congruence", "Properties of a Triangle", "Inequalities in a Triangle"],
+      "enhancement": "Triangulation in Robotics & AR",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-08",
+      "number": 8,
+      "name": "Quadrilaterals",
+      "topics": ["Properties of a Parallelogram", "The Mid-point Theorem"],
+      "enhancement": "Mesh Generation in 3D Modelling",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-09",
+      "number": 9,
+      "name": "Areas of Parallelograms and Triangles",
+      "topics": ["Parallelograms on the Same Base", "Triangles on the Same Base"],
+      "enhancement": "Computational Geometry in GIS",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-10",
+      "number": 10,
+      "name": "Circles",
+      "topics": ["Circles and its Related Terms", "Angle Subtended by a Chord", "Equal Chords and their Distances", "Cyclic Quadrilaterals"],
+      "enhancement": "Circular Algorithms & Cryptographic Curves",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-11",
+      "number": 11,
+      "name": "Constructions",
+      "topics": ["Basic Constructions", "Some Constructions of Triangles"],
+      "enhancement": "Parametric Design & Generative Architecture",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-12",
+      "number": 12,
+      "name": "Heron's Formula",
+      "topics": ["Area of a Triangle by Heron's Formula", "Application in Quadrilaterals"],
+      "enhancement": "Terrain Modelling & Digital Twin Technology",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-13",
+      "number": 13,
+      "name": "Surface Areas and Volumes",
+      "topics": ["Surface Area of Cuboid and Cube", "Surface Area of Cylinder and Cone", "Surface Area of Sphere", "Volume of Cuboid/Cylinder/Cone/Sphere"],
+      "enhancement": "3D Printing & Computational Fluid Dynamics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-14",
+      "number": 14,
+      "name": "Statistics",
+      "topics": ["Collection of Data", "Presentation of Data", "Graphical Representation", "Measures of Central Tendency"],
+      "enhancement": "Data Analytics & Business Intelligence AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-9-math-15",
+      "number": 15,
+      "name": "Probability",
+      "topics": ["Probability – an Experimental Approach"],
+      "enhancement": "Probabilistic AI & Bayesian Machine Learning",
+      "enhancementFile": null
+    }
+  ]
+}
