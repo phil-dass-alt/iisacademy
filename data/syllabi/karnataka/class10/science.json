@@ -1,0 +1,119 @@
+{
+  "board": "karnataka",
+  "class": 10,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "ka-10-sci-01",
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "topics": ["Writing and Balancing Equations", "Types of Reactions", "Oxidation and Reduction"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-10-sci-02",
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "topics": ["Properties", "pH", "Salts", "Chemicals from Common Salt"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-10-sci-03",
+      "number": 3,
+      "name": "Metals and Non-Metals",
+      "topics": ["Physical and Chemical Properties", "Reactivity Series", "Corrosion"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-10-sci-04",
+      "number": 4,
+      "name": "Carbon and Its Compounds",
+      "topics": ["Covalent Bonding", "Organic Compounds", "Chemical Properties of Carbon Compounds"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "ka-10-sci-05",
+      "number": 5,
+      "name": "Periodic Classification of Elements",
+      "topics": ["Döbereiner's Triads", "Mendeleev's Table", "Modern Periodic Table"],
+      "enhancement": null
+    },
+    {
+      "id": "ka-10-sci-06",
+      "number": 6,
+      "name": "Life Processes",
+      "topics": ["Nutrition", "Respiration", "Transportation", "Excretion"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-07",
+      "number": 7,
+      "name": "Control and Coordination",
+      "topics": ["Nervous System", "Reflex Actions", "Hormones"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-08",
+      "number": 8,
+      "name": "How do Organisms Reproduce?",
+      "topics": ["Asexual and Sexual Reproduction", "Reproductive Health"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-09",
+      "number": 9,
+      "name": "Heredity and Evolution",
+      "topics": ["Mendel's Laws", "Sex Determination", "Evolution and Speciation"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "ka-10-sci-10",
+      "number": 10,
+      "name": "Light — Reflection and Refraction",
+      "topics": ["Mirror Formula", "Lens Formula", "Power of Lens"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-11",
+      "number": 11,
+      "name": "Human Eye and Colourful World",
+      "topics": ["Structure of Eye", "Defects of Vision", "Dispersion of Light"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-12",
+      "number": 12,
+      "name": "Electricity",
+      "topics": ["Potential Difference", "Ohm's Law", "Resistance", "Heating Effect", "Power"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-13",
+      "number": 13,
+      "name": "Magnetic Effects of Electric Current",
+      "topics": ["Magnetic Field", "Motor", "Generator", "Domestic Wiring"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "ka-10-sci-14",
+      "number": 14,
+      "name": "Sources of Energy",
+      "topics": ["Conventional and Non-conventional Sources", "Renewable Energy", "Nuclear Energy"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-15",
+      "number": 15,
+      "name": "Our Environment",
+      "topics": ["Ecosystem", "Ozone Depletion", "Waste Management"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "ka-10-sci-16",
+      "number": 16,
+      "name": "Sustainable Management of Natural Resources",
+      "topics": ["Forests", "Water Resources", "Fossil Fuels", "Sustainable Practices"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

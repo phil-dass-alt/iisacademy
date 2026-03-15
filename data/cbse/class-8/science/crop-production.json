@@ -1,0 +1,150 @@
+{
+  "id": "cbse-8-sci-crop-production",
+  "title": "Crop Production and Management",
+  "subject": "Science",
+  "chapter": "Crop Production and Management",
+  "chapterNumber": 1,
+  "board": "cbse",
+  "class": 8,
+  "wing": "junior",
+  "accessTier": "paid",
+  "enhancement": {
+    "topic": "Precision Agriculture & AI",
+    "tagline": "From bullock ploughs to drone-guided AI farms"
+  },
+  "lesson": {
+    "officialFocus": "Agricultural practices, soil preparation, sowing, adding manure/fertilizers, irrigation, protection from weeds, harvesting, and storage.",
+    "introduction": "You've read how farmers prepare soil, sow seeds, and irrigate fields. Now let's fast-forward to the 'Intelligence Age': how Agentic AI and sensors are replacing manual guesswork with real-time precision farming—and how this is happening right now in Karnataka, Andhra Pradesh, and Punjab.",
+    "sections": [
+      {
+        "title": "Smart Irrigation: From Moat to AI-Controlled Drip",
+        "officialConcept": "Irrigation is the supply of water to crops at regular intervals using methods such as moat, chain pump, dhekli, rahat, sprinkler system, and drip system.",
+        "aiEnhancement": "In the 'Intelligence Age,' farmers use IoT soil-moisture sensors buried 10 cm deep. These sensors send real-time data to an AI agent on the farmer's smartphone. The AI agent analyzes soil moisture, local weather forecasts (from satellite APIs), and crop growth stage to release exactly the right amount of water through automated drip valves—saving up to 40% more water than traditional systems.",
+        "keyInsight": "The 'drip system' you learned is the hardware layer. AI + IoT sensors are the intelligence layer on top. Together, they form a 'Smart Irrigation System'—a real-world example of agentic AI."
+      },
+      {
+        "title": "Precision Sowing: GPS-Guided Seed Drills",
+        "officialConcept": "A seed drill is a tool used for sowing seeds uniformly at equal distances and depths.",
+        "aiEnhancement": "Modern GPS-guided seed drills can plant seeds with centimetre-level accuracy across a large field, recording the exact GPS coordinates of every seed. The AI agent can later correlate germination rate at each coordinate with soil data, identifying which micro-zones need more fertilizer or water. This is 'Precision Agriculture.'",
+        "keyInsight": "Seed placement + GPS data + AI analysis = a feedback loop where each crop season is smarter than the last."
+      },
+      {
+        "title": "Drone Surveillance and AI Pest Detection",
+        "officialConcept": "Weeds, insects, and diseases compete with crops and reduce yields. Farmers use pesticides and manual weeding to protect crops.",
+        "aiEnhancement": "Drones equipped with multispectral cameras fly over fields and capture images beyond what the human eye can see (infrared, near-infrared bands). An AI model analyzes these images to flag areas with early pest infection or water stress—often days before visible damage appears. Farmers receive a phone alert and spray only the affected zones, reducing pesticide use by up to 60%.",
+        "keyInsight": "Your CBSE chapter on 'protection from weeds and pests' is the problem; Drone + Computer Vision AI is the Intelligence Age solution."
+      }
+    ],
+    "practicalAddon": {
+      "title": "Build a Soil Moisture Sensor Circuit",
+      "difficulty": "beginner",
+      "materials": ["Arduino Uno or NodeMCU board", "Capacitive soil moisture sensor module", "Jumper wires", "USB cable", "A small pot with soil"],
+      "steps": [
+        "Connect the sensor's VCC to the 3.3V pin on your NodeMCU and GND to GND.",
+        "Connect the sensor's AOUT (analog out) to pin A0 on NodeMCU.",
+        "Upload the sample sketch: read A0 every 5 seconds and print 'WET' if below 400, 'DRY' if above 700.",
+        "Insert the sensor probes into your pot of soil and observe the readings change as you water it.",
+        "Extension: Connect NodeMCU to WiFi and log the readings to a Google Sheet via IFTTT webhooks—your own mini-IoT farm dashboard!"
+      ],
+      "learningOutcome": "You will have built a working IoT sensor that demonstrates the hardware layer of Precision Agriculture described in the AI enhancement above."
+    },
+    "furtherExploration": [
+      "ICAR – Indian Council of Agricultural Research: icar.org.in",
+      "Microsoft Azure FarmBeats – AI for Agriculture (open-source)",
+      "Jain Irrigation Systems – India's drip irrigation pioneer"
+    ]
+  },
+  "quiz": {
+    "id": "cbse-8-sci-crop-quiz",
+    "title": "Crop Production & Precision Agriculture Quiz",
+    "totalQuestions": 5,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which traditional method of irrigation involves a chain pump?",
+        "options": [
+          { "id": "a", "text": "Drip System" },
+          { "id": "b", "text": "Rahat" },
+          { "id": "c", "text": "Moat (Pulley system)" },
+          { "id": "d", "text": "Sprinkler System" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The 'Rahat' (also called 'Persian Wheel') uses a chain of pots attached to a wheel driven by animals or motorized power to lift water from wells.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Crop Production and Management",
+        "board": "cbse",
+        "enhancementTag": "Precision Agriculture & AI"
+      },
+      {
+        "id": "q2",
+        "text": "In modern 'Smart Farming,' what does an IoT sensor primarily measure in the soil to control irrigation?",
+        "options": [
+          { "id": "a", "text": "Color of the soil" },
+          { "id": "b", "text": "Nitrogen and Moisture levels" },
+          { "id": "c", "text": "The height of the plant" },
+          { "id": "d", "text": "The weight of the earth" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "IoT soil sensors measure moisture levels (and sometimes NPK – Nitrogen, Phosphorus, Potassium) to help AI agents decide exactly when and how much to irrigate, replacing manual guesswork.",
+        "difficulty": "easy",
+        "subject": "Science",
+        "chapter": "Crop Production and Management",
+        "board": "cbse",
+        "enhancementTag": "Precision Agriculture & AI"
+      },
+      {
+        "id": "q3",
+        "text": "A GPS-guided seed drill stores the GPS coordinates of every seed planted. What can an AI agent do with this data later in the season?",
+        "options": [
+          { "id": "a", "text": "Delete the coordinates to save storage" },
+          { "id": "b", "text": "Correlate germination rate at each coordinate with soil data to identify problem zones" },
+          { "id": "c", "text": "Use the coordinates to set the tractor speed only" },
+          { "id": "d", "text": "Print a map for decorating the farmhouse" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "GPS + soil data + germination records form a feedback loop. The AI agent identifies which micro-zones underperformed and recommends targeted fertilization or irrigation for the next planting cycle.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Crop Production and Management",
+        "board": "cbse",
+        "enhancementTag": "Precision Agriculture & AI"
+      },
+      {
+        "id": "q4",
+        "text": "Drones used in Precision Agriculture use cameras that capture 'near-infrared' images. Why can't a regular smartphone camera detect early crop stress?",
+        "options": [
+          { "id": "a", "text": "Smartphone cameras are too small" },
+          { "id": "b", "text": "Smartphone cameras only capture visible light; stressed plants show changes in near-infrared bands before visual symptoms appear" },
+          { "id": "c", "text": "Drones fly too high for smartphones to match" },
+          { "id": "d", "text": "Early crop stress is invisible from the sky" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Healthy plants reflect near-infrared light strongly (invisible to human eyes). When stressed, this reflectance drops. Multispectral drone cameras detect this change days before visible yellowing or wilting—an 'early warning system' powered by physics and AI.",
+        "difficulty": "medium",
+        "subject": "Science",
+        "chapter": "Crop Production and Management",
+        "board": "cbse",
+        "enhancementTag": "Precision Agriculture & AI"
+      },
+      {
+        "id": "q5",
+        "text": "By using AI-targeted pesticide spraying (only on affected zones detected by drone), a farmer reduces pesticide use by approximately 60%. Apart from cost savings, what is the most important environmental benefit?",
+        "options": [
+          { "id": "a", "text": "The drone flies faster" },
+          { "id": "b", "text": "Less chemical runoff into water bodies, protecting soil microbiome and aquatic life" },
+          { "id": "c", "text": "The crops grow taller" },
+          { "id": "d", "text": "The soil becomes harder" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Excess pesticides run off into rivers and groundwater, harming aquatic ecosystems and entering the food chain. Precision AI spraying reduces this chemical pollution dramatically—connecting your lesson on 'Pollution of Air and Water' (Chapter 18) to Precision Agriculture.",
+        "difficulty": "hard",
+        "subject": "Science",
+        "chapter": "Crop Production and Management",
+        "board": "cbse",
+        "enhancementTag": "Precision Agriculture & AI"
+      }
+    ]
+  }
+}

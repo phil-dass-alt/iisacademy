@@ -1,0 +1,95 @@
+{
+  "board": "tamil-nadu",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "tn-10-math-01",
+      "number": 1,
+      "name": "Relations and Functions",
+      "topics": [
+        "Sets",
+        "Relations",
+        "Functions",
+        "Special Functions"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-math-02",
+      "number": 2,
+      "name": "Numbers and Sequences",
+      "topics": [
+        "Euclid's Algorithm",
+        "Sequences",
+        "AP and GP"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "tn-10-math-03",
+      "number": 3,
+      "name": "Algebra",
+      "topics": [
+        "Polynomials",
+        "GCD/LCM",
+        "Quadratic Equations",
+        "Matrices"
+      ],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "tn-10-math-04",
+      "number": 4,
+      "name": "Geometry",
+      "topics": [
+        "Similarity",
+        "Thales Theorem",
+        "Tangent Properties"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-10-math-05",
+      "number": 5,
+      "name": "Coordinate Geometry",
+      "topics": [
+        "Area of Triangle",
+        "Straight Lines",
+        "Slope"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-math-06",
+      "number": 6,
+      "name": "Trigonometry",
+      "topics": [
+        "Trigonometric Identities",
+        "Heights and Distances"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "tn-10-math-07",
+      "number": 7,
+      "name": "Mensuration",
+      "topics": [
+        "Surface Area and Volume of Solids",
+        "Combined Figures"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "tn-10-math-08",
+      "number": 8,
+      "name": "Statistics and Probability",
+      "topics": [
+        "Mean, Median, Mode",
+        "Standard Deviation",
+        "Probability"
+      ],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

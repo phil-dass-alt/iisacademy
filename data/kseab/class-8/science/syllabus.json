@@ -1,0 +1,211 @@
+{
+  "board": "kseab",
+  "boardFullName": "Karnataka School Examinations and Assessment Board",
+  "class": 8,
+  "subject": "Science",
+  "wing": "junior",
+  "accessTier": "paid",
+  "chapters": [
+    {
+      "id": "kseab-8-sci-01",
+      "number": 1,
+      "name": "Nutrition",
+      "topics": [
+        "Modes of Nutrition",
+        "Photosynthesis",
+        "Nutrition in Animals",
+        "Digestion in Amoeba"
+      ],
+      "enhancement": "Nutrigenomics & AI Diet Planning",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-02",
+      "number": 2,
+      "name": "Digestion, Respiration and Circulation",
+      "topics": [
+        "Human Digestive System",
+        "Respiration",
+        "Circulatory System",
+        "Heart and Blood"
+      ],
+      "enhancement": "Wearable Health AI & Biosensors",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-03",
+      "number": 3,
+      "name": "Skin: Our Protective Cover",
+      "topics": [
+        "Structure of Skin",
+        "Functions of Skin",
+        "Care of Skin"
+      ],
+      "enhancement": "Biosensors & Wearable Dermatology AI",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-04",
+      "number": 4,
+      "name": "Nervous System",
+      "topics": [
+        "Neurons",
+        "Central and Peripheral Nervous System",
+        "Reflex Action",
+        "Sense Organs"
+      ],
+      "enhancement": "Neuromorphic Computing & Brain-Computer Interfaces",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-05",
+      "number": 5,
+      "name": "Movements and Locomotion",
+      "topics": [
+        "Types of Movement",
+        "Human Skeletal System",
+        "Joints",
+        "Muscles and Movement"
+      ],
+      "enhancement": "Exoskeletons & Robotic Prosthetics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-06",
+      "number": 6,
+      "name": "Reproduction",
+      "topics": [
+        "Asexual Reproduction",
+        "Sexual Reproduction in Plants",
+        "Sexual Reproduction in Animals"
+      ],
+      "enhancement": "Genetic Engineering & AI Genomics",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-07",
+      "number": 7,
+      "name": "Microorganisms: Our Friends and Enemies",
+      "topics": [
+        "Types of Microorganisms",
+        "Useful Microorganisms",
+        "Harmful Microorganisms",
+        "Food Preservation"
+      ],
+      "enhancement": "Micro-Robotics & Synthetic Biology",
+      "enhancementFile": "microorganisms.json"
+    },
+    {
+      "id": "kseab-8-sci-08",
+      "number": 8,
+      "name": "Plant Kingdom",
+      "topics": [
+        "Classification of Plants",
+        "Thallophyta",
+        "Bryophyta",
+        "Pteridophyta",
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "enhancement": "AI Biodiversity & Plant Species Recognition",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-09",
+      "number": 9,
+      "name": "Force and Pressure",
+      "topics": [
+        "Contact and Non-contact Forces",
+        "Pressure",
+        "Atmospheric Pressure",
+        "Hydraulic Pressure"
+      ],
+      "enhancement": "Robotics, Actuators & Force Sensing",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-10",
+      "number": 10,
+      "name": "Friction",
+      "topics": [
+        "Types of Friction",
+        "Factors Affecting Friction",
+        "Advantages and Disadvantages of Friction",
+        "Methods to Reduce Friction"
+      ],
+      "enhancement": "AI Wear Detection & Smart Lubrication",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-11",
+      "number": 11,
+      "name": "Light",
+      "topics": [
+        "Reflection of Light",
+        "Laws of Reflection",
+        "Images Formed by Mirrors",
+        "Refraction of Light",
+        "Dispersion of Light"
+      ],
+      "enhancement": "LiDAR, Optical Sensors & Computer Vision",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-12",
+      "number": 12,
+      "name": "Electric Current and its Effects",
+      "topics": [
+        "Electric Circuit",
+        "Heating Effect of Current",
+        "Magnetic Effect of Current",
+        "Electromagnets"
+      ],
+      "enhancement": "IoT, Smart Home & AI Power Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-13",
+      "number": 13,
+      "name": "Heat",
+      "topics": [
+        "Temperature and Heat",
+        "Transfer of Heat",
+        "Conduction",
+        "Convection",
+        "Radiation"
+      ],
+      "enhancement": "Thermal AI & Smart Building Management",
+      "enhancementFile": null
+    },
+    {
+      "id": "kseab-8-sci-14",
+      "number": 14,
+      "name": "World of Sounds",
+      "topics": [
+        "Production of Sound",
+        "Propagation of Sound",
+        "Sound Needs a Medium",
+        "Characteristics of Sound",
+        "Amplitude and Frequency",
+        "Human Ear",
+        "Noise Pollution"
+      ],
+      "enhancement": "Voice-AI & Natural Language Processing",
+      "enhancementFile": "world-of-sounds.json"
+    },
+    {
+      "id": "kseab-8-sci-15",
+      "number": 15,
+      "name": "Conservation of Natural Resources",
+      "topics": [
+        "Natural Resources",
+        "Conservation of Forests",
+        "Water Conservation",
+        "Coal and Petroleum",
+        "Sustainable Development"
+      ],
+      "enhancement": "Environmental AI & Climate Data Analytics",
+      "enhancementFile": null
+    }
+  ]
+}

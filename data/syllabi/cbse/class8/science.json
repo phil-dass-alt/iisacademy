@@ -1,0 +1,133 @@
+{
+  "board": "cbse",
+  "class": 8,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "cbse-8-sci-01",
+      "number": 1,
+      "name": "Crop Production and Management",
+      "topics": ["Agricultural Practices", "Basic Practices of Crop Production", "Tools and Implements", "Irrigation", "Crop Protection"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "cbse-8-sci-02",
+      "number": 2,
+      "name": "Microorganisms: Friend and Foe",
+      "topics": ["Types of Microorganisms", "Where do Microorganisms Live", "Useful and Harmful Microorganisms", "Food Preservation"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-8-sci-03",
+      "number": 3,
+      "name": "Synthetic Fibres and Plastics",
+      "topics": ["Types of Synthetic Fibres", "Plastics", "Plastics and the Environment"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-8-sci-04",
+      "number": 4,
+      "name": "Materials: Metals and Non-Metals",
+      "topics": ["Physical Properties", "Chemical Properties", "Uses of Metals and Non-Metals"],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "cbse-8-sci-05",
+      "number": 5,
+      "name": "Coal and Petroleum",
+      "topics": ["Natural Resources", "Coal Formation and Products", "Petroleum Refining", "Natural Gas"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "cbse-8-sci-06",
+      "number": 6,
+      "name": "Combustion and Flame",
+      "topics": ["Types of Combustion", "Ignition Temperature", "Structure of a Candle Flame", "Fuel Efficiency"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "cbse-8-sci-07",
+      "number": 7,
+      "name": "Conservation of Plants and Animals",
+      "topics": ["Deforestation and Its Causes", "Conservation of Forest and Wildlife", "Biosphere Reserves", "Migration"],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "cbse-8-sci-08",
+      "number": 8,
+      "name": "Cell — Structure and Functions",
+      "topics": ["Cell Discovery", "Cell Structure", "Prokaryotic vs Eukaryotic Cells", "Cell Division Basics"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-8-sci-09",
+      "number": 9,
+      "name": "Reproduction in Animals",
+      "topics": ["Sexual Reproduction", "Asexual Reproduction", "Viviparous and Oviparous Animals"],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "cbse-8-sci-10",
+      "number": 10,
+      "name": "Reaching the Age of Adolescence",
+      "topics": ["Adolescence and Puberty", "Changes at Puberty", "Hormones and Growth", "Reproductive Health"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-8-sci-11",
+      "number": 11,
+      "name": "Force and Pressure",
+      "topics": ["Force: Contact and Non-contact", "Effects of Force", "Pressure", "Atmospheric Pressure"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-8-sci-12",
+      "number": 12,
+      "name": "Friction",
+      "topics": ["Types of Friction", "Factors Affecting Friction", "Increasing and Reducing Friction", "Fluid Friction"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-8-sci-13",
+      "number": 13,
+      "name": "Sound",
+      "topics": ["Sound Production and Propagation", "Human Ear", "Amplitude/Frequency/Pitch", "Noise Pollution"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-8-sci-14",
+      "number": 14,
+      "name": "Chemical Effects of Electric Current",
+      "topics": ["Good and Bad Conductors", "Electrolysis", "Electroplating"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-8-sci-15",
+      "number": 15,
+      "name": "Some Natural Phenomena",
+      "topics": ["Lightning", "Earthquakes", "Electric Charge and Discharge"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-8-sci-16",
+      "number": 16,
+      "name": "Light",
+      "topics": ["Reflection of Light", "Regular and Diffused Reflection", "Multiple Reflections", "Kaleidoscope", "Braille System"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "cbse-8-sci-17",
+      "number": 17,
+      "name": "Stars and the Solar System",
+      "topics": ["The Moon", "Stars and Constellations", "Solar System", "Comets and Asteroids"],
+      "enhancement": null
+    },
+    {
+      "id": "cbse-8-sci-18",
+      "number": 18,
+      "name": "Pollution of Air and Water",
+      "topics": ["Air Pollution", "Water Pollution", "Potable Water", "What Can We Do"],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

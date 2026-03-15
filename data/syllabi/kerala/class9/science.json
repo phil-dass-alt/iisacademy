@@ -1,0 +1,126 @@
+{
+  "board": "kerala",
+  "class": 9,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "kl-9-sci-01",
+      "number": 1,
+      "name": "Matters Around Us",
+      "topics": [
+        "Properties of Matter",
+        "Physical and Chemical Changes"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-9-sci-02",
+      "number": 2,
+      "name": "Atomic Structure",
+      "topics": [
+        "Bohr's Model",
+        "Quantum Numbers Basics",
+        "Orbitals"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-sci-03",
+      "number": 3,
+      "name": "Periodic Table and Chemical Bonding",
+      "topics": [
+        "Periodic Classification",
+        "Types of Bonds"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-9-sci-04",
+      "number": 4,
+      "name": "The Living World",
+      "topics": [
+        "Classification",
+        "Cell Organisation",
+        "Diversity of Life"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-9-sci-05",
+      "number": 5,
+      "name": "Cell Biology",
+      "topics": [
+        "Cell Division (Mitosis and Meiosis)",
+        "DNA Introduction"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-9-sci-06",
+      "number": 6,
+      "name": "Nervous and Endocrine Systems",
+      "topics": [
+        "Neurons",
+        "Brain",
+        "Hormones"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-9-sci-07",
+      "number": 7,
+      "name": "Motion and Laws",
+      "topics": [
+        "Kinematics",
+        "Newton's Laws",
+        "Conservation Laws"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-sci-08",
+      "number": 8,
+      "name": "Gravitation",
+      "topics": [
+        "Newton's Law of Gravitation",
+        "Planetary Motion",
+        "Tides"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-sci-09",
+      "number": 9,
+      "name": "Work and Energy",
+      "topics": [
+        "Work-Energy Theorem",
+        "Conservation",
+        "Power"
+      ],
+      "enhancement": "Climate Technology"
+    },
+    {
+      "id": "kl-9-sci-10",
+      "number": 10,
+      "name": "Light and Optics",
+      "topics": [
+        "Reflection",
+        "Refraction",
+        "Lenses",
+        "Eye"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-9-sci-11",
+      "number": 11,
+      "name": "Ecology and Environment",
+      "topics": [
+        "Ecosystem Components",
+        "Food Web",
+        "Environmental Issues"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}

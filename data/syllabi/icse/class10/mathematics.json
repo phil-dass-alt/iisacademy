@@ -1,0 +1,147 @@
+{
+  "board": "icse",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "icse-10-math-01",
+      "number": 1,
+      "name": "Value Added Tax and GST",
+      "topics": ["Value Added Tax", "GST: Basics and Computation", "Invoices and Bills"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-02",
+      "number": 2,
+      "name": "Banking",
+      "topics": ["Savings Bank Account", "Recurring Deposit Account", "Types of Interest"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-03",
+      "number": 3,
+      "name": "Shares and Dividends",
+      "topics": ["Shares and Shareholders", "Dividend", "Face Value and Market Value", "Return on Investment"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-04",
+      "number": 4,
+      "name": "Linear Inequations",
+      "topics": ["Solving Linear Inequations", "Graphical Representation", "Solution Sets"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-05",
+      "number": 5,
+      "name": "Quadratic Equations",
+      "topics": ["Solving Quadratic Equations", "Discriminant", "Nature of Roots", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-06",
+      "number": 6,
+      "name": "Ratio and Proportion",
+      "topics": ["Ratio", "Proportion", "Properties", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-07",
+      "number": 7,
+      "name": "Remainder and Factor Theorems",
+      "topics": ["Remainder Theorem", "Factor Theorem", "Factorisation of Polynomials"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-08",
+      "number": 8,
+      "name": "Matrices",
+      "topics": ["Order of a Matrix", "Operations on Matrices", "Solving Equations using Matrices"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-math-09",
+      "number": 9,
+      "name": "Arithmetic and Geometric Progressions",
+      "topics": ["AP: nth Term and Sum", "GP: nth Term and Sum", "Applications"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-10",
+      "number": 10,
+      "name": "Reflection",
+      "topics": ["Reflection in Axes", "Reflection in Lines x=a, y=b", "Invariant Points"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-11",
+      "number": 11,
+      "name": "Section and Midpoint Formulas",
+      "topics": ["Section Formula", "Midpoint Formula", "Centroid"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-12",
+      "number": 12,
+      "name": "Equation of a Line",
+      "topics": ["Slope of a Line", "Various Forms of Equation", "Collinearity"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-math-13",
+      "number": 13,
+      "name": "Similarity",
+      "topics": ["Similar Triangles", "Basic Proportionality Theorem", "Enlargement and Reduction"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-14",
+      "number": 14,
+      "name": "Loci",
+      "topics": ["Concept of Locus", "Constructions using Loci"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-15",
+      "number": 15,
+      "name": "Circles and Tangents",
+      "topics": ["Tangent to a Circle", "Angle in Alternate Segment", "Tangent from External Point"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-16",
+      "number": 16,
+      "name": "Constructions",
+      "topics": ["Circumscribed and Inscribed Circles", "Tangent Construction"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-17",
+      "number": 17,
+      "name": "Mensuration",
+      "topics": ["Area and Circumference of Circle", "Volume/Surface Area of Cylinder, Cone, Sphere", "Combined Solids"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-10-math-18",
+      "number": 18,
+      "name": "Trigonometry",
+      "topics": ["Trigonometric Ratios", "Identities", "Heights and Distances"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-10-math-19",
+      "number": 19,
+      "name": "Statistics",
+      "topics": ["Mean, Median, Mode", "Histograms", "Ogives", "Box Plots"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-10-math-20",
+      "number": 20,
+      "name": "Probability",
+      "topics": ["Classical Probability", "Complementary Events", "Applications"],
+      "enhancement": "Financial Literacy"
+    }
+  ]
+}

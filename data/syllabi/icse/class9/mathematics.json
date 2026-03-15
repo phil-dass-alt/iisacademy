@@ -1,0 +1,112 @@
+{
+  "board": "icse",
+  "class": 9,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": "icse-9-math-01",
+      "number": 1,
+      "name": "Rational and Irrational Numbers",
+      "topics": ["Rational Numbers", "Irrational Numbers", "Real Number Line", "Surds"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-9-math-02",
+      "number": 2,
+      "name": "Compound Interest",
+      "topics": ["Compound Interest Formula", "Depreciation", "Growth and Decay"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-9-math-03",
+      "number": 3,
+      "name": "Expansions",
+      "topics": ["Identities", "Special Products", "Expansion of (a±b)³"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-04",
+      "number": 4,
+      "name": "Factorisation",
+      "topics": ["HCF and LCM of Polynomials", "Remainder and Factor Theorem", "Factorising Trinomials"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-05",
+      "number": 5,
+      "name": "Simultaneous Linear Equations",
+      "topics": ["Algebraic Methods", "Graphical Method", "Word Problems"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-9-math-06",
+      "number": 6,
+      "name": "Indices / Exponents",
+      "topics": ["Laws of Indices", "Fractional Indices", "Simplification"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-07",
+      "number": 7,
+      "name": "Logarithms",
+      "topics": ["Definition and Laws", "Common Logarithms", "Applications"],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "icse-9-math-08",
+      "number": 8,
+      "name": "Triangles",
+      "topics": ["Congruency", "Similarity", "Pythagoras Theorem", "Mid-point Theorem"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-09",
+      "number": 9,
+      "name": "Rectilinear Figures",
+      "topics": ["Quadrilaterals", "Parallelograms", "Rectangles", "Rhombus", "Trapezium"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-10",
+      "number": 10,
+      "name": "Area of Plane Figures",
+      "topics": ["Area of Triangles", "Quadrilaterals", "Regular Polygons"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-11",
+      "number": 11,
+      "name": "Circle",
+      "topics": ["Chord Properties", "Arc and Angles", "Cyclic Properties"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-12",
+      "number": 12,
+      "name": "Constructions",
+      "topics": ["Bisectors", "Regular Polygons", "Construction of Triangles"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-13",
+      "number": 13,
+      "name": "Statistics",
+      "topics": ["Data Collection", "Frequency Distributions", "Mean, Median, Mode", "Histograms and Ogives"],
+      "enhancement": "Financial Literacy"
+    },
+    {
+      "id": "icse-9-math-14",
+      "number": 14,
+      "name": "Mensuration",
+      "topics": ["Area and Perimeter of Shapes", "Surface Area and Volume of Solids"],
+      "enhancement": null
+    },
+    {
+      "id": "icse-9-math-15",
+      "number": 15,
+      "name": "Coordinate Geometry",
+      "topics": ["Cartesian Plane", "Distance Formula", "Section Formula", "Midpoint Formula"],
+      "enhancement": "AI Technology"
+    }
+  ]
+}

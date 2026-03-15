@@ -1,0 +1,159 @@
+{
+  "board": "kerala",
+  "class": 8,
+  "subject": "Science",
+  "chapters": [
+    {
+      "id": "kl-8-sci-01",
+      "number": 1,
+      "name": "Matter Around Us",
+      "topics": [
+        "Mixtures",
+        "Elements and Compounds",
+        "Separation"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-8-sci-02",
+      "number": 2,
+      "name": "Atomic Structure",
+      "topics": [
+        "Subatomic Particles",
+        "Models of Atom",
+        "Valency"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-8-sci-03",
+      "number": 3,
+      "name": "Molecules and Moles",
+      "topics": [
+        "Molecular Mass",
+        "Mole Concept"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-sci-04",
+      "number": 4,
+      "name": "Chemical Bonding",
+      "topics": [
+        "Ionic Bonds",
+        "Covalent Bonds"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-8-sci-05",
+      "number": 5,
+      "name": "Physical and Chemical Changes",
+      "topics": [
+        "Physical Changes",
+        "Chemical Reactions",
+        "Signs"
+      ],
+      "enhancement": "Green Materials"
+    },
+    {
+      "id": "kl-8-sci-06",
+      "number": 6,
+      "name": "Natural Phenomena",
+      "topics": [
+        "Earthquakes",
+        "Lightning",
+        "Rainbow"
+      ],
+      "enhancement": null
+    },
+    {
+      "id": "kl-8-sci-07",
+      "number": 7,
+      "name": "Force and Motion",
+      "topics": [
+        "Types of Forces",
+        "Newton's Laws (intro)",
+        "Pressure"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-8-sci-08",
+      "number": 8,
+      "name": "Light",
+      "topics": [
+        "Reflection",
+        "Refraction",
+        "Dispersion"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-8-sci-09",
+      "number": 9,
+      "name": "Sound",
+      "topics": [
+        "Production",
+        "Propagation",
+        "Characteristics"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-8-sci-10",
+      "number": 10,
+      "name": "Electricity",
+      "topics": [
+        "Current",
+        "Circuits",
+        "Resistance",
+        "Effects"
+      ],
+      "enhancement": "AI Technology"
+    },
+    {
+      "id": "kl-8-sci-11",
+      "number": 11,
+      "name": "Cell",
+      "topics": [
+        "Cell Structure",
+        "Organelles",
+        "Division"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-8-sci-12",
+      "number": 12,
+      "name": "Life Processes",
+      "topics": [
+        "Nutrition",
+        "Respiration",
+        "Excretion",
+        "Transport"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-8-sci-13",
+      "number": 13,
+      "name": "Reproduction",
+      "topics": [
+        "Asexual and Sexual Reproduction"
+      ],
+      "enhancement": "BioTech"
+    },
+    {
+      "id": "kl-8-sci-14",
+      "number": 14,
+      "name": "Environment and Biodiversity",
+      "topics": [
+        "Ecosystems",
+        "Conservation",
+        "Biodiversity Loss"
+      ],
+      "enhancement": "Climate Technology"
+    }
+  ]
+}
