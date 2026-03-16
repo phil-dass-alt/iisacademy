@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createHash } from "crypto";
+import { createHash, timingSafeEqual } from "crypto";
 import { getSupabaseAdminClient, updateGuardianEmail } from "@iisacademy/auth";
 
 /**
@@ -70,13 +70,19 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // Constant-time-safe comparison via pre-hashed strings.
-  // Both hashes are the same fixed length (64 hex chars), so Buffer.from is safe.
-  const storedBuf = Buffer.from(token.token_hash as string, "hex");
+  // Validate that the stored hash is valid hex before creating Buffer.
+  const storedHash = token.token_hash as string;
+  if (!/^[0-9a-f]{64}$/i.test(storedHash)) {
+    return NextResponse.json(
+      { verified: false, error: "Internal error. Please request a new OTP." },
+      { status: 500 }
+    );
+  }
+
+  // Constant-time comparison to prevent timing attacks.
+  const storedBuf = Buffer.from(storedHash, "hex");
   const inputBuf = Buffer.from(inputHash, "hex");
-  const match =
-    storedBuf.length === inputBuf.length &&
-    storedBuf.every((b, i) => b === inputBuf[i]);
+  const match = timingSafeEqual(storedBuf, inputBuf);
 
   if (!match) {
     return NextResponse.json(

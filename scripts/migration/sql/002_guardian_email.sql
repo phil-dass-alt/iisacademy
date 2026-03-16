@@ -62,12 +62,16 @@ ALTER TABLE public.otp_tokens ENABLE ROW LEVEL SECURITY;
 CREATE OR REPLACE FUNCTION public.fn_lock_verified_guardian_email()
 RETURNS TRIGGER
 LANGUAGE plpgsql
-SECURITY DEFINER
+SECURITY INVOKER
 AS $$
 BEGIN
   -- If the row already has a verified guardian email, block changes to both
   -- guardian_email and guardian_otp_verified_at.
-  IF OLD.guardian_otp_verified_at IS NOT NULL THEN
+  -- Privileged operations (e.g. admin re-verification flows) may bypass this
+  -- by setting the session variable: SET LOCAL app.allow_guardian_update = 'true'.
+  IF OLD.guardian_otp_verified_at IS NOT NULL
+     AND current_setting('app.allow_guardian_update', true) IS DISTINCT FROM 'true'
+  THEN
     IF NEW.guardian_email IS DISTINCT FROM OLD.guardian_email THEN
       RAISE EXCEPTION
         'guardian_email cannot be changed after OTP verification'

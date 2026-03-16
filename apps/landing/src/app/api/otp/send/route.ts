@@ -19,7 +19,7 @@ function createTransporter() {
   if (host && user && pass) {
     return nodemailer.createTransport({
       host,
-      port: Number(process.env.EMAIL_PORT ?? 587),
+      port: parseInt(process.env.EMAIL_PORT ?? "587", 10) || 587,
       secure: process.env.EMAIL_SECURE === "true",
       auth: { user, pass },
     });
@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
   }
 
   // Generate a 6-digit numeric OTP.
-  const otp = String(randomInt(100000, 999999));
+  const otp = String(randomInt(100000, 1000000));
   const tokenHash = createHash("sha256").update(otp).digest("hex");
   const expiresAt = new Date(
     Date.now() + OTP_EXPIRY_MINUTES * 60 * 1000
@@ -132,7 +132,7 @@ export async function POST(req: NextRequest) {
   try {
     const info = await transporter.sendMail(mailOptions);
     // When using the jsonTransport fallback, log OTP for development.
-    if (process.env.EMAIL_HOST === undefined) {
+    if (!process.env.EMAIL_HOST) {
       console.info(
         `[otp/send] DEV MODE – OTP for ${email}: ${otp}`,
         (info as { message?: string }).message ?? ""
