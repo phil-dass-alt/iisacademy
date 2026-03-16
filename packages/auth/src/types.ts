@@ -11,7 +11,59 @@ export type BoardCode =
 export type EnrolmentClass = 8 | 9 | 10 | 11 | 12;
 
 /** Streams available for Classes 11 and 12. */
-export type SeniorStream = "science" | "commerce" | "arts";
+export type SeniorStream = "science" | "commerce" | "arts" | "engineering";
+
+/**
+ * Identifies which platform/site the entity belongs to.
+ * Both sites share a single Supabase project; rows are separated by this field.
+ */
+export type SiteId = "iisacademy" | "iiskills";
+
+/** Career tracks available on iiskills.cloud. */
+export type CareerTrack =
+  | "software-engineering"
+  | "data-science"
+  | "design"
+  | "marketing"
+  | "finance"
+  | "entrepreneurship"
+  | "healthcare"
+  | "civil-services";
+
+/**
+ * Feature flags specific to each site/domain.
+ * Resolved at runtime from the current hostname.
+ */
+export interface SiteFeatures {
+  /** Show class (8–12) selector – iisacademy only. */
+  classSelector: boolean;
+  /** Show stream (science, commerce, arts, engineering) – iisacademy only. */
+  streamSelector: boolean;
+  /** Show academic board selector – iisacademy only. */
+  boardSelector: boolean;
+  /** B2B school portal available for this site. */
+  b2bPortal: boolean;
+  /** Voice-AI tutor available for this site. */
+  voiceAi: boolean;
+  /** Career-track selector – iiskills only. */
+  careerTracks: boolean;
+  /** Professional certifications section – iiskills only. */
+  certifications: boolean;
+}
+
+/**
+ * Per-site configuration resolved from the current domain.
+ * Both sites share the same Supabase project URL and anon key.
+ */
+export interface TenantConfig {
+  siteId: SiteId;
+  name: string;
+  domain: string;
+  portalDomain: string;
+  adminDomain: string;
+  b2bDomain: string;
+  features: SiteFeatures;
+}
 
 /**
  * Payment plan identifiers.
@@ -25,6 +77,8 @@ export type PaymentPlan = "class-specific" | "all-classes";
  * Stored in Supabase `profiles.enrolled_badges` (JSONB array).
  */
 export interface EnrolledBadge {
+  /** Site that issued this badge. Defaults to "iisacademy" for legacy rows. */
+  siteId?: SiteId;
   plan: PaymentPlan;
   /** Enrolled class (8–12). For all-classes plan this is null. */
   enrolledClass: EnrolmentClass | null;
@@ -38,11 +92,28 @@ export interface EnrolledBadge {
   paymentRef: string;
 }
 
+/**
+ * Enrollment badge for iiskills.cloud career-track purchases.
+ * Stored in Supabase `profiles.enrolled_badges` (JSONB array) alongside
+ * iisacademy badges; discriminated by `siteId: "iiskills"`.
+ */
+export interface IISKillsBadge {
+  siteId: "iiskills";
+  /** Career track the learner enrolled in. */
+  careerTrack: CareerTrack;
+  /** ISO timestamp of badge assignment. */
+  assignedAt: string;
+  /** Payment reference. */
+  paymentRef: string;
+}
+
 export interface AuthUser {
   id: string;
   email: string;
   name?: string;
   role: "student" | "teacher" | "admin" | "school_admin";
+  /** Site this user primarily belongs to. */
+  siteId?: SiteId;
   board?: BoardCode;
   wing?: "junior" | "senior" | "university";
   schoolId?: string;
@@ -71,6 +142,8 @@ export interface UserProfile {
   email: string;
   name: string;
   role: UserRole;
+  /** Site this profile belongs to. Defaults to "iisacademy" for legacy rows. */
+  siteId?: SiteId;
   avatarUrl?: string;
   createdAt: string;
   enrolledBadges?: EnrolledBadge[];
@@ -109,8 +182,12 @@ export interface AccessControlResult {
 export interface StudentProfile extends UserProfile {
   role: 'student';
   class: EnrolmentClass;
+  /** Academic stream (iisacademy, Classes 11–12 only). */
+  stream?: SeniorStream;
   board: 'CBSE' | 'ICSE' | 'Karnataka' | 'Tamil Nadu' | 'Kerala' | 'Andhra Pradesh';
   school?: string;
+  /** Career track (iiskills only). */
+  careerTrack?: CareerTrack;
   subscription?: Subscription;
 }
 

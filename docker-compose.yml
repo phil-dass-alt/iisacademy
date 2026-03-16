@@ -29,7 +29,9 @@ services:
     networks:
       - iisacademy
 
-  # ── Landing (iisacademy.in) ──────────────────────────────────────────────────
+  # ── Landing (iisacademy.in + iiskills.cloud) ─────────────────────────────────
+  # Nginx routes both iisacademy.in and iiskills.cloud to this service.
+  # The app detects the active site from the Host header via getSiteId().
   landing:
     build:
       context: .
@@ -51,6 +53,10 @@ services:
       - NEXT_PUBLIC_STUDENT_PORTAL_URL=${NEXT_PUBLIC_STUDENT_PORTAL_URL:-https://portal.iisacademy.in}
       - NEXT_PUBLIC_ADMIN_URL=${NEXT_PUBLIC_ADMIN_URL:-https://admin.iisacademy.in}
       - NEXT_PUBLIC_B2B_URL=${NEXT_PUBLIC_B2B_URL:-https://b2b.iisacademy.in}
+      - NEXT_PUBLIC_SKILLS_LANDING_URL=${NEXT_PUBLIC_SKILLS_LANDING_URL:-https://iiskills.cloud}
+      - NEXT_PUBLIC_SKILLS_PORTAL_URL=${NEXT_PUBLIC_SKILLS_PORTAL_URL:-https://portal.iiskills.cloud}
+      - NEXT_PUBLIC_SKILLS_ADMIN_URL=${NEXT_PUBLIC_SKILLS_ADMIN_URL:-https://admin.iiskills.cloud}
+      - NEXT_PUBLIC_SKILLS_B2B_URL=${NEXT_PUBLIC_SKILLS_B2B_URL:-https://b2b.iiskills.cloud}
       - NEXT_PUBLIC_RAZORPAY_KEY_ID=${NEXT_PUBLIC_RAZORPAY_KEY_ID}
       - BYPASS_SUBSCRIPTION_CHECK=${BYPASS_SUBSCRIPTION_CHECK:-false}
     networks:

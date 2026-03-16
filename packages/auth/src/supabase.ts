@@ -1,5 +1,5 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
-import type { EnrolledBadge } from './types';
+import type { EnrolledBadge, SiteId } from './types';
 
 let supabaseInstance: SupabaseClient | null = null;
 
@@ -50,8 +50,46 @@ export async function getUserSubscription(userId: string) {
   return data;
 }
 
+/**
+ * Fetch the active subscription for a user scoped to a specific site.
+ * When `siteId` is omitted the query falls back to the unfiltered behaviour
+ * for backward compatibility with iisacademy-only deployments.
+ */
+export async function getUserSubscriptionBySite(userId: string, siteId?: SiteId) {
+  const supabase = getSupabaseClient();
+  let query = supabase
+    .from('subscriptions')
+    .select('*')
+    .eq('user_id', userId)
+    .eq('status', 'active')
+    .order('end_date', { ascending: false })
+    .limit(1);
+
+  if (siteId) {
+    query = query.eq('site_id', siteId);
+  }
+
+  const { data, error } = await query.single();
+  if (error) return null;
+  return data;
+}
+
 export async function checkActiveSubscription(userId: string): Promise<boolean> {
   const subscription = await getUserSubscription(userId);
+  if (!subscription) return false;
+  const now = new Date();
+  const endDate = new Date(subscription.end_date);
+  return endDate > now;
+}
+
+/**
+ * Check whether the user has an active subscription on a specific site.
+ */
+export async function checkActiveSubscriptionBySite(
+  userId: string,
+  siteId: SiteId
+): Promise<boolean> {
+  const subscription = await getUserSubscriptionBySite(userId, siteId);
   if (!subscription) return false;
   const now = new Date();
   const endDate = new Date(subscription.end_date);
