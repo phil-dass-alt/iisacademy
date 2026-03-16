@@ -189,6 +189,12 @@ export interface UserProfile {
   createdAt: string;
   enrolledBadges?: EnrolledBadge[];
 
+  /** Verified guardian/parent email address. Set after OTP verification. */
+  guardianEmail?: string;
+  /** ISO timestamp of when the guardian email OTP was verified. */
+  guardianOtpVerifiedAt?: string;
+
+
   // ── Permanent fields (locked after OTP or never editable) ──────────────────
   /** Auto-generated permanent identifier, e.g. "IIS-2026-00000001". Never editable. */
   registrationUid?: string;
@@ -219,6 +225,7 @@ export interface UserProfile {
    * the object automatically.
    */
   emergencyContact?: EmergencyContact;
+
 }
 
 export interface Subscription {

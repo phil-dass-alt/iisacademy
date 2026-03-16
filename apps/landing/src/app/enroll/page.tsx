@@ -53,6 +53,11 @@ const PAYMENT_URL_999 = "https://aienter.in/payments/iisacademy";
 const PAYMENT_URL_2999 = "https://aienter.in/payments/iisacademy2";
 
 // ---------------------------------------------------------------------------
+// OTP state machine
+// ---------------------------------------------------------------------------
+type OtpStatus = "idle" | "sending" | "sent" | "verifying" | "verified";
+
+// ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
 
@@ -65,6 +70,12 @@ export default function EnrollPage() {
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [errors, setErrors] = useState<Record<string, string>>({});
+
+  // Guardian email + OTP state
+  const [guardianEmail, setGuardianEmail] = useState("");
+  const [otpCode, setOtpCode] = useState("");
+  const [otpStatus, setOtpStatus] = useState<OtpStatus>("idle");
+  const [otpError, setOtpError] = useState("");
 
   // Try to autofill details from Supabase session.
   useEffect(() => {
@@ -105,6 +116,13 @@ export default function EnrollPage() {
     setSelectedSubjects([]);
   }, [selectedStream]);
 
+  // Reset OTP state when guardian email changes.
+  useEffect(() => {
+    setOtpStatus("idle");
+    setOtpCode("");
+    setOtpError("");
+  }, [guardianEmail]);
+
   const isSenior = selectedClass === 11 || selectedClass === 12;
   const availableSubjects = isSenior && selectedStream
     ? STREAM_SUBJECTS[selectedStream] ?? []
@@ -123,6 +141,7 @@ export default function EnrollPage() {
     if (userId) params.set("userId", userId);
     if (name) params.set("name", name);
     if (email) params.set("email", email);
+    if (guardianEmail) params.set("guardianEmail", guardianEmail);
     if (selectedClass) params.set("class", String(selectedClass));
     if (isSenior && selectedStream) params.set("stream", selectedStream);
     if (isSenior && selectedSubjects.length) {
@@ -131,12 +150,74 @@ export default function EnrollPage() {
     return `${baseUrl}?${params.toString()}`;
   }
 
+  async function handleSendOtp() {
+    const trimmed = guardianEmail.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmed)) {
+      setOtpError("Please enter a valid guardian email address before sending OTP.");
+      return;
+    }
+    setOtpError("");
+    setOtpStatus("sending");
+    try {
+      const res = await fetch("/api/otp/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: trimmed, purpose: "guardian" }),
+      });
+      const data = (await res.json()) as { success?: boolean; error?: string };
+      if (!res.ok || !data.success) {
+        setOtpError(data.error ?? "Failed to send OTP. Please try again.");
+        setOtpStatus("idle");
+        return;
+      }
+      setOtpStatus("sent");
+    } catch {
+      setOtpError("Network error. Please check your connection and try again.");
+      setOtpStatus("idle");
+    }
+  }
+
+  async function handleVerifyOtp() {
+    if (!/^\d{6}$/.test(otpCode.trim())) {
+      setOtpError("Please enter the 6-digit code sent to the guardian email.");
+      return;
+    }
+    setOtpError("");
+    setOtpStatus("verifying");
+    try {
+      const res = await fetch("/api/otp/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: guardianEmail.trim(),
+          otp: otpCode.trim(),
+          purpose: "guardian",
+          userId: userId ?? undefined,
+        }),
+      });
+      const data = (await res.json()) as { verified?: boolean; error?: string };
+      if (!res.ok || !data.verified) {
+        setOtpError(data.error ?? "Verification failed. Please try again.");
+        setOtpStatus("sent");
+        return;
+      }
+      setOtpStatus("verified");
+    } catch {
+      setOtpError("Network error. Please check your connection and try again.");
+      setOtpStatus("sent");
+    }
+  }
+
   function handleSubmit(e: FormEvent, planUrl: string) {
     e.preventDefault();
 
     const newErrors: Record<string, string> = {};
     if (!name.trim()) newErrors.name = "Please enter your full name.";
     if (!email.trim()) newErrors.email = "Please enter your email address.";
+    if (!guardianEmail.trim())
+      newErrors.guardianEmail = "Please enter the guardian/parent email address.";
+    if (guardianEmail.trim() && otpStatus !== "verified")
+      newErrors.guardianEmail = "Please verify the guardian email via OTP before proceeding.";
     if (!selectedClass) newErrors.class = "Please select a class.";
     if (isSenior && !selectedStream) newErrors.stream = "Please select a stream.";
     if (isSenior && selectedSubjects.length === 0)
@@ -224,6 +305,96 @@ export default function EnrollPage() {
                   <p className="mt-1 text-xs text-red-500">{errors.email}</p>
                 )}
               </div>
+            </div>
+
+            {/* Guardian / Parent Email */}
+            <div className="mt-5">
+              <label
+                htmlFor="guardianEmail"
+                className="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Guardian / Parent Email <span className="text-red-500">*</span>
+              </label>
+              <p className="text-xs text-gray-500 mb-2">
+                IISAcademy sends monthly progress reports to your guardian. An
+                OTP will be sent to this address for verification.
+              </p>
+
+              {/* Email input + Send OTP button */}
+              <div className="flex gap-2">
+                <input
+                  id="guardianEmail"
+                  type="email"
+                  required
+                  value={guardianEmail}
+                  onChange={(e) => {
+                    setGuardianEmail(e.target.value);
+                    setErrors((prev) => ({ ...prev, guardianEmail: "" }));
+                  }}
+                  disabled={otpStatus === "verified"}
+                  placeholder="guardian@example.com"
+                  className={`flex-1 rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-500 ${errors.guardianEmail ? "border-red-400" : "border-gray-300"}`}
+                />
+                {otpStatus !== "verified" && (
+                  <button
+                    type="button"
+                    onClick={() => void handleSendOtp()}
+                    disabled={otpStatus === "sending" || otpStatus === "verifying"}
+                    className="shrink-0 bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+                  >
+                    {otpStatus === "sending"
+                      ? "Sending…"
+                      : otpStatus === "sent"
+                      ? "Resend OTP"
+                      : "Send OTP"}
+                  </button>
+                )}
+                {otpStatus === "verified" && (
+                  <span className="shrink-0 flex items-center gap-1 text-sm font-medium text-green-600 px-2">
+                    ✓ Verified
+                  </span>
+                )}
+              </div>
+
+              {/* OTP input – shown after OTP is sent */}
+              {(otpStatus === "sent" || otpStatus === "verifying") && (
+                <div className="mt-3 flex gap-2">
+                  <input
+                    id="otpCode"
+                    type="text"
+                    inputMode="numeric"
+                    maxLength={6}
+                    value={otpCode}
+                    onChange={(e) => {
+                      setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 6));
+                      setOtpError("");
+                    }}
+                    placeholder="6-digit code"
+                    className="w-36 rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 tracking-widest text-center"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => void handleVerifyOtp()}
+                    disabled={otpStatus === "verifying" || otpCode.length < 6}
+                    className="bg-green-600 hover:bg-green-700 disabled:bg-green-300 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+                  >
+                    {otpStatus === "verifying" ? "Verifying…" : "Verify"}
+                  </button>
+                </div>
+              )}
+
+              {otpError && (
+                <p className="mt-1 text-xs text-red-500">{otpError}</p>
+              )}
+              {errors.guardianEmail && (
+                <p className="mt-1 text-xs text-red-500">{errors.guardianEmail}</p>
+              )}
+              {otpStatus === "sent" && !otpError && (
+                <p className="mt-1 text-xs text-gray-500">
+                  A 6-digit code has been sent to{" "}
+                  <strong>{guardianEmail}</strong>. It expires in 10 minutes.
+                </p>
+              )}
             </div>
           </section>
 
@@ -395,3 +566,4 @@ export default function EnrollPage() {
     </div>
   );
 }
+
