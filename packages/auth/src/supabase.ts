@@ -142,3 +142,29 @@ export async function assignEnrolledBadge(
   }
   return { success: true };
 }
+
+/**
+ * Persist the verified guardian/parent email on the user's profile.
+ * Also records the OTP-verification timestamp.
+ * Uses the admin client so it bypasses RLS (called from a trusted API route).
+ */
+export async function updateGuardianEmail(
+  userId: string,
+  guardianEmail: string,
+  otpVerifiedAt: string
+): Promise<{ success: boolean; error?: string }> {
+  const supabase = getSupabaseAdminClient();
+
+  const { error } = await supabase
+    .from('profiles')
+    .update({
+      guardian_email: guardianEmail,
+      guardian_otp_verified_at: otpVerifiedAt,
+    })
+    .eq('id', userId);
+
+  if (error) {
+    return { success: false, error: error.message };
+  }
+  return { success: true };
+}

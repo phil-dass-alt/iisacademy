@@ -51,6 +51,7 @@ export {
   checkActiveSubscriptionBySite,
   getUserProfile,
   assignEnrolledBadge,
+  updateGuardianEmail,
 } from './supabase';
 export { authOptions } from './authOptions';
 export { requireAuth, requireSubscription } from './middleware';

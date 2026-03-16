@@ -147,6 +147,10 @@ export interface UserProfile {
   avatarUrl?: string;
   createdAt: string;
   enrolledBadges?: EnrolledBadge[];
+  /** Verified guardian/parent email address. Set after OTP verification. */
+  guardianEmail?: string;
+  /** ISO timestamp of when the guardian email OTP was verified. */
+  guardianOtpVerifiedAt?: string;
 }
 
 export interface Subscription {
