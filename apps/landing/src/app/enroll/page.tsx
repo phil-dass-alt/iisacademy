@@ -49,8 +49,19 @@ type ClassNum = (typeof CLASSES)[number];
 // ---------------------------------------------------------------------------
 // Payment plan URLs – aienter.in gateways
 // ---------------------------------------------------------------------------
-const PAYMENT_URL_999 = "https://aienter.in/payments/iisacademy";
-const PAYMENT_URL_2999 = "https://aienter.in/payments/iisacademy2";
+const PAYMENT_URL_SINGLE_CLASS = "https://aienter.in/payments/iisacademy";
+const PAYMENT_URL_BUNDLE = "https://aienter.in/payments/iisacademy2";
+
+// ---------------------------------------------------------------------------
+// 2026 Academic Year Pricing (Inaugural Offer valid until April 30, 2026)
+// ---------------------------------------------------------------------------
+const GST_RATE = 0.18;
+const SINGLE_CLASS_PRICE = 499;
+const BUNDLE_PRICE = 1999;
+const SINGLE_CLASS_GST = Math.round(SINGLE_CLASS_PRICE * GST_RATE * 100) / 100;
+const BUNDLE_GST = Math.round(BUNDLE_PRICE * GST_RATE * 100) / 100;
+const SINGLE_CLASS_TOTAL = Math.round((SINGLE_CLASS_PRICE + SINGLE_CLASS_GST) * 100) / 100;
+const BUNDLE_TOTAL = Math.round((BUNDLE_PRICE + BUNDLE_GST) * 100) / 100;
 
 // ---------------------------------------------------------------------------
 // Component
@@ -332,52 +343,63 @@ export default function EnrollPage() {
 
           {/* Pricing & CTA */}
           <section>
-            <h2 className="text-lg font-semibold text-gray-800 mb-4">
+            <h2 className="text-lg font-semibold text-gray-800 mb-1">
               Choose Your Plan
             </h2>
+            {/* Inaugural offer notice */}
+            <div className="mb-4 rounded-lg bg-amber-50 border border-amber-200 px-4 py-2 flex items-start gap-2">
+              <span className="text-amber-500 mt-0.5 text-sm">🎉</span>
+              <p className="text-xs text-amber-700 font-medium">
+                <strong>Inaugural Offer</strong> — These rates are valid until{" "}
+                <strong>April 30, 2026</strong>. Prices are per student, per
+                academic year.
+              </p>
+            </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {/* Rs 999 plan */}
+              {/* Single Class plan */}
               <div className="border border-gray-200 rounded-xl p-5">
-                <p className="text-sm text-gray-500 mb-1">Class-specific access</p>
+                <p className="text-sm text-gray-500 mb-1">Single Class (any one)</p>
                 <p className="text-2xl font-bold text-gray-900">
-                  ₹999{" "}
-                  <span className="text-sm font-normal text-gray-500">
-                    + 18% GST
-                  </span>
+                  ₹{SINGLE_CLASS_PRICE}
                 </p>
-                <p className="text-xs text-gray-400 mt-1 mb-4">
-                  Full access to the enrolled class &amp; stream
-                </p>
+                <div className="mt-1 mb-4 space-y-0.5 text-xs text-gray-400">
+                  <p>+ GST (18%): ₹{SINGLE_CLASS_GST.toFixed(2)}</p>
+                  <p className="font-semibold text-gray-600">
+                    Total payable: ₹{SINGLE_CLASS_TOTAL.toFixed(2)}
+                  </p>
+                  <p>Full access to any one class (8, 9, 10, 11, or 12)</p>
+                </div>
                 <button
                   type="submit"
-                  onClick={(e) => handleSubmit(e, PAYMENT_URL_999)}
+                  onClick={(e) => handleSubmit(e, PAYMENT_URL_SINGLE_CLASS)}
                   className="w-full bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold py-2.5 px-4 rounded-lg transition-colors"
                 >
-                  Pay ₹999 + 18% GST
+                  Pay ₹{SINGLE_CLASS_TOTAL.toFixed(2)} (incl. GST)
                 </button>
               </div>
 
-              {/* Rs 2999 plan */}
+              {/* All Five Classes bundle */}
               <div className="border-2 border-indigo-500 rounded-xl p-5 relative">
                 <span className="absolute -top-3 left-4 bg-indigo-500 text-white text-xs font-semibold px-3 py-0.5 rounded-full">
                   Best Value
                 </span>
-                <p className="text-sm text-gray-500 mb-1">All-classes access</p>
+                <p className="text-sm text-gray-500 mb-1">All Five Classes (bundle)</p>
                 <p className="text-2xl font-bold text-gray-900">
-                  ₹2999{" "}
-                  <span className="text-sm font-normal text-gray-500">
-                    + 18% GST
-                  </span>
+                  ₹{BUNDLE_PRICE}
                 </p>
-                <p className="text-xs text-gray-400 mt-1 mb-4">
-                  Access to all classes, streams &amp; competitive plugins
-                </p>
+                <div className="mt-1 mb-4 space-y-0.5 text-xs text-gray-400">
+                  <p>+ GST (18%): ₹{BUNDLE_GST.toFixed(2)}</p>
+                  <p className="font-semibold text-gray-600">
+                    Total payable: ₹{BUNDLE_TOTAL.toFixed(2)}
+                  </p>
+                  <p>Full access to all classes 8–12 in one transaction</p>
+                </div>
                 <button
                   type="submit"
-                  onClick={(e) => handleSubmit(e, PAYMENT_URL_2999)}
+                  onClick={(e) => handleSubmit(e, PAYMENT_URL_BUNDLE)}
                   className="w-full bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-semibold py-2.5 px-4 rounded-lg transition-colors"
                 >
-                  Pay ₹2999 + 18% GST
+                  Pay ₹{BUNDLE_TOTAL.toFixed(2)} (incl. GST)
                 </button>
               </div>
             </div>
