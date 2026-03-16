@@ -13,6 +13,14 @@ export {
   getRequiredTierForFeature,
 } from "./accessControl";
 
+export {
+  getSiteId,
+  getSiteConfig,
+  getSiteFeatures,
+  isSiteAcademy,
+  isSiteSkills,
+} from "./tenant";
+
 export type {
   AuthUser,
   AuthSession,
@@ -27,13 +35,20 @@ export type {
   PaymentPlan,
   EnrolledBadge,
   PaymentCallbackPayload,
+  SiteId,
+  TenantConfig,
+  SiteFeatures,
+  CareerTrack,
+  IISKillsBadge,
 } from "./types";
 
 export {
   getSupabaseClient,
   getSupabaseAdminClient,
   getUserSubscription,
+  getUserSubscriptionBySite,
   checkActiveSubscription,
+  checkActiveSubscriptionBySite,
   getUserProfile,
   assignEnrolledBadge,
 } from './supabase';
