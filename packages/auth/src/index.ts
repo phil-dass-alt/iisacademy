@@ -40,6 +40,10 @@ export type {
   SiteFeatures,
   CareerTrack,
   IISKillsBadge,
+  Gender,
+  RegistrationAddress,
+  EmergencyContact,
+  RegistrationStatus,
 } from "./types";
 
 export {
@@ -51,6 +55,9 @@ export {
   checkActiveSubscriptionBySite,
   getUserProfile,
   assignEnrolledBadge,
+  updateUserProfile,
+  markOtpVerified,
+  freezeOnboarding,
 } from './supabase';
 export { authOptions } from './authOptions';
 export { requireAuth, requireSubscription } from './middleware';

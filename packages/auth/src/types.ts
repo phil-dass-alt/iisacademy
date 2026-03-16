@@ -1,4 +1,44 @@
 export type MembershipTier = "free" | "basic" | "premium" | "school";
+
+/**
+ * Gender options for registration.
+ * Once set, this field is never editable.
+ */
+export type Gender = "male" | "female" | "other" | "prefer_not_to_say";
+
+/**
+ * Physical address stored for a registrant.
+ * Two variants are kept: permanent residence and communication address.
+ * Both are editable until "Freeze & Pay" is completed.
+ */
+export interface RegistrationAddress {
+  line1: string;
+  line2?: string;
+  city: string;
+  state: string;
+  pincode: string;
+  country?: string;
+}
+
+/**
+ * Emergency / secondary contact for the student's parent or guardian.
+ * Editable until "Freeze & Pay" is completed.
+ */
+export interface EmergencyContact {
+  name: string;
+  phone: string;
+}
+
+/**
+ * Tracks the onboarding gate status for a student profile.
+ *
+ * - `pending`  – initial registration; all fields still editable.
+ * - `otp_verified` – OTP has been confirmed; name, DOB, guardian & gender are
+ *                    now locked.
+ * - `frozen`   – "Freeze & Pay" completed; contact info, addresses and
+ *                emergency contact are now locked in addition.
+ */
+export type RegistrationStatus = "pending" | "otp_verified" | "frozen";
 export type BoardCode =
   | "cbse"
   | "icse"
@@ -140,6 +180,7 @@ export type UserRole = 'student' | 'teacher' | 'school_admin' | 'super_admin';
 export interface UserProfile {
   id: string;
   email: string;
+  /** Full name – must match TC/Aadhaar; locked after OTP verification. */
   name: string;
   role: UserRole;
   /** Site this profile belongs to. Defaults to "iisacademy" for legacy rows. */
@@ -147,6 +188,37 @@ export interface UserProfile {
   avatarUrl?: string;
   createdAt: string;
   enrolledBadges?: EnrolledBadge[];
+
+  // ── Permanent fields (locked after OTP or never editable) ──────────────────
+  /** Auto-generated permanent identifier, e.g. "IIS-2026-00000001". Never editable. */
+  registrationUid?: string;
+  /** Date of birth (ISO date string "YYYY-MM-DD"). Locked after OTP verification. */
+  dateOfBirth?: string;
+  /** Gender. Never editable once set. */
+  gender?: Gender;
+  /** Primary guardian / parent full name. Locked after OTP verification. */
+  guardianName?: string;
+
+  // ── Onboarding gate timestamps ─────────────────────────────────────────────
+  /** ISO timestamp of OTP verification. Once set, name/DOB/guardian/gender are locked. */
+  otpVerifiedAt?: string;
+  /** ISO timestamp of "Freeze & Pay" completion. Once set, contact/address/emergency fields are locked. */
+  onboardingFrozenAt?: string;
+
+  // ── Conditionally-editable fields (locked after "Freeze & Pay") ────────────
+  /** Primary mobile phone number. OTP verification required on change. */
+  phone?: string;
+  /** Permanent residential address. */
+  addressPermanent?: RegistrationAddress;
+  /** Communication / mailing address. */
+  addressCommunication?: RegistrationAddress;
+  /**
+   * Secondary emergency contact (parent/guardian).
+   * Stored in the DB as two scalar columns (`emergency_contact_name` and
+   * `emergency_contact_phone`); the Supabase client layer decomposes/recomposes
+   * the object automatically.
+   */
+  emergencyContact?: EmergencyContact;
 }
 
 export interface Subscription {
